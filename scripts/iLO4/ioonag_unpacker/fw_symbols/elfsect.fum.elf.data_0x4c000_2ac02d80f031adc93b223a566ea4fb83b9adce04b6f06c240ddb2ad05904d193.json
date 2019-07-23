@@ -1,0 +1,72 @@
+{
+  "elfsect": {
+    "name": ".fum.elf.data",
+    "sha256.text": "2ac02d80f031adc93b223a566ea4fb83b9adce04b6f06c240ddb2ad05904d193",
+    "baseaddr": 311296,
+    "size": 843776,
+    "symbols": {
+      "0x4c670": {
+        "name": "a______BEGIN_RSA_PUBLIC_KEY______MIIBCgKCAQEAteyCedp",
+        "addr": 312944,
+        "size": 427,
+        "type": "str",
+        "str_content": "-----BEGIN RSA PUBLIC KEY-----\nMIIBCgKCAQEAteyCedpzasCIZeLkygK/GsUB29BY6wR0zcw/N5M/PitwnkNLn/yb\ni7FKQIfoH7wRLzPSLWUORRKRy5OvfRwiw+6ezxlgjp/IvM75mI56KoanlyRw04FZ\nmjfHKndMTCMaozBLUpIgfCr33NsAI4EcIG/edp7fgzUMr/T4xEOlyHxzCi0q70HP\nBjuQ+CKrwbCPfvxOEA3vw+/fQqOf5RhZ+ihAKZyzcAzLVW0SI4gEvzm0L3uUolmM\nlX/QAAWPA5fJfkGQAARS+I8pyb/sz9eaXb+JB/ukuGffwzPuqyKGcGilNIKsFKF4\n8+QBYCutnDOFy7uekLLb9GUuKjWiDe8DOwIDAQAB\n-----END RSA PUBLIC KEY-----\n"
+      },
+      "0x4cc08": {
+        "name": "g_known_flash_IDs",
+        "addr": 314376
+      },
+      "0x4cdcc": {
+        "name": "a_j_vol0",
+        "addr": 314828,
+        "size": 8,
+        "type": "str",
+        "str_content": "j:/vol0"
+      },
+      "0x4cf4c": {
+        "name": "g_res_MRDOWNLOAD",
+        "addr": 315212
+      },
+      "0x4cfd0": {
+        "name": "g_structs_with_MRDOWNLOAD_infos",
+        "addr": 315344
+      },
+      "0x4d13c": {
+        "name": "g_bufferindex_for_ops_on_MRDOWNLOAD",
+        "addr": 315708
+      },
+      "0x4d140": {
+        "name": "g_flash_done_bb",
+        "addr": 315712
+      },
+      "0x4d144": {
+        "name": "g_flashblock_from_spiread",
+        "addr": 315716
+      },
+      "0x8d148": {
+        "name": "g_flash_image",
+        "addr": 577864
+      },
+      "0xcd148": {
+        "name": "g_flashimg_size",
+        "addr": 840008
+      },
+      "0xd43ac": {
+        "name": "g_ps_flash_handle",
+        "addr": 869292
+      },
+      "0xd866c": {
+        "name": "g_flash_sec_validate_read_buffer",
+        "addr": 886380
+      },
+      "0x11866c": {
+        "name": "g_iloevtconn",
+        "addr": 1148524
+      },
+      "0x11867c": {
+        "name": "g_res_SVCSILO_CLNT_SEM",
+        "addr": 1148540
+      }
+    }
+  }
+}

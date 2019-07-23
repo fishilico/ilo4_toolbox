@@ -1,0 +1,36 @@
+{
+  "elfsect": {
+    "name": ".uefi.elf.data",
+    "sha256.text": "c781b68b8101315203163fb6a44e29078cb2fe7380d9fffec3ce366f7ced3449",
+    "baseaddr": 196608,
+    "size": 24576,
+    "symbols": {
+      "0x30034": {
+        "name": "a_uefi",
+        "addr": 196660,
+        "size": 5,
+        "type": "str",
+        "str_content": "uefi"
+      },
+      "0x30310": {
+        "name": "a_j_vol0",
+        "addr": 197392,
+        "size": 8,
+        "type": "str",
+        "str_content": "j:/vol0"
+      },
+      "0x3047c": {
+        "name": "g_uefi_api_mutex",
+        "addr": 197756
+      },
+      "0x35564": {
+        "name": "g_embmedia_readahead_buffers",
+        "addr": 218468
+      },
+      "0x35650": {
+        "name": "g_Res_blobstore_access",
+        "addr": 218704
+      }
+    }
+  }
+}

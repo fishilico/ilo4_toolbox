@@ -1,0 +1,31 @@
+{
+  "elfsect": {
+    "name": ".fum.elf.data",
+    "sha256.text": "f540ea7902f43585a172db741efe5bd58eb5a328db89fb2715d740f3cff3f7e2",
+    "baseaddr": 311296,
+    "size": 843776,
+    "symbols": {
+      "0x4c670": {
+        "name": "a______BEGIN_RSA_PUBLIC_KEY______MIIBCgKCAQEArOQCPUr",
+        "addr": 312944,
+        "size": 427,
+        "type": "str",
+        "str_content": "-----BEGIN RSA PUBLIC KEY-----\nMIIBCgKCAQEArOQCPUrD7RNOb+OSR4uYoD3K2Nbo+Ew2uHNrq+0eWy76OrKBIIXC\nDEZS2efGaI692I/4S0tKAafunbBJ86CQecGc4ovxNT+eKmZmjJKB998ZWyPce2n9\n9FeTnleNq9qK3TdHZFhcTndBRPutcW85BdGjG7Q+Jc80Z+YRLoBMBItbRaFzvH31\ncpe00AsBm7yVzdnfJeWtY336otDPyjzbMFh2NqZUVsuwho1xmYDFpMYQtRFm4/lY\n9r65OPEwgqrjRQpH2DPOgiql0pcffmi9aLTgGcKeSk6EumSba7y9CZNkzbeBI/ef\nSDw8uHMfQPMlxg8dmcGtB1u7c7w/VZqQuwIDAQAB\n-----END RSA PUBLIC KEY-----\n"
+      },
+      "0x4c81c": {
+        "name": "a______BEGIN_RSA_PUBLIC_KEY______MIIBCgKCAQEAteyCedp",
+        "addr": 313372,
+        "size": 427,
+        "type": "str",
+        "str_content": "-----BEGIN RSA PUBLIC KEY-----\nMIIBCgKCAQEAteyCedpzasCIZeLkygK/GsUB29BY6wR0zcw/N5M/PitwnkNLn/yb\ni7FKQIfoH7wRLzPSLWUORRKRy5OvfRwiw+6ezxlgjp/IvM75mI56KoanlyRw04FZ\nmjfHKndMTCMaozBLUpIgfCr33NsAI4EcIG/edp7fgzUMr/T4xEOlyHxzCi0q70HP\nBjuQ+CKrwbCPfvxOEA3vw+/fQqOf5RhZ+ihAKZyzcAzLVW0SI4gEvzm0L3uUolmM\nlX/QAAWPA5fJfkGQAARS+I8pyb/sz9eaXb+JB/ukuGffwzPuqyKGcGilNIKsFKF4\n8+QBYCutnDOFy7uekLLb9GUuKjWiDe8DOwIDAQAB\n-----END RSA PUBLIC KEY-----\n"
+      },
+      "0x4cf78": {
+        "name": "a_j_vol0",
+        "addr": 315256,
+        "size": 8,
+        "type": "str",
+        "str_content": "j:/vol0"
+      }
+    }
+  }
+}

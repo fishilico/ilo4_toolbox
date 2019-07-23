@@ -1,0 +1,99 @@
+{
+  "elfsect": {
+    "name": ".secmgr.elf.data",
+    "sha256.text": "ce09242b1d1c386dd6d290eafbe8c0c3b2a8758369eba3a502a125d72b201e0c",
+    "baseaddr": 1015808,
+    "size": 114688,
+    "symbols": {
+      "0xf8008": {
+        "name": "paLocal",
+        "addr": 1015816
+      },
+      "0xf800c": {
+        "name": "paDirectory",
+        "addr": 1015820
+      },
+      "0xf8014": {
+        "name": "paKerberos",
+        "addr": 1015828
+      },
+      "0xf801c": {
+        "name": "paSecurityOverride",
+        "addr": 1015836
+      },
+      "0xf8020": {
+        "name": "paSystem",
+        "addr": 1015840
+      },
+      "0xf8024": {
+        "name": "paFederation",
+        "addr": 1015844
+      },
+      "0xfafa4": {
+        "name": "a_The_quick_brown_fox_jumps_over_the_lazy_dog",
+        "addr": 1028004,
+        "size": 44,
+        "type": "str",
+        "str_content": "The quick brown fox jumps over the lazy dog"
+      },
+      "0xfb048": {
+        "name": "a_secmgr",
+        "addr": 1028168,
+        "size": 7,
+        "type": "str",
+        "str_content": "secmgr"
+      },
+      "0xfc27c": {
+        "name": "a_0123456789",
+        "addr": 1032828,
+        "size": 11,
+        "type": "str",
+        "str_content": "0123456789"
+      },
+      "0xfc2ec": {
+        "name": "a_sunrpc_111_udp_rpcbind_sunrpc_111_tcp_rpcbind_doma",
+        "addr": 1032940,
+        "size": 201,
+        "type": "str",
+        "str_content": "sunrpc\t\t111/udp\t\trpcbind\nsunrpc\t\t111/tcp\t\trpcbind\ndomain\t\t53/udp\ndomain\t\t53/tcp\ntftp\t\t69/udp\ntftp\t\t69/tcp\nwww\t\t80/udp\nwww\t\t80/tcp\nnfsd\t\t2049/udp\tnfs\nnfsd\t\t2049/tcp\tnfs\ngii\t\t616/tcp\ngated_mio\t9999/tcp\n"
+      },
+      "0xfc3b8": {
+        "name": "a_hosts_dns_files",
+        "addr": 1033144,
+        "size": 18,
+        "type": "str",
+        "str_content": "hosts: dns files\n"
+      },
+      "0xfc3cc": {
+        "name": "a_ip_0_IP_icmp_1_ICMP_igmp_2_IGMP_ipencap_4_IP_ENCAP",
+        "addr": 1033164,
+        "size": 245,
+        "type": "str",
+        "str_content": "ip\t\t0\tIP\nicmp\t\t1\tICMP\nigmp\t\t2\tIGMP\nipencap\t4\tIP-ENCAP\ntcp\t\t6\tTCP\nudp\t\t17\tUDP\nipv6\t\t41\tIPv6\nipv6-route\t43\tIPv6-Route\nipv6-frag\t44\tIPv6-Frag\ngre\t\t47\tGRE\nesp\t\t50\tESP\nah\t\t51\tAH\nipv6-icmp\t58\tIPv6-ICMP\nipv6-nonxt\t59\tIPv6-NoNxt\nipv6-opts\t60\tIPv6-Opts\n"
+      },
+      "0xfc4c4": {
+        "name": "a_127_0_0_1_localhost",
+        "addr": 1033412,
+        "size": 21,
+        "type": "str",
+        "str_content": "127.0.0.1 localhost\n"
+      },
+      "0xfc99c": {
+        "name": "g_twenty_sessions",
+        "addr": 1034652
+      },
+      "0x109bf0": {
+        "name": "g_license_struct",
+        "addr": 1088496
+      },
+      "0x109d4c": {
+        "name": "g_license_capabilities",
+        "addr": 1088844
+      },
+      "0x10e138": {
+        "name": "g_psz_KRB5_keytab_path",
+        "addr": 1106232
+      }
+    }
+  }
+}

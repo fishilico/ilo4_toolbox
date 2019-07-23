@@ -1,0 +1,135 @@
+{
+  "elfsect": {
+    "name": ".embmedia.elf.data",
+    "sha256.text": "afcd0ea80b29600d1b7ed3a4cf9ca67e9d6e5a742cc8547d2c4042f2e29dc8d8",
+    "baseaddr": 458752,
+    "size": 200704,
+    "symbols": {
+      "0x706a4": {
+        "name": "g_spi_bus_spi_rwbuffer_size__64",
+        "addr": 460452
+      },
+      "0x706ac": {
+        "name": "g_spi_sample_value",
+        "addr": 460460
+      },
+      "0x706b0": {
+        "name": "g_dwSpiBusKind",
+        "addr": 460464
+      },
+      "0x70784": {
+        "name": "a_Embedded_Media_Error_Event",
+        "addr": 460676,
+        "size": 27,
+        "type": "str",
+        "str_content": "Embedded Media Error Event"
+      },
+      "0x708a4": {
+        "name": "a_Embedded_Media_Metrics",
+        "addr": 460964,
+        "size": 23,
+        "type": "str",
+        "str_content": "Embedded Media Metrics"
+      },
+      "0x70b04": {
+        "name": "a_embmedia",
+        "addr": 461572,
+        "size": 9,
+        "type": "str",
+        "str_content": "embmedia"
+      },
+      "0x710bc": {
+        "name": "g_eventlistener_evlog_msg_queue",
+        "addr": 463036
+      },
+      "0x710c0": {
+        "name": "g_spi_mutex",
+        "addr": 463040
+      },
+      "0x71bf0": {
+        "name": "g_task_embmedia_chif_daemon",
+        "addr": 465904
+      },
+      "0x78ccc": {
+        "name": "g_blobstore_access_sem",
+        "addr": 494796
+      },
+      "0x78d2c": {
+        "name": "g_media_mutex",
+        "addr": 494892
+      },
+      "0x79588": {
+        "name": "g_pSpiBus",
+        "addr": 497032
+      },
+      "0x7958c": {
+        "name": "g_pSpiBusBuffer",
+        "addr": 497036
+      },
+      "0x7ba20": {
+        "name": "g_bRequestWipeStop",
+        "addr": 506400
+      },
+      "0x7baa5": {
+        "name": "g_controller_firmware_revision__3bytes",
+        "addr": 506533
+      },
+      "0x7baa8": {
+        "name": "g_semaphore_embmedia_fail",
+        "addr": 506536
+      },
+      "0x7baac": {
+        "name": "g_message_for_embmedia_fail_thread",
+        "addr": 506540
+      },
+      "0x7bcc8": {
+        "name": "g_task_embmedia_fail",
+        "addr": 507080
+      },
+      "0x7bcd0": {
+        "name": "g_bb_event_message_queue",
+        "addr": 507088
+      },
+      "0x7c790": {
+        "name": "g_hEventsRXdSemaphore",
+        "addr": 509840
+      },
+      "0x7c794": {
+        "name": "g_hStartEvent",
+        "addr": 509844
+      },
+      "0x7c798": {
+        "name": "g_vEventCallbacks",
+        "addr": 509848
+      },
+      "0x7c7ac": {
+        "name": "g_hEventRXThread",
+        "addr": 509868
+      },
+      "0x7c7b0": {
+        "name": "g_hmCMDs",
+        "addr": 509872
+      },
+      "0x9ddb0": {
+        "name": "g_hTransMutex",
+        "addr": 646576
+      },
+      "0x9ddb4": {
+        "name": "g_hCMDMutex",
+        "addr": 646580
+      },
+      "0x9ddb8": {
+        "name": "g_fpEventRXCallback",
+        "addr": 646584
+      },
+      "0x9def4": {
+        "name": "g_hFirmwareResetEvent",
+        "addr": 646900
+      },
+      "0x9df00": {
+        "name": "g_res_IODEXPBUS",
+        "addr": 646912
+      }
+    }
+  }
+}

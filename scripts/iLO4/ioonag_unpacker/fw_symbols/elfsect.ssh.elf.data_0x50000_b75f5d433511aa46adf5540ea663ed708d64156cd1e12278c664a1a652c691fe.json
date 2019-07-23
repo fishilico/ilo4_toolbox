@@ -1,0 +1,83 @@
+{
+  "elfsect": {
+    "name": ".ssh.elf.data",
+    "sha256": "d4c46222a93f8b8a8899747e7c33cc710a04bb7c8d75d2d3c12943a8218fc7ba",
+    "sha256.text": "b75f5d433511aa46adf5540ea663ed708d64156cd1e12278c664a1a652c691fe",
+    "baseaddr": 327680,
+    "size": 81920,
+    "symbols": {
+      "0x50460": {
+        "name": "a_BREAK",
+        "addr": 328800,
+        "size": 6,
+        "type": "str",
+        "str_content": "BREAK"
+      },
+      "0x50468": {
+        "name": "a_CLOSE",
+        "addr": 328808,
+        "size": 6,
+        "type": "str",
+        "str_content": "CLOSE"
+      },
+      "0x50478": {
+        "name": "g_fdSsh",
+        "addr": 328824
+      },
+      "0x50494": {
+        "name": "g_special_key_map",
+        "addr": 328852
+      },
+      "0x50a28": {
+        "name": "a_INTEGRITY",
+        "addr": 330280,
+        "size": 10,
+        "type": "str",
+        "str_content": "INTEGRITY"
+      },
+      "0x50a34": {
+        "name": "a_kernel",
+        "addr": 330292,
+        "size": 7,
+        "type": "str",
+        "str_content": "kernel"
+      },
+      "0x50c28": {
+        "name": "aQ_0",
+        "addr": 330792
+      },
+      "0x50cc0": {
+        "name": "g_strings",
+        "addr": 330944
+      },
+      "0x50ea8": {
+        "name": "g_License",
+        "addr": 331432
+      },
+      "0x50eec": {
+        "name": "g_dwSupportedLicenseFlags",
+        "addr": 331500
+      },
+      "0x53408": {
+        "name": "g_bIsStringsInitialized",
+        "addr": 341000
+      },
+      "0x534bc": {
+        "name": "g_sshsocket_mutex",
+        "addr": 341180
+      },
+      "0x57830": {
+        "name": "g_pszTranslate_iLO_Standard",
+        "addr": 358448
+      },
+      "0x57834": {
+        "name": "g_pszTranslate_iLO_Advanced",
+        "addr": 358452
+      },
+      "0x57838": {
+        "name": "gszLicenseExpirationStatus",
+        "addr": 358456
+      }
+    }
+  }
+}

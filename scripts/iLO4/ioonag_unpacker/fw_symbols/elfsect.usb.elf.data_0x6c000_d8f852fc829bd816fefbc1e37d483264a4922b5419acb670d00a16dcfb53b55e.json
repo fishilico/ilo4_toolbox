@@ -1,0 +1,185 @@
+{
+  "elfsect": {
+    "name": ".usb.elf.data",
+    "sha256.text": "d8f852fc829bd816fefbc1e37d483264a4922b5419acb670d00a16dcfb53b55e",
+    "baseaddr": 442368,
+    "size": 1146880,
+    "symbols": {
+      "0x6c0a4": {
+        "name": "a_V",
+        "addr": 442532,
+        "size": 2,
+        "type": "str",
+        "str_content": "V"
+      },
+      "0x6c3e0": {
+        "name": "g_usb_gecko_cmd",
+        "addr": 443360
+      },
+      "0x6c45c": {
+        "name": "g_purl_maybe_cdrom",
+        "addr": 443484
+      },
+      "0x6c4fc": {
+        "name": "g_usb_gecko_state",
+        "addr": 443644
+      },
+      "0x6cc5c": {
+        "name": "g_purl_maybe_floppy",
+        "addr": 445532
+      },
+      "0x6cc60": {
+        "name": "g_pseFloppy",
+        "addr": 445536
+      },
+      "0x6d3fc": {
+        "name": "a_iLO_UHCI_Information",
+        "addr": 447484,
+        "size": 21,
+        "type": "str",
+        "str_content": "iLO UHCI Information"
+      },
+      "0x6d488": {
+        "name": "a_iLO_GECKO_Information",
+        "addr": 447624,
+        "size": 22,
+        "type": "str",
+        "str_content": "iLO GECKO Information"
+      },
+      "0x6d508": {
+        "name": "a_iLO_Virtual_Keyboard_Mouse_Information",
+        "addr": 447752,
+        "size": 39,
+        "type": "str",
+        "str_content": "iLO Virtual Keyboard/Mouse Information"
+      },
+      "0x6d578": {
+        "name": "a_iLO_Virtual_CD_DVD_Information",
+        "addr": 447864,
+        "size": 31,
+        "type": "str",
+        "str_content": "iLO Virtual CD/DVD Information"
+      },
+      "0x6d600": {
+        "name": "a_iLO_Virtual_Floppy_USB_Key_Information",
+        "addr": 448000,
+        "size": 39,
+        "type": "str",
+        "str_content": "iLO Virtual Floppy/USB_Key Information"
+      },
+      "0x6d688": {
+        "name": "a_0123456789ABCDEF",
+        "addr": 448136,
+        "size": 17,
+        "type": "str",
+        "str_content": "0123456789ABCDEF"
+      },
+      "0x6d6c0": {
+        "name": "a_usb_elf",
+        "addr": 448192,
+        "size": 8,
+        "type": "str",
+        "str_content": "usb.elf"
+      },
+      "0x6db4c": {
+        "name": "a_sunrpc_111_udp_rpcbind_sunrpc_111_tcp_rpcbind_doma",
+        "addr": 449356,
+        "size": 201,
+        "type": "str",
+        "str_content": "sunrpc\t\t111/udp\t\trpcbind\nsunrpc\t\t111/tcp\t\trpcbind\ndomain\t\t53/udp\ndomain\t\t53/tcp\ntftp\t\t69/udp\ntftp\t\t69/tcp\nwww\t\t80/udp\nwww\t\t80/tcp\nnfsd\t\t2049/udp\tnfs\nnfsd\t\t2049/tcp\tnfs\ngii\t\t616/tcp\ngated_mio\t9999/tcp\n"
+      },
+      "0x6dc18": {
+        "name": "a_hosts_dns_files",
+        "addr": 449560,
+        "size": 18,
+        "type": "str",
+        "str_content": "hosts: dns files\n"
+      },
+      "0x6dc2c": {
+        "name": "a_ip_0_IP_icmp_1_ICMP_igmp_2_IGMP_ipencap_4_IP_ENCAP",
+        "addr": 449580,
+        "size": 245,
+        "type": "str",
+        "str_content": "ip\t\t0\tIP\nicmp\t\t1\tICMP\nigmp\t\t2\tIGMP\nipencap\t4\tIP-ENCAP\ntcp\t\t6\tTCP\nudp\t\t17\tUDP\nipv6\t\t41\tIPv6\nipv6-route\t43\tIPv6-Route\nipv6-frag\t44\tIPv6-Frag\ngre\t\t47\tGRE\nesp\t\t50\tESP\nah\t\t51\tAH\nipv6-icmp\t58\tIPv6-ICMP\nipv6-nonxt\t59\tIPv6-NoNxt\nipv6-opts\t60\tIPv6-Opts\n"
+      },
+      "0x6dd24": {
+        "name": "a_127_0_0_1_localhost",
+        "addr": 449828,
+        "size": 21,
+        "type": "str",
+        "str_content": "127.0.0.1 localhost\n"
+      },
+      "0x6dd40": {
+        "name": "a_0123456789",
+        "addr": 449856,
+        "size": 11,
+        "type": "str",
+        "str_content": "0123456789"
+      },
+      "0x6e2c4": {
+        "name": "g_task_CDROM_emulator",
+        "addr": 451268
+      },
+      "0x6e2c8": {
+        "name": "g_task_USB_CDROM_EP0",
+        "addr": 451272
+      },
+      "0x6e42c": {
+        "name": "g_USB_memexception_state",
+        "addr": 451628
+      },
+      "0x6e430": {
+        "name": "g_USB_memexception_err",
+        "addr": 451632
+      },
+      "0x70bb8": {
+        "name": "g_usb_EP_index",
+        "addr": 461752
+      },
+      "0x70bf8": {
+        "name": "g_task_usb_EP0",
+        "addr": 461816
+      },
+      "0x70bfc": {
+        "name": "g_usb_gecko_interface_objects",
+        "addr": 461820
+      },
+      "0x70c5c": {
+        "name": "g_usb_msgQ",
+        "addr": 461916
+      },
+      "0x70c60": {
+        "name": "g_task_usb_main",
+        "addr": 461920
+      },
+      "0x70c64": {
+        "name": "g_task_usb_Interrupt",
+        "addr": 461924
+      },
+      "0x70c68": {
+        "name": "g_res_USBdev",
+        "addr": 461928
+      },
+      "0x70d9c": {
+        "name": "g_USB_tasks",
+        "addr": 462236
+      },
+      "0x171ea8": {
+        "name": "g_scsinet_old_powerevt_reason",
+        "addr": 1515176
+      },
+      "0x174618": {
+        "name": "g_bIsFloppyInserted",
+        "addr": 1525272
+      },
+      "0x17461c": {
+        "name": "g_bIsCDROMInserted",
+        "addr": 1525276
+      },
+      "0x182cf8": {
+        "name": "g_FYI_szModuleName",
+        "addr": 1584376
+      }
+    }
+  }
+}

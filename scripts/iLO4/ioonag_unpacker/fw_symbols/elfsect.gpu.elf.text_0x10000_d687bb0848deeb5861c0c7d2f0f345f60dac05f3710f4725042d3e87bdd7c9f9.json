@@ -1,0 +1,2989 @@
+{
+  "elfsect": {
+    "name": ".gpu.elf.text",
+    "sha256.text": "d687bb0848deeb5861c0c7d2f0f345f60dac05f3710f4725042d3e87bdd7c9f9",
+    "baseaddr": 65536,
+    "size": 90112,
+    "symbols": {
+      "0x102f4": {
+        "name": "a_poll_data_cache_update",
+        "addr": 66292,
+        "size": 25,
+        "type": "str",
+        "str_content": "poll: data cache update\n"
+      },
+      "0x10310": {
+        "name": "a_gpu",
+        "addr": 66320,
+        "size": 4,
+        "type": "str",
+        "str_content": "gpu"
+      },
+      "0x10320": {
+        "name": "a_src_gpu_c",
+        "addr": 66336,
+        "size": 10,
+        "type": "str",
+        "str_content": "src\\gpu.c"
+      },
+      "0x1032c": {
+        "name": "a_event_wait_timed_EVT_INIT_30_0",
+        "addr": 66348,
+        "size": 35,
+        "type": "str",
+        "str_content": "event_wait_timed (EVT_INIT, 30, 0)"
+      },
+      "0x10354": {
+        "name": "thread_main",
+        "addr": 66388
+      },
+      "0x10358": {
+        "name": "a_gpu_service_task",
+        "addr": 66392,
+        "size": 17,
+        "type": "str",
+        "str_content": "gpu_service_task"
+      },
+      "0x1036c": {
+        "name": "a_CommonCreateTask_STANDARD_TASK_PRIORITY_Address_gp",
+        "addr": 66412,
+        "size": 116,
+        "type": "str",
+        "str_content": "CommonCreateTask(STANDARD_TASK_PRIORITY, (Address)gpu_service_start, 0x2000, \"gpu_service_task\", &gpu_service_task)"
+      },
+      "0x103e0": {
+        "name": "a_Failed_CommonCreateTask_for_gpu_service_task",
+        "addr": 66528,
+        "size": 47,
+        "type": "str",
+        "str_content": "Failed CommonCreateTask for gpu_service_task.\n"
+      },
+      "0x10414": {
+        "name": "a_gpu_poll_task",
+        "addr": 66580,
+        "size": 14,
+        "type": "str",
+        "str_content": "gpu_poll_task"
+      },
+      "0x10424": {
+        "name": "a_CommonCreateTask_STANDARD_TASK_PRIORITY_Address_gp",
+        "addr": 66596,
+        "size": 98,
+        "type": "str",
+        "str_content": "CommonCreateTask( STANDARD_TASK_PRIORITY, (Address) gpu_poll, 0x1800, \"gpu_poll_task\", &task_id )"
+      },
+      "0x105a8": {
+        "name": "a_Failed_CommonCreateTask_for_gpu_poll_task",
+        "addr": 66984,
+        "size": 44,
+        "type": "str",
+        "str_content": "Failed CommonCreateTask for gpu_poll_task.\n"
+      },
+      "0x105d8": {
+        "name": "a_NOT_MOONSHOT_NVIDIA_initial_task_Exited_intentiona",
+        "addr": 67032,
+        "size": 56,
+        "type": "str",
+        "str_content": "NOT MOONSHOT! NVIDIA initial task Exited intentionally\n"
+      },
+      "0x10610": {
+        "name": "a_Success",
+        "addr": 67088,
+        "size": 8,
+        "type": "str",
+        "str_content": "Success"
+      },
+      "0x10618": {
+        "name": "a_d_error",
+        "addr": 67096,
+        "size": 10,
+        "type": "str",
+        "str_content": "%d: error"
+      },
+      "0x10624": {
+        "name": "a_GPU_Service",
+        "addr": 67108,
+        "size": 12,
+        "type": "str",
+        "str_content": "GPU Service"
+      },
+      "0x10630": {
+        "name": "a_GPU_Poll",
+        "addr": 67120,
+        "size": 9,
+        "type": "str",
+        "str_content": "GPU Poll"
+      },
+      "0x1063c": {
+        "name": "a_main",
+        "addr": 67132,
+        "size": 5,
+        "type": "str",
+        "str_content": "main"
+      },
+      "0x10644": {
+        "name": "gpu_service",
+        "addr": 67140
+      },
+      "0x10938": {
+        "name": "a_NULL_pointers",
+        "addr": 67896,
+        "size": 15,
+        "type": "str",
+        "str_content": "NULL pointers\n"
+      },
+      "0x10948": {
+        "name": "a_src_gpu_service_c",
+        "addr": 67912,
+        "size": 18,
+        "type": "str",
+        "str_content": "src\\gpu_service.c"
+      },
+      "0x1095c": {
+        "name": "a_gpu",
+        "addr": 67932,
+        "size": 4,
+        "type": "str",
+        "str_content": "gpu"
+      },
+      "0x1096c": {
+        "name": "a_INFO_gservice_state_d_gpolling_state_d_NOTE_for_De",
+        "addr": 67948,
+        "size": 96,
+        "type": "str",
+        "str_content": "INFO: gservice_state(%d) gpolling_state(%d)\nNOTE: for Device Inventory update, run: mctp rdisc\n"
+      },
+      "0x109cc": {
+        "name": "a_GPU_service_disabled",
+        "addr": 68044,
+        "size": 23,
+        "type": "str",
+        "str_content": "GPU: service disabled\n"
+      },
+      "0x109ec": {
+        "name": "a_GPU_disabling_gpu_service_pausing_gpu_poll",
+        "addr": 68076,
+        "size": 46,
+        "type": "str",
+        "str_content": "GPU: disabling gpu_service, pausing gpu_poll\n"
+      },
+      "0x10a1c": {
+        "name": "a_GPU_single_poll_GPU_count_d",
+        "addr": 68124,
+        "size": 33,
+        "type": "str",
+        "str_content": "GPU: single poll GPU count (%d)\n"
+      },
+      "0x10a48": {
+        "name": "a_DISABLED",
+        "addr": 68168,
+        "size": 9,
+        "type": "str",
+        "str_content": "DISABLED"
+      },
+      "0x10a54": {
+        "name": "a_ENABLED",
+        "addr": 68180,
+        "size": 8,
+        "type": "str",
+        "str_content": "ENABLED"
+      },
+      "0x10b3c": {
+        "name": "gpu_service_task_main",
+        "addr": 68412
+      },
+      "0x10b9c": {
+        "name": "a_gpu_cmd_d_rc_d",
+        "addr": 68508,
+        "size": 21,
+        "type": "str",
+        "str_content": "gpu_cmd %d, rc (%d)\n"
+      },
+      "0x10bb4": {
+        "name": "handle_request",
+        "addr": 68532
+      },
+      "0x10bb8": {
+        "name": "a_GpuService",
+        "addr": 68536,
+        "size": 11,
+        "type": "str",
+        "str_content": "GpuService"
+      },
+      "0x10bc4": {
+        "name": "a_VComService_BasicCreate___GPU_SERVICE___gpu_servic",
+        "addr": 68548,
+        "size": 105,
+        "type": "str",
+        "str_content": "VComService_BasicCreate(__GPU_SERVICE__, gpu_service, sizeof(GPU_MESSAGE_REQ), sizeof(GPU_MESSAGE_RESP))"
+      },
+      "0x10ed8": {
+        "name": "a_gpu_list_unlock_gpu_list_ReleaseLocalMutex_failed_",
+        "addr": 69336,
+        "size": 82,
+        "type": "str",
+        "str_content": "gpu_list_unlock_gpu_list: ReleaseLocalMutex failed for gpu_list_mutex, error %d.\n"
+      },
+      "0x10f2c": {
+        "name": "a_src_gpu_list_c",
+        "addr": 69420,
+        "size": 15,
+        "type": "str",
+        "str_content": "src\\gpu_list.c"
+      },
+      "0x10f3c": {
+        "name": "a_gpu",
+        "addr": 69436,
+        "size": 4,
+        "type": "str",
+        "str_content": "gpu"
+      },
+      "0x10f44": {
+        "name": "a_GPU_invalid_handle_d_gpu_count_d_rc_d",
+        "addr": 69444,
+        "size": 47,
+        "type": "str",
+        "str_content": "GPU: invalid handle(%d), gpu count(%d) rc(%d)\n"
+      },
+      "0x10f7c": {
+        "name": "a_WaitForLocalMutex_gpu_list_mutex",
+        "addr": 69500,
+        "size": 34,
+        "type": "str",
+        "str_content": "WaitForLocalMutex(gpu_list_mutex)"
+      },
+      "0x10fa0": {
+        "name": "a_GPU_gpu_list_initialized",
+        "addr": 69536,
+        "size": 27,
+        "type": "str",
+        "str_content": "GPU: gpu_list initialized\n"
+      },
+      "0x10fbc": {
+        "name": "a_GPU_gpu_list_entry_d_cleared",
+        "addr": 69564,
+        "size": 32,
+        "type": "str",
+        "str_content": "GPU: gpu_list entry %d cleared\n"
+      },
+      "0x10fdc": {
+        "name": "a_ReleaseLocalMutex_gpu_list_mutex",
+        "addr": 69596,
+        "size": 34,
+        "type": "str",
+        "str_content": "ReleaseLocalMutex(gpu_list_mutex)"
+      },
+      "0x113c0": {
+        "name": "a_GPU_reading_gpu_list",
+        "addr": 70592,
+        "size": 23,
+        "type": "str",
+        "str_content": "GPU: reading gpu_list\n"
+      },
+      "0x113dc": {
+        "name": "a_buff_d_too_small_req_d",
+        "addr": 70620,
+        "size": 30,
+        "type": "str",
+        "str_content": "buff(d%) too small, req (%d)\n"
+      },
+      "0x113fc": {
+        "name": "a_gpu",
+        "addr": 70652,
+        "size": 4,
+        "type": "str",
+        "str_content": "gpu"
+      },
+      "0x11404": {
+        "name": "a_GPU_get_temp_sensor_list_h_d",
+        "addr": 70660,
+        "size": 34,
+        "type": "str",
+        "str_content": "GPU: get temp sensor list h (%d)\n"
+      },
+      "0x11444": {
+        "name": "a_gpu_cmd",
+        "addr": 70724,
+        "size": 8,
+        "type": "str",
+        "str_content": "gpu_cmd"
+      },
+      "0x117f4": {
+        "name": "a_unknown",
+        "addr": 71668,
+        "size": 8,
+        "type": "str",
+        "str_content": "unknown"
+      },
+      "0x117fc": {
+        "name": "a_s_s_d_s_d",
+        "addr": 71676,
+        "size": 15,
+        "type": "str",
+        "str_content": "%s %s %d %s%d\n"
+      },
+      "0x11818": {
+        "name": "a_s_s_d_s_d",
+        "addr": 71704,
+        "size": 18,
+        "type": "str",
+        "str_content": "%s %s (%d) %s %d\n"
+      },
+      "0x11a8c": {
+        "name": "gpu_list_get_next_i2c_addr",
+        "addr": 72332
+      },
+      "0x11bdc": {
+        "name": "a_s_s_d_s_d",
+        "addr": 72668,
+        "size": 16,
+        "type": "str",
+        "str_content": "%s %s(%d) %s%d\n"
+      },
+      "0x11bfc": {
+        "name": "a_s_s_d_s_d",
+        "addr": 72700,
+        "size": 17,
+        "type": "str",
+        "str_content": "%s %s (%d) %s%d\n"
+      },
+      "0x11c1c": {
+        "name": "a_NULL_input",
+        "addr": 72732,
+        "size": 13,
+        "type": "str",
+        "str_content": " NULL input\n"
+      },
+      "0x11c2c": {
+        "name": "a_gpu_list_get_next_i2c_addr",
+        "addr": 72748,
+        "size": 27,
+        "type": "str",
+        "str_content": "gpu_list_get_next_i2c_addr"
+      },
+      "0x11c48": {
+        "name": "a_s_seg_0x_02X_addr_curr_0x_02X",
+        "addr": 72776,
+        "size": 32,
+        "type": "str",
+        "str_content": "%s seg:0x%02X addr_curr:0x%02X\n"
+      },
+      "0x11fd4": {
+        "name": "a_s_seg_0x_02X_addr_0x_02X",
+        "addr": 73684,
+        "size": 27,
+        "type": "str",
+        "str_content": "%s seg:0x%02X addr:0x%02X\n"
+      },
+      "0x11ff8": {
+        "name": "a_gpu_gpu_list_ack_poll",
+        "addr": 73720,
+        "size": 22,
+        "type": "str",
+        "str_content": "gpu/gpu_list_ack_poll"
+      },
+      "0x12014": {
+        "name": "a_seg_0",
+        "addr": 73748,
+        "size": 7,
+        "type": "str",
+        "str_content": "seg=0\n"
+      },
+      "0x1202c": {
+        "name": "a_seg_addr_pciv_pcid_0x_02X_0x_02X_0x_04X_0x_04X",
+        "addr": 73772,
+        "size": 49,
+        "type": "str",
+        "str_content": "seg-addr-pciv-pcid: 0x%02X-0x%02X-0x%04X-0x%04X\n"
+      },
+      "0x12064": {
+        "name": "a_redundant_request_to_add_i2c_seg_0x_02X_in_use_add",
+        "addr": 73828,
+        "size": 61,
+        "type": "str",
+        "str_content": "redundant request to add i2c seg 0x%02X, in use addr 0x%02X\n"
+      },
+      "0x12348": {
+        "name": "a_GPU_PCI_Vendor_IDs_not_supported_i2c_s_a_0x_02X_0x",
+        "addr": 74568,
+        "size": 106,
+        "type": "str",
+        "str_content": "GPU: PCI Vendor IDs not supported: i2c(s-a) 0x%02X-0x%02X, pci(v-d:ssv-ssd) 0x%04X-0x%04X:0x%04X-0x%04X)\n"
+      },
+      "0x123c0": {
+        "name": "a_GPU_IDs_not_supported_i2c_s_a_0x_02X_0x_02X_pci_v_",
+        "addr": 74688,
+        "size": 94,
+        "type": "str",
+        "str_content": "GPU IDs not supported: i2c(s-a) 0x%02X-0x%02X, pci(v-d:ssv-ssd) 0x%04X-0x%04X:0x%04X-0x%04X)\n"
+      },
+      "0x12424": {
+        "name": "a_GPU_Ping_failed_i2c_s_a_0x_02X_0x_02X_pci_v_d_ssv_",
+        "addr": 74788,
+        "size": 88,
+        "type": "str",
+        "str_content": "GPU: Ping failed i2c(s-a) 0x%02X-0x%02X, pci(v-d:ssv-ssd) 0x%04X-0x%04X:0x%04X-0x%04X)\n"
+      },
+      "0x12480": {
+        "name": "a_gpu_list_d_status_d",
+        "addr": 74880,
+        "size": 26,
+        "type": "str",
+        "str_content": "gpu_list[%d].status (%d)\n"
+      },
+      "0x12808": {
+        "name": "a_BAD_GPU_count_d_GPU_max_count_d",
+        "addr": 75784,
+        "size": 42,
+        "type": "str",
+        "str_content": "BAD: GPU count (%d), GPU max count (%d) \n"
+      },
+      "0x1283c": {
+        "name": "a_BUG_TO_FIX_gpu_list_d_status_is_d_expected_d",
+        "addr": 75836,
+        "size": 56,
+        "type": "str",
+        "str_content": "BUG_TO_FIX: gpu_list[%d].status is (%d), expected (%d)\n"
+      },
+      "0x12880": {
+        "name": "a_GPU_PCI_IDs_miss_match_given_ven_dev_ssv_ssd_0x_08",
+        "addr": 75904,
+        "size": 102,
+        "type": "str",
+        "str_content": "GPU: PCI IDs miss-match, given(ven_dev:ssv_ssd) 0x%08X:0x%08X), read(ven_dev:ssv_ssd) 0x%08X:0x%08X)\n"
+      },
+      "0x12be0": {
+        "name": "a_NULL_gpu_fn_h_d",
+        "addr": 76768,
+        "size": 20,
+        "type": "str",
+        "str_content": "NULL .gpu_fn h(%d)\n"
+      },
+      "0x12bf8": {
+        "name": "a_handle_INVALID_h_d",
+        "addr": 76792,
+        "size": 23,
+        "type": "str",
+        "str_content": ".handle INVALID h(%d)\n"
+      },
+      "0x12c10": {
+        "name": "a_gpu_list_lock_gpu_list",
+        "addr": 76816,
+        "size": 26,
+        "type": "str",
+        "str_content": "gpu_list_lock_gpu_list( )"
+      },
+      "0x12c34": {
+        "name": "a_gpu_list_d_status_d_unknown_no_updates",
+        "addr": 76852,
+        "size": 47,
+        "type": "str",
+        "str_content": "gpu_list[%d].status (%d) unknown...no updates\n"
+      },
+      "0x12c68": {
+        "name": "a_gpu_list_d_status_in_PRECERTIFIY",
+        "addr": 76904,
+        "size": 36,
+        "type": "str",
+        "str_content": "gpu_list[%d].status in PRECERTIFIY\n"
+      },
+      "0x12c90": {
+        "name": "a_failure_getting_support_map_rc_d",
+        "addr": 76944,
+        "size": 36,
+        "type": "str",
+        "str_content": "failure getting support map rc(%d)\n"
+      },
+      "0x12cbc": {
+        "name": "a_err_with_ping_h_d_cmd_d_rc_d_api_d",
+        "addr": 76988,
+        "size": 45,
+        "type": "str",
+        "str_content": "err with ping h[%d] cmd (%d) rc(%d) api(%d)\n"
+      },
+      "0x1303c": {
+        "name": "a_err_updating_h_d_cmd_d_rc_d",
+        "addr": 77884,
+        "size": 36,
+        "type": "str",
+        "str_content": "err updating h[%d] cmd (%d) rc(%d)\n"
+      },
+      "0x13078": {
+        "name": "a_gpu_list_unlock_gpu_list",
+        "addr": 77944,
+        "size": 28,
+        "type": "str",
+        "str_content": "gpu_list_unlock_gpu_list( )"
+      },
+      "0x13098": {
+        "name": "a_GPU_vtable_NULL_h_d",
+        "addr": 77976,
+        "size": 25,
+        "type": "str",
+        "str_content": "GPU: .vtable NULL h(%d)\n"
+      },
+      "0x1351c": {
+        "name": "a_GPU_missing_logic_for_gpu_cmd_d",
+        "addr": 79132,
+        "size": 35,
+        "type": "str",
+        "str_content": "GPU: missing logic for gpu_cmd %d\n"
+      },
+      "0x1385c": {
+        "name": "a_next_i2c_addr_0x_02X",
+        "addr": 79964,
+        "size": 23,
+        "type": "str",
+        "str_content": " next_i2c_addr 0x%02X\n"
+      },
+      "0x13874": {
+        "name": "a_src_gpu_nvidia_smbpbi_c",
+        "addr": 79988,
+        "size": 24,
+        "type": "str",
+        "str_content": "src\\gpu_nvidia_smbpbi.c"
+      },
+      "0x1388c": {
+        "name": "a_gpu",
+        "addr": 80012,
+        "size": 4,
+        "type": "str",
+        "str_content": "gpu"
+      },
+      "0x13898": {
+        "name": "a_read_GPU_capabilities_h_d_rc_d",
+        "addr": 80024,
+        "size": 35,
+        "type": "str",
+        "str_content": "read GPU capabilities h=%d, rc=%d\n"
+      },
+      "0x138c0": {
+        "name": "a_get_GPU_identifier_h_d_rc_d",
+        "addr": 80064,
+        "size": 32,
+        "type": "str",
+        "str_content": "get GPU identifier h=%d, rc=%d\n"
+      },
+      "0x138e4": {
+        "name": "a_NULL_data_ptr_h_d",
+        "addr": 80100,
+        "size": 22,
+        "type": "str",
+        "str_content": "NULL data ptr, h(%d)\n"
+      },
+      "0x13900": {
+        "name": "a_NULL_data_ptr_h_d",
+        "addr": 80128,
+        "size": 21,
+        "type": "str",
+        "str_content": "NULL data ptr, h=%d\n"
+      },
+      "0x13920": {
+        "name": "a_get_mod_full_h_d_rc_d_ven_api_d",
+        "addr": 80160,
+        "size": 36,
+        "type": "str",
+        "str_content": "get mod full h=%d rc=%d ven_api=%d\n"
+      },
+      "0x13c58": {
+        "name": "a_get_ppn_h_d_rc_d_ven_api_d",
+        "addr": 80984,
+        "size": 31,
+        "type": "str",
+        "str_content": "get ppn h=%d rc=%d ven_api=%d\n"
+      },
+      "0x13c7c": {
+        "name": "a_get_prv_full_h_d_rc_d_ven_api_d",
+        "addr": 81020,
+        "size": 36,
+        "type": "str",
+        "str_content": "get prv full h=%d rc=%d ven_api=%d\n"
+      },
+      "0x13ca0": {
+        "name": "a_get_psn_full_h_d_rc_d_ven_api_d",
+        "addr": 81056,
+        "size": 36,
+        "type": "str",
+        "str_content": "get psn full h=%d rc=%d ven_api=%d\n"
+      },
+      "0x13cc4": {
+        "name": "a_get_fwv_ver_h_d_rc_d_ven_api_d",
+        "addr": 81092,
+        "size": 35,
+        "type": "str",
+        "str_content": "get fwv ver h=%d rc=%d ven_api=%d\n"
+      },
+      "0x13ce8": {
+        "name": "a_get_fwd_date_h_d_rc_d_ven_api_d",
+        "addr": 81128,
+        "size": 36,
+        "type": "str",
+        "str_content": "get fwd date h=%d rc=%d ven_api=%d\n"
+      },
+      "0x13d0c": {
+        "name": "a_GPU_current_health_status_d",
+        "addr": 81164,
+        "size": 31,
+        "type": "str",
+        "str_content": "GPU current health status: %d\n"
+      },
+      "0x13d2c": {
+        "name": "a_GPU_current_health_reason_d",
+        "addr": 81196,
+        "size": 31,
+        "type": "str",
+        "str_content": "GPU current health reason: %d\n"
+      },
+      "0x13d4c": {
+        "name": "a_GPU_d_ping_error_count_d",
+        "addr": 81228,
+        "size": 30,
+        "type": "str",
+        "str_content": "GPU[%d] ping error count: %d\n"
+      },
+      "0x13d70": {
+        "name": "a_GPU_d_health_degraded_for_ping_error_count_d",
+        "addr": 81264,
+        "size": 50,
+        "type": "str",
+        "str_content": "GPU[%d] health degraded for ping error count: %d\n"
+      },
+      "0x14234": {
+        "name": "a_get_GPU_identifier_h_d",
+        "addr": 82484,
+        "size": 25,
+        "type": "str",
+        "str_content": "get GPU identifier h=%d\n"
+      },
+      "0x1462c": {
+        "name": "a_error_executing_gpu_cmd_d_rc_d_vendor_api_status_d",
+        "addr": 83500,
+        "size": 59,
+        "type": "str",
+        "str_content": "error executing gpu_cmd(%d), rc(%d) vendor_api_status(%d)\n"
+      },
+      "0x14670": {
+        "name": "a_no_vendor_cmd_gpu_cmd_d",
+        "addr": 83568,
+        "size": 27,
+        "type": "str",
+        "str_content": "no vendor cmd gpu_cmd(%d)\n"
+      },
+      "0x14694": {
+        "name": "a_smbpbi_cmd_d_lookup_table_cmd_id_d",
+        "addr": 83604,
+        "size": 44,
+        "type": "str",
+        "str_content": "smbpbi_cmd(%d) != lookup table .cmd_id(%d)\n"
+      },
+      "0x14a44": {
+        "name": "a_s_s",
+        "addr": 84548,
+        "size": 7,
+        "type": "str",
+        "str_content": "%s %s\n"
+      },
+      "0x14a4c": {
+        "name": "a_bits0_temp_sensor_gpu_1",
+        "addr": 84556,
+        "size": 24,
+        "type": "str",
+        "str_content": "bits0.temp_sensor_gpu_1"
+      },
+      "0x14a64": {
+        "name": "a_not_set_cmd_works",
+        "addr": 84580,
+        "size": 19,
+        "type": "str",
+        "str_content": "not set, cmd works"
+      },
+      "0x14a88": {
+        "name": "a_bits0_temp_sensor_gpu_2",
+        "addr": 84616,
+        "size": 24,
+        "type": "str",
+        "str_content": "bits0.temp_sensor_gpu_2"
+      },
+      "0x14aa4": {
+        "name": "a_bits3_thermal_alert_state",
+        "addr": 84644,
+        "size": 26,
+        "type": "str",
+        "str_content": "bits3.thermal_alert_state"
+      },
+      "0x14ac4": {
+        "name": "a_bits1_board_part_number_v1",
+        "addr": 84676,
+        "size": 27,
+        "type": "str",
+        "str_content": "bits1.board_part_number_v1"
+      },
+      "0x14e94": {
+        "name": "a_bits1_oem_info_v1",
+        "addr": 85652,
+        "size": 18,
+        "type": "str",
+        "str_content": "bits1.oem_info_v1"
+      },
+      "0x14ea8": {
+        "name": "a_bits1_serial_number_v1",
+        "addr": 85672,
+        "size": 23,
+        "type": "str",
+        "str_content": "bits1.serial_number_v1"
+      },
+      "0x14ec4": {
+        "name": "a_bits1_marketing_name_v1",
+        "addr": 85700,
+        "size": 24,
+        "type": "str",
+        "str_content": "bits1.marketing_name_v1"
+      },
+      "0x14ee0": {
+        "name": "a_s_RAF",
+        "addr": 85728,
+        "size": 7,
+        "type": "str",
+        "str_content": "%s RAF"
+      },
+      "0x152b4": {
+        "name": "a_bits1_gpu_memory_vendor_v1",
+        "addr": 86708,
+        "size": 27,
+        "type": "str",
+        "str_content": "bits1.gpu_memory_vendor_v1"
+      },
+      "0x152d0": {
+        "name": "a_Hynix",
+        "addr": 86736,
+        "size": 6,
+        "type": "str",
+        "str_content": "Hynix"
+      },
+      "0x152d8": {
+        "name": "a_Samsung",
+        "addr": 86744,
+        "size": 8,
+        "type": "str",
+        "str_content": "Samsung"
+      },
+      "0x152e4": {
+        "name": "a_bits1_gpu_memory_part_num_v1",
+        "addr": 86756,
+        "size": 29,
+        "type": "str",
+        "str_content": "bits1.gpu_memory_part_num_v1"
+      },
+      "0x1530c": {
+        "name": "a_bits1_gpu_build_date_v1",
+        "addr": 86796,
+        "size": 24,
+        "type": "str",
+        "str_content": "bits1.gpu_build_date_v1"
+      },
+      "0x15330": {
+        "name": "a_02X__02X__02X_02X",
+        "addr": 86832,
+        "size": 19,
+        "type": "str",
+        "str_content": "%02X-%02X-%02X%02X"
+      },
+      "0x1570c": {
+        "name": "a_bits1_gpu_firmware_version_v1",
+        "addr": 87820,
+        "size": 30,
+        "type": "str",
+        "str_content": "bits1.gpu_firmware_version_v1"
+      },
+      "0x15734": {
+        "name": "a_bits1_pci_cfg_vendor_v1",
+        "addr": 87860,
+        "size": 24,
+        "type": "str",
+        "str_content": "bits1.pci_cfg_vendor_v1"
+      },
+      "0x15750": {
+        "name": "a_bits1_pci_cfg_device_v1",
+        "addr": 87888,
+        "size": 24,
+        "type": "str",
+        "str_content": "bits1.pci_cfg_device_v1"
+      },
+      "0x1576c": {
+        "name": "a_bits1_pci_cfg_subsys_vendor_v1",
+        "addr": 87916,
+        "size": 31,
+        "type": "str",
+        "str_content": "bits1.pci_cfg_subsys_vendor_v1"
+      },
+      "0x15794": {
+        "name": "a_bits1_pci_cfg_subsys_device_v1",
+        "addr": 87956,
+        "size": 31,
+        "type": "str",
+        "str_content": "bits1.pci_cfg_subsys_device_v1"
+      },
+      "0x15b68": {
+        "name": "a_bits3_power_supply_status",
+        "addr": 88936,
+        "size": 26,
+        "type": "str",
+        "str_content": "bits3.power_supply_status"
+      },
+      "0x15b88": {
+        "name": "a_bits3_board_power_status",
+        "addr": 88968,
+        "size": 25,
+        "type": "str",
+        "str_content": "bits3.board_power_status"
+      },
+      "0x15ee4": {
+        "name": "a_bits3_ext_power_status",
+        "addr": 89828,
+        "size": 23,
+        "type": "str",
+        "str_content": "bits3.ext_power_status"
+      },
+      "0x15f00": {
+        "name": "a_bits0_total_power_consumed",
+        "addr": 89856,
+        "size": 27,
+        "type": "str",
+        "str_content": "bits0.total_power_consumed"
+      },
+      "0x15f1c": {
+        "name": "a_NVIDIA_SMBPBI_cmd_id_02d_seg_0x_02X_addr_0x_02X_op",
+        "addr": 89884,
+        "size": 73,
+        "type": "str",
+        "str_content": "NVIDIA SMBPBI cmd_id:%02d seg:0x%02X addr:0x%02X opc-arg1:0x%02X-0x%02X\n"
+      },
+      "0x15f68": {
+        "name": "a_gpu_nvidia_smbpbi_transact_all",
+        "addr": 89960,
+        "size": 31,
+        "type": "str",
+        "str_content": "gpu_nvidia_smbpbi_transact_all"
+      },
+      "0x15f9c": {
+        "name": "a_seg_addr_0x_02X_0x_02X_failure_i2c_locked_transact",
+        "addr": 90012,
+        "size": 66,
+        "type": "str",
+        "str_content": "seg-addr 0x%02X-0x%02X failure i2c_locked_transact() rc (0x%02X)\n"
+      },
+      "0x16244": {
+        "name": "a_status_failure_on_read",
+        "addr": 90692,
+        "size": 24,
+        "type": "str",
+        "str_content": "status failure on read:"
+      },
+      "0x1625c": {
+        "name": "a_seg_addr_0x_02X_0x_02X_s_d_0x_02X",
+        "addr": 90716,
+        "size": 40,
+        "type": "str",
+        "str_content": "seg-addr 0x%02X-0x%02X %s(%d) (0x%02X)\n"
+      },
+      "0x16288": {
+        "name": "a_seg_addr_0x_02X_0x_02X_api_readiness_failure_0x_02",
+        "addr": 90760,
+        "size": 55,
+        "type": "str",
+        "str_content": "seg-addr 0x%02X-0x%02X api readiness failure (0x%02X)\n"
+      },
+      "0x162c8": {
+        "name": "a_seg_addr_0x_02X_0x_02X_opc_arg1_0x_02X_0x_02X_fail",
+        "addr": 90824,
+        "size": 90,
+        "type": "str",
+        "str_content": "seg-addr 0x%02X-0x%02X opc-arg1 0x%02X-0x%02X, failure i2c_locked_transact() rc (0x%02X)\n"
+      },
+      "0x16334": {
+        "name": "a_seg_addr_0x_02X_0x_02X_opc_arg1_0x_02X_0x_02X_GPU_",
+        "addr": 90932,
+        "size": 77,
+        "type": "str",
+        "str_content": "seg-addr 0x%02X-0x%02X opc-arg1 0x%02X-0x%02X, GPU respond timeout (0x%02X)\n"
+      },
+      "0x16384": {
+        "name": "a_seg_addr_0x_02X_0x_02X_opc_arg1_0x_02X_0x_02X_phas",
+        "addr": 91012,
+        "size": 83,
+        "type": "str",
+        "str_content": "seg-addr 0x%02X-0x%02X opc-arg1 0x%02X-0x%02X, phase transition detected (0x%02X)\n"
+      },
+      "0x16570": {
+        "name": "a__ERR_OPCODE",
+        "addr": 91504,
+        "size": 12,
+        "type": "str",
+        "str_content": "_ERR_OPCODE"
+      },
+      "0x1657c": {
+        "name": "a__ERR_ARG1",
+        "addr": 91516,
+        "size": 10,
+        "type": "str",
+        "str_content": "_ERR_ARG1"
+      },
+      "0x16588": {
+        "name": "a__ERR_ARG2",
+        "addr": 91528,
+        "size": 10,
+        "type": "str",
+        "str_content": "_ERR_ARG2"
+      },
+      "0x16594": {
+        "name": "a__DATA",
+        "addr": 91540,
+        "size": 6,
+        "type": "str",
+        "str_content": "_DATA"
+      },
+      "0x1659c": {
+        "name": "a__MISC",
+        "addr": 91548,
+        "size": 6,
+        "type": "str",
+        "str_content": "_MISC"
+      },
+      "0x165a4": {
+        "name": "a__I2C_ACCESS",
+        "addr": 91556,
+        "size": 12,
+        "type": "str",
+        "str_content": "_I2C_ACCESS"
+      },
+      "0x165b0": {
+        "name": "a__NOT_SUPPORTED",
+        "addr": 91568,
+        "size": 15,
+        "type": "str",
+        "str_content": "_NOT_SUPPORTED"
+      },
+      "0x165c0": {
+        "name": "a_NOT_AVAILABLE",
+        "addr": 91584,
+        "size": 14,
+        "type": "str",
+        "str_content": "NOT_AVAILABLE"
+      },
+      "0x165d0": {
+        "name": "a__INACTIVE",
+        "addr": 91600,
+        "size": 10,
+        "type": "str",
+        "str_content": "_INACTIVE"
+      },
+      "0x165dc": {
+        "name": "a_unknown",
+        "addr": 91612,
+        "size": 8,
+        "type": "str",
+        "str_content": "unknown"
+      },
+      "0x165e8": {
+        "name": "a_seg_addr_0x_02X_0x_02X_opc_arg1_0x_02X_0x_02X_s_0x",
+        "addr": 91624,
+        "size": 62,
+        "type": "str",
+        "str_content": "seg-addr 0x%02X-0x%02X opc-arg1 0x%02X-0x%02X, [%s] (0x%02X)\n"
+      },
+      "0x16628": {
+        "name": "a_successful_reading_seg_d_wait_cycles_d",
+        "addr": 91688,
+        "size": 46,
+        "type": "str",
+        "str_content": "successful reading, seg: %d, wait cycles: %d\n"
+      },
+      "0x168d0": {
+        "name": "a_systempassword",
+        "addr": 92368,
+        "size": 16,
+        "type": "str",
+        "str_content": "!systempassword"
+      },
+      "0x16a3c": {
+        "name": "a_inmemtm",
+        "addr": 92732,
+        "size": 8,
+        "type": "str",
+        "str_content": "inmemtm"
+      },
+      "0x16a50": {
+        "name": "a_In_Memory_TimeMachine_Error_Unable_to_MapMemory_wi",
+        "addr": 92752,
+        "size": 63,
+        "type": "str",
+        "str_content": "In-Memory TimeMachine Error: Unable to MapMemory() with Error "
+      },
+      "0x16a90": {
+        "name": "a_In_Memory_TimeMachine_Error_Resource_Manager_is_no",
+        "addr": 92816,
+        "size": 103,
+        "type": "str",
+        "str_content": "In-Memory TimeMachine Error: Resource Manager is not Available\n  and no .inmemtm section was provided\n"
+      },
+      "0x16af8": {
+        "name": "a_In_Memory_TimeMachine_Error_Could_not_access_inmem",
+        "addr": 92920,
+        "size": 133,
+        "type": "str",
+        "str_content": "In-Memory TimeMachine Error: Could not access \"inmemtm\" MemoryRegion\n  in the Resource Manager and no .inmemtm section was provided\n"
+      },
+      "0x16b80": {
+        "name": "a_In_Memory_TimeMachine_Error_Resource_Manager_Error",
+        "addr": 93056,
+        "size": 54,
+        "type": "str",
+        "str_content": "In-Memory TimeMachine Error: Resource Manager Error: "
+      },
+      "0x16bb8": {
+        "name": "a_InMemTMIODevice",
+        "addr": 93112,
+        "size": 16,
+        "type": "str",
+        "str_content": "InMemTMIODevice"
+      },
+      "0x16bd4": {
+        "name": "a_In_Memory_TimeMachine_Warning_WriteIODeviceRegiste",
+        "addr": 93140,
+        "size": 63,
+        "type": "str",
+        "str_content": "In-Memory TimeMachine Warning: WriteIODeviceRegister() Error:\n"
+      },
+      "0x16c18": {
+        "name": "a_In_Memory_TimeMachine_Warning_Resource_Manager_is_",
+        "addr": 93208,
+        "size": 67,
+        "type": "str",
+        "str_content": "In-Memory TimeMachine Warning: Resource Manager is not Available.\n"
+      },
+      "0x16c5c": {
+        "name": "a_In_Memory_TimeMachine_Warning_Could_not_access_IOD",
+        "addr": 93276,
+        "size": 107,
+        "type": "str",
+        "str_content": "In-Memory TimeMachine Warning: Could not access IODevice.\n  Has libinmemtm.a been linked into the kernel?\n"
+      },
+      "0x16f60": {
+        "name": "a_In_Memory_TimeMachine_Warning_Resource_Manager_Err",
+        "addr": 94048,
+        "size": 56,
+        "type": "str",
+        "str_content": "In-Memory TimeMachine Warning: Resource Manager Error: "
+      },
+      "0x16f98": {
+        "name": "a_Unable_to_register_critical_section_with_the_kerne",
+        "addr": 94104,
+        "size": 108,
+        "type": "str",
+        "str_content": "  Unable to register critical section with the kernel.\n  Trace of a multi-threaded system may be affected.\n"
+      },
+      "0x17028": {
+        "name": "a_AddToMemoryPool_failed_with_error",
+        "addr": 94248,
+        "size": 35,
+        "type": "str",
+        "str_content": "AddToMemoryPool failed with error="
+      },
+      "0x17210": {
+        "name": "a_AddToMemoryPool_failed",
+        "addr": 94736,
+        "size": 25,
+        "type": "str",
+        "str_content": "AddToMemoryPool failed.\n"
+      },
+      "0x1722c": {
+        "name": "a_InitializeMemoryPool_failed",
+        "addr": 94764,
+        "size": 30,
+        "type": "str",
+        "str_content": "InitializeMemoryPool failed.\n"
+      },
+      "0x1724c": {
+        "name": "a_InitializeMemoryPool_failed_with_error",
+        "addr": 94796,
+        "size": 40,
+        "type": "str",
+        "str_content": "InitializeMemoryPool failed with error="
+      },
+      "0x17298": {
+        "name": "a_d_not_enable_posix_shm",
+        "addr": 94872,
+        "size": 25,
+        "type": "str",
+        "str_content": "d not enable posix_shm.\n"
+      },
+      "0x172b4": {
+        "name": "a_d_not_enable_posix_shm_error",
+        "addr": 94900,
+        "size": 31,
+        "type": "str",
+        "str_content": "d not enable posix_shm, error="
+      },
+      "0x172d8": {
+        "name": "a_Could_not_enable_libsocket",
+        "addr": 94936,
+        "size": 29,
+        "type": "str",
+        "str_content": "Could not enable libsocket.\n"
+      },
+      "0x172f8": {
+        "name": "a_Could_not_enable_libsocket_error",
+        "addr": 94968,
+        "size": 35,
+        "type": "str",
+        "str_content": "Could not enable libsocket, error="
+      },
+      "0x17588": {
+        "name": "jpt_17584",
+        "addr": 95624
+      },
+      "0x17664": {
+        "name": "def_17584",
+        "addr": 95844
+      },
+      "0x179dc": {
+        "name": "a_noname",
+        "addr": 96732,
+        "size": 7,
+        "type": "str",
+        "str_content": "noname"
+      },
+      "0x184ac": {
+        "name": "a_02x",
+        "addr": 99500,
+        "size": 5,
+        "type": "str",
+        "str_content": "%02x"
+      },
+      "0x184b8": {
+        "name": "a_s_p",
+        "addr": 99512,
+        "size": 11,
+        "type": "str",
+        "str_content": "  %s\r\n%p  "
+      },
+      "0x184c4": {
+        "name": "a_p",
+        "addr": 99524,
+        "size": 5,
+        "type": "str",
+        "str_content": "%p  "
+      },
+      "0x184cc": {
+        "name": "a_02x",
+        "addr": 99532,
+        "size": 6,
+        "type": "str",
+        "str_content": "%02x "
+      },
+      "0x184d4": {
+        "name": "a_c_s",
+        "addr": 99540,
+        "size": 10,
+        "type": "str",
+        "str_content": "  %*c%s\r\n"
+      },
+      "0x184e0": {
+        "name": "a_s",
+        "addr": 99552,
+        "size": 7,
+        "type": "str",
+        "str_content": "  %s\r\n"
+      },
+      "0x184ec": {
+        "name": "a_s_s",
+        "addr": 99564,
+        "size": 9,
+        "type": "str",
+        "str_content": "%s  %s\r\n"
+      },
+      "0x184f8": {
+        "name": "a_s",
+        "addr": 99576,
+        "size": 3,
+        "type": "str",
+        "str_content": "%s"
+      },
+      "0x185c4": {
+        "name": "a_s_s",
+        "addr": 99780,
+        "size": 6,
+        "type": "str",
+        "str_content": "%s%s\n"
+      },
+      "0x1891c": {
+        "name": "a_debug_fyi",
+        "addr": 100636,
+        "size": 10,
+        "type": "str",
+        "str_content": "debug_fyi"
+      },
+      "0x18928": {
+        "name": "a_src_fyi_c",
+        "addr": 100648,
+        "size": 10,
+        "type": "str",
+        "str_content": "src\\fyi.c"
+      },
+      "0x18934": {
+        "name": "a_GetSemaphore",
+        "addr": 100660,
+        "size": 13,
+        "type": "str",
+        "str_content": "GetSemaphore"
+      },
+      "0x1894c": {
+        "name": "a_systempassword",
+        "addr": 100684,
+        "size": 16,
+        "type": "str",
+        "str_content": "!systempassword"
+      },
+      "0x1895c": {
+        "name": "a_MRFYIRAM",
+        "addr": 100700,
+        "size": 9,
+        "type": "str",
+        "str_content": "MRFYIRAM"
+      },
+      "0x18974": {
+        "name": "a_08x",
+        "addr": 100724,
+        "size": 5,
+        "type": "str",
+        "str_content": "%08x"
+      },
+      "0x1897c": {
+        "name": "a_s",
+        "addr": 100732,
+        "size": 3,
+        "type": "str",
+        "str_content": "%s"
+      },
+      "0x18988": {
+        "name": "a_8s",
+        "addr": 100744,
+        "size": 5,
+        "type": "str",
+        "str_content": "%.8s"
+      },
+      "0x18aa4": {
+        "name": "FYI_log",
+        "addr": 101028
+      },
+      "0x18adc": {
+        "name": "gpu_log_message",
+        "addr": 101084
+      },
+      "0x18b40": {
+        "name": "gpu_log_message_",
+        "addr": 101184
+      },
+      "0x18d68": {
+        "name": "a_FYI_c_s_s",
+        "addr": 101736,
+        "size": 15,
+        "type": "str",
+        "str_content": "FYI(%c) %s: %s"
+      },
+      "0x18d7c": {
+        "name": "a_s_d_s",
+        "addr": 101756,
+        "size": 11,
+        "type": "str",
+        "str_content": "%s(%d): %s"
+      },
+      "0x18d8c": {
+        "name": "a_elapsed_time",
+        "addr": 101772,
+        "size": 13,
+        "type": "str",
+        "str_content": "elapsed time"
+      },
+      "0x18da8": {
+        "name": "a_s_CHECK_ERROR_s_d_s_d_ERROR_code_s",
+        "addr": 101800,
+        "size": 46,
+        "type": "str",
+        "str_content": "%s CHECK ERROR %s(%d): %s(%d)\nERROR code: %s\n"
+      },
+      "0x18f88": {
+        "name": "a_s_failed_at_u_with_error_d_s",
+        "addr": 102280,
+        "size": 35,
+        "type": "str",
+        "str_content": "%s failed at %u with error %d: %s\n"
+      },
+      "0x18fb0": {
+        "name": "a_unknown",
+        "addr": 102320,
+        "size": 10,
+        "type": "str",
+        "str_content": "<unknown>"
+      },
+      "0x18fbc": {
+        "name": "a_Halting_task_s",
+        "addr": 102332,
+        "size": 18,
+        "type": "str",
+        "str_content": "Halting task: %s\n"
+      },
+      "0x18fdc": {
+        "name": "a_exited",
+        "addr": 102364,
+        "size": 7,
+        "type": "str",
+        "str_content": "exited"
+      },
+      "0x18fe4": {
+        "name": "a_entered",
+        "addr": 102372,
+        "size": 8,
+        "type": "str",
+        "str_content": "entered"
+      },
+      "0x18ff0": {
+        "name": "a_s_s_s_at_d_06u",
+        "addr": 102384,
+        "size": 23,
+        "type": "str",
+        "str_content": "(%s) %s: %s at %d.%06u"
+      },
+      "0x19008": {
+        "name": "a_s_s_s_at_Clock_not_set",
+        "addr": 102408,
+        "size": 31,
+        "type": "str",
+        "str_content": "(%s) %s: %s at (Clock not set)"
+      },
+      "0x19028": {
+        "name": "a_s",
+        "addr": 102440,
+        "size": 4,
+        "type": "str",
+        "str_content": "%s\n"
+      },
+      "0x1905c": {
+        "name": "VComService_BasicCreate_",
+        "addr": 102492
+      },
+      "0x194e8": {
+        "name": "a_s_queue",
+        "addr": 103656,
+        "size": 9,
+        "type": "str",
+        "str_content": "%s_queue"
+      },
+      "0x195e4": {
+        "name": "a_Service_s_Encountered_Unexpected_Send_Status_d",
+        "addr": 103908,
+        "size": 50,
+        "type": "str",
+        "str_content": "Service %s Encountered Unexpected Send Status %d\n"
+      },
+      "0x1961c": {
+        "name": "a_Service_s_Encountered_Unexpected_Activity_Status_d",
+        "addr": 103964,
+        "size": 54,
+        "type": "str",
+        "str_content": "Service %s Encountered Unexpected Activity Status %d\n"
+      },
+      "0x19654": {
+        "name": "a_Service_Encountered_Unexpected_Activity_d",
+        "addr": 104020,
+        "size": 44,
+        "type": "str",
+        "str_content": "Service Encountered Unexpected Activity %d\n"
+      },
+      "0x19680": {
+        "name": "a_Service_Encountered_Fatal_Error_d",
+        "addr": 104064,
+        "size": 36,
+        "type": "str",
+        "str_content": "Service Encountered Fatal Error %d\n"
+      },
+      "0x19e08": {
+        "name": "a_VCOM_Service_failed_registration_with_errCode_d",
+        "addr": 105992,
+        "size": 50,
+        "type": "str",
+        "str_content": "VCOM-Service failed registration with errCode=%d\n"
+      },
+      "0x19e3c": {
+        "name": "a_src_VComService_c",
+        "addr": 106044,
+        "size": 18,
+        "type": "str",
+        "str_content": "src\\VComService.c"
+      },
+      "0x19e50": {
+        "name": "a_VCOM",
+        "addr": 106064,
+        "size": 5,
+        "type": "str",
+        "str_content": "VCOM"
+      },
+      "0x1a0f8": {
+        "name": "a_UNKNOWN",
+        "addr": 106744,
+        "size": 8,
+        "type": "str",
+        "str_content": "UNKNOWN"
+      },
+      "0x1a100": {
+        "name": "a_VCOM___Waiting_to_connect_to_s_from_s",
+        "addr": 106752,
+        "size": 41,
+        "type": "str",
+        "str_content": "VCOM - Waiting to connect to %s from %s\n"
+      },
+      "0x1a12c": {
+        "name": "a_src_VComService_RM_c",
+        "addr": 106796,
+        "size": 21,
+        "type": "str",
+        "str_content": "src\\VComService_RM.c"
+      },
+      "0x1a144": {
+        "name": "a_VCom",
+        "addr": 106820,
+        "size": 5,
+        "type": "str",
+        "str_content": "VCom"
+      },
+      "0x1a150": {
+        "name": "a_VCOM___Error_03d_trying_to_connect_to_s_from_s",
+        "addr": 106832,
+        "size": 51,
+        "type": "str",
+        "str_content": "VCOM - Error %03d trying to connect to %s from %s\n"
+      },
+      "0x1a184": {
+        "name": "a_s_queue",
+        "addr": 106884,
+        "size": 9,
+        "type": "str",
+        "str_content": "%s_queue"
+      },
+      "0x1a190": {
+        "name": "a_BB_VCOM_MSG_Q",
+        "addr": 106896,
+        "size": 14,
+        "type": "str",
+        "str_content": "BB_VCOM_MSG_Q"
+      },
+      "0x1a1a0": {
+        "name": "a_Failed_to_open_message_queue_error_u_This_connecti",
+        "addr": 106912,
+        "size": 79,
+        "type": "str",
+        "str_content": "Failed to open message queue (error: %u), This connection will not be logged.\n"
+      },
+      "0x1a1f0": {
+        "name": "a_Failed_to_allocate_message_buffer_error_u_This_con",
+        "addr": 106992,
+        "size": 84,
+        "type": "str",
+        "str_content": "Failed to allocate message buffer (error: %u), This connection will not be logged.\n"
+      },
+      "0x1a244": {
+        "name": "a_Failed_to_send_on_message_queue_error_u_This_conne",
+        "addr": 107076,
+        "size": 82,
+        "type": "str",
+        "str_content": "Failed to send on message queue (error: %u), This connection will not be logged.\n"
+      },
+      "0x1a298": {
+        "name": "a_Failed_to_open_message_queue_error_u_This_disconne",
+        "addr": 107160,
+        "size": 82,
+        "type": "str",
+        "str_content": "Failed to open message queue (error: %u), This disconnection will not be logged.\n"
+      },
+      "0x1a384": {
+        "name": "a_Failed_to_allocate_message_buffer_error_u_This_dis",
+        "addr": 107396,
+        "size": 87,
+        "type": "str",
+        "str_content": "Failed to allocate message buffer (error: %u), This disconnection will not be logged.\n"
+      },
+      "0x1a3dc": {
+        "name": "a_Failed_to_send_on_message_queue_error_u_This_disco",
+        "addr": 107484,
+        "size": 85,
+        "type": "str",
+        "str_content": "Failed to send on message queue (error: %u), This disconnection will not be logged.\n"
+      },
+      "0x1a514": {
+        "name": "a_Enclosure_Power_Request",
+        "addr": 107796,
+        "size": 24,
+        "type": "str",
+        "str_content": "Enclosure Power Request"
+      },
+      "0x1a52c": {
+        "name": "a_Blade_Standard_base_license",
+        "addr": 107820,
+        "size": 28,
+        "type": "str",
+        "str_content": "Blade Standard base license"
+      },
+      "0x1a548": {
+        "name": "a_cClass_Blade_Web_Page",
+        "addr": 107848,
+        "size": 22,
+        "type": "str",
+        "str_content": "cClass Blade Web Page"
+      },
+      "0x1a560": {
+        "name": "a_Board_Side_A",
+        "addr": 107872,
+        "size": 13,
+        "type": "str",
+        "str_content": "Board Side A"
+      },
+      "0x1a570": {
+        "name": "a_Board_Side_B",
+        "addr": 107888,
+        "size": 13,
+        "type": "str",
+        "str_content": "Board Side B"
+      },
+      "0x1a580": {
+        "name": "a_Half_width_blade",
+        "addr": 107904,
+        "size": 17,
+        "type": "str",
+        "str_content": "Half-width blade"
+      },
+      "0x1a594": {
+        "name": "a_Full_width_blade",
+        "addr": 107924,
+        "size": 17,
+        "type": "str",
+        "str_content": "Full-width blade"
+      },
+      "0x1a5a8": {
+        "name": "a_Scalable_c_Class_blade",
+        "addr": 107944,
+        "size": 23,
+        "type": "str",
+        "str_content": "Scalable c-Class blade"
+      },
+      "0x1a5c0": {
+        "name": "a_Enable_IPMI_and_RIBCL_communication_on_the_private",
+        "addr": 107968,
+        "size": 62,
+        "type": "str",
+        "str_content": "Enable IPMI and RIBCL communication on the private port 49623"
+      },
+      "0x1a600": {
+        "name": "a_Enable_slowed_scanchain_for_long_chains",
+        "addr": 108032,
+        "size": 40,
+        "type": "str",
+        "str_content": "Enable slowed scanchain for long chains"
+      },
+      "0x1a628": {
+        "name": "a_SNP___supported_by_this_system",
+        "addr": 108072,
+        "size": 31,
+        "type": "str",
+        "str_content": "SNP - supported by this system"
+      },
+      "0x1a648": {
+        "name": "a_ASIC_supports_8_I2C_engines",
+        "addr": 108104,
+        "size": 28,
+        "type": "str",
+        "str_content": "ASIC supports 8 I2C engines"
+      },
+      "0x1a664": {
+        "name": "a_Enable_ChifLite_use_before_memory_is_initialized",
+        "addr": 108132,
+        "size": 49,
+        "type": "str",
+        "str_content": "Enable ChifLite use before memory is initialized"
+      },
+      "0x1a698": {
+        "name": "a_iLO_is_required_and_cannot_be_disabled",
+        "addr": 108184,
+        "size": 39,
+        "type": "str",
+        "str_content": "iLO is required and cannot be disabled"
+      },
+      "0x1a6c0": {
+        "name": "a_Carbondale_in_scalable_chassis",
+        "addr": 108224,
+        "size": 31,
+        "type": "str",
+        "str_content": "Carbondale in scalable chassis"
+      },
+      "0x1a6e0": {
+        "name": "a_Platform_may_not_have_a_dedicated_NIC",
+        "addr": 108256,
+        "size": 38,
+        "type": "str",
+        "str_content": "Platform may not have a dedicated NIC"
+      },
+      "0x1a708": {
+        "name": "a_Platform_has_embedded_SMSC__NAND_using_CPLD_based_",
+        "addr": 108296,
+        "size": 58,
+        "type": "str",
+        "str_content": "Platform has embedded SMSC->NAND using CPLD-based SPI bus"
+      },
+      "0x1a744": {
+        "name": "a_Platform_has_embedded_SMSC__NAND_using_SPI_bus_1_M",
+        "addr": 108356,
+        "size": 65,
+        "type": "str",
+        "str_content": "Platform has embedded SMSC->NAND using SPI bus 1 (Moonshot only)"
+      },
+      "0x1a788": {
+        "name": "a_Platform_has_embedded_SMSC__NAND_using_SPI_bus_2",
+        "addr": 108424,
+        "size": 49,
+        "type": "str",
+        "str_content": "Platform has embedded SMSC->NAND using SPI bus 2"
+      },
+      "0x1a7bc": {
+        "name": "a_Platform_has_embedded_SMSC__NAND_using_SPI_bus_2_B",
+        "addr": 108476,
+        "size": 56,
+        "type": "str",
+        "str_content": "Platform has embedded SMSC->NAND using SPI bus 2 BIGBUF"
+      },
+      "0x1a7f4": {
+        "name": "a_Intel_x86",
+        "addr": 108532,
+        "size": 10,
+        "type": "str",
+        "str_content": "Intel x86"
+      },
+      "0x1a800": {
+        "name": "a_AMD",
+        "addr": 108544,
+        "size": 4,
+        "type": "str",
+        "str_content": "AMD"
+      },
+      "0x1a804": {
+        "name": "a_Itanium",
+        "addr": 108548,
+        "size": 8,
+        "type": "str",
+        "str_content": "Itanium"
+      },
+      "0x1a80c": {
+        "name": "a_Development_board",
+        "addr": 108556,
+        "size": 18,
+        "type": "str",
+        "str_content": "Development board"
+      },
+      "0x1a820": {
+        "name": "a_Brownout_workaround",
+        "addr": 108576,
+        "size": 20,
+        "type": "str",
+        "str_content": "Brownout workaround"
+      },
+      "0x1a8f0": {
+        "name": "a_c_Class_blade_server",
+        "addr": 108784,
+        "size": 21,
+        "type": "str",
+        "str_content": "c-Class blade server"
+      },
+      "0x1a908": {
+        "name": "a_runs_in_an_enclosure",
+        "addr": 108808,
+        "size": 21,
+        "type": "str",
+        "str_content": "runs in an enclosure"
+      },
+      "0x1a920": {
+        "name": "a_high_efficiency_mode_disabled",
+        "addr": 108832,
+        "size": 30,
+        "type": "str",
+        "str_content": "high efficiency mode disabled"
+      },
+      "0x1a940": {
+        "name": "a_shared_network_port_via_ALOM",
+        "addr": 108864,
+        "size": 29,
+        "type": "str",
+        "str_content": "shared network port via ALOM"
+      },
+      "0x1a960": {
+        "name": "a_shared_network_port_via_embedded_LOM",
+        "addr": 108896,
+        "size": 37,
+        "type": "str",
+        "str_content": "shared network port via embedded LOM"
+      },
+      "0x1a988": {
+        "name": "a_shared_network_port_via_management_ethernet_kit",
+        "addr": 108936,
+        "size": 48,
+        "type": "str",
+        "str_content": "shared network port via management ethernet kit"
+      },
+      "0x1a9b8": {
+        "name": "a_host_reset_needed_after_SNP_config",
+        "addr": 108984,
+        "size": 35,
+        "type": "str",
+        "str_content": "host reset needed after SNP config"
+      },
+      "0x1a9dc": {
+        "name": "a_power_sequencer_fault_reporting",
+        "addr": 109020,
+        "size": 32,
+        "type": "str",
+        "str_content": "power sequencer fault reporting"
+      },
+      "0x1a9fc": {
+        "name": "a_Supports_iLO_Essentials_License",
+        "addr": 109052,
+        "size": 32,
+        "type": "str",
+        "str_content": "Supports iLO Essentials License"
+      },
+      "0x1aa1c": {
+        "name": "a_Supports_iLO_Hyperscale_License",
+        "addr": 109084,
+        "size": 32,
+        "type": "str",
+        "str_content": "Supports iLO Hyperscale License"
+      },
+      "0x1aa3c": {
+        "name": "a_Supports_Cores_on_Demand_License",
+        "addr": 109116,
+        "size": 33,
+        "type": "str",
+        "str_content": "Supports Cores-on-Demand License"
+      },
+      "0x1aa60": {
+        "name": "a_Supports_conjoined_operation",
+        "addr": 109152,
+        "size": 29,
+        "type": "str",
+        "str_content": "Supports conjoined operation"
+      },
+      "0x1aa80": {
+        "name": "a_Hide_able_UI_when_in_Aux_operation_mode",
+        "addr": 109184,
+        "size": 40,
+        "type": "str",
+        "str_content": "Hide-able UI when in Aux operation mode"
+      },
+      "0x1aaa8": {
+        "name": "a_embedded_NAND_is_absent",
+        "addr": 109224,
+        "size": 24,
+        "type": "str",
+        "str_content": "embedded NAND is absent"
+      },
+      "0x1aac0": {
+        "name": "a_Supports_hardware_with_no_dedicated_NIC",
+        "addr": 109248,
+        "size": 40,
+        "type": "str",
+        "str_content": "Supports hardware with no dedicated NIC"
+      },
+      "0x1aae8": {
+        "name": "a_Supports_hardware_with_no_SNP_NIC",
+        "addr": 109288,
+        "size": 34,
+        "type": "str",
+        "str_content": "Supports hardware with no SNP NIC"
+      },
+      "0x1ab0c": {
+        "name": "a_Disable_SNP_NIC",
+        "addr": 109324,
+        "size": 17,
+        "type": "str",
+        "str_content": "Disable  SNP NIC"
+      },
+      "0x1ab20": {
+        "name": "a_Disable_dedicated_NIC",
+        "addr": 109344,
+        "size": 23,
+        "type": "str",
+        "str_content": "Disable  dedicated NIC"
+      },
+      "0x1ab38": {
+        "name": "a_Basic_IPMI_enabled_on_serial_port",
+        "addr": 109368,
+        "size": 34,
+        "type": "str",
+        "str_content": "Basic IPMI enabled on serial port"
+      },
+      "0x1ab5c": {
+        "name": "a_CLI_disabled_on_serial_port",
+        "addr": 109404,
+        "size": 28,
+        "type": "str",
+        "str_content": "CLI disabled on serial port"
+      },
+      "0x1ab78": {
+        "name": "a_Attribute_s_described_using_Xregister",
+        "addr": 109432,
+        "size": 39,
+        "type": "str",
+        "str_content": "Attribute(s) described using Xregister"
+      },
+      "0x1aba0": {
+        "name": "a_Do_not_flag_unknown_attributes_as_self_test_errors",
+        "addr": 109472,
+        "size": 51,
+        "type": "str",
+        "str_content": "Do not flag unknown attributes as self-test errors"
+      },
+      "0x1abd4": {
+        "name": "a_Supports_Progress_Log_processing_within_iLO",
+        "addr": 109524,
+        "size": 44,
+        "type": "str",
+        "str_content": "Supports Progress Log processing within iLO"
+      },
+      "0x1ac00": {
+        "name": "a_Platform_has_UEFI_BIOS",
+        "addr": 109568,
+        "size": 23,
+        "type": "str",
+        "str_content": "Platform has UEFI BIOS"
+      },
+      "0x1ac18": {
+        "name": "a_APML_data_carried_in_system_ROM",
+        "addr": 109592,
+        "size": 32,
+        "type": "str",
+        "str_content": "APML data carried in system ROM"
+      },
+      "0x1acb0": {
+        "name": "a_Slow_SPI_2_Bus_speed_for_long_trace_length",
+        "addr": 109744,
+        "size": 43,
+        "type": "str",
+        "str_content": "Slow SPI#2 Bus speed for long trace length"
+      },
+      "0x1acdc": {
+        "name": "a_Platform_requires_BladeLink_FRU_hardware_for_conjo",
+        "addr": 109788,
+        "size": 65,
+        "type": "str",
+        "str_content": "Platform requires BladeLink FRU hardware for conjoined operation"
+      },
+      "0x1ad20": {
+        "name": "a_Platform_does_not_support_Auto_Power_On",
+        "addr": 109856,
+        "size": 40,
+        "type": "str",
+        "str_content": "Platform does not support Auto Power On"
+      },
+      "0x1ad48": {
+        "name": "a_SL_platform_with_eFuse_circuit",
+        "addr": 109896,
+        "size": 31,
+        "type": "str",
+        "str_content": "SL platform with eFuse circuit"
+      },
+      "0x1ad68": {
+        "name": "a_Deprecated_attribute",
+        "addr": 109928,
+        "size": 21,
+        "type": "str",
+        "str_content": "Deprecated attribute"
+      },
+      "0x1ad80": {
+        "name": "a_G9_and_later_platforms_support_new_Scan_Chain_and_",
+        "addr": 109952,
+        "size": 69,
+        "type": "str",
+        "str_content": "G9 and later platforms support new Scan Chain and GPIO v02 and later"
+      },
+      "0x1adc8": {
+        "name": "a_Active_Health_System_format_version_2_Gen9",
+        "addr": 110024,
+        "size": 45,
+        "type": "str",
+        "str_content": "Active Health System format version 2 (Gen9)"
+      },
+      "0x1adf8": {
+        "name": "a_Allows_iLO_to_be_reset_externally_using_UID_button",
+        "addr": 110072,
+        "size": 51,
+        "type": "str",
+        "str_content": "Allows iLO to be reset externally using UID button"
+      },
+      "0x1ae2c": {
+        "name": "a_Selected_Gen_9_platforms_support_NFC",
+        "addr": 110124,
+        "size": 37,
+        "type": "str",
+        "str_content": "Selected Gen 9 platforms support NFC"
+      },
+      "0x1ae54": {
+        "name": "a_Noisy_I2C_BUS",
+        "addr": 110164,
+        "size": 14,
+        "type": "str",
+        "str_content": "Noisy I2C BUS"
+      },
+      "0x1ae64": {
+        "name": "a_GLP_4_Updated_I2C_Block_Engine_is_NOT_Supported",
+        "addr": 110180,
+        "size": 48,
+        "type": "str",
+        "str_content": "GLP-4 Updated I2C Block Engine is NOT Supported"
+      },
+      "0x1ae94": {
+        "name": "a_Supports_hardware_with_no_power_supply_monitor",
+        "addr": 110228,
+        "size": 47,
+        "type": "str",
+        "str_content": "Supports hardware with no power supply monitor"
+      },
+      "0x1aec4": {
+        "name": "a_Identifies_Gen8_systems_so_RIS_command_can_be_deni",
+        "addr": 110276,
+        "size": 61,
+        "type": "str",
+        "str_content": "Identifies Gen8 systems so RIS command can be denied/allowed"
+      },
+      "0x1af04": {
+        "name": "a_No_host_DB9_serial_port",
+        "addr": 110340,
+        "size": 24,
+        "type": "str",
+        "str_content": "No host DB9 serial port"
+      },
+      "0x1af1c": {
+        "name": "a_Blade_Server_for_Thunderbird_Enclosure",
+        "addr": 110364,
+        "size": 39,
+        "type": "str",
+        "str_content": "Blade Server for Thunderbird Enclosure"
+      },
+      "0x1af44": {
+        "name": "a_Blade_Server_does_not_support_brookline",
+        "addr": 110404,
+        "size": 40,
+        "type": "str",
+        "str_content": "Blade Server does not support brookline"
+      },
+      "0x1af6c": {
+        "name": "a_This_server_will_use_a_web_gui_specific_to_tbird_b",
+        "addr": 110444,
+        "size": 55,
+        "type": "str",
+        "str_content": "This server will use a web gui specific to tbird blade"
+      },
+      "0x1afa4": {
+        "name": "a_This_server_does_not_support_modification_of_the_N",
+        "addr": 110500,
+        "size": 53,
+        "type": "str",
+        "str_content": "This server does not support modification of the NIC"
+      },
+      "0x1afdc": {
+        "name": "a_This_blade_server_will_sync_its_smbios_and_fru_ser",
+        "addr": 110556,
+        "size": 63,
+        "type": "str",
+        "str_content": "This blade server will sync its smbios and fru serial numbers."
+      },
+      "0x1b01c": {
+        "name": "a_This_server_supports_net_resets",
+        "addr": 110620,
+        "size": 33,
+        "type": "str",
+        "str_content": "This server supports net resets."
+      },
+      "0x1b09c": {
+        "name": "a_This_blade_server_supports_server_fru_eeprom_that_",
+        "addr": 110748,
+        "size": 62,
+        "type": "str",
+        "str_content": "This blade server supports server fru eeprom that is accesed."
+      },
+      "0x1b0dc": {
+        "name": "a_This_blade_server_does_not_support_virtual_fru",
+        "addr": 110812,
+        "size": 47,
+        "type": "str",
+        "str_content": "This blade server does not support virtual fru"
+      },
+      "0x1b10c": {
+        "name": "a_This_blade_server_requires_the_pwr_button_pass_thr",
+        "addr": 110860,
+        "size": 67,
+        "type": "str",
+        "str_content": "This blade server requires the pwr button pass thru to be cleared."
+      },
+      "0x1b150": {
+        "name": "a_This_blade_server_will_not_use_pwrmgrs_brownout_su",
+        "addr": 110928,
+        "size": 56,
+        "type": "str",
+        "str_content": "This blade server will not use pwrmgrs brownout support"
+      },
+      "0x1b188": {
+        "name": "a_This_blade_server_will_not_use_pwrmgrs_shutdown_th",
+        "addr": 110984,
+        "size": 55,
+        "type": "str",
+        "str_content": "This blade server will not use pwrmgrs shutdown thread"
+      },
+      "0x1b1c0": {
+        "name": "a_This_blade_server_s_fru_has_a_scaling_factor_that_",
+        "addr": 111040,
+        "size": 63,
+        "type": "str",
+        "str_content": "This blade server's fru has a scaling factor that pwrmgr uses."
+      },
+      "0x1b200": {
+        "name": "a_This_blade_server_will_use_a_mock_pwrsupply_for_po",
+        "addr": 111104,
+        "size": 65,
+        "type": "str",
+        "str_content": "This blade server will use a mock pwrsupply for power reporting."
+      },
+      "0x1b244": {
+        "name": "a_This_server_supports_EFUSE",
+        "addr": 111172,
+        "size": 27,
+        "type": "str",
+        "str_content": "This server supports EFUSE"
+      },
+      "0x1b260": {
+        "name": "a_This_server_will_request_power_from_EM_via_RIS",
+        "addr": 111200,
+        "size": 47,
+        "type": "str",
+        "str_content": "This server will request power from EM via RIS"
+      },
+      "0x1b290": {
+        "name": "a_This_server_must_have_IPV6_link_local_SSDP_multica",
+        "addr": 111248,
+        "size": 68,
+        "type": "str",
+        "str_content": "This server must have IPV6 link-local SSDP multicast always enabled"
+      },
+      "0x1b2d4": {
+        "name": "a_This_server_does_not_support_the_APO_restore_optio",
+        "addr": 111316,
+        "size": 52,
+        "type": "str",
+        "str_content": "This server does not support the APO restore option"
+      },
+      "0x1b308": {
+        "name": "a_This_server_is_a_blade_chassis",
+        "addr": 111368,
+        "size": 31,
+        "type": "str",
+        "str_content": "This server is a blade chassis"
+      },
+      "0x1b328": {
+        "name": "a_This_server_by_default_will_propagate_time_to_host",
+        "addr": 111400,
+        "size": 52,
+        "type": "str",
+        "str_content": "This server by default will propagate time to host."
+      },
+      "0x1b35c": {
+        "name": "a_This_server_will_use_port_49623_to_give_iLO_RIS_Ac",
+        "addr": 111452,
+        "size": 56,
+        "type": "str",
+        "str_content": "This server will use port 49623 to give iLO RIS Access."
+      },
+      "0x1b394": {
+        "name": "a_This_server_will_support_Virtual_ID_and_Server_Sig",
+        "addr": 111508,
+        "size": 78,
+        "type": "str",
+        "str_content": "This server will support Virtual ID and Server Signature Support from Fusion."
+      },
+      "0x1b3e4": {
+        "name": "a_Platform_has_a_UEFI_Gen_9_BIOS",
+        "addr": 111588,
+        "size": 31,
+        "type": "str",
+        "str_content": "Platform has a UEFI Gen 9 BIOS"
+      },
+      "0x1b404": {
+        "name": "a_Disable_MCTP_and_AMS_support",
+        "addr": 111620,
+        "size": 29,
+        "type": "str",
+        "str_content": "Disable MCTP and AMS support"
+      },
+      "0x1b424": {
+        "name": "a_This_server_does_not_support_VLAN",
+        "addr": 111652,
+        "size": 34,
+        "type": "str",
+        "str_content": "This server does not support VLAN"
+      },
+      "0x1b498": {
+        "name": "a_This_server_does_not_require_serial_port_CLI_authe",
+        "addr": 111768,
+        "size": 72,
+        "type": "str",
+        "str_content": "This server does not require serial port CLI authentication by default."
+      },
+      "0x1b4e0": {
+        "name": "a_This_server_uses_RIS_to_communicate_with_the_Enclo",
+        "addr": 111840,
+        "size": 64,
+        "type": "str",
+        "str_content": "This server uses RIS to communicate with the Enclosure Manager."
+      },
+      "0x1b520": {
+        "name": "a_This_server_uses_APML_and_FRU_read_values_to_refin",
+        "addr": 111904,
+        "size": 79,
+        "type": "str",
+        "str_content": "This server uses APML and FRU-read values to refine power and eBrake requests."
+      },
+      "0x1b570": {
+        "name": "a_iLO_is_able_to_deny_power_on_to_this_server_if_nec",
+        "addr": 111984,
+        "size": 58,
+        "type": "str",
+        "str_content": "iLO is able to deny power on to this server if necessary."
+      },
+      "0x1b5ac": {
+        "name": "a_This_server_has_fast_cap_circuitry_which_iLO_shoul",
+        "addr": 112044,
+        "size": 72,
+        "type": "str",
+        "str_content": "This server has fast cap circuitry which iLO should program the DAC on."
+      },
+      "0x1b5f4": {
+        "name": "a_No_NVRAM_device_CFG_PJFS_in_RAMDISK_SPI_Change_oth",
+        "addr": 112116,
+        "size": 70,
+        "type": "str",
+        "str_content": "No NVRAM device.  CFG PJFS in RAMDISK/SPI.  Change other SRAM access."
+      },
+      "0x1b63c": {
+        "name": "a_Moonshot___many_features_disabled_if_VAs_not_easil",
+        "addr": 112188,
+        "size": 63,
+        "type": "str",
+        "str_content": "Moonshot - many features disabled (if VAs not easily removed)."
+      },
+      "0x1b67c": {
+        "name": "a_FUM_can_t_necessarily_access_devices_for_GUIDs",
+        "addr": 112252,
+        "size": 48,
+        "type": "str",
+        "str_content": "FUM can't necessarily access devices for GUIDs."
+      },
+      "0x1b6ac": {
+        "name": "a_Satellite_Controller_for_Moonshot",
+        "addr": 112300,
+        "size": 35,
+        "type": "str",
+        "str_content": "Satellite Controller for Moonshot."
+      },
+      "0x1b6d0": {
+        "name": "a_There_is_not_a_ROM_SPI_part_connected_to_us_SPI_en",
+        "addr": 112336,
+        "size": 57,
+        "type": "str",
+        "str_content": "There is not a ROM SPI part connected to us (SPI engine)"
+      },
+      "0x1b70c": {
+        "name": "a_This_server_reqiuires_a_higher_efuse_current_limit",
+        "addr": 112396,
+        "size": 62,
+        "type": "str",
+        "str_content": "This server reqiuires a higher efuse current limit to be set."
+      },
+      "0x1b74c": {
+        "name": "a_TBird_log_event_if_we_think_CPU_or_FRU_is_missing_",
+        "addr": 112460,
+        "size": 61,
+        "type": "str",
+        "str_content": "TBird: log event if we think CPU or FRU is missing from APML"
+      },
+      "0x1b78c": {
+        "name": "a_Hood_Sensor_Supported_DIP_Switch_needed_to_activat",
+        "addr": 112524,
+        "size": 54,
+        "type": "str",
+        "str_content": "Hood Sensor Supported.  DIP Switch needed to activate"
+      },
+      "0x1b7c4": {
+        "name": "a_Moonshot_EL_xxxx_Chassis_detected",
+        "addr": 112580,
+        "size": 35,
+        "type": "str",
+        "str_content": "Moonshot EL-xxxx Chassis detected."
+      },
+      "0x1b7e8": {
+        "name": "a_I2C_RTC_is_available_DS_1337_data_sheet",
+        "addr": 112616,
+        "size": 43,
+        "type": "str",
+        "str_content": "I2C RTC is available (DS 1337) data sheet."
+      },
+      "0x1b814": {
+        "name": "a_This_platform_by_default_will_have_an_advanced_lic",
+        "addr": 112660,
+        "size": 56,
+        "type": "str",
+        "str_content": "This platform by default will have an advanced license."
+      },
+      "0x1bb90": {
+        "name": "a_xeplat_service",
+        "addr": 113552,
+        "size": 15,
+        "type": "str",
+        "str_content": "xeplat_service"
+      },
+      "0x1bba0": {
+        "name": "a_VComClientSync_Call_failed_d",
+        "addr": 113568,
+        "size": 31,
+        "type": "str",
+        "str_content": "VComClientSync_Call failed %d\n"
+      },
+      "0x1bbc0": {
+        "name": "a_svcsHost",
+        "addr": 113600,
+        "size": 9,
+        "type": "str",
+        "str_content": "svcsHost"
+      },
+      "0x1bbcc": {
+        "name": "a_client_Got_platform_name_s",
+        "addr": 113612,
+        "size": 30,
+        "type": "str",
+        "str_content": "client: Got platform_name %s\n"
+      },
+      "0x1bbec": {
+        "name": "a_client_Unable_to_get_platform_name",
+        "addr": 113644,
+        "size": 37,
+        "type": "str",
+        "str_content": "client: Unable to get platform name\n"
+      },
+      "0x1bc14": {
+        "name": "a_client_Unable_to_get_minimum_system_ROM",
+        "addr": 113684,
+        "size": 42,
+        "type": "str",
+        "str_content": "client: Unable to get minimum system ROM\n"
+      },
+      "0x1bf9c": {
+        "name": "a_client_Unable_to_get_minimum_firmware_version",
+        "addr": 114588,
+        "size": 48,
+        "type": "str",
+        "str_content": "client: Unable to get minimum firmware version\n"
+      },
+      "0x1bfd0": {
+        "name": "a_src_xeplat_c_c",
+        "addr": 114640,
+        "size": 15,
+        "type": "str",
+        "str_content": "src\\xeplat_c.c"
+      },
+      "0x1c308": {
+        "name": "a_svcsILO",
+        "addr": 115464,
+        "size": 8,
+        "type": "str",
+        "str_content": "svcsILO"
+      },
+      "0x1c310": {
+        "name": "a_src_iloevt_client_c",
+        "addr": 115472,
+        "size": 20,
+        "type": "str",
+        "str_content": "src\\iloevt_client.c"
+      },
+      "0x1c324": {
+        "name": "a_s_event_lower_d",
+        "addr": 115492,
+        "size": 20,
+        "type": "str",
+        "str_content": "%s event_lower: %d\n"
+      },
+      "0x1c33c": {
+        "name": "a_iLOEvents",
+        "addr": 115516,
+        "size": 10,
+        "type": "str",
+        "str_content": "iLOEvents"
+      },
+      "0x1c348": {
+        "name": "a_iLOServiceSend_iloevtconn_const_char_msg_sizeof_il",
+        "addr": 115528,
+        "size": 73,
+        "type": "str",
+        "str_content": "iLOServiceSend(iloevtconn, (const char*)&msg, sizeof(ilo_event_message))"
+      },
+      "0x1c394": {
+        "name": "a_s_event_raise_d",
+        "addr": 115604,
+        "size": 20,
+        "type": "str",
+        "str_content": "%s event_raise: %d\n"
+      },
+      "0x1c3a8": {
+        "name": "a_s_event_pulse_d",
+        "addr": 115624,
+        "size": 20,
+        "type": "str",
+        "str_content": "%s event_pulse: %d\n"
+      },
+      "0x1c3bc": {
+        "name": "a_s_event_wait_d",
+        "addr": 115644,
+        "size": 19,
+        "type": "str",
+        "str_content": "%s event_wait: %d\n"
+      },
+      "0x1c3d0": {
+        "name": "a_CreateConnection_conn_peer",
+        "addr": 115664,
+        "size": 31,
+        "type": "str",
+        "str_content": "CreateConnection(&conn, &peer)"
+      },
+      "0x1c498": {
+        "name": "iloevt_client__event_wait_timed",
+        "addr": 115864
+      },
+      "0x1c6d8": {
+        "name": "iloevt_client__event_check",
+        "addr": 116440
+      },
+      "0x1c774": {
+        "name": "a_SynchronousReceive_conn_NULL",
+        "addr": 116596,
+        "size": 31,
+        "type": "str",
+        "str_content": "SynchronousReceive(conn, NULL)"
+      },
+      "0x1c794": {
+        "name": "a_CloseConnection_conn",
+        "addr": 116628,
+        "size": 22,
+        "type": "str",
+        "str_content": "CloseConnection(conn)"
+      },
+      "0x1c7ac": {
+        "name": "a_s_event_wait_timed_d",
+        "addr": 116652,
+        "size": 25,
+        "type": "str",
+        "str_content": "%s event_wait_timed: %d\n"
+      },
+      "0x1c7cc": {
+        "name": "a_CloseConnection_peer",
+        "addr": 116684,
+        "size": 22,
+        "type": "str",
+        "str_content": "CloseConnection(peer)"
+      },
+      "0x1c7f0": {
+        "name": "a_s_event_check_d",
+        "addr": 116720,
+        "size": 20,
+        "type": "str",
+        "str_content": "%s event_check: %d\n"
+      },
+      "0x1cc0c": {
+        "name": "a_s_event_set_lower",
+        "addr": 117772,
+        "size": 20,
+        "type": "str",
+        "str_content": "%s event_set_lower\n"
+      },
+      "0x1cc2c": {
+        "name": "a_s_event_set_raise",
+        "addr": 117804,
+        "size": 20,
+        "type": "str",
+        "str_content": "%s event_set_raise\n"
+      },
+      "0x1cc44": {
+        "name": "a_s_event_set_wait",
+        "addr": 117828,
+        "size": 19,
+        "type": "str",
+        "str_content": "%s event_set_wait\n"
+      },
+      "0x1cc74": {
+        "name": "a_SynchronousReceive_conn_buf",
+        "addr": 117876,
+        "size": 31,
+        "type": "str",
+        "str_content": "SynchronousReceive(conn, &buf)"
+      },
+      "0x1d038": {
+        "name": "a_s_event_set_wait_timed",
+        "addr": 118840,
+        "size": 25,
+        "type": "str",
+        "str_content": "%s event_set_wait_timed\n"
+      },
+      "0x1d084": {
+        "name": "a_s_event_set_check",
+        "addr": 118916,
+        "size": 20,
+        "type": "str",
+        "str_content": "%s event_set_check\n"
+      },
+      "0x1d328": {
+        "name": "a_svcsILO",
+        "addr": 119592,
+        "size": 8,
+        "type": "str",
+        "str_content": "svcsILO"
+      },
+      "0x1d330": {
+        "name": "a_src_ilosrvconn_c",
+        "addr": 119600,
+        "size": 17,
+        "type": "str",
+        "str_content": "src\\ilosrvconn.c"
+      },
+      "0x1d344": {
+        "name": "a_SynchronousSend_conn_buf",
+        "addr": 119620,
+        "size": 27,
+        "type": "str",
+        "str_content": "SynchronousSend(conn, buf)"
+      },
+      "0x1d360": {
+        "name": "a_err",
+        "addr": 119648,
+        "size": 4,
+        "type": "str",
+        "str_content": "err"
+      },
+      "0x1d74c": {
+        "name": "a_I2CService",
+        "addr": 120652,
+        "size": 11,
+        "type": "str",
+        "str_content": "I2CService"
+      },
+      "0x1da28": {
+        "name": "jpt_1DA24",
+        "addr": 121384
+      },
+      "0x1dac0": {
+        "name": "a_I2C_Error_02x_s_d",
+        "addr": 121536,
+        "size": 25,
+        "type": "str",
+        "str_content": "I2C Error: %02x, %s(%d)\n"
+      },
+      "0x1dae0": {
+        "name": "a_src_i2cClient_c",
+        "addr": 121568,
+        "size": 16,
+        "type": "str",
+        "str_content": "src\\i2cClient.c"
+      },
+      "0x1daf0": {
+        "name": "a_i2c",
+        "addr": 121584,
+        "size": 4,
+        "type": "str",
+        "str_content": "i2c"
+      },
+      "0x1daf4": {
+        "name": "a_OK",
+        "addr": 121588,
+        "size": 3,
+        "type": "str",
+        "str_content": "OK"
+      },
+      "0x1daf8": {
+        "name": "a_segment_bad",
+        "addr": 121592,
+        "size": 12,
+        "type": "str",
+        "str_content": "segment bad"
+      },
+      "0x1db04": {
+        "name": "a_too_big",
+        "addr": 121604,
+        "size": 8,
+        "type": "str",
+        "str_content": "too big"
+      },
+      "0x1db0c": {
+        "name": "a_read_timeout",
+        "addr": 121612,
+        "size": 13,
+        "type": "str",
+        "str_content": "read timeout"
+      },
+      "0x1db1c": {
+        "name": "a_No_ACK_from_target",
+        "addr": 121628,
+        "size": 19,
+        "type": "str",
+        "str_content": "No ACK from target"
+      },
+      "0x1db30": {
+        "name": "a_HW_err",
+        "addr": 121648,
+        "size": 7,
+        "type": "str",
+        "str_content": "HW err"
+      },
+      "0x1db38": {
+        "name": "a_HW_busy",
+        "addr": 121656,
+        "size": 8,
+        "type": "str",
+        "str_content": "HW busy"
+      },
+      "0x1db40": {
+        "name": "a_incomplete",
+        "addr": 121664,
+        "size": 11,
+        "type": "str",
+        "str_content": "incomplete"
+      },
+      "0x1db4c": {
+        "name": "a_Bad_argument",
+        "addr": 121676,
+        "size": 13,
+        "type": "str",
+        "str_content": "Bad argument"
+      },
+      "0x1db5c": {
+        "name": "a_OS_resource_err",
+        "addr": 121692,
+        "size": 16,
+        "type": "str",
+        "str_content": "OS resource err"
+      },
+      "0x1db6c": {
+        "name": "a_Bad_engine_number",
+        "addr": 121708,
+        "size": 18,
+        "type": "str",
+        "str_content": "Bad engine number"
+      },
+      "0x1db80": {
+        "name": "a_No_bus_ownership___ROM_owns_I2C_bus_0_and_downstre",
+        "addr": 121728,
+        "size": 62,
+        "type": "str",
+        "str_content": "No bus ownership - ROM owns I2C bus 0 and downstream segments"
+      },
+      "0x1dbc0": {
+        "name": "a_VASComm_err",
+        "addr": 121792,
+        "size": 12,
+        "type": "str",
+        "str_content": "VASComm err"
+      },
+      "0x1dbcc": {
+        "name": "a_Mutex_err",
+        "addr": 121804,
+        "size": 10,
+        "type": "str",
+        "str_content": "Mutex err"
+      },
+      "0x1dbd8": {
+        "name": "a_Resuscitate_err",
+        "addr": 121816,
+        "size": 16,
+        "type": "str",
+        "str_content": "Resuscitate err"
+      },
+      "0x1dc5c": {
+        "name": "def_1DA24",
+        "addr": 121948
+      },
+      "0x1ddd0": {
+        "name": "a_Data_error___SMBIOS_I2C_topology_records_may_be_su",
+        "addr": 122320,
+        "size": 56,
+        "type": "str",
+        "str_content": "Data error - SMBIOS I2C topology records may be suspect"
+      },
+      "0x1de08": {
+        "name": "a_Arbitration_failed_for_access_carbondale",
+        "addr": 122376,
+        "size": 43,
+        "type": "str",
+        "str_content": "Arbitration failed for access (carbondale)"
+      },
+      "0x1de34": {
+        "name": "a_Target_lock",
+        "addr": 122420,
+        "size": 12,
+        "type": "str",
+        "str_content": "Target lock"
+      },
+      "0x1de40": {
+        "name": "a_Checksum_failed_on_block_command",
+        "addr": 122432,
+        "size": 33,
+        "type": "str",
+        "str_content": "Checksum failed on block command"
+      },
+      "0x1de64": {
+        "name": "a_I2C_Protocol_Error",
+        "addr": 122468,
+        "size": 19,
+        "type": "str",
+        "str_content": "I2C Protocol Error"
+      },
+      "0x1de78": {
+        "name": "a_I2C_inline_MUX_Failure___SMBIOS_I2C_Topology_Issue",
+        "addr": 122488,
+        "size": 53,
+        "type": "str",
+        "str_content": "I2C (inline) MUX Failure - SMBIOS I2C Topology Issue"
+      },
+      "0x1deb0": {
+        "name": "a_NOGO",
+        "addr": 122544,
+        "size": 5,
+        "type": "str",
+        "str_content": "NOGO"
+      },
+      "0x1deb8": {
+        "name": "a_Run_I2C_Eng_Driver_tasked_failed_FNC7_i2c_eng",
+        "addr": 122552,
+        "size": 46,
+        "type": "str",
+        "str_content": "Run I2C Eng Driver tasked failed FNC7 i2c eng"
+      },
+      "0x1dee8": {
+        "name": "a_Halt_I2C_Eng_Driver_tasked_failed_FNC7_i2c_eng",
+        "addr": 122600,
+        "size": 47,
+        "type": "str",
+        "str_content": "Halt I2C Eng Driver tasked failed FNC7 i2c eng"
+      },
+      "0x1df18": {
+        "name": "a_Enable_I2C_Engine_interrupts_failed",
+        "addr": 122648,
+        "size": 36,
+        "type": "str",
+        "str_content": "Enable I2C Engine interrupts failed"
+      },
+      "0x1df3c": {
+        "name": "a_Disable_I2C_Engine_interrupts_failed",
+        "addr": 122684,
+        "size": 37,
+        "type": "str",
+        "str_content": "Disable I2C Engine interrupts failed"
+      },
+      "0x1df64": {
+        "name": "a_Carbondale_is_flashing",
+        "addr": 122724,
+        "size": 23,
+        "type": "str",
+        "str_content": "Carbondale is flashing"
+      },
+      "0x1df7c": {
+        "name": "a_Cannot_access_segment_in_current_power_state",
+        "addr": 122748,
+        "size": 45,
+        "type": "str",
+        "str_content": "Cannot access segment in current power state"
+      },
+      "0x1dfac": {
+        "name": "a_Not_idle",
+        "addr": 122796,
+        "size": 9,
+        "type": "str",
+        "str_content": "Not idle"
+      },
+      "0x1dfbc": {
+        "name": "a_0x_x_unknown",
+        "addr": 122812,
+        "size": 13,
+        "type": "str",
+        "str_content": "0x%x unknown"
+      },
+      "0x1e93c": {
+        "name": "a_i2c_mctp_service",
+        "addr": 125244,
+        "size": 17,
+        "type": "str",
+        "str_content": "i2c_mctp_service"
+      },
+      "0x1ebe0": {
+        "name": "a_Vendor_Command_Too_Long_d",
+        "addr": 125920,
+        "size": 29,
+        "type": "str",
+        "str_content": "Vendor Command Too Long: %d\n"
+      },
+      "0x1ec0c": {
+        "name": "a_Response_TOO_Big_d",
+        "addr": 125964,
+        "size": 22,
+        "type": "str",
+        "str_content": "Response TOO Big: %d\n"
+      },
+      "0x21e04": {
+        "name": "a_0123456789ABCDEF",
+        "addr": 138756,
+        "size": 17,
+        "type": "str",
+        "str_content": "0123456789ABCDEF"
+      },
+      "0x21e18": {
+        "name": "a_asa_recv",
+        "addr": 138776,
+        "size": 9,
+        "type": "str",
+        "str_content": "asa recv"
+      },
+      "0x21e24": {
+        "name": "a_Failed_to_wait_for_OSA_semaphore_OSA_disabled",
+        "addr": 138788,
+        "size": 49,
+        "type": "str",
+        "str_content": "Failed to wait for OSA semaphore.  OSA disabled."
+      },
+      "0x21e58": {
+        "name": "a_Failed_to_bootstrap_AddressSpace_OSA_agent",
+        "addr": 138840,
+        "size": 43,
+        "type": "str",
+        "str_content": "Failed to bootstrap AddressSpace OSA agent"
+      },
+      "0x21e90": {
+        "name": "a_Unrecognized_OSA_command",
+        "addr": 138896,
+        "size": 27,
+        "type": "str",
+        "str_content": "Unrecognized OSA command: "
+      },
+      "0x21eb8": {
+        "name": "a_OSAAgent",
+        "addr": 138936,
+        "size": 9,
+        "type": "str",
+        "str_content": "OSAAgent"
+      },
+      "0x22210": {
+        "name": "a_Parse_error_premature_end_of_input_string",
+        "addr": 139792,
+        "size": 43,
+        "type": "str",
+        "str_content": "Parse error: premature end of input string"
+      },
+      "0x2223c": {
+        "name": "a_Parse_error_starting_at",
+        "addr": 139836,
+        "size": 26,
+        "type": "str",
+        "str_content": "Parse error starting at: "
+      },
+      "0x22258": {
+        "name": "a_Usage_create_task_task_name_entry_point_stackSize_",
+        "addr": 139864,
+        "size": 85,
+        "type": "str",
+        "str_content": "Usage: create task \"<task name>\" <entry point> [<stackSize>] [<priority>] [<weight>]"
+      },
+      "0x222b0": {
+        "name": "a_Usage_close_task_object_number",
+        "addr": 139952,
+        "size": 34,
+        "type": "str",
+        "str_content": "Usage: close task <object number>"
+      },
+      "0x22f94": {
+        "name": "a_MessageQueue",
+        "addr": 143252,
+        "size": 13,
+        "type": "str",
+        "str_content": "MessageQueue"
+      },
+      "0x24bc4": {
+        "name": "a___args_",
+        "addr": 150468,
+        "size": 8,
+        "type": "str",
+        "str_content": "__args_"
+      },
+      "0x24bcc": {
+        "name": "a___env_",
+        "addr": 150476,
+        "size": 7,
+        "type": "str",
+        "str_content": "__env_"
+      },
+      "0x24bd4": {
+        "name": "a_arguments",
+        "addr": 150484,
+        "size": 10,
+        "type": "str",
+        "str_content": "arguments"
+      },
+      "0x257a0": {
+        "name": "a_s_queue",
+        "addr": 153504,
+        "size": 9,
+        "type": "str",
+        "str_content": "%s_queue"
+      },
+      "0x25808": {
+        "name": "a_RUNNING",
+        "addr": 153608,
+        "size": 8,
+        "type": "str",
+        "str_content": "RUNNING"
+      },
+      "0x25810": {
+        "name": "a_PAUSED",
+        "addr": 153616,
+        "size": 7,
+        "type": "str",
+        "str_content": "PAUSED"
+      },
+      "0x25880": {
+        "name": "a_12346789_EHKL_bef",
+        "addr": 153728,
+        "size": 20,
+        "type": "str",
+        "str_content": "12346789:;EHKL]^bef"
+      },
+      "0x25940": {
+        "name": "a_NVIDIA",
+        "addr": 153920,
+        "size": 7,
+        "type": "str",
+        "str_content": "NVIDIA"
+      },
+      "0x25964": {
+        "name": "a_p",
+        "addr": 153956,
+        "size": 2,
+        "type": "str",
+        "str_content": "p"
+      },
+      "0x25984": {
+        "name": "a_____0123469GKNOP",
+        "addr": 153988,
+        "size": 23,
+        "type": "str",
+        "str_content": "&'()*+,-./0123469GKNOP"
+      },
+      "0x2599c": {
+        "name": "a_NVIDIA",
+        "addr": 154012,
+        "size": 7,
+        "type": "str",
+        "str_content": "NVIDIA"
+      },
+      "0x259a4": {
+        "name": "a_",
+        "addr": 154020,
+        "size": 2,
+        "type": "str",
+        "str_content": "@"
+      },
+      "0x259d0": {
+        "name": "a_0123456789ABCDEF",
+        "addr": 154064,
+        "size": 17,
+        "type": "str",
+        "str_content": "0123456789ABCDEF"
+      },
+      "0x259e8": {
+        "name": "a_OFWIV",
+        "addr": 154088,
+        "size": 6,
+        "type": "str",
+        "str_content": "OFWIV"
+      },
+      "0x259f0": {
+        "name": "a_s_s_lu_09llu_seconds",
+        "addr": 154096,
+        "size": 27,
+        "type": "str",
+        "str_content": "%s %s: %lu.%09llu seconds\n"
+      },
+      "0x25a0c": {
+        "name": "a_exit",
+        "addr": 154124,
+        "size": 5,
+        "type": "str",
+        "str_content": "exit"
+      },
+      "0x25a1c": {
+        "name": "a_pjfs",
+        "addr": 154140,
+        "size": 5,
+        "type": "str",
+        "str_content": "pjfs"
+      },
+      "0x25a2c": {
+        "name": "a_pjfs",
+        "addr": 154156,
+        "size": 5,
+        "type": "str",
+        "str_content": "pjfs"
+      },
+      "0x25a34": {
+        "name": "a_pjfs",
+        "addr": 154164,
+        "size": 5,
+        "type": "str",
+        "str_content": "pjfs"
+      },
+      "0x25a44": {
+        "name": "a_systempassword",
+        "addr": 154180,
+        "size": 16,
+        "type": "str",
+        "str_content": "!systempassword"
+      },
+      "0x25a54": {
+        "name": "a_Timed_out_trying_to_connect_to_PJFS_server",
+        "addr": 154196,
+        "size": 44,
+        "type": "str",
+        "str_content": "Timed out trying to connect to PJFS server\n"
+      },
+      "0x25a80": {
+        "name": "a_Failed_to_connect_to_PJFS_server",
+        "addr": 154240,
+        "size": 34,
+        "type": "str",
+        "str_content": "Failed to connect to PJFS server\n"
+      },
+      "0x25aa4": {
+        "name": "a_PJFSClientConnection",
+        "addr": 154276,
+        "size": 21,
+        "type": "str",
+        "str_content": "PJFSClientConnection"
+      }
+    }
+  }
+}

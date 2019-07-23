@@ -1,0 +1,54 @@
+{
+  "elfsect": {
+    "name": ".stackvas.elf.data",
+    "sha256": "18dbe0ac384276b0494922867acb9398bf645f540e4ffe7f8c463f1b833dcd57",
+    "sha256.text": "d16f072083deeaf091b79083c5a22cd2cc83491d159bd4941c361a1dc0546944",
+    "baseaddr": 212992,
+    "size": 36864,
+    "symbols": {
+      "0x340f8": {
+        "name": "a_tcpip_stack",
+        "addr": 213240,
+        "size": 12,
+        "type": "str",
+        "str_content": "tcpip_stack"
+      },
+      "0x3423c": {
+        "name": "a_sunrpc_111_udp_rpcbind_sunrpc_111_tcp_rpcbind_doma",
+        "addr": 213564,
+        "size": 201,
+        "type": "str",
+        "str_content": "sunrpc\t\t111/udp\t\trpcbind\nsunrpc\t\t111/tcp\t\trpcbind\ndomain\t\t53/udp\ndomain\t\t53/tcp\ntftp\t\t69/udp\ntftp\t\t69/tcp\nwww\t\t80/udp\nwww\t\t80/tcp\nnfsd\t\t2049/udp\tnfs\nnfsd\t\t2049/tcp\tnfs\ngii\t\t616/tcp\ngated_mio\t9999/tcp\n"
+      },
+      "0x34308": {
+        "name": "a_hosts_dns_files",
+        "addr": 213768,
+        "size": 18,
+        "type": "str",
+        "str_content": "hosts: dns files\n"
+      },
+      "0x3431c": {
+        "name": "a_ip_0_IP_icmp_1_ICMP_igmp_2_IGMP_ipencap_4_IP_ENCAP",
+        "addr": 213788,
+        "size": 245,
+        "type": "str",
+        "str_content": "ip\t\t0\tIP\nicmp\t\t1\tICMP\nigmp\t\t2\tIGMP\nipencap\t4\tIP-ENCAP\ntcp\t\t6\tTCP\nudp\t\t17\tUDP\nipv6\t\t41\tIPv6\nipv6-route\t43\tIPv6-Route\nipv6-frag\t44\tIPv6-Frag\ngre\t\t47\tGRE\nesp\t\t50\tESP\nah\t\t51\tAH\nipv6-icmp\t58\tIPv6-ICMP\nipv6-nonxt\t59\tIPv6-NoNxt\nipv6-opts\t60\tIPv6-Opts\n"
+      },
+      "0x34414": {
+        "name": "a_127_0_0_1_localhost",
+        "addr": 214036,
+        "size": 21,
+        "type": "str",
+        "str_content": "127.0.0.1 localhost\n"
+      },
+      "0x3c30c": {
+        "name": "g_iloevtconn",
+        "addr": 246540
+      },
+      "0x3c3b8": {
+        "name": "g_pMRFYIRAM",
+        "addr": 246712
+      }
+    }
+  }
+}

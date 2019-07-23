@@ -1,0 +1,233 @@
+{
+  "elfsect": {
+    "name": ".chif.elf.data",
+    "sha256": "5fb1279f5093a3c04e3efddb30f60a8b3e4b8567e56bb7cc0617dd9f6037755e",
+    "sha256.text": "d9108accf8c13f1361a5ce068cc5bc3ed3e06f079bd405e743796bc2b7bd0fe3",
+    "baseaddr": 589824,
+    "size": 360448,
+    "symbols": {
+      "0x90054": {
+        "name": "g_log2table",
+        "addr": 589908
+      },
+      "0x90160": {
+        "name": "g_pCHIF_VAS_EXCEPTION_handler",
+        "addr": 590176
+      },
+      "0x901d8": {
+        "name": "g_SMIF_CHIF_service",
+        "addr": 590296
+      },
+      "0x90224": {
+        "name": "g_SMIF_commands",
+        "addr": 590372
+      },
+      "0x92960": {
+        "name": "g_SMIF_queries",
+        "addr": 600416
+      },
+      "0x93140": {
+        "name": "g_number_of_initial_MRs",
+        "addr": 602432
+      },
+      "0x93144": {
+        "name": "g_initial_MR_for_pool",
+        "addr": 602436
+      },
+      "0x93160": {
+        "name": "g_memId_unknown",
+        "addr": 602464
+      },
+      "0x93164": {
+        "name": "a_chif",
+        "addr": 602468,
+        "size": 5,
+        "type": "str",
+        "str_content": "chif"
+      },
+      "0x93298": {
+        "name": "g_pmemregs_idx",
+        "addr": 602776
+      },
+      "0x93314": {
+        "name": "g_memregs",
+        "addr": 602900
+      },
+      "0x937c0": {
+        "name": "a_j_vol0",
+        "addr": 604096,
+        "size": 8,
+        "type": "str",
+        "str_content": "j:/vol0"
+      },
+      "0x93988": {
+        "name": "g_CHIF_service_table",
+        "addr": 604552
+      },
+      "0x93c80": {
+        "name": "g_CHIF_4K_msgbuffer",
+        "addr": 605312
+      },
+      "0x94c84": {
+        "name": "gVAS_bInUnalignedCopy",
+        "addr": 609412
+      },
+      "0x94c88": {
+        "name": "gVAS_dwException",
+        "addr": 609416
+      },
+      "0x94c8c": {
+        "name": "gVAS_pSrc_unalignedCopy",
+        "addr": 609420
+      },
+      "0x94c90": {
+        "name": "gVAS_pDst_unalignedCopy",
+        "addr": 609424
+      },
+      "0x94c94": {
+        "name": "gVAS_dwLen_unalignedCopy",
+        "addr": 609428
+      },
+      "0x94c98": {
+        "name": "gVAS_pSrc_when_exception_occured",
+        "addr": 609432
+      },
+      "0x94c9c": {
+        "name": "gVAS_pDst_when_exception_occured",
+        "addr": 609436
+      },
+      "0x94ca0": {
+        "name": "h_CHIFEcho_received_pkt_field0",
+        "addr": 609440
+      },
+      "0x94cac": {
+        "name": "g_CHIFService_echo",
+        "addr": 609452
+      },
+      "0x94cf8": {
+        "name": "g_smif_bb_sem",
+        "addr": 609528
+      },
+      "0x94d14": {
+        "name": "g_flash_mon_snd",
+        "addr": 609556
+      },
+      "0x94d18": {
+        "name": "g_flash_mon_rcv",
+        "addr": 609560
+      },
+      "0x94d1c": {
+        "name": "g_flash_state_sem",
+        "addr": 609564
+      },
+      "0x94d20": {
+        "name": "g_smif_init_flags",
+        "addr": 609568
+      },
+      "0x94d5c": {
+        "name": "g_smif_iterations",
+        "addr": 609628
+      },
+      "0x94fe0": {
+        "name": "g_smif_daemon_recent_rxid",
+        "addr": 610272
+      },
+      "0x94fe8": {
+        "name": "g_smif_daemon_recent_txid",
+        "addr": 610280
+      },
+      "0x95bcc": {
+        "name": "g_gen_mon_snd",
+        "addr": 613324
+      },
+      "0x95bd0": {
+        "name": "g_gen_mon_rcv",
+        "addr": 613328
+      },
+      "0x95bf0": {
+        "name": "g_WHEA_HwAddr",
+        "addr": 613360
+      },
+      "0x95bf8": {
+        "name": "g_WHEA_record",
+        "addr": 613368
+      },
+      "0x95da8": {
+        "name": "g_BB_by_CHIF_service_ID",
+        "addr": 613800
+      },
+      "0x95df8": {
+        "name": "g_chif_bb_q",
+        "addr": 613880
+      },
+      "0x95e08": {
+        "name": "g_sem_008c_run",
+        "addr": 613896
+      },
+      "0x95e0c": {
+        "name": "g_sem_008c_data",
+        "addr": 613900
+      },
+      "0x95f4c": {
+        "name": "g_has_initialized_memmap",
+        "addr": 614220
+      },
+      "0x95f50": {
+        "name": "g_physaddr_for_memory_kind",
+        "addr": 614224
+      },
+      "0x98bae": {
+        "name": "g_sawbase_iop_GromitHwGetRecvBuffer_memcpy_errorcount",
+        "addr": 625582
+      },
+      "0x9b5a4": {
+        "name": "g_pTask_chif_handler",
+        "addr": 636324
+      },
+      "0x9b5b4": {
+        "name": "g_sawbase_error_message",
+        "addr": 636340
+      },
+      "0x9b6b4": {
+        "name": "gVAS_number_of_exceptions",
+        "addr": 636596
+      },
+      "0x9b6c0": {
+        "name": "g_sawbase_semaphore",
+        "addr": 636608
+      },
+      "0x9b6c4": {
+        "name": "g_smif_daemon_state",
+        "addr": 636612
+      },
+      "0x9b6c8": {
+        "name": "g_smif_bb_daemon_state",
+        "addr": 636616
+      },
+      "0x9b6cc": {
+        "name": "g_smif_async_q",
+        "addr": 636620
+      },
+      "0x9b77c": {
+        "name": "g_WHEA_hwAddr_WHE_signature",
+        "addr": 636796
+      },
+      "0x9b79c": {
+        "name": "g_whea_start_sram",
+        "addr": 636828
+      },
+      "0x9b7a0": {
+        "name": "g_whea_end_sram",
+        "addr": 636832
+      },
+      "0xd8ac8": {
+        "name": "g_unk_aligned_mem_startAddr",
+        "addr": 887496
+      },
+      "0xe7524": {
+        "name": "gTask_AspaceErrorHandler",
+        "addr": 947492
+      }
+    }
+  }
+}

@@ -1,0 +1,310 @@
+{
+  "elfsect": {
+    "name": ".webserv.elf.data",
+    "sha256": "f1e92c902ac7b7a3417957d2e32c10d74f31acfa89a2ab560cd054d5d54e9245",
+    "sha256.text": "f26bd45ba77b33687b1f8e2aa07b339f92320fa89877e8c0e55e58abe8c12c0e",
+    "baseaddr": 2932736,
+    "size": 1159168,
+    "symbols": {
+      "0x2cc024": {
+        "name": "a_webserv",
+        "addr": 2932772,
+        "size": 8,
+        "type": "str",
+        "str_content": "webserv"
+      },
+      "0x2cc070": {
+        "name": "g_arg_for_wslogging",
+        "addr": 2932848
+      },
+      "0x2cc074": {
+        "name": "a_File_upload_already_in_progress",
+        "addr": 2932852,
+        "size": 32,
+        "type": "str",
+        "str_content": "File upload already in progress"
+      },
+      "0x2cc094": {
+        "name": "a_File_upload_failed",
+        "addr": 2932884,
+        "size": 19,
+        "type": "str",
+        "str_content": "File upload failed"
+      },
+      "0x2cc0b0": {
+        "name": "a_index_html",
+        "addr": 2932912,
+        "size": 12,
+        "type": "str",
+        "str_content": "/index.html"
+      },
+      "0x2cc0bc": {
+        "name": "a_Context_1",
+        "addr": 2932924,
+        "size": 10,
+        "type": "str",
+        "str_content": "Context 1"
+      },
+      "0x2cc104": {
+        "name": "g_dwFlashBinarySize",
+        "addr": 2932996
+      },
+      "0x2cc11c": {
+        "name": "a_Webserver_URLs",
+        "addr": 2933020,
+        "size": 15,
+        "type": "str",
+        "str_content": "Webserver URLs"
+      },
+      "0x2cc17c": {
+        "name": "a_Webserver_Clients",
+        "addr": 2933116,
+        "size": 18,
+        "type": "str",
+        "str_content": "Webserver Clients"
+      },
+      "0x2cc1dc": {
+        "name": "a_Webserver_responses",
+        "addr": 2933212,
+        "size": 20,
+        "type": "str",
+        "str_content": "Webserver responses"
+      },
+      "0x2cc23c": {
+        "name": "a_Webserver_Statistics",
+        "addr": 2933308,
+        "size": 21,
+        "type": "str",
+        "str_content": "Webserver Statistics"
+      },
+      "0x2cc344": {
+        "name": "a_bb_dl_disabled",
+        "addr": 2933572,
+        "size": 15,
+        "type": "str",
+        "str_content": "bb_dl_disabled"
+      },
+      "0x2cc354": {
+        "name": "a_Invalid_date_range",
+        "addr": 2933588,
+        "size": 19,
+        "type": "str",
+        "str_content": "Invalid date range"
+      },
+      "0x2cc368": {
+        "name": "a_Bad_internal_parameter",
+        "addr": 2933608,
+        "size": 23,
+        "type": "str",
+        "str_content": "Bad internal parameter"
+      },
+      "0x2cc380": {
+        "name": "a_Feature_not_supported_in_this_version_of_iLO",
+        "addr": 2933632,
+        "size": 45,
+        "type": "str",
+        "str_content": "Feature not supported in this version of iLO"
+      },
+      "0x2cc3b0": {
+        "name": "a_Invalid_URI_format_Proper_URI_format_http_iloname_",
+        "addr": 2933680,
+        "size": 133,
+        "type": "str",
+        "str_content": "Invalid URI format.\nProper URI format : http://iloname.example.net/ahsdata/HP_xxxxxxxxxx_20140821.ahs?from=YYYY-MM-DD&&to=YYYY-MM-DD"
+      },
+      "0x2cc438": {
+        "name": "a_Requires_iLO_authorization",
+        "addr": 2933816,
+        "size": 27,
+        "type": "str",
+        "str_content": "Requires iLO authorization"
+      },
+      "0x2cc460": {
+        "name": "a_keytab_upload_failure",
+        "addr": 2933856,
+        "size": 22,
+        "type": "str",
+        "str_content": "keytab_upload_failure"
+      },
+      "0x2cc478": {
+        "name": "gdwNumFlashStatusObjects",
+        "addr": 2933880
+      },
+      "0x2cc47c": {
+        "name": "gJsonObjects_FlashStatus",
+        "addr": 2933884
+      },
+      "0x2cc8b4": {
+        "name": "gszHtmlFormWithSessionKeyAndFile",
+        "addr": 2934964
+      },
+      "0x2cc998": {
+        "name": "a_v1_redfish_v1",
+        "addr": 2935192,
+        "size": 23,
+        "type": "str",
+        "str_content": "{\"v1\": \"/redfish/v1/\"}"
+      },
+      "0x2cc9b4": {
+        "name": "g_szHtmlProtectedObjectErrorPage",
+        "addr": 2935220
+      },
+      "0x2cca74": {
+        "name": "gJsonVariables",
+        "addr": 2935412
+      },
+      "0x2ccb94": {
+        "name": "a_session",
+        "addr": 2935700,
+        "size": 8,
+        "type": "str",
+        "str_content": "session"
+      },
+      "0x2cd16c": {
+        "name": "a_j_vol0",
+        "addr": 2937196,
+        "size": 8,
+        "type": "str",
+        "str_content": "j:/vol0"
+      },
+      "0x2cd1ac": {
+        "name": "a_INTEGRITY",
+        "addr": 2937260,
+        "size": 10,
+        "type": "str",
+        "str_content": "INTEGRITY"
+      },
+      "0x2cd1b8": {
+        "name": "a_kernel",
+        "addr": 2937272,
+        "size": 7,
+        "type": "str",
+        "str_content": "kernel"
+      },
+      "0x2cd570": {
+        "name": "aQ_0",
+        "addr": 2938224
+      },
+      "0x2cd588": {
+        "name": "g_logincfg_semaphore",
+        "addr": 2938248
+      },
+      "0x2cd5ac": {
+        "name": "g_webserv_certgen_sem",
+        "addr": 2938284
+      },
+      "0x2cd5b0": {
+        "name": "g_webserv_certgen_task",
+        "addr": 2938288
+      },
+      "0x2cd5b4": {
+        "name": "g_szErrorMessages",
+        "addr": 2938292
+      },
+      "0x2cd6b8": {
+        "name": "g_file_related_mutex",
+        "addr": 2938552
+      },
+      "0x2cdb2c": {
+        "name": "g_strings",
+        "addr": 2939692
+      },
+      "0x2cdce4": {
+        "name": "g_szSomething",
+        "addr": 2940132
+      },
+      "0x2e9b14": {
+        "name": "gBinarySemaphore__for_blackbox",
+        "addr": 3054356
+      },
+      "0x2ecbfa": {
+        "name": "g_recorded_urls_char64",
+        "addr": 3066874
+      },
+      "0x2eeaea": {
+        "name": "g_recorded_user_agents_char128",
+        "addr": 3074794
+      },
+      "0x2f11d8": {
+        "name": "gResources",
+        "addr": 3084760
+      },
+      "0x2f15d0": {
+        "name": "g_WebServ_Listener_task",
+        "addr": 3085776
+      },
+      "0x2f15d4": {
+        "name": "g_WebServ_AHS_Recorder_task",
+        "addr": 3085780
+      },
+      "0x2f1930": {
+        "name": "g_pWebServer",
+        "addr": 3086640
+      },
+      "0x359934": {
+        "name": "g_https_reqbuffers",
+        "addr": 3512628
+      },
+      "0x378588": {
+        "name": "gHttpParams_mutex",
+        "addr": 3638664
+      },
+      "0x37858c": {
+        "name": "g_tlsindex_httpParams",
+        "addr": 3638668
+      },
+      "0x37865c": {
+        "name": "g_isSSL_initialized",
+        "addr": 3638876
+      },
+      "0x3789c4": {
+        "name": "g_szSessionKey",
+        "addr": 3639748
+      },
+      "0x3cb3e0": {
+        "name": "gdw_json_login_oem_prop_mode",
+        "addr": 3978208
+      },
+      "0x3cb3e4": {
+        "name": "gdw_json_login_oem_prop_level",
+        "addr": 3978212
+      },
+      "0x3cb3e8": {
+        "name": "gdw_json_login_oem_prop_licmode",
+        "addr": 3978216
+      },
+      "0x3cb3f8": {
+        "name": "g_sz_clist_files_to_download",
+        "addr": 3978232
+      },
+      "0x3cb3fc": {
+        "name": "g_szArray_blackbox_data_clist_pkg",
+        "addr": 3978236
+      },
+      "0x3de6ec": {
+        "name": "g_data_assciated_with_session",
+        "addr": 4056812
+      },
+      "0x3dea0c": {
+        "name": "g_sem_for_password_checking_and_session",
+        "addr": 4057612
+      },
+      "0x3dea10": {
+        "name": "g_session_request_buf_for_secmgr_service",
+        "addr": 4057616
+      },
+      "0x3e2a58": {
+        "name": "g_session_response_buffer",
+        "addr": 4074072
+      },
+      "0x3e31b0": {
+        "name": "g_szSessionKey_0",
+        "addr": 4075952
+      },
+      "0x3e31d4": {
+        "name": "gSem_SVCSILO_CLNT_SEM",
+        "addr": 4075988
+      }
+    }
+  }
+}

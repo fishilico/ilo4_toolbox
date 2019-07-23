@@ -1,0 +1,520 @@
+{
+  "elfsect": {
+    "name": ".spi.elf.text",
+    "sha256": "f1094c38c6541fcb287a7767c11a2fe5b719b208edc5b9756fb3c4910ea407ee",
+    "sha256.text": "f1094c38c6541fcb287a7767c11a2fe5b719b208edc5b9756fb3c4910ea407ee",
+    "baseaddr": 65536,
+    "size": 16384,
+    "symbols": {
+      "0x10070": {
+        "name": "SPIbus_set_message_size",
+        "addr": 65648
+      },
+      "0x100a0": {
+        "name": "init_spi_service",
+        "addr": 65696
+      },
+      "0x100dc": {
+        "name": "map_SPI_physreg",
+        "addr": 65756
+      },
+      "0x10100": {
+        "name": "select_MRC000_reg",
+        "addr": 65792
+      },
+      "0x10154": {
+        "name": "SPIbus_cmd0_1_process_spicmd",
+        "addr": 65876
+      },
+      "0x101fc": {
+        "name": "SPIbus_cmd2_process_spicmd_1_and_2",
+        "addr": 66044
+      },
+      "0x10280": {
+        "name": "SPISRV_handle_request_which_reads_data",
+        "addr": 66176
+      },
+      "0x103b0": {
+        "name": "a_SPI_service_error_Service_not_running",
+        "addr": 66480,
+        "size": 40,
+        "type": "str",
+        "str_content": "SPI service error: Service not running!"
+      },
+      "0x103d8": {
+        "name": "a_SPI_service_error_d_Initialization_of_driver_faile",
+        "addr": 66520,
+        "size": 56,
+        "type": "str",
+        "str_content": "SPI service error(%d): Initialization of driver failed!"
+      },
+      "0x10420": {
+        "name": "SPISRV_handle_request_which_writes_data",
+        "addr": 66592
+      },
+      "0x1054c": {
+        "name": "SPISRV_handle_request_which_does_not_have_data",
+        "addr": 66892
+      },
+      "0x10590": {
+        "name": "SPIbus_reset",
+        "addr": 66960
+      },
+      "0x105f0": {
+        "name": "SPI_wait_for_not_busy",
+        "addr": 67056
+      },
+      "0x10644": {
+        "name": "SPIbus_wait_for_write_done",
+        "addr": 67140
+      },
+      "0x10700": {
+        "name": "SPIbus_wait_for_write_done_",
+        "addr": 67328
+      },
+      "0x107b8": {
+        "name": "SPIbus_cmd6_WriteEnable",
+        "addr": 67512
+      },
+      "0x10824": {
+        "name": "SPIbus_set_field0_shift11",
+        "addr": 67620
+      },
+      "0x10850": {
+        "name": "SPIbus_set_field0_shif16_according_to_spicmd",
+        "addr": 67664
+      },
+      "0x108ac": {
+        "name": "SPIbus_set_field0_shift1",
+        "addr": 67756
+      },
+      "0x108e4": {
+        "name": "SPIbus_set_field0_shift14",
+        "addr": 67812
+      },
+      "0x10918": {
+        "name": "SpiService_main_handler",
+        "addr": 67864
+      },
+      "0x109d0": {
+        "name": "start_SpiService",
+        "addr": 68048
+      },
+      "0x10a04": {
+        "name": "a_spi_FATAL_EXCEPTION___Bad_parameter_s",
+        "addr": 68100,
+        "size": 42,
+        "type": "str",
+        "str_content": "spi: FATAL EXCEPTION - Bad parameter(s).\n"
+      },
+      "0x10a30": {
+        "name": "a_spi_FATAL_EXCEPTION___unsupported_command_group",
+        "addr": 68144,
+        "size": 51,
+        "type": "str",
+        "str_content": "spi: FATAL EXCEPTION - unsupported command group.\n"
+      },
+      "0x10a68": {
+        "name": "a_spi_service_error_d_is_unsupported_command_code",
+        "addr": 68200,
+        "size": 52,
+        "type": "str",
+        "str_content": "spi_service_error: %d is unsupported command code.\n"
+      },
+      "0x10aa0": {
+        "name": "a_spi_service_error_d_s",
+        "addr": 68256,
+        "size": 26,
+        "type": "str",
+        "str_content": "spi_service_error: %d %s\n"
+      },
+      "0x10ac0": {
+        "name": "a_SpiService",
+        "addr": 68288,
+        "size": 11,
+        "type": "str",
+        "str_content": "SpiService"
+      },
+      "0x10acc": {
+        "name": "a_SPI_service_did_not_start_d",
+        "addr": 68300,
+        "size": 31,
+        "type": "str",
+        "str_content": "SPI service did not start %d!\n"
+      },
+      "0x10d64": {
+        "name": "a_systempassword",
+        "addr": 68964,
+        "size": 16,
+        "type": "str",
+        "str_content": "!systempassword"
+      },
+      "0x10ed0": {
+        "name": "a_inmemtm",
+        "addr": 69328,
+        "size": 8,
+        "type": "str",
+        "str_content": "inmemtm"
+      },
+      "0x10ee4": {
+        "name": "a_In_Memory_TimeMachine_Error_Unable_to_MapMemory_wi",
+        "addr": 69348,
+        "size": 63,
+        "type": "str",
+        "str_content": "In-Memory TimeMachine Error: Unable to MapMemory() with Error "
+      },
+      "0x10f24": {
+        "name": "a_In_Memory_TimeMachine_Error_Resource_Manager_is_no",
+        "addr": 69412,
+        "size": 103,
+        "type": "str",
+        "str_content": "In-Memory TimeMachine Error: Resource Manager is not Available\n  and no .inmemtm section was provided\n"
+      },
+      "0x10f8c": {
+        "name": "a_In_Memory_TimeMachine_Error_Could_not_access_inmem",
+        "addr": 69516,
+        "size": 133,
+        "type": "str",
+        "str_content": "In-Memory TimeMachine Error: Could not access \"inmemtm\" MemoryRegion\n  in the Resource Manager and no .inmemtm section was provided\n"
+      },
+      "0x11014": {
+        "name": "a_In_Memory_TimeMachine_Error_Resource_Manager_Error",
+        "addr": 69652,
+        "size": 54,
+        "type": "str",
+        "str_content": "In-Memory TimeMachine Error: Resource Manager Error: "
+      },
+      "0x1104c": {
+        "name": "a_InMemTMIODevice",
+        "addr": 69708,
+        "size": 16,
+        "type": "str",
+        "str_content": "InMemTMIODevice"
+      },
+      "0x11068": {
+        "name": "a_In_Memory_TimeMachine_Warning_WriteIODeviceRegiste",
+        "addr": 69736,
+        "size": 63,
+        "type": "str",
+        "str_content": "In-Memory TimeMachine Warning: WriteIODeviceRegister() Error:\n"
+      },
+      "0x110ac": {
+        "name": "a_In_Memory_TimeMachine_Warning_Resource_Manager_is_",
+        "addr": 69804,
+        "size": 67,
+        "type": "str",
+        "str_content": "In-Memory TimeMachine Warning: Resource Manager is not Available.\n"
+      },
+      "0x110f0": {
+        "name": "a_In_Memory_TimeMachine_Warning_Could_not_access_IOD",
+        "addr": 69872,
+        "size": 107,
+        "type": "str",
+        "str_content": "In-Memory TimeMachine Warning: Could not access IODevice.\n  Has libinmemtm.a been linked into the kernel?\n"
+      },
+      "0x113f4": {
+        "name": "a_In_Memory_TimeMachine_Warning_Resource_Manager_Err",
+        "addr": 70644,
+        "size": 56,
+        "type": "str",
+        "str_content": "In-Memory TimeMachine Warning: Resource Manager Error: "
+      },
+      "0x1142c": {
+        "name": "a_Unable_to_register_critical_section_with_the_kerne",
+        "addr": 70700,
+        "size": 108,
+        "type": "str",
+        "str_content": "  Unable to register critical section with the kernel.\n  Trace of a multi-threaded system may be affected.\n"
+      },
+      "0x114bc": {
+        "name": "a_AddToMemoryPool_failed_with_error",
+        "addr": 70844,
+        "size": 35,
+        "type": "str",
+        "str_content": "AddToMemoryPool failed with error="
+      },
+      "0x11674": {
+        "name": "a_AddToMemoryPool_failed",
+        "addr": 71284,
+        "size": 25,
+        "type": "str",
+        "str_content": "AddToMemoryPool failed.\n"
+      },
+      "0x11690": {
+        "name": "a_InitializeMemoryPool_failed",
+        "addr": 71312,
+        "size": 30,
+        "type": "str",
+        "str_content": "InitializeMemoryPool failed.\n"
+      },
+      "0x116b0": {
+        "name": "a_InitializeMemoryPool_failed_with_error",
+        "addr": 71344,
+        "size": 40,
+        "type": "str",
+        "str_content": "InitializeMemoryPool failed with error="
+      },
+      "0x116fc": {
+        "name": "a_d_not_enable_posix_shm",
+        "addr": 71420,
+        "size": 25,
+        "type": "str",
+        "str_content": "d not enable posix_shm.\n"
+      },
+      "0x11718": {
+        "name": "a_d_not_enable_posix_shm_error",
+        "addr": 71448,
+        "size": 31,
+        "type": "str",
+        "str_content": "d not enable posix_shm, error="
+      },
+      "0x11738": {
+        "name": "a_d_not_enable_libsocket",
+        "addr": 71480,
+        "size": 25,
+        "type": "str",
+        "str_content": "d not enable libsocket.\n"
+      },
+      "0x11754": {
+        "name": "a_d_not_enable_libsocket_error",
+        "addr": 71508,
+        "size": 31,
+        "type": "str",
+        "str_content": "d not enable libsocket, error="
+      },
+      "0x119b8": {
+        "name": "jpt_119B4",
+        "addr": 72120
+      },
+      "0x11a94": {
+        "name": "def_119B4",
+        "addr": 72340
+      },
+      "0x11e04": {
+        "name": "a_noname",
+        "addr": 73220,
+        "size": 7,
+        "type": "str",
+        "str_content": "noname"
+      },
+      "0x120b8": {
+        "name": "init_map_selected_memregions",
+        "addr": 73912
+      },
+      "0x12278": {
+        "name": "a_memmap_init_GetMemoryRegionAddress_d_error_d",
+        "addr": 74360,
+        "size": 49,
+        "type": "str",
+        "str_content": "memmap_init: GetMemoryRegionAddress %d error %d\n"
+      },
+      "0x122b4": {
+        "name": "a_MR_X",
+        "addr": 74420,
+        "size": 5,
+        "type": "str",
+        "str_content": "MR%X"
+      },
+      "0x122bc": {
+        "name": "a_memmap_no_virtual_page_for_s",
+        "addr": 74428,
+        "size": 32,
+        "type": "str",
+        "str_content": "memmap: no virtual page for %s\n"
+      },
+      "0x122e0": {
+        "name": "a_systempassword",
+        "addr": 74464,
+        "size": 16,
+        "type": "str",
+        "str_content": "!systempassword"
+      },
+      "0x122f0": {
+        "name": "a_memmap_did_not_find_s_error_d",
+        "addr": 74480,
+        "size": 35,
+        "type": "str",
+        "str_content": "memmap: did not find %s, error %d\n"
+      },
+      "0x12314": {
+        "name": "a_memmap_GetMemoryRegionAttributes_s_error_d",
+        "addr": 74516,
+        "size": 47,
+        "type": "str",
+        "str_content": "memmap: GetMemoryRegionAttributes %s error %d\n"
+      },
+      "0x12344": {
+        "name": "a_memmap_unmap_s_error_d",
+        "addr": 74564,
+        "size": 27,
+        "type": "str",
+        "str_content": "memmap: unmap %s error %d\n"
+      },
+      "0x12360": {
+        "name": "a_memmap_SetMemoryRegionAttributes_s_error_d",
+        "addr": 74592,
+        "size": 47,
+        "type": "str",
+        "str_content": "memmap: SetMemoryRegionAttributes %s error %d\n"
+      },
+      "0x12390": {
+        "name": "a_memmap_map_s_error_d",
+        "addr": 74640,
+        "size": 25,
+        "type": "str",
+        "str_content": "memmap: map %s error %d\n"
+      },
+      "0x1282c": {
+        "name": "a_0123456789ABCDEF",
+        "addr": 75820,
+        "size": 17,
+        "type": "str",
+        "str_content": "0123456789ABCDEF"
+      },
+      "0x12840": {
+        "name": "a_asa_recv",
+        "addr": 75840,
+        "size": 9,
+        "type": "str",
+        "str_content": "asa recv"
+      },
+      "0x1284c": {
+        "name": "a_Failed_to_wait_for_OSA_semaphore_OSA_disabled",
+        "addr": 75852,
+        "size": 49,
+        "type": "str",
+        "str_content": "Failed to wait for OSA semaphore.  OSA disabled."
+      },
+      "0x12880": {
+        "name": "a_Failed_to_bootstrap_AddressSpace_OSA_agent",
+        "addr": 75904,
+        "size": 43,
+        "type": "str",
+        "str_content": "Failed to bootstrap AddressSpace OSA agent"
+      },
+      "0x128b8": {
+        "name": "a_Unrecognized_OSA_command",
+        "addr": 75960,
+        "size": 27,
+        "type": "str",
+        "str_content": "Unrecognized OSA command: "
+      },
+      "0x128e0": {
+        "name": "a_OSAAgent",
+        "addr": 76000,
+        "size": 9,
+        "type": "str",
+        "str_content": "OSAAgent"
+      },
+      "0x12c38": {
+        "name": "a_Parse_error_premature_end_of_input_string",
+        "addr": 76856,
+        "size": 43,
+        "type": "str",
+        "str_content": "Parse error: premature end of input string"
+      },
+      "0x12c64": {
+        "name": "a_Parse_error_starting_at",
+        "addr": 76900,
+        "size": 26,
+        "type": "str",
+        "str_content": "Parse error starting at: "
+      },
+      "0x12c80": {
+        "name": "a_Usage_create_task_task_name_entry_point_stackSize_",
+        "addr": 76928,
+        "size": 85,
+        "type": "str",
+        "str_content": "Usage: create task \"<task name>\" <entry point> [<stackSize>] [<priority>] [<weight>]"
+      },
+      "0x12cd8": {
+        "name": "a_Usage_close_task_object_number",
+        "addr": 77016,
+        "size": 34,
+        "type": "str",
+        "str_content": "Usage: close task <object number>"
+      },
+      "0x13128": {
+        "name": "a___args_",
+        "addr": 78120,
+        "size": 8,
+        "type": "str",
+        "str_content": "__args_"
+      },
+      "0x13130": {
+        "name": "a___env_",
+        "addr": 78128,
+        "size": 7,
+        "type": "str",
+        "str_content": "__env_"
+      },
+      "0x13138": {
+        "name": "a_arguments",
+        "addr": 78136,
+        "size": 10,
+        "type": "str",
+        "str_content": "arguments"
+      },
+      "0x1344c": {
+        "name": "g_spiErrorCodes",
+        "addr": 78924
+      },
+      "0x1346c": {
+        "name": "a_SPI_command_successful",
+        "addr": 78956,
+        "size": 23,
+        "type": "str",
+        "str_content": "SPI command successful"
+      },
+      "0x13484": {
+        "name": "a_SPI_command_failed",
+        "addr": 78980,
+        "size": 19,
+        "type": "str",
+        "str_content": "SPI command failed"
+      },
+      "0x13498": {
+        "name": "a_Invalid_SPI_command",
+        "addr": 79000,
+        "size": 20,
+        "type": "str",
+        "str_content": "Invalid SPI command"
+      },
+      "0x134ac": {
+        "name": "a_Invalid_SPI_command_mode",
+        "addr": 79020,
+        "size": 25,
+        "type": "str",
+        "str_content": "Invalid SPI command mode"
+      },
+      "0x134c8": {
+        "name": "a_Invalid_SPI_command_group",
+        "addr": 79048,
+        "size": 26,
+        "type": "str",
+        "str_content": "Invalid SPI command group"
+      },
+      "0x134e4": {
+        "name": "a_Invalid_SPI_command_parameter",
+        "addr": 79076,
+        "size": 30,
+        "type": "str",
+        "str_content": "Invalid SPI command parameter"
+      },
+      "0x13504": {
+        "name": "a_Poll_timeout_waiting_for_SPI_write_in_process",
+        "addr": 79108,
+        "size": 46,
+        "type": "str",
+        "str_content": "Poll timeout waiting for SPI write in process"
+      },
+      "0x13534": {
+        "name": "a_Poll_timeout_waiting_for_GXE_SPICTRL_BUSY",
+        "addr": 79156,
+        "size": 42,
+        "type": "str",
+        "str_content": "Poll timeout waiting for GXE SPICTRL BUSY"
+      }
+    }
+  }
+}

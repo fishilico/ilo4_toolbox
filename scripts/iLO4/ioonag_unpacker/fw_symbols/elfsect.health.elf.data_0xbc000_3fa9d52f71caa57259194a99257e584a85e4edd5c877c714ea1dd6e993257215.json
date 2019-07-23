@@ -1,0 +1,125 @@
+{
+  "elfsect": {
+    "name": ".health.elf.data",
+    "sha256.text": "3fa9d52f71caa57259194a99257e584a85e4edd5c877c714ea1dd6e993257215",
+    "baseaddr": 770048,
+    "size": 589824,
+    "symbols": {
+      "0xbc00c": {
+        "name": "g_ppszSensorStates",
+        "addr": 770060
+      },
+      "0xbd2fc": {
+        "name": "g_ppszSensorNames",
+        "addr": 774908
+      },
+      "0xbd350": {
+        "name": "g_paPatch",
+        "addr": 774992
+      },
+      "0xbd354": {
+        "name": "g_paReplace",
+        "addr": 774996
+      },
+      "0xbd358": {
+        "name": "g_paEot",
+        "addr": 775000
+      },
+      "0xbd35c": {
+        "name": "g_paUnk",
+        "addr": 775004
+      },
+      "0xbd3b0": {
+        "name": "a_health",
+        "addr": 775088,
+        "size": 7,
+        "type": "str",
+        "str_content": "health"
+      },
+      "0xbd91c": {
+        "name": "platdef_access_sem_health_service",
+        "addr": 776476
+      },
+      "0xbd934": {
+        "name": "g_platdef_access_sem_health",
+        "addr": 776500
+      },
+      "0xbd978": {
+        "name": "g_devices_states",
+        "addr": 776568
+      },
+      "0xbdad8": {
+        "name": "eh_ipmi_sramPhys",
+        "addr": 776920
+      },
+      "0xbdadc": {
+        "name": "eh_ipmi_sramMemoryRegion",
+        "addr": 776924
+      },
+      "0xbe530": {
+        "name": "pt_access_sem",
+        "addr": 779568
+      },
+      "0xbe538": {
+        "name": "g_bb_task",
+        "addr": 779576
+      },
+      "0xdbadb": {
+        "name": "g_gpio_bytes",
+        "addr": 899803
+      },
+      "0xdbae3": {
+        "name": "g_gpio_bytes__oldvalues",
+        "addr": 899811
+      },
+      "0xdbaeb": {
+        "name": "g_gpio_bytes__curvalues",
+        "addr": 899819
+      },
+      "0xdbaf3": {
+        "name": "g_gpio_bytes__changedvalues",
+        "addr": 899827
+      },
+      "0x10af2c": {
+        "name": "g_health_state",
+        "addr": 1093420
+      },
+      "0x10ba3c": {
+        "name": "g_health_sensor_states",
+        "addr": 1096252
+      },
+      "0x115c70": {
+        "name": "eh_ipmi_end_sram",
+        "addr": 1137776
+      },
+      "0x115c74": {
+        "name": "eh_ipmi_start_sram",
+        "addr": 1137780
+      },
+      "0x118730": {
+        "name": "g_byOCSD_Data_Collection_Status",
+        "addr": 1148720
+      },
+      "0x119850": {
+        "name": "g_drvtemp_OSCD_header",
+        "addr": 1153104
+      },
+      "0x119900": {
+        "name": "g_SMBIOS229_entry_for_OCSD",
+        "addr": 1153280
+      },
+      "0x119924": {
+        "name": "g_sz_OCSD_status_string",
+        "addr": 1153316
+      },
+      "0x14a9ac": {
+        "name": "g_SAWBASE_sem",
+        "addr": 1354156
+      },
+      "0x14a9b0": {
+        "name": "g_SAWBASE_SAW1_high_byte",
+        "addr": 1354160
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "elfsect": {
+    "name": ".spi.elf.data",
+    "sha256": "84051113b0682dfb7c30e87c98e3c3a4ac2c1b592f945c6359a114cf3d2807c8",
+    "sha256.text": "f1094c38c6541fcb287a7767c11a2fe5b719b208edc5b9756fb3c4910ea407ee",
+    "baseaddr": 81920,
+    "size": 4096,
+    "symbols": {
+      "0x14024": {
+        "name": "a_spi",
+        "addr": 81956,
+        "size": 4,
+        "type": "str",
+        "str_content": "spi"
+      },
+      "0x142fc": {
+        "name": "g_current_SPI_bus",
+        "addr": 82684
+      }
+    }
+  }
+}

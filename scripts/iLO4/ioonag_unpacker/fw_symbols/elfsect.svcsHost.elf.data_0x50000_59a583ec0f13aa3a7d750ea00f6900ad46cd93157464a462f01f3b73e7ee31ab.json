@@ -1,0 +1,83 @@
+{
+  "elfsect": {
+    "name": ".svcsHost.elf.data",
+    "sha256.text": "59a583ec0f13aa3a7d750ea00f6900ad46cd93157464a462f01f3b73e7ee31ab",
+    "baseaddr": 327680,
+    "size": 28672,
+    "symbols": {
+      "0x50034": {
+        "name": "a_svcsHost_Information",
+        "addr": 327732,
+        "size": 21,
+        "type": "str",
+        "str_content": "svcsHost Information"
+      },
+      "0x501ac": {
+        "name": "a_svcsHost",
+        "addr": 328108,
+        "size": 9,
+        "type": "str",
+        "str_content": "svcsHost"
+      },
+      "0x50470": {
+        "name": "a_j_vol0",
+        "addr": 328816,
+        "size": 8,
+        "type": "str",
+        "str_content": "j:/vol0"
+      },
+      "0x5067c": {
+        "name": "g_szPlatformID",
+        "addr": 329340
+      },
+      "0x50710": {
+        "name": "g_sem_for_EVs",
+        "addr": 329488
+      },
+      "0x5072c": {
+        "name": "g_byCPLD_old_bit",
+        "addr": 329516
+      },
+      "0x5072d": {
+        "name": "g_byCPLD_bit",
+        "addr": 329517
+      },
+      "0x52c0c": {
+        "name": "g_wPlatformId",
+        "addr": 338956
+      },
+      "0x548a4": {
+        "name": "sramMemoryRegion",
+        "addr": 346276
+      },
+      "0x548a8": {
+        "name": "sramPhys",
+        "addr": 346280
+      },
+      "0x548b4": {
+        "name": "g_EV_POST_indicator_offset_in_sram",
+        "addr": 346292
+      },
+      "0x548b8": {
+        "name": "g_p_start_SRAM",
+        "addr": 346296
+      },
+      "0x548bc": {
+        "name": "startSram",
+        "addr": 346300
+      },
+      "0x548c0": {
+        "name": "endSram",
+        "addr": 346304
+      },
+      "0x548d0": {
+        "name": "g_dwCPLD_bit",
+        "addr": 346320
+      },
+      "0x55ff0": {
+        "name": "g_Res_TM_SVC",
+        "addr": 352240
+      }
+    }
+  }
+}

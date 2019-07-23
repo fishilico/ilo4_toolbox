@@ -1,0 +1,3722 @@
+{
+  "elfsect": {
+    "name": ".stackvas.elf.text",
+    "sha256": "d16f072083deeaf091b79083c5a22cd2cc83491d159bd4941c361a1dc0546944",
+    "sha256.text": "d16f072083deeaf091b79083c5a22cd2cc83491d159bd4941c361a1dc0546944",
+    "baseaddr": 65536,
+    "size": 139264,
+    "symbols": {
+      "0x1010c": {
+        "name": "netcfg_read",
+        "addr": 65804
+      },
+      "0x102b8": {
+        "name": "nwservice_netcfg_write",
+        "addr": 66232
+      },
+      "0x1036c": {
+        "name": "a_bb_code_set_returns_d_bb_code_d",
+        "addr": 66412,
+        "size": 38,
+        "type": "str",
+        "str_content": "bb_code_set returns %d, bb_code = %d\n"
+      },
+      "0x10394": {
+        "name": "a_stackvas",
+        "addr": 66452,
+        "size": 9,
+        "type": "str",
+        "str_content": "stackvas"
+      },
+      "0x103a0": {
+        "name": "a_bb_log_returns_d",
+        "addr": 66464,
+        "size": 19,
+        "type": "str",
+        "str_content": "bb_log returns %d\n"
+      },
+      "0x103b4": {
+        "name": "a_bb_flush_request_returns_d",
+        "addr": 66484,
+        "size": 29,
+        "type": "str",
+        "str_content": "bb_flush_request returns %d\n"
+      },
+      "0x103d8": {
+        "name": "a_src_nwService_c",
+        "addr": 66520,
+        "size": 16,
+        "type": "str",
+        "str_content": "src\\nwService.c"
+      },
+      "0x103e8": {
+        "name": "a_cfg",
+        "addr": 66536,
+        "size": 4,
+        "type": "str",
+        "str_content": "cfg"
+      },
+      "0x103f4": {
+        "name": "a_nwservice_netcfg_read_error_d",
+        "addr": 66548,
+        "size": 33,
+        "type": "str",
+        "str_content": "nwservice: netcfg_read error %d\n"
+      },
+      "0x10418": {
+        "name": "a_Dedicated",
+        "addr": 66584,
+        "size": 10,
+        "type": "str",
+        "str_content": "Dedicated"
+      },
+      "0x10424": {
+        "name": "a_Shared",
+        "addr": 66596,
+        "size": 7,
+        "type": "str",
+        "str_content": "Shared"
+      },
+      "0x1042c": {
+        "name": "a_None",
+        "addr": 66604,
+        "size": 5,
+        "type": "str",
+        "str_content": "None"
+      },
+      "0x10434": {
+        "name": "a_LOM",
+        "addr": 66612,
+        "size": 4,
+        "type": "str",
+        "str_content": "LOM"
+      },
+      "0x10438": {
+        "name": "a_FlexibleLOM",
+        "addr": 66616,
+        "size": 12,
+        "type": "str",
+        "str_content": "FlexibleLOM"
+      },
+      "0x10444": {
+        "name": "a_Interface_s_SharedNIC_s_SharedPort_d",
+        "addr": 66628,
+        "size": 48,
+        "type": "str",
+        "str_content": "Interface = %s, SharedNIC = %s, SharedPort = %d"
+      },
+      "0x1087c": {
+        "name": "a_nwservice_netcfg_write_error_d",
+        "addr": 67708,
+        "size": 33,
+        "type": "str",
+        "str_content": "nwservice_netcfg_write error %d\n"
+      },
+      "0x108a8": {
+        "name": "a_Network_config_modified_s",
+        "addr": 67752,
+        "size": 28,
+        "type": "str",
+        "str_content": "Network config modified. %s"
+      },
+      "0x108c8": {
+        "name": "a_nw_cfg",
+        "addr": 67784,
+        "size": 7,
+        "type": "str",
+        "str_content": "nw_cfg"
+      },
+      "0x108d0": {
+        "name": "a_iodcfg",
+        "addr": 67792,
+        "size": 7,
+        "type": "str",
+        "str_content": "iodcfg"
+      },
+      "0x10ad8": {
+        "name": "nwservice_item_config_get",
+        "addr": 68312
+      },
+      "0x10b64": {
+        "name": "jpt_10B60",
+        "addr": 68452
+      },
+      "0x10db0": {
+        "name": "a_resp",
+        "addr": 69040,
+        "size": 5,
+        "type": "str",
+        "str_content": "resp"
+      },
+      "0x10db8": {
+        "name": "a_s",
+        "addr": 69048,
+        "size": 5,
+        "type": "str",
+        "str_content": "%.*s"
+      },
+      "0x10dc0": {
+        "name": "a_nwservice_item_config_get_requested_netcfg_objecti",
+        "addr": 69056,
+        "size": 66,
+        "type": "str",
+        "str_content": "nwservice_item_config_get:  requested netcfg_objectid_statistics\n"
+      },
+      "0x10ea4": {
+        "name": "def_10B60",
+        "addr": 69284
+      },
+      "0x10eb8": {
+        "name": "nwService_handle_cmd9",
+        "addr": 69304
+      },
+      "0x10f20": {
+        "name": "jpt_10F1C",
+        "addr": 69408
+      },
+      "0x111fc": {
+        "name": "a_NET_BOOL_FALSE",
+        "addr": 70140,
+        "size": 15,
+        "type": "str",
+        "str_content": "NET_BOOL_FALSE"
+      },
+      "0x11210": {
+        "name": "a_nwservice_Turning_on_interface_d",
+        "addr": 70160,
+        "size": 36,
+        "type": "str",
+        "str_content": "nwservice: Turning on interface %d\n"
+      },
+      "0x11234": {
+        "name": "a_nwservice_Turning_off_interface_d",
+        "addr": 70196,
+        "size": 37,
+        "type": "str",
+        "str_content": "nwservice: Turning off interface %d\n"
+      },
+      "0x1125c": {
+        "name": "a_nwservice_Turning_on_sideband_d",
+        "addr": 70236,
+        "size": 35,
+        "type": "str",
+        "str_content": "nwservice: Turning on sideband %d\n"
+      },
+      "0x11280": {
+        "name": "a_nwservice_Turning_off_sideband_d",
+        "addr": 70272,
+        "size": 36,
+        "type": "str",
+        "str_content": "nwservice: Turning off sideband %d\n"
+      },
+      "0x11628": {
+        "name": "def_10F1C",
+        "addr": 71208
+      },
+      "0x12134": {
+        "name": "NetworkService_handler",
+        "addr": 74036
+      },
+      "0x121e8": {
+        "name": "jpt_121E4",
+        "addr": 74216
+      },
+      "0x12360": {
+        "name": "def_121E4",
+        "addr": 74592
+      },
+      "0x1237c": {
+        "name": "read_IODMAC1_devreg_0x1235",
+        "addr": 74620
+      },
+      "0x124b0": {
+        "name": "a4",
+        "addr": 74928
+      },
+      "0x124b4": {
+        "name": "a_request",
+        "addr": 74932,
+        "size": 8,
+        "type": "str",
+        "str_content": "request"
+      },
+      "0x124c0": {
+        "name": "a_response",
+        "addr": 74944,
+        "size": 9,
+        "type": "str",
+        "str_content": "response"
+      },
+      "0x124cc": {
+        "name": "a_responseLength",
+        "addr": 74956,
+        "size": 15,
+        "type": "str",
+        "str_content": "responseLength"
+      },
+      "0x12518": {
+        "name": "a_mand_d",
+        "addr": 75032,
+        "size": 9,
+        "type": "str",
+        "str_content": "mand %d\n"
+      },
+      "0x12524": {
+        "name": "a_systempassword",
+        "addr": 75044,
+        "size": 16,
+        "type": "str",
+        "str_content": "!systempassword"
+      },
+      "0x12534": {
+        "name": "a_IODMAC1",
+        "addr": 75060,
+        "size": 8,
+        "type": "str",
+        "str_content": "IODMAC1"
+      },
+      "0x12540": {
+        "name": "a_Could_not_use_Port_d_for_Shared_Network_Port_Recon",
+        "addr": 75072,
+        "size": 70,
+        "type": "str",
+        "str_content": "Could not use Port %d for Shared Network Port. Reconfigured to Port 1"
+      },
+      "0x125a0": {
+        "name": "nwservice_service_run",
+        "addr": 75168
+      },
+      "0x12618": {
+        "name": "spawn_networkservice_task",
+        "addr": 75288
+      },
+      "0x127b8": {
+        "name": "a2",
+        "addr": 75704
+      },
+      "0x127bc": {
+        "name": "a_nwservice_service_run",
+        "addr": 75708,
+        "size": 22,
+        "type": "str",
+        "str_content": "nwservice_service_run"
+      },
+      "0x127dc": {
+        "name": "a_NetworkService",
+        "addr": 75740,
+        "size": 15,
+        "type": "str",
+        "str_content": "NetworkService"
+      },
+      "0x127ec": {
+        "name": "a_nwService_failed_with_d",
+        "addr": 75756,
+        "size": 26,
+        "type": "str",
+        "str_content": "nwService failed with %d\n"
+      },
+      "0x12810": {
+        "name": "a_VascomMsgSvcNw",
+        "addr": 75792,
+        "size": 15,
+        "type": "str",
+        "str_content": "VascomMsgSvcNw"
+      },
+      "0x12824": {
+        "name": "a_main",
+        "addr": 75812,
+        "size": 5,
+        "type": "str",
+        "str_content": "main"
+      },
+      "0x1282c": {
+        "name": "a_IODNETCFG",
+        "addr": 75820,
+        "size": 10,
+        "type": "str",
+        "str_content": "IODNETCFG"
+      },
+      "0x1283c": {
+        "name": "a5",
+        "addr": 75836
+      },
+      "0x12840": {
+        "name": "a_iLO_NIC",
+        "addr": 75840,
+        "size": 8,
+        "type": "str",
+        "str_content": "iLO NIC"
+      },
+      "0x1284c": {
+        "name": "a_bb_register_returns_d",
+        "addr": 75852,
+        "size": 24,
+        "type": "str",
+        "str_content": "bb_register returns %d\n"
+      },
+      "0x1286c": {
+        "name": "a_bb_descriptor_code_returns_d",
+        "addr": 75884,
+        "size": 31,
+        "type": "str",
+        "str_content": "bb_descriptor_code returns %d\n"
+      },
+      "0x1288c": {
+        "name": "a_Unable_to_map_MEMID_d",
+        "addr": 75916,
+        "size": 24,
+        "type": "str",
+        "str_content": "Unable to map MEMID %d\n"
+      },
+      "0x12bec": {
+        "name": "a_src_nwStats_c",
+        "addr": 76780,
+        "size": 14,
+        "type": "str",
+        "str_content": "src\\nwStats.c"
+      },
+      "0x12bfc": {
+        "name": "a_intf_0_intf_1",
+        "addr": 76796,
+        "size": 27,
+        "type": "str",
+        "str_content": "(intf == 0) || (intf == 1)"
+      },
+      "0x12c18": {
+        "name": "a_statistics",
+        "addr": 76824,
+        "size": 11,
+        "type": "str",
+        "str_content": "statistics"
+      },
+      "0x12c24": {
+        "name": "a_systempassword",
+        "addr": 76836,
+        "size": 16,
+        "type": "str",
+        "str_content": "!systempassword"
+      },
+      "0x12c34": {
+        "name": "a_IODMAC0",
+        "addr": 76852,
+        "size": 8,
+        "type": "str",
+        "str_content": "IODMAC0"
+      },
+      "0x12c3c": {
+        "name": "a_IODMAC1",
+        "addr": 76860,
+        "size": 8,
+        "type": "str",
+        "str_content": "IODMAC1"
+      },
+      "0x12c44": {
+        "name": "a_nwstats_Error_d_opening_IODMAC",
+        "addr": 76868,
+        "size": 34,
+        "type": "str",
+        "str_content": "nwstats: Error %d opening IODMAC\n"
+      },
+      "0x13094": {
+        "name": "a_nwstats_Stats_parse_unknown_message_d",
+        "addr": 77972,
+        "size": 41,
+        "type": "str",
+        "str_content": "nwstats: Stats parse unknown message %d\n"
+      },
+      "0x130c8": {
+        "name": "a_nwstats_error_addr_parse_response_code_d",
+        "addr": 78024,
+        "size": 45,
+        "type": "str",
+        "str_content": "nwstats error (addr_parse) response code %d\n"
+      },
+      "0x130f8": {
+        "name": "a_nwstats_parse_addr_message_type_d",
+        "addr": 78072,
+        "size": 37,
+        "type": "str",
+        "str_content": "nwstats: parse addr message type %d\n"
+      },
+      "0x1329c": {
+        "name": "a_nwstats_nwstats_addr_get_returned_d",
+        "addr": 78492,
+        "size": 39,
+        "type": "str",
+        "str_content": "nwstats: nwstats_addr_get returned %d\n"
+      },
+      "0x132c4": {
+        "name": "a_nwstats_nwstats_stats_parse_failed",
+        "addr": 78532,
+        "size": 37,
+        "type": "str",
+        "str_content": "nwstats: nwstats_stats_parse failed\n"
+      },
+      "0x132ec": {
+        "name": "a_nwstats_nwstats_stats_get_failed",
+        "addr": 78572,
+        "size": 35,
+        "type": "str",
+        "str_content": "nwstats: nwstats_stats_get failed\n"
+      },
+      "0x13310": {
+        "name": "IPv6CfgMaint_task",
+        "addr": 78608
+      },
+      "0x13680": {
+        "name": "a_Error_waiting_for_wake_event_d",
+        "addr": 79488,
+        "size": 33,
+        "type": "str",
+        "str_content": "Error waiting for wake event %d\n"
+      },
+      "0x136a8": {
+        "name": "a_src_nwv6Service_c",
+        "addr": 79528,
+        "size": 18,
+        "type": "str",
+        "str_content": "src\\nwv6Service.c"
+      },
+      "0x136bc": {
+        "name": "a_stackvas",
+        "addr": 79548,
+        "size": 9,
+        "type": "str",
+        "str_content": "stackvas"
+      },
+      "0x136d4": {
+        "name": "a_Static_IPv6_Gateway_cannot_be_added_to_the_stack_d",
+        "addr": 79572,
+        "size": 53,
+        "type": "str",
+        "str_content": "Static IPv6 Gateway cannot be added to the stack %d\n"
+      },
+      "0x13ab8": {
+        "name": "a_i_vol0_cfg",
+        "addr": 80568,
+        "size": 12,
+        "type": "str",
+        "str_content": "i:/vol0/cfg"
+      },
+      "0x13ac4": {
+        "name": "a_No_Filesystem_for_IPv6_Configuration_d",
+        "addr": 80580,
+        "size": 42,
+        "type": "str",
+        "str_content": "No Filesystem for IPv6 Configuration. %d\n"
+      },
+      "0x13e44": {
+        "name": "a_et_d",
+        "addr": 81476,
+        "size": 5,
+        "type": "str",
+        "str_content": "et%d"
+      },
+      "0x13e4c": {
+        "name": "a_event_wait_EVT_INIT",
+        "addr": 81484,
+        "size": 21,
+        "type": "str",
+        "str_content": "event_wait(EVT_INIT)"
+      },
+      "0x13e68": {
+        "name": "a_Starting_IPv6_stack_without_an_RA_monitor",
+        "addr": 81512,
+        "size": 44,
+        "type": "str",
+        "str_content": "Starting IPv6 stack without an RA monitor.\n"
+      },
+      "0x13e94": {
+        "name": "a_Error_starting_IPv6_Network_Stack_on_d",
+        "addr": 81556,
+        "size": 42,
+        "type": "str",
+        "str_content": "Error starting IPv6 Network Stack on %d.\n"
+      },
+      "0x13ec0": {
+        "name": "a_Error_setting_address_on_IPV6_network_stack",
+        "addr": 81600,
+        "size": 46,
+        "type": "str",
+        "str_content": "Error setting address on IPV6 network stack.\n"
+      },
+      "0x13ef0": {
+        "name": "a_Error_setting_gateway_on_IPV6_network_stack",
+        "addr": 81648,
+        "size": 46,
+        "type": "str",
+        "str_content": "Error setting gateway on IPV6 network stack.\n"
+      },
+      "0x14074": {
+        "name": "ipv6config_write_file",
+        "addr": 82036
+      },
+      "0x1432c": {
+        "name": "a_Error_setting_route_on_IPV6_network_stack",
+        "addr": 82732,
+        "size": 44,
+        "type": "str",
+        "str_content": "Error setting route on IPV6 network stack.\n"
+      },
+      "0x1435c": {
+        "name": "a_IPv6CfgMaint",
+        "addr": 82780,
+        "size": 13,
+        "type": "str",
+        "str_content": "IPv6CfgMaint"
+      },
+      "0x1437c": {
+        "name": "a_IPV6_Config__write_file__bad_parameter",
+        "addr": 82812,
+        "size": 41,
+        "type": "str",
+        "str_content": "IPV6 Config -write file- bad parameter.\n"
+      },
+      "0x143a8": {
+        "name": "a3",
+        "addr": 82856
+      },
+      "0x143bc": {
+        "name": "a_ipv6_et_u_bin",
+        "addr": 82876,
+        "size": 14,
+        "type": "str",
+        "str_content": "ipv6_et%u.bin"
+      },
+      "0x14618": {
+        "name": "ipv6config_config_get",
+        "addr": 83480
+      },
+      "0x146d8": {
+        "name": "a_Writing_s_s",
+        "addr": 83672,
+        "size": 15,
+        "type": "str",
+        "str_content": "Writing %s/%s\n"
+      },
+      "0x146e8": {
+        "name": "a_wb",
+        "addr": 83688,
+        "size": 3,
+        "type": "str",
+        "str_content": "wb"
+      },
+      "0x146ec": {
+        "name": "a_Error_writing_ipv6_et_u_config_file",
+        "addr": 83692,
+        "size": 38,
+        "type": "str",
+        "str_content": "Error writing ipv6_et%u config file.\n"
+      },
+      "0x1471c": {
+        "name": "a_IPV6_Config__default_file__bad_parameter",
+        "addr": 83740,
+        "size": 43,
+        "type": "str",
+        "str_content": "IPV6 Config -default file- bad parameter.\n"
+      },
+      "0x14748": {
+        "name": "a_IPV6_Config__config_get__bad_parameter",
+        "addr": 83784,
+        "size": 41,
+        "type": "str",
+        "str_content": "IPV6 Config -config get- bad parameter.\n"
+      },
+      "0x14b20": {
+        "name": "a_IPV6_Config__status_get__bad_parameter",
+        "addr": 84768,
+        "size": 41,
+        "type": "str",
+        "str_content": "IPV6 Config -status get- bad parameter.\n"
+      },
+      "0x14e9c": {
+        "name": "a_IPV6_Config__config_set__bad_parameter",
+        "addr": 85660,
+        "size": 41,
+        "type": "str",
+        "str_content": "IPV6 Config -config set- bad parameter.\n"
+      },
+      "0x14ec8": {
+        "name": "a_Invalid_IPv6_Static_Address_requested",
+        "addr": 85704,
+        "size": 40,
+        "type": "str",
+        "str_content": "Invalid IPv6 Static Address requested.\n"
+      },
+      "0x14ef4": {
+        "name": "a_Invalid_IPv6_Route_Address_requested",
+        "addr": 85748,
+        "size": 39,
+        "type": "str",
+        "str_content": "Invalid IPv6 Route Address requested.\n"
+      },
+      "0x15510": {
+        "name": "a_Error_removing_address_on_IPV6_network_stack",
+        "addr": 87312,
+        "size": 47,
+        "type": "str",
+        "str_content": "Error removing address on IPV6 network stack.\n"
+      },
+      "0x15550": {
+        "name": "a_Error_removing_route_on_IPV6_network_stack",
+        "addr": 87376,
+        "size": 45,
+        "type": "str",
+        "str_content": "Error removing route on IPV6 network stack.\n"
+      },
+      "0x159a8": {
+        "name": "ipv6config_config_set",
+        "addr": 88488
+      },
+      "0x15b68": {
+        "name": "a_Error_deleting_previous_static_IPv6_gateway",
+        "addr": 88936,
+        "size": 46,
+        "type": "str",
+        "str_content": "Error deleting previous static IPv6 gateway.\n"
+      },
+      "0x15bac": {
+        "name": "a_Invalid_IPv6_DHCP_Address_requested",
+        "addr": 89004,
+        "size": 38,
+        "type": "str",
+        "str_content": "Invalid IPv6 DHCP Address requested.\n"
+      },
+      "0x15be0": {
+        "name": "a_Error_removing_DHCP_address_on_IPV6_network_stack",
+        "addr": 89056,
+        "size": 52,
+        "type": "str",
+        "str_content": "Error removing DHCP address on IPV6 network stack.\n"
+      },
+      "0x15f1c": {
+        "name": "ipv6config_config_set__dhcp",
+        "addr": 89884
+      },
+      "0x15f6c": {
+        "name": "a_Error_setting_DHCP_address_on_IPV6_network_stack",
+        "addr": 89964,
+        "size": 51,
+        "type": "str",
+        "str_content": "Error setting DHCP address on IPV6 network stack.\n"
+      },
+      "0x15fa0": {
+        "name": "a_IPv6_Set_DHCP_called_on_inactive_interface",
+        "addr": 90016,
+        "size": 45,
+        "type": "str",
+        "str_content": "IPv6 Set DHCP called on inactive interface.\n"
+      },
+      "0x15fd0": {
+        "name": "a_Invalid_DHCPv6_DNS_address",
+        "addr": 90064,
+        "size": 29,
+        "type": "str",
+        "str_content": "Invalid DHCPv6 DNS address.\n"
+      },
+      "0x1637c": {
+        "name": "a_Invalid_DHCPv6_NTP_address",
+        "addr": 91004,
+        "size": 29,
+        "type": "str",
+        "str_content": "Invalid DHCPv6 NTP address.\n"
+      },
+      "0x163ac": {
+        "name": "a_IPV6_Default_Interface_bad_parameter",
+        "addr": 91052,
+        "size": 39,
+        "type": "str",
+        "str_content": "IPV6 Default Interface bad parameter.\n"
+      },
+      "0x163d4": {
+        "name": "a_IPV6_Config__default__bad_parameter",
+        "addr": 91092,
+        "size": 38,
+        "type": "str",
+        "str_content": "IPV6 Config -default- bad parameter.\n"
+      },
+      "0x16400": {
+        "name": "a_Error_removing_static_address_from_IPV6_network_st",
+        "addr": 91136,
+        "size": 56,
+        "type": "str",
+        "str_content": "Error removing static address from IPV6 network stack.\n"
+      },
+      "0x16438": {
+        "name": "a_Error_removing_DHCP_address_from_IPV6_network_stac",
+        "addr": 91192,
+        "size": 54,
+        "type": "str",
+        "str_content": "Error removing DHCP address from IPV6 network stack.\n"
+      },
+      "0x16810": {
+        "name": "a_IPV6_Configuration_Defaulted_on_iface_d",
+        "addr": 92176,
+        "size": 43,
+        "type": "str",
+        "str_content": "IPV6 Configuration Defaulted on iface=%d.\n"
+      },
+      "0x16840": {
+        "name": "a_IPV6_Config__read_file__bad_parameter",
+        "addr": 92224,
+        "size": 40,
+        "type": "str",
+        "str_content": "IPV6 Config -read file- bad parameter.\n"
+      },
+      "0x1687c": {
+        "name": "a_Reading_s_s",
+        "addr": 92284,
+        "size": 15,
+        "type": "str",
+        "str_content": "Reading %s/%s\n"
+      },
+      "0x1688c": {
+        "name": "a_rb",
+        "addr": 92300,
+        "size": 3,
+        "type": "str",
+        "str_content": "rb"
+      },
+      "0x16898": {
+        "name": "a_Error_reading_ipv6_et_u_config_file",
+        "addr": 92312,
+        "size": 38,
+        "type": "str",
+        "str_content": "Error reading ipv6_et%u config file.\n"
+      },
+      "0x168d4": {
+        "name": "a_Bad_Signature_in_ipv6_et_u_config_file",
+        "addr": 92372,
+        "size": 41,
+        "type": "str",
+        "str_content": "Bad Signature in ipv6_et%u config file.\n"
+      },
+      "0x16dc4": {
+        "name": "a_IPV6_Config__route6_get__bad_parameter",
+        "addr": 93636,
+        "size": 41,
+        "type": "str",
+        "str_content": "IPV6 Config -route6 get- bad parameter.\n"
+      },
+      "0x16e00": {
+        "name": "a_IPV6_Config__read_stack__bad_parameter",
+        "addr": 93696,
+        "size": 41,
+        "type": "str",
+        "str_content": "IPV6 Config -read stack- bad parameter.\n"
+      },
+      "0x16e34": {
+        "name": "a_Netlink_socket_returns_error_d",
+        "addr": 93748,
+        "size": 36,
+        "type": "str",
+        "str_content": "Netlink socket() returns error %d.\n"
+      },
+      "0x16e64": {
+        "name": "a_Netlink_SO_RCVBUF_returns_error_d",
+        "addr": 93796,
+        "size": 37,
+        "type": "str",
+        "str_content": "Netlink SO_RCVBUF returns error %d.\n"
+      },
+      "0x16e8c": {
+        "name": "a_Netlink_bind_returns_error_d",
+        "addr": 93836,
+        "size": 34,
+        "type": "str",
+        "str_content": "Netlink bind() returns error %d.\n"
+      },
+      "0x16eb4": {
+        "name": "a_Netlink_sendto_returns_error_d",
+        "addr": 93876,
+        "size": 36,
+        "type": "str",
+        "str_content": "Netlink sendto() returns error %d.\n"
+      },
+      "0x170b0": {
+        "name": "ipv6config_modify_address",
+        "addr": 94384
+      },
+      "0x17230": {
+        "name": "a_Netlink_recv_returns_error_d",
+        "addr": 94768,
+        "size": 34,
+        "type": "str",
+        "str_content": "Netlink recv() returns error %d.\n"
+      },
+      "0x1725c": {
+        "name": "a_Netlink_response_is_error_message_d",
+        "addr": 94812,
+        "size": 38,
+        "type": "str",
+        "str_content": "Netlink response is error message %d\n"
+      },
+      "0x17288": {
+        "name": "a_IPV6_Config__modify_addr__bad_parameter",
+        "addr": 94856,
+        "size": 42,
+        "type": "str",
+        "str_content": "IPV6 Config -modify addr- bad parameter.\n"
+      },
+      "0x1746c": {
+        "name": "ipv6config_modify_route",
+        "addr": 95340
+      },
+      "0x1765c": {
+        "name": "a_Netlink_modify_address_resulted_in_error_d",
+        "addr": 95836,
+        "size": 45,
+        "type": "str",
+        "str_content": "Netlink modify address resulted in error %d\n"
+      },
+      "0x17694": {
+        "name": "a_IPV6_Config__modify_route__bad_parameter",
+        "addr": 95892,
+        "size": 43,
+        "type": "str",
+        "str_content": "IPV6 Config -modify route- bad parameter.\n"
+      },
+      "0x17ae4": {
+        "name": "a_Netlink_modify_route_resulted_in_error_d",
+        "addr": 96996,
+        "size": 43,
+        "type": "str",
+        "str_content": "Netlink modify route resulted in error %d\n"
+      },
+      "0x17b18": {
+        "name": "a_IPV6_Config__read_route6__bad_parameter",
+        "addr": 97048,
+        "size": 42,
+        "type": "str",
+        "str_content": "IPV6 Config -read route6- bad parameter.\n"
+      },
+      "0x1813c": {
+        "name": "a_Netlink_response_tmo_d_d",
+        "addr": 98620,
+        "size": 28,
+        "type": "str",
+        "str_content": "Netlink response tmo %d %d\n"
+      },
+      "0x186c8": {
+        "name": "jpt_186C4",
+        "addr": 100040
+      },
+      "0x18738": {
+        "name": "def_186C4",
+        "addr": 100152
+      },
+      "0x189b4": {
+        "name": "a_UNSPEC",
+        "addr": 100788,
+        "size": 9,
+        "type": "str",
+        "str_content": "  UNSPEC"
+      },
+      "0x189c0": {
+        "name": "a_REDIRECT",
+        "addr": 100800,
+        "size": 9,
+        "type": "str",
+        "str_content": "REDIRECT"
+      },
+      "0x189cc": {
+        "name": "a_KERNEL",
+        "addr": 100812,
+        "size": 9,
+        "type": "str",
+        "str_content": "  KERNEL"
+      },
+      "0x189d8": {
+        "name": "a_BOOT",
+        "addr": 100824,
+        "size": 9,
+        "type": "str",
+        "str_content": "    BOOT"
+      },
+      "0x189e4": {
+        "name": "a_STATIC",
+        "addr": 100836,
+        "size": 9,
+        "type": "str",
+        "str_content": "  STATIC"
+      },
+      "0x189f0": {
+        "name": "a_GATED",
+        "addr": 100848,
+        "size": 9,
+        "type": "str",
+        "str_content": "   GATED"
+      },
+      "0x189fc": {
+        "name": "a_RA",
+        "addr": 100860,
+        "size": 9,
+        "type": "str",
+        "str_content": "      RA"
+      },
+      "0x18a08": {
+        "name": "a_MRT",
+        "addr": 100872,
+        "size": 9,
+        "type": "str",
+        "str_content": "     MRT"
+      },
+      "0x18a14": {
+        "name": "a_ZEBRA",
+        "addr": 100884,
+        "size": 9,
+        "type": "str",
+        "str_content": "   ZEBRA"
+      },
+      "0x18a20": {
+        "name": "a_BIRD",
+        "addr": 100896,
+        "size": 9,
+        "type": "str",
+        "str_content": "    BIRD"
+      },
+      "0x18a2c": {
+        "name": "a_DNROUTED",
+        "addr": 100908,
+        "size": 9,
+        "type": "str",
+        "str_content": "DNROUTED"
+      },
+      "0x18a38": {
+        "name": "a_XORP",
+        "addr": 100920,
+        "size": 9,
+        "type": "str",
+        "str_content": "    XORP"
+      },
+      "0x18a44": {
+        "name": "a_UNKNOWN",
+        "addr": 100932,
+        "size": 9,
+        "type": "str",
+        "str_content": " UNKNOWN"
+      },
+      "0x18a68": {
+        "name": "a_Bad_arg",
+        "addr": 100968,
+        "size": 9,
+        "type": "str",
+        "str_content": "Bad arg\n"
+      },
+      "0x18a74": {
+        "name": "a_src_nwv6utils_c",
+        "addr": 100980,
+        "size": 16,
+        "type": "str",
+        "str_content": "src\\nwv6utils.c"
+      },
+      "0x18a84": {
+        "name": "a_stackvas",
+        "addr": 100996,
+        "size": 9,
+        "type": "str",
+        "str_content": "stackvas"
+      },
+      "0x19214": {
+        "name": "a_Bad_RA_monitor_iface",
+        "addr": 102932,
+        "size": 22,
+        "type": "str",
+        "str_content": "Bad RA monitor iface\n"
+      },
+      "0x1922c": {
+        "name": "a_Could_not_create_RA_monitor_socket_d",
+        "addr": 102956,
+        "size": 39,
+        "type": "str",
+        "str_content": "Could not create RA monitor socket %d\n"
+      },
+      "0x19254": {
+        "name": "a_stackvas",
+        "addr": 102996,
+        "size": 9,
+        "type": "str",
+        "str_content": "stackvas"
+      },
+      "0x19268": {
+        "name": "a_Could_not_join_group_FF02_1_d",
+        "addr": 103016,
+        "size": 34,
+        "type": "str",
+        "str_content": "Could not join group FF02::1, %d\n"
+      },
+      "0x1928c": {
+        "name": "a_CreateLocalMutex_lock_iface",
+        "addr": 103052,
+        "size": 31,
+        "type": "str",
+        "str_content": "CreateLocalMutex(&lock[iface])"
+      },
+      "0x192b0": {
+        "name": "a_src_nwv6RAmon_c",
+        "addr": 103088,
+        "size": 16,
+        "type": "str",
+        "str_content": "src\\nwv6RAmon.c"
+      },
+      "0x19540": {
+        "name": "a_RA_rcv_buf_alloc_fail",
+        "addr": 103744,
+        "size": 23,
+        "type": "str",
+        "str_content": "RA rcv buf alloc fail\n"
+      },
+      "0x1956c": {
+        "name": "a_Create_RA_Mon_Task_Failed_d",
+        "addr": 103788,
+        "size": 30,
+        "type": "str",
+        "str_content": "Create RA Mon Task Failed %d\n"
+      },
+      "0x1958c": {
+        "name": "a_Start_RA_Mon_Task_Failed_d",
+        "addr": 103820,
+        "size": 29,
+        "type": "str",
+        "str_content": "Start RA Mon Task Failed %d\n"
+      },
+      "0x19824": {
+        "name": "a_systempassword",
+        "addr": 104484,
+        "size": 16,
+        "type": "str",
+        "str_content": "!systempassword"
+      },
+      "0x19990": {
+        "name": "a_inmemtm",
+        "addr": 104848,
+        "size": 8,
+        "type": "str",
+        "str_content": "inmemtm"
+      },
+      "0x199a4": {
+        "name": "a_In_Memory_TimeMachine_Error_Unable_to_MapMemory_wi",
+        "addr": 104868,
+        "size": 63,
+        "type": "str",
+        "str_content": "In-Memory TimeMachine Error: Unable to MapMemory() with Error "
+      },
+      "0x199e4": {
+        "name": "a_In_Memory_TimeMachine_Error_Resource_Manager_is_no",
+        "addr": 104932,
+        "size": 103,
+        "type": "str",
+        "str_content": "In-Memory TimeMachine Error: Resource Manager is not Available\n  and no .inmemtm section was provided\n"
+      },
+      "0x19a4c": {
+        "name": "a_In_Memory_TimeMachine_Error_Could_not_access_inmem",
+        "addr": 105036,
+        "size": 133,
+        "type": "str",
+        "str_content": "In-Memory TimeMachine Error: Could not access \"inmemtm\" MemoryRegion\n  in the Resource Manager and no .inmemtm section was provided\n"
+      },
+      "0x19ad4": {
+        "name": "a_In_Memory_TimeMachine_Error_Resource_Manager_Error",
+        "addr": 105172,
+        "size": 54,
+        "type": "str",
+        "str_content": "In-Memory TimeMachine Error: Resource Manager Error: "
+      },
+      "0x19b0c": {
+        "name": "a_InMemTMIODevice",
+        "addr": 105228,
+        "size": 16,
+        "type": "str",
+        "str_content": "InMemTMIODevice"
+      },
+      "0x19b28": {
+        "name": "a_In_Memory_TimeMachine_Warning_WriteIODeviceRegiste",
+        "addr": 105256,
+        "size": 63,
+        "type": "str",
+        "str_content": "In-Memory TimeMachine Warning: WriteIODeviceRegister() Error:\n"
+      },
+      "0x19b6c": {
+        "name": "a_In_Memory_TimeMachine_Warning_Resource_Manager_is_",
+        "addr": 105324,
+        "size": 67,
+        "type": "str",
+        "str_content": "In-Memory TimeMachine Warning: Resource Manager is not Available.\n"
+      },
+      "0x19bb0": {
+        "name": "a_In_Memory_TimeMachine_Warning_Could_not_access_IOD",
+        "addr": 105392,
+        "size": 107,
+        "type": "str",
+        "str_content": "In-Memory TimeMachine Warning: Could not access IODevice.\n  Has libinmemtm.a been linked into the kernel?\n"
+      },
+      "0x19eb4": {
+        "name": "a_In_Memory_TimeMachine_Warning_Resource_Manager_Err",
+        "addr": 106164,
+        "size": 56,
+        "type": "str",
+        "str_content": "In-Memory TimeMachine Warning: Resource Manager Error: "
+      },
+      "0x19eec": {
+        "name": "a_Unable_to_register_critical_section_with_the_kerne",
+        "addr": 106220,
+        "size": 108,
+        "type": "str",
+        "str_content": "  Unable to register critical section with the kernel.\n  Trace of a multi-threaded system may be affected.\n"
+      },
+      "0x19f7c": {
+        "name": "a_AddToMemoryPool_failed_with_error",
+        "addr": 106364,
+        "size": 35,
+        "type": "str",
+        "str_content": "AddToMemoryPool failed with error="
+      },
+      "0x1a164": {
+        "name": "a_AddToMemoryPool_failed",
+        "addr": 106852,
+        "size": 25,
+        "type": "str",
+        "str_content": "AddToMemoryPool failed.\n"
+      },
+      "0x1a180": {
+        "name": "a_InitializeMemoryPool_failed",
+        "addr": 106880,
+        "size": 30,
+        "type": "str",
+        "str_content": "InitializeMemoryPool failed.\n"
+      },
+      "0x1a1a0": {
+        "name": "a_InitializeMemoryPool_failed_with_error",
+        "addr": 106912,
+        "size": 40,
+        "type": "str",
+        "str_content": "InitializeMemoryPool failed with error="
+      },
+      "0x1a1ec": {
+        "name": "a_d_not_enable_posix_shm",
+        "addr": 106988,
+        "size": 25,
+        "type": "str",
+        "str_content": "d not enable posix_shm.\n"
+      },
+      "0x1a208": {
+        "name": "a_d_not_enable_posix_shm_error",
+        "addr": 107016,
+        "size": 31,
+        "type": "str",
+        "str_content": "d not enable posix_shm, error="
+      },
+      "0x1a22c": {
+        "name": "a_Could_not_enable_libsocket",
+        "addr": 107052,
+        "size": 29,
+        "type": "str",
+        "str_content": "Could not enable libsocket.\n"
+      },
+      "0x1a24c": {
+        "name": "a_Could_not_enable_libsocket_error",
+        "addr": 107084,
+        "size": 35,
+        "type": "str",
+        "str_content": "Could not enable libsocket, error="
+      },
+      "0x1a4dc": {
+        "name": "jpt_1A4D8",
+        "addr": 107740
+      },
+      "0x1a5b8": {
+        "name": "def_1A4D8",
+        "addr": 107960
+      },
+      "0x1a930": {
+        "name": "a_noname",
+        "addr": 108848,
+        "size": 7,
+        "type": "str",
+        "str_content": "noname"
+      },
+      "0x1d93c": {
+        "name": "event_raise",
+        "addr": 121148
+      },
+      "0x1dac4": {
+        "name": "event_wait",
+        "addr": 121540
+      },
+      "0x1db98": {
+        "name": "a_svcsILO",
+        "addr": 121752,
+        "size": 8,
+        "type": "str",
+        "str_content": "svcsILO"
+      },
+      "0x1dba0": {
+        "name": "a_src_iloevt_client_c",
+        "addr": 121760,
+        "size": 20,
+        "type": "str",
+        "str_content": "src\\iloevt_client.c"
+      },
+      "0x1dbb4": {
+        "name": "a_s_event_lower_d",
+        "addr": 121780,
+        "size": 20,
+        "type": "str",
+        "str_content": "%s event_lower: %d\n"
+      },
+      "0x1dbcc": {
+        "name": "a_iLOEvents",
+        "addr": 121804,
+        "size": 10,
+        "type": "str",
+        "str_content": "iLOEvents"
+      },
+      "0x1dbd8": {
+        "name": "a_iLOServiceSend_iloevtconn_const_char_msg_sizeof_il",
+        "addr": 121816,
+        "size": 73,
+        "type": "str",
+        "str_content": "iLOServiceSend(iloevtconn, (const char*)&msg, sizeof(ilo_event_message))"
+      },
+      "0x1dc24": {
+        "name": "a_s_event_raise_d",
+        "addr": 121892,
+        "size": 20,
+        "type": "str",
+        "str_content": "%s event_raise: %d\n"
+      },
+      "0x1dc38": {
+        "name": "a_s_event_pulse_d",
+        "addr": 121912,
+        "size": 20,
+        "type": "str",
+        "str_content": "%s event_pulse: %d\n"
+      },
+      "0x1dc4c": {
+        "name": "a_s_event_wait_d",
+        "addr": 121932,
+        "size": 19,
+        "type": "str",
+        "str_content": "%s event_wait: %d\n"
+      },
+      "0x1dc60": {
+        "name": "a_CreateConnection_conn_peer",
+        "addr": 121952,
+        "size": 31,
+        "type": "str",
+        "str_content": "CreateConnection(&conn, &peer)"
+      },
+      "0x1e004": {
+        "name": "a_SynchronousReceive_conn_NULL",
+        "addr": 122884,
+        "size": 31,
+        "type": "str",
+        "str_content": "SynchronousReceive(conn, NULL)"
+      },
+      "0x1e024": {
+        "name": "a_CloseConnection_conn",
+        "addr": 122916,
+        "size": 22,
+        "type": "str",
+        "str_content": "CloseConnection(conn)"
+      },
+      "0x1e03c": {
+        "name": "a_s_event_wait_timed_d",
+        "addr": 122940,
+        "size": 25,
+        "type": "str",
+        "str_content": "%s event_wait_timed: %d\n"
+      },
+      "0x1e05c": {
+        "name": "a_CloseConnection_peer",
+        "addr": 122972,
+        "size": 22,
+        "type": "str",
+        "str_content": "CloseConnection(peer)"
+      },
+      "0x1e080": {
+        "name": "a_s_event_check_d",
+        "addr": 123008,
+        "size": 20,
+        "type": "str",
+        "str_content": "%s event_check: %d\n"
+      },
+      "0x1e49c": {
+        "name": "a_s_event_set_lower",
+        "addr": 124060,
+        "size": 20,
+        "type": "str",
+        "str_content": "%s event_set_lower\n"
+      },
+      "0x1e4bc": {
+        "name": "a_s_event_set_raise",
+        "addr": 124092,
+        "size": 20,
+        "type": "str",
+        "str_content": "%s event_set_raise\n"
+      },
+      "0x1e4d4": {
+        "name": "a_s_event_set_wait",
+        "addr": 124116,
+        "size": 19,
+        "type": "str",
+        "str_content": "%s event_set_wait\n"
+      },
+      "0x1e504": {
+        "name": "a_SynchronousReceive_conn_buf",
+        "addr": 124164,
+        "size": 31,
+        "type": "str",
+        "str_content": "SynchronousReceive(conn, &buf)"
+      },
+      "0x1e8c8": {
+        "name": "a_s_event_set_wait_timed",
+        "addr": 125128,
+        "size": 25,
+        "type": "str",
+        "str_content": "%s event_set_wait_timed\n"
+      },
+      "0x1e914": {
+        "name": "a_s_event_set_check",
+        "addr": 125204,
+        "size": 20,
+        "type": "str",
+        "str_content": "%s event_set_check\n"
+      },
+      "0x1ebb8": {
+        "name": "a_svcsILO",
+        "addr": 125880,
+        "size": 8,
+        "type": "str",
+        "str_content": "svcsILO"
+      },
+      "0x1ebc0": {
+        "name": "a_src_ilosrvconn_c",
+        "addr": 125888,
+        "size": 17,
+        "type": "str",
+        "str_content": "src\\ilosrvconn.c"
+      },
+      "0x1ebd4": {
+        "name": "a_SynchronousSend_conn_buf",
+        "addr": 125908,
+        "size": 27,
+        "type": "str",
+        "str_content": "SynchronousSend(conn, buf)"
+      },
+      "0x1ebf0": {
+        "name": "a_err",
+        "addr": 125936,
+        "size": 4,
+        "type": "str",
+        "str_content": "err"
+      },
+      "0x1ef4c": {
+        "name": "a_SVCSILO_CLNT_SEM",
+        "addr": 126796,
+        "size": 17,
+        "type": "str",
+        "str_content": "SVCSILO_CLNT_SEM"
+      },
+      "0x1ef60": {
+        "name": "a_iLOService",
+        "addr": 126816,
+        "size": 11,
+        "type": "str",
+        "str_content": "iLOService"
+      },
+      "0x1ef6c": {
+        "name": "a_VComClientSync_Call_iLOService_char_req_sizeof_MES",
+        "addr": 126828,
+        "size": 105,
+        "type": "str",
+        "str_content": "VComClientSync_Call(\"iLOService\", (char *)&req, sizeof(MESSAGE_REQ), (char *)&rsp, sizeof(MESSAGE_RESP))"
+      },
+      "0x1efd8": {
+        "name": "a_src_client_c",
+        "addr": 126936,
+        "size": 13,
+        "type": "str",
+        "str_content": "src\\client.c"
+      },
+      "0x1efe8": {
+        "name": "a_svcsILO",
+        "addr": 126952,
+        "size": 8,
+        "type": "str",
+        "str_content": "svcsILO"
+      },
+      "0x1f484": {
+        "name": "a_VComClientSync_Call_failed_d",
+        "addr": 128132,
+        "size": 31,
+        "type": "str",
+        "str_content": "VComClientSync_Call failed %d\n"
+      },
+      "0x1f4a4": {
+        "name": "a_client_Unable_to_read_SRAM",
+        "addr": 128164,
+        "size": 29,
+        "type": "str",
+        "str_content": "client: Unable to read SRAM\n"
+      },
+      "0x1f4c8": {
+        "name": "a_VComClientSync_Call_iLOService_char_req_sizeof_MES",
+        "addr": 128200,
+        "size": 103,
+        "type": "str",
+        "str_content": "VComClientSync_Call(\"iLOService\", (char *)req, sizeof(MESSAGE_REQ), (char *)rsp, sizeof(MESSAGE_RESP))"
+      },
+      "0x1f548": {
+        "name": "a_Client_semaphore_for_svcsiLO_not_available_TimedWa",
+        "addr": 128328,
+        "size": 93,
+        "type": "str",
+        "str_content": "Client semaphore for svcsiLO not available, TimedWaitForSemaphore: %d, couldn't set item %d\n"
+      },
+      "0x1f900": {
+        "name": "a_Client_semaphore_for_svcsiLO_not_available_TimedWa",
+        "addr": 129280,
+        "size": 93,
+        "type": "str",
+        "str_content": "Client semaphore for svcsiLO not available, TimedWaitForSemaphore: %d, couldn't get item %d\n"
+      },
+      "0x209f0": {
+        "name": "a_02x",
+        "addr": 133616,
+        "size": 5,
+        "type": "str",
+        "str_content": "%02x"
+      },
+      "0x209fc": {
+        "name": "a_s_p",
+        "addr": 133628,
+        "size": 11,
+        "type": "str",
+        "str_content": "  %s\r\n%p  "
+      },
+      "0x20a08": {
+        "name": "a_p",
+        "addr": 133640,
+        "size": 5,
+        "type": "str",
+        "str_content": "%p  "
+      },
+      "0x20a10": {
+        "name": "a_02x",
+        "addr": 133648,
+        "size": 6,
+        "type": "str",
+        "str_content": "%02x "
+      },
+      "0x20a18": {
+        "name": "a_c_s",
+        "addr": 133656,
+        "size": 10,
+        "type": "str",
+        "str_content": "  %*c%s\r\n"
+      },
+      "0x20a24": {
+        "name": "a_s",
+        "addr": 133668,
+        "size": 7,
+        "type": "str",
+        "str_content": "  %s\r\n"
+      },
+      "0x20a30": {
+        "name": "a_s_s",
+        "addr": 133680,
+        "size": 9,
+        "type": "str",
+        "str_content": "%s  %s\r\n"
+      },
+      "0x20a3c": {
+        "name": "a_s",
+        "addr": 133692,
+        "size": 3,
+        "type": "str",
+        "str_content": "%s"
+      },
+      "0x20b08": {
+        "name": "a_s_s",
+        "addr": 133896,
+        "size": 6,
+        "type": "str",
+        "str_content": "%s%s\n"
+      },
+      "0x20b10": {
+        "name": "get_debug_fyi_resource",
+        "addr": 133904
+      },
+      "0x20bdc": {
+        "name": "map_MRFYIRAM",
+        "addr": 134108
+      },
+      "0x20e60": {
+        "name": "a_debug_fyi",
+        "addr": 134752,
+        "size": 10,
+        "type": "str",
+        "str_content": "debug_fyi"
+      },
+      "0x20e6c": {
+        "name": "a_src_fyi_c",
+        "addr": 134764,
+        "size": 10,
+        "type": "str",
+        "str_content": "src\\fyi.c"
+      },
+      "0x20e78": {
+        "name": "a_GetSemaphore",
+        "addr": 134776,
+        "size": 13,
+        "type": "str",
+        "str_content": "GetSemaphore"
+      },
+      "0x20e90": {
+        "name": "a_systempassword",
+        "addr": 134800,
+        "size": 16,
+        "type": "str",
+        "str_content": "!systempassword"
+      },
+      "0x20ea0": {
+        "name": "a_MRFYIRAM",
+        "addr": 134816,
+        "size": 9,
+        "type": "str",
+        "str_content": "MRFYIRAM"
+      },
+      "0x20eb8": {
+        "name": "a_08x",
+        "addr": 134840,
+        "size": 5,
+        "type": "str",
+        "str_content": "%08x"
+      },
+      "0x20ec0": {
+        "name": "a_s",
+        "addr": 134848,
+        "size": 3,
+        "type": "str",
+        "str_content": "%s"
+      },
+      "0x20ecc": {
+        "name": "a_8s",
+        "addr": 134860,
+        "size": 5,
+        "type": "str",
+        "str_content": "%.8s"
+      },
+      "0x21020": {
+        "name": "stackvas_log_msg",
+        "addr": 135200
+      },
+      "0x211f8": {
+        "name": "stackvas_check_result",
+        "addr": 135672
+      },
+      "0x212ac": {
+        "name": "a_FYI_c_s_s",
+        "addr": 135852,
+        "size": 15,
+        "type": "str",
+        "str_content": "FYI(%c) %s: %s"
+      },
+      "0x212c0": {
+        "name": "a_s_d_s",
+        "addr": 135872,
+        "size": 11,
+        "type": "str",
+        "str_content": "%s(%d): %s"
+      },
+      "0x212d0": {
+        "name": "a_elapsed_time",
+        "addr": 135888,
+        "size": 13,
+        "type": "str",
+        "str_content": "elapsed time"
+      },
+      "0x212ec": {
+        "name": "a_s_CHECK_ERROR_s_d_s_d_ERROR_code_s",
+        "addr": 135916,
+        "size": 46,
+        "type": "str",
+        "str_content": "%s CHECK ERROR %s(%d): %s(%d)\nERROR code: %s\n"
+      },
+      "0x213d4": {
+        "name": "stackvas_log_fct_entryexit",
+        "addr": 136148
+      },
+      "0x214cc": {
+        "name": "a_s_failed_at_u_with_error_d_s",
+        "addr": 136396,
+        "size": 35,
+        "type": "str",
+        "str_content": "%s failed at %u with error %d: %s\n"
+      },
+      "0x214f4": {
+        "name": "a_unknown",
+        "addr": 136436,
+        "size": 10,
+        "type": "str",
+        "str_content": "<unknown>"
+      },
+      "0x21500": {
+        "name": "a_Halting_task_s",
+        "addr": 136448,
+        "size": 18,
+        "type": "str",
+        "str_content": "Halting task: %s\n"
+      },
+      "0x21520": {
+        "name": "a_exited",
+        "addr": 136480,
+        "size": 7,
+        "type": "str",
+        "str_content": "exited"
+      },
+      "0x21528": {
+        "name": "a_entered",
+        "addr": 136488,
+        "size": 8,
+        "type": "str",
+        "str_content": "entered"
+      },
+      "0x21534": {
+        "name": "a_s_s_s_at_d_06u",
+        "addr": 136500,
+        "size": 23,
+        "type": "str",
+        "str_content": "(%s) %s: %s at %d.%06u"
+      },
+      "0x2154c": {
+        "name": "a_s_s_s_at_Clock_not_set",
+        "addr": 136524,
+        "size": 31,
+        "type": "str",
+        "str_content": "(%s) %s: %s at (Clock not set)"
+      },
+      "0x2156c": {
+        "name": "a_s",
+        "addr": 136556,
+        "size": 4,
+        "type": "str",
+        "str_content": "%s\n"
+      },
+      "0x21b54": {
+        "name": "a_src_inet_ntop_c",
+        "addr": 138068,
+        "size": 16,
+        "type": "str",
+        "str_content": "src\\inet_ntop.c"
+      },
+      "0x21b64": {
+        "name": "a_src_void_0",
+        "addr": 138084,
+        "size": 19,
+        "type": "str",
+        "str_content": "src != ((void *)0)"
+      },
+      "0x21b78": {
+        "name": "a_dst_void_0",
+        "addr": 138104,
+        "size": 19,
+        "type": "str",
+        "str_content": "dst != ((void *)0)"
+      },
+      "0x21f54": {
+        "name": "a_src_inet_pton_c",
+        "addr": 139092,
+        "size": 16,
+        "type": "str",
+        "str_content": "src\\inet_pton.c"
+      },
+      "0x21f64": {
+        "name": "a_src_void_0",
+        "addr": 139108,
+        "size": 19,
+        "type": "str",
+        "str_content": "src != ((void *)0)"
+      },
+      "0x21f78": {
+        "name": "a_dst_void_0",
+        "addr": 139128,
+        "size": 19,
+        "type": "str",
+        "str_content": "dst != ((void *)0)"
+      },
+      "0x220fc": {
+        "name": "a_cp_void_0",
+        "addr": 139516,
+        "size": 18,
+        "type": "str",
+        "str_content": "cp != ((void *)0)"
+      },
+      "0x2211c": {
+        "name": "a_addr_void_0",
+        "addr": 139548,
+        "size": 20,
+        "type": "str",
+        "str_content": "addr != ((void *)0)"
+      },
+      "0x22458": {
+        "name": "map_MEMID",
+        "addr": 140376
+      },
+      "0x22618": {
+        "name": "a_memmap_init_GetMemoryRegionAddress_d_error_d",
+        "addr": 140824,
+        "size": 49,
+        "type": "str",
+        "str_content": "memmap_init: GetMemoryRegionAddress %d error %d\n"
+      },
+      "0x22654": {
+        "name": "a_MR_X",
+        "addr": 140884,
+        "size": 5,
+        "type": "str",
+        "str_content": "MR%X"
+      },
+      "0x2265c": {
+        "name": "a_memmap_no_virtual_page_for_s",
+        "addr": 140892,
+        "size": 32,
+        "type": "str",
+        "str_content": "memmap: no virtual page for %s\n"
+      },
+      "0x22680": {
+        "name": "a_systempassword",
+        "addr": 140928,
+        "size": 16,
+        "type": "str",
+        "str_content": "!systempassword"
+      },
+      "0x22690": {
+        "name": "a_memmap_did_not_find_s_error_d",
+        "addr": 140944,
+        "size": 35,
+        "type": "str",
+        "str_content": "memmap: did not find %s, error %d\n"
+      },
+      "0x226b4": {
+        "name": "a_memmap_GetMemoryRegionAttributes_s_error_d",
+        "addr": 140980,
+        "size": 47,
+        "type": "str",
+        "str_content": "memmap: GetMemoryRegionAttributes %s error %d\n"
+      },
+      "0x226e4": {
+        "name": "a_memmap_unmap_s_error_d",
+        "addr": 141028,
+        "size": 27,
+        "type": "str",
+        "str_content": "memmap: unmap %s error %d\n"
+      },
+      "0x22700": {
+        "name": "a_memmap_SetMemoryRegionAttributes_s_error_d",
+        "addr": 141056,
+        "size": 47,
+        "type": "str",
+        "str_content": "memmap: SetMemoryRegionAttributes %s error %d\n"
+      },
+      "0x22730": {
+        "name": "a_memmap_map_s_error_d",
+        "addr": 141104,
+        "size": 25,
+        "type": "str",
+        "str_content": "memmap: map %s error %d\n"
+      },
+      "0x22aac": {
+        "name": "a_systempassword",
+        "addr": 141996,
+        "size": 16,
+        "type": "str",
+        "str_content": "!systempassword"
+      },
+      "0x22abc": {
+        "name": "a___ghs_TCPIPClientConnection",
+        "addr": 142012,
+        "size": 28,
+        "type": "str",
+        "str_content": "__ghs_TCPIPClientConnection"
+      },
+      "0x22adc": {
+        "name": "a_Timed_out_trying_to_get_TCP_IP_client_connection_f",
+        "addr": 142044,
+        "size": 72,
+        "type": "str",
+        "str_content": "Timed out trying to get TCP/IP client connection from Resource Manager\n"
+      },
+      "0x22b70": {
+        "name": "a_libsocket_gte_error_d",
+        "addr": 142192,
+        "size": 24,
+        "type": "str",
+        "str_content": "libsocket gte error %d\n"
+      },
+      "0x22e58": {
+        "name": "a_Initial",
+        "addr": 142936,
+        "size": 9,
+        "type": "str",
+        "str_content": ".Initial"
+      },
+      "0x22e64": {
+        "name": "a_Initial",
+        "addr": 142948,
+        "size": 8,
+        "type": "str",
+        "str_content": "Initial"
+      },
+      "0x22e6c": {
+        "name": "a_src_libsocket_c",
+        "addr": 142956,
+        "size": 16,
+        "type": "str",
+        "str_content": "src\\libsocket.c"
+      },
+      "0x22e80": {
+        "name": "a_ERROR_Stack_reported_inconsistent_features",
+        "addr": 142976,
+        "size": 45,
+        "type": "str",
+        "str_content": "ERROR: Stack reported inconsistent features\n"
+      },
+      "0x22eb4": {
+        "name": "a_Stack_did_not_report_supported_feature_set",
+        "addr": 143028,
+        "size": 45,
+        "type": "str",
+        "str_content": "Stack did not report supported feature set.\n"
+      },
+      "0x232b8": {
+        "name": "a_elf",
+        "addr": 144056,
+        "size": 5,
+        "type": "str",
+        "str_content": ".elf"
+      },
+      "0x232c0": {
+        "name": "a_Initial",
+        "addr": 144064,
+        "size": 9,
+        "type": "str",
+        "str_content": ".Initial"
+      },
+      "0x232cc": {
+        "name": "a_Initial",
+        "addr": 144076,
+        "size": 8,
+        "type": "str",
+        "str_content": "Initial"
+      },
+      "0x232d4": {
+        "name": "a_s_s",
+        "addr": 144084,
+        "size": 6,
+        "type": "str",
+        "str_content": "%s:%s"
+      },
+      "0x232e0": {
+        "name": "a_No_TLS_at_line_d",
+        "addr": 144096,
+        "size": 19,
+        "type": "str",
+        "str_content": "No TLS at line %d\n"
+      },
+      "0x232f8": {
+        "name": "a_CHECKCONN_error_could_not_autoinit_connection_at_l",
+        "addr": 144120,
+        "size": 59,
+        "type": "str",
+        "str_content": "CHECKCONN error, could not autoinit connection at line %d\n"
+      },
+      "0x23340": {
+        "name": "a_CHECKTRANS_error_d_s_at_line_d",
+        "addr": 144192,
+        "size": 37,
+        "type": "str",
+        "str_content": "CHECKTRANS error %d [%s] at line %d\n"
+      },
+      "0x2371c": {
+        "name": "a_marshall_seq_u_socket_d_d_d",
+        "addr": 145180,
+        "size": 37,
+        "type": "str",
+        "str_content": "marshall:seq=%u: socket(%d, %d, %d)\n"
+      },
+      "0x23748": {
+        "name": "a_marshall_seq_u_socket_d_d_d_alloc_failed",
+        "addr": 145224,
+        "size": 50,
+        "type": "str",
+        "str_content": "marshall:seq=%u: socket(%d, %d, %d) alloc failed\n"
+      },
+      "0x23a8c": {
+        "name": "a_marshall_seq_u_socket_d_d_d_server_fd_d",
+        "addr": 146060,
+        "size": 50,
+        "type": "str",
+        "str_content": "marshall:seq=%u: socket(%d, %d, %d) server_fd %d\n"
+      },
+      "0x23ac4": {
+        "name": "a_marshall_seq_u_socket_d_d_d_server_fd_d_ret_d",
+        "addr": 146116,
+        "size": 57,
+        "type": "str",
+        "str_content": "marshall:seq=%u: socket(%d, %d, %d) server_fd %d ret %d\n"
+      },
+      "0x23b00": {
+        "name": "a_marshall_seq_u_bind_d_p_d",
+        "addr": 146176,
+        "size": 35,
+        "type": "str",
+        "str_content": "marshall:seq=%u: bind(%d, %p, %d)\n"
+      },
+      "0x23b24": {
+        "name": "a_marshall_seq_u_accept_d_p_p",
+        "addr": 146212,
+        "size": 37,
+        "type": "str",
+        "str_content": "marshall:seq=%u: accept(%d, %p, %p)\n"
+      },
+      "0x23e40": {
+        "name": "a_marshall_seq_u_getpeername_d_p_p",
+        "addr": 147008,
+        "size": 42,
+        "type": "str",
+        "str_content": "marshall:seq=%u: getpeername(%d, %p, %p)\n"
+      },
+      "0x241b8": {
+        "name": "a_marshall_seq_u_getsockname_d_p_p",
+        "addr": 147896,
+        "size": 42,
+        "type": "str",
+        "str_content": "marshall:seq=%u: getsockname(%d, %p, %p)\n"
+      },
+      "0x241f4": {
+        "name": "a_marshall_seq_u_getsockopt_d_d_d_p_p",
+        "addr": 147956,
+        "size": 49,
+        "type": "str",
+        "str_content": "marshall:seq=%u: getsockopt(%d, %d, %d, %p, %p)\n"
+      },
+      "0x24230": {
+        "name": "a_marshall_seq_u_setsockopt_d_d_d_p_d",
+        "addr": 148016,
+        "size": 49,
+        "type": "str",
+        "str_content": "marshall:seq=%u: setsockopt(%d, %d, %d, %p, %d)\n"
+      },
+      "0x24564": {
+        "name": "a_marshall_seq_u_connect_d_p_d",
+        "addr": 148836,
+        "size": 38,
+        "type": "str",
+        "str_content": "marshall:seq=%u: connect(%d, %p, %d)\n"
+      },
+      "0x245a4": {
+        "name": "a_s_marshall_seq_u_sendto_common_d_p_d_d_p_d_zero_le",
+        "addr": 148900,
+        "size": 72,
+        "type": "str",
+        "str_content": "%s:marshall:seq=%u: sendto_common(%d, %p, %d, %d, %p, %d), zero length\n"
+      },
+      "0x248ec": {
+        "name": "a_marshall_seq_u_sendto_common_d_p_d_d_p_d",
+        "addr": 149740,
+        "size": 56,
+        "type": "str",
+        "str_content": "marshall:seq=%u: sendto_common(%d, %p, %d, %d, %p, %d)\n"
+      },
+      "0x24928": {
+        "name": "a_marshall_seq_u_sendto_d_p_d_d_p_d_fd_now_d",
+        "addr": 149800,
+        "size": 59,
+        "type": "str",
+        "str_content": "marshall:seq=%u: sendto(%d, %p, %d, %d, %p, %d) fd now %d\n"
+      },
+      "0x24ce0": {
+        "name": "recvfrom_0",
+        "addr": 150752
+      },
+      "0x24d48": {
+        "name": "a_marshall_seq_u_recvfrom_common_d_p_d_d_p_p",
+        "addr": 150856,
+        "size": 58,
+        "type": "str",
+        "str_content": "marshall:seq=%u: recvfrom_common(%d, %p, %d, %d, %p, %p)\n"
+      },
+      "0x24ea4": {
+        "name": "recv_0",
+        "addr": 151204
+      },
+      "0x25104": {
+        "name": "a_marshall_seq_u_recvfrom_d_p_d_d_p_p_fd_now_d",
+        "addr": 151812,
+        "size": 61,
+        "type": "str",
+        "str_content": "marshall:seq=%u: recvfrom(%d, %p, %d, %d, %p, %p) fd now %d\n"
+      },
+      "0x25158": {
+        "name": "a_marshall_seq_u_listen_d_d",
+        "addr": 151896,
+        "size": 33,
+        "type": "str",
+        "str_content": "marshall:seq=%u: listen(%d, %d)\n"
+      },
+      "0x25180": {
+        "name": "a_marshall_seq_u_shutdown_d_d",
+        "addr": 151936,
+        "size": 35,
+        "type": "str",
+        "str_content": "marshall:seq=%u: shutdown(%d, %d)\n"
+      },
+      "0x25518": {
+        "name": "a_marshall_seq_u_socket_ioctl_p_d_lu_p",
+        "addr": 152856,
+        "size": 48,
+        "type": "str",
+        "str_content": "marshall:seq=%u: socket_ioctl(%p, %d, %lu, %p)\n"
+      },
+      "0x2556c": {
+        "name": "a_marshall_seq_u_socketGiveFileDescriptors_p_p_u_p",
+        "addr": 152940,
+        "size": 60,
+        "type": "str",
+        "str_content": "marshall:seq=%u: socketGiveFileDescriptors(%p, %p, %u, %p)\n"
+      },
+      "0x25838": {
+        "name": "a_marshall_seq_u_socketGetFileDescriptors_p_p_d_p",
+        "addr": 153656,
+        "size": 59,
+        "type": "str",
+        "str_content": "marshall:seq=%u: socketGetFileDescriptors(%p, %p, %d, %p)\n"
+      },
+      "0x25bd8": {
+        "name": "a_marshall_seq_u_socket_fcntl_p_d_d_d_p",
+        "addr": 154584,
+        "size": 51,
+        "type": "str",
+        "str_content": "marshall:seq=%u: socket_fcntl(%p, %d, %d, %d, %p)\n"
+      },
+      "0x25c0c": {
+        "name": "a_marshall_seq_u_socket_close_p_d",
+        "addr": 154636,
+        "size": 39,
+        "type": "str",
+        "str_content": "marshall:seq=%u: socket_close(%p, %d)\n"
+      },
+      "0x25c34": {
+        "name": "a_marshall_seq_u_socket_write_p_d_p_p",
+        "addr": 154676,
+        "size": 47,
+        "type": "str",
+        "str_content": "marshall:seq=%u: socket_write(%p, %d, %p, %p)\n"
+      },
+      "0x25c74": {
+        "name": "a_marshall_seq_u_socket_read_p_d_p_p",
+        "addr": 154740,
+        "size": 46,
+        "type": "str",
+        "str_content": "marshall:seq=%u: socket_read(%p, %d, %p, %p)\n"
+      },
+      "0x26018": {
+        "name": "a_marshall_seq_u_socket_reopen_p_d_p",
+        "addr": 155672,
+        "size": 44,
+        "type": "str",
+        "str_content": "marshall:seq=%u: socket_reopen(%p, %d, %p)\n"
+      },
+      "0x26048": {
+        "name": "a_marshall_seq_u_socket_readv_d_p_d",
+        "addr": 155720,
+        "size": 43,
+        "type": "str",
+        "str_content": "marshall:seq=%u: socket_readv(%d, %p, %d)\n"
+      },
+      "0x26074": {
+        "name": "a_marshall_seq_u_socket_writev_d_p_d",
+        "addr": 155764,
+        "size": 44,
+        "type": "str",
+        "str_content": "marshall:seq=%u: socket_writev(%d, %p, %d)\n"
+      },
+      "0x260a0": {
+        "name": "a_marshall_seq_u_SetupPollArgs_p_p_u_d_p",
+        "addr": 155808,
+        "size": 52,
+        "type": "str",
+        "str_content": "marshall:seq=%u: SetupPollArgs(%p, %p, %u, %d, %p)\n"
+      },
+      "0x2641c": {
+        "name": "a_marshall_seq_u_select_poll_p_p_d_d_p_p",
+        "addr": 156700,
+        "size": 54,
+        "type": "str",
+        "str_content": "marshall:seq=%u: select_poll(%p, %p, %d, %d, %p, %p)\n"
+      },
+      "0x2645c": {
+        "name": "a_marshall_seq_u_recvmsg_d_p_d",
+        "addr": 156764,
+        "size": 38,
+        "type": "str",
+        "str_content": "marshall:seq=%u: recvmsg(%d, %p, %d)\n"
+      },
+      "0x26924": {
+        "name": "a_marshall_seq_u_sendmsg_d_p_d",
+        "addr": 157988,
+        "size": 38,
+        "type": "str",
+        "str_content": "marshall:seq=%u: sendmsg(%d, %p, %d)\n"
+      },
+      "0x26ecc": {
+        "name": "a_marshall_seq_u_gethostname_p_d",
+        "addr": 159436,
+        "size": 38,
+        "type": "str",
+        "str_content": "marshall:seq=%u: gethostname(%p, %d)\n"
+      },
+      "0x2725c": {
+        "name": "a_libsocket_failed_to_set_shared_memory_file_with_st",
+        "addr": 160348,
+        "size": 56,
+        "type": "str",
+        "str_content": "libsocket: failed to set shared memory file with stack\n"
+      },
+      "0x276c8": {
+        "name": "a_marshall_seq_u___ghs_CancelSocketRequest_p",
+        "addr": 161480,
+        "size": 48,
+        "type": "str",
+        "str_content": "marshall:seq=%u: __ghs_CancelSocketRequest(%p)\n"
+      },
+      "0x276fc": {
+        "name": "a_marshall_seq_u___ghs_TCPIPAuthenticate_p",
+        "addr": 161532,
+        "size": 46,
+        "type": "str",
+        "str_content": "marshall:seq=%u: __ghs_TCPIPAuthenticate(%p)\n"
+      },
+      "0x2772c": {
+        "name": "a_marshall_seq_u_socket_goodbye_p",
+        "addr": 161580,
+        "size": 37,
+        "type": "str",
+        "str_content": "marshall:seq=%u: socket_goodbye(%p)\n"
+      },
+      "0x27b98": {
+        "name": "a_Can_t_run_on_this_platform",
+        "addr": 162712,
+        "size": 28,
+        "type": "str",
+        "str_content": "Can't run on this platform\n"
+      },
+      "0x27bb4": {
+        "name": "a_network",
+        "addr": 162740,
+        "size": 8,
+        "type": "str",
+        "str_content": "network"
+      },
+      "0x27bbc": {
+        "name": "a_Defaulting_config",
+        "addr": 162748,
+        "size": 19,
+        "type": "str",
+        "str_content": "Defaulting config\n"
+      },
+      "0x27bd4": {
+        "name": "a_i_vol0_cfg",
+        "addr": 162772,
+        "size": 12,
+        "type": "str",
+        "str_content": "i:/vol0/cfg"
+      },
+      "0x27be0": {
+        "name": "a_chdir_failed_d",
+        "addr": 162784,
+        "size": 17,
+        "type": "str",
+        "str_content": "chdir failed %d\n"
+      },
+      "0x27bf4": {
+        "name": "a_src_cfg_auto_det_c",
+        "addr": 162804,
+        "size": 19,
+        "type": "str",
+        "str_content": "src\\cfg_auto_det.c"
+      },
+      "0x27c08": {
+        "name": "a_linkdet_bin",
+        "addr": 162824,
+        "size": 12,
+        "type": "str",
+        "str_content": "linkdet.bin"
+      },
+      "0x27c14": {
+        "name": "a_rb",
+        "addr": 162836,
+        "size": 3,
+        "type": "str",
+        "str_content": "rb"
+      },
+      "0x27c28": {
+        "name": "a_Invalid_config_data_d",
+        "addr": 162856,
+        "size": 24,
+        "type": "str",
+        "str_content": "Invalid config data %d\n"
+      },
+      "0x28018": {
+        "name": "a_Upreving_cfg_file_to_ver_1",
+        "addr": 163864,
+        "size": 28,
+        "type": "str",
+        "str_content": "Upreving cfg file to ver.1\n"
+      },
+      "0x28038": {
+        "name": "a_File_open_fail_d",
+        "addr": 163896,
+        "size": 19,
+        "type": "str",
+        "str_content": "File open fail %d\n"
+      },
+      "0x2804c": {
+        "name": "a_w_b",
+        "addr": 163916,
+        "size": 4,
+        "type": "str",
+        "str_content": "w+b"
+      },
+      "0x2805c": {
+        "name": "a_Config_write_fail_d",
+        "addr": 163932,
+        "size": 22,
+        "type": "str",
+        "str_content": "Config write fail %d\n"
+      },
+      "0x28090": {
+        "name": "a_ERR3",
+        "addr": 163984,
+        "size": 5,
+        "type": "str",
+        "str_content": "ERR3"
+      },
+      "0x28098": {
+        "name": "a_ERR1",
+        "addr": 163992,
+        "size": 5,
+        "type": "str",
+        "str_content": "ERR1"
+      },
+      "0x280a0": {
+        "name": "a_ERR2",
+        "addr": 164000,
+        "size": 5,
+        "type": "str",
+        "str_content": "ERR2"
+      },
+      "0x280c8": {
+        "name": "a_Link_Active",
+        "addr": 164040,
+        "size": 12,
+        "type": "str",
+        "str_content": "Link Active"
+      },
+      "0x280d4": {
+        "name": "a_Received_Data",
+        "addr": 164052,
+        "size": 14,
+        "type": "str",
+        "str_content": "Received Data"
+      },
+      "0x280e4": {
+        "name": "a_DHCP_Address",
+        "addr": 164068,
+        "size": 13,
+        "type": "str",
+        "str_content": "DHCP Address"
+      },
+      "0x283b0": {
+        "name": "bb_register",
+        "addr": 164784
+      },
+      "0x28444": {
+        "name": "a_CreateBinarySemaphore_newsem",
+        "addr": 164932,
+        "size": 31,
+        "type": "str",
+        "str_content": "CreateBinarySemaphore(&newsem)"
+      },
+      "0x28464": {
+        "name": "a_src_bb_client_c",
+        "addr": 164964,
+        "size": 16,
+        "type": "str",
+        "str_content": "src\\bb_client.c"
+      },
+      "0x28474": {
+        "name": "a_blackbox",
+        "addr": 164980,
+        "size": 9,
+        "type": "str",
+        "str_content": "blackbox"
+      },
+      "0x2848c": {
+        "name": "a_BLACKBOX",
+        "addr": 165004,
+        "size": 9,
+        "type": "str",
+        "str_content": "BLACKBOX"
+      },
+      "0x284a0": {
+        "name": "a_The_s_failed_on_a_blackbox_vascom_call_Type_d_Subt",
+        "addr": 165024,
+        "size": 64,
+        "type": "str",
+        "str_content": "The %s failed on a blackbox vascom call [Type %d | Subtype %d]\n"
+      },
+      "0x284e8": {
+        "name": "a_unknown",
+        "addr": 165096,
+        "size": 8,
+        "type": "str",
+        "str_content": "unknown"
+      },
+      "0x28bf8": {
+        "name": "bb_code_set",
+        "addr": 166904
+      },
+      "0x28f1c": {
+        "name": "bb_descriptor_code",
+        "addr": 167708
+      },
+      "0x298a8": {
+        "name": "bb_log",
+        "addr": 170152
+      },
+      "0x2b250": {
+        "name": "a_src_bb_client_c_bb_info_get",
+        "addr": 176720,
+        "size": 28,
+        "type": "str",
+        "str_content": "src\\bb_client.c/bb_info_get"
+      },
+      "0x2b26c": {
+        "name": "a_ahs",
+        "addr": 176748,
+        "size": 4,
+        "type": "str",
+        "str_content": "ahs"
+      },
+      "0x2c508": {
+        "name": "a_Error_Getting_Name",
+        "addr": 181512,
+        "size": 19,
+        "type": "str",
+        "str_content": "Error Getting Name"
+      },
+      "0x2d3f4": {
+        "name": "a_bb_ilo_dbg_bb_client_returned_err_d_rcode_d",
+        "addr": 185332,
+        "size": 53,
+        "type": "str",
+        "str_content": "bb_ilo_dbg:bb_client returned.  err:  %d, rcode: %d\n"
+      },
+      "0x2d438": {
+        "name": "a_bb_ilo_dbg_diags_bb_client_returned_err_d_rcode_d",
+        "addr": 185400,
+        "size": 59,
+        "type": "str",
+        "str_content": "bb_ilo_dbg_diags:bb_client returned.  err:  %d, rcode: %d\n"
+      },
+      "0x2d478": {
+        "name": "a_s_d_s",
+        "addr": 185464,
+        "size": 11,
+        "type": "str",
+        "str_content": "%s(%d): %s"
+      },
+      "0x2d490": {
+        "name": "a_FYIBB__sz_d_overflowed_buf_d",
+        "addr": 185488,
+        "size": 35,
+        "type": "str",
+        "str_content": "FYIBB_: sz(%d) overflowed buf(%d)\n"
+      },
+      "0x2d4b8": {
+        "name": "a_FYIBB__Cannot_obtain_bb_client_sem_err_d",
+        "addr": 185528,
+        "size": 47,
+        "type": "str",
+        "str_content": "FYIBB_: Cannot obtain bb_client_sem! err = %d\n"
+      },
+      "0x2d7c4": {
+        "name": "a_OEM_service",
+        "addr": 186308,
+        "size": 12,
+        "type": "str",
+        "str_content": "OEM_service"
+      },
+      "0x2d7d0": {
+        "name": "a_VComClientSync_Call_OEM_SVCNAME_char_req_sizeof_re",
+        "addr": 186320,
+        "size": 87,
+        "type": "str",
+        "str_content": "VComClientSync_Call(OEM_SVCNAME, (char *)&req, sizeof(req), (char *)&rsp, sizeof(rsp))"
+      },
+      "0x2d828": {
+        "name": "a_src_oem_c_c",
+        "addr": 186408,
+        "size": 12,
+        "type": "str",
+        "str_content": "src\\oem_c.c"
+      },
+      "0x2d834": {
+        "name": "a_svcsILO",
+        "addr": 186420,
+        "size": 8,
+        "type": "str",
+        "str_content": "svcsILO"
+      },
+      "0x2d840": {
+        "name": "a_oem_prop_get_val_s_parm_error_prop_d_from_s",
+        "addr": 186432,
+        "size": 48,
+        "type": "str",
+        "str_content": "oem_prop_get_val_s: parm error prop %d from %s\n"
+      },
+      "0x2d870": {
+        "name": "a_oem_prop_get_val_s_rc_d_for_prop_d_from_s",
+        "addr": 186480,
+        "size": 47,
+        "type": "str",
+        "str_content": "oem_prop_get_val_s: rc %d for prop %d from %s\n"
+      },
+      "0x2d8a4": {
+        "name": "a_oem_prop_get_init_s_called_from_s_for_d_with_no_de",
+        "addr": 186532,
+        "size": 60,
+        "type": "str",
+        "str_content": "oem_prop_get_init_s: called from %s for %d with no default\n"
+      },
+      "0x2d8e8": {
+        "name": "a_src_oem_c_c_oem_prop_get_init_s",
+        "addr": 186600,
+        "size": 32,
+        "type": "str",
+        "str_content": "src\\oem_c.c/oem_prop_get_init_s"
+      },
+      "0x2db24": {
+        "name": "a_oem_prop_get_init_s_called_from_s_for_d_Properties",
+        "addr": 187172,
+        "size": 80,
+        "type": "str",
+        "str_content": "oem_prop_get_init_s: called from %s for %d.  Properties err; returning default\n"
+      },
+      "0x2db74": {
+        "name": "a_oem_prop_get_init_s_called_from_s_for_d_Malloc_err",
+        "addr": 187252,
+        "size": 76,
+        "type": "str",
+        "str_content": "oem_prop_get_init_s: called from %s for %d.  Malloc err; returning default\n"
+      },
+      "0x2dbc0": {
+        "name": "a_oem_prop_get_init_s_called_from_s_for_d_oem_prop_g",
+        "addr": 187328,
+        "size": 73,
+        "type": "str",
+        "str_content": "oem_prop_get_init_s: called from %s for %d.  oem_prop_get_val_s failed!\n"
+      },
+      "0x2dc10": {
+        "name": "a_oem_prop_get_init_alt_s_called_from_s_for_d_with_n",
+        "addr": 187408,
+        "size": 64,
+        "type": "str",
+        "str_content": "oem_prop_get_init_alt_s: called from %s for %d with no default\n"
+      },
+      "0x2dc50": {
+        "name": "a_oem_prop_get_init_alt_s_called_from_s_for_d_with_n",
+        "addr": 187472,
+        "size": 60,
+        "type": "str",
+        "str_content": "oem_prop_get_init_alt_s: called from %s for %d with no alt\n"
+      },
+      "0x2dc90": {
+        "name": "a_src_oem_c_c_oem_prop_get_init_alt_s",
+        "addr": 187536,
+        "size": 36,
+        "type": "str",
+        "str_content": "src\\oem_c.c/oem_prop_get_init_alt_s"
+      },
+      "0x2dcb4": {
+        "name": "a_oem_prop_get_init_alt_s_called_from_s_for_d_Proper",
+        "addr": 187572,
+        "size": 86,
+        "type": "str",
+        "str_content": "oem_prop_get_init_alt_s: called from %s for %d.  Properties err; returning alternate\n"
+      },
+      "0x2dd0c": {
+        "name": "a_oem_prop_get_init_alt_s_called_from_s_for_d_Malloc",
+        "addr": 187660,
+        "size": 82,
+        "type": "str",
+        "str_content": "oem_prop_get_init_alt_s: called from %s for %d.  Malloc err; returning alternate\n"
+      },
+      "0x2e004": {
+        "name": "a_oem_prop_get_init_alt_s_called_from_s_for_d_oem_pr",
+        "addr": 188420,
+        "size": 77,
+        "type": "str",
+        "str_content": "oem_prop_get_init_alt_s: called from %s for %d.  oem_prop_get_val_s failed!\n"
+      },
+      "0x2e058": {
+        "name": "a_OEM_client_stats_for_svcsILO_oem_prop_get_init_5u_",
+        "addr": 188504,
+        "size": 168,
+        "type": "str",
+        "str_content": "OEM client stats for svcsILO\r\noem_prop_get_init %5u calls\n                  %5u default returned\n                  %5u malloc calls\n                  %5u malloc bytes\n"
+      },
+      "0x2e11c": {
+        "name": "a_oem_feature_enabled_s_error_for_feature_s_from_s",
+        "addr": 188700,
+        "size": 53,
+        "type": "str",
+        "str_content": "oem_feature_enabled_s: error for feature %s from %s\n"
+      },
+      "0x2e3d4": {
+        "name": "a_oem_feature_licensable_s_error_for_feature_s_from_",
+        "addr": 189396,
+        "size": 56,
+        "type": "str",
+        "str_content": "oem_feature_licensable_s: error for feature %s from %s\n"
+      },
+      "0x2e40c": {
+        "name": "a_svcsiLO",
+        "addr": 189452,
+        "size": 8,
+        "type": "str",
+        "str_content": "svcsiLO"
+      },
+      "0x2e418": {
+        "name": "a_input_string_size_d_eclipses_output_buffer_size_d_",
+        "addr": 189464,
+        "size": 74,
+        "type": "str",
+        "str_content": "input string size [%d] eclipses output buffer size [%d]\n  >>%s\n  from %s\n"
+      },
+      "0x2e468": {
+        "name": "a_src_oem_c_c_oem_branding_token_swap_s",
+        "addr": 189544,
+        "size": 38,
+        "type": "str",
+        "str_content": "src\\oem_c.c/oem_branding_token_swap_s"
+      },
+      "0x2e910": {
+        "name": "a_0123456789ABCDEF",
+        "addr": 190736,
+        "size": 17,
+        "type": "str",
+        "str_content": "0123456789ABCDEF"
+      },
+      "0x2e924": {
+        "name": "a_asa_recv",
+        "addr": 190756,
+        "size": 9,
+        "type": "str",
+        "str_content": "asa recv"
+      },
+      "0x2e930": {
+        "name": "a_Failed_to_wait_for_OSA_semaphore_OSA_disabled",
+        "addr": 190768,
+        "size": 49,
+        "type": "str",
+        "str_content": "Failed to wait for OSA semaphore.  OSA disabled."
+      },
+      "0x2e964": {
+        "name": "a_Failed_to_bootstrap_AddressSpace_OSA_agent",
+        "addr": 190820,
+        "size": 43,
+        "type": "str",
+        "str_content": "Failed to bootstrap AddressSpace OSA agent"
+      },
+      "0x2e99c": {
+        "name": "a_Unrecognized_OSA_command",
+        "addr": 190876,
+        "size": 27,
+        "type": "str",
+        "str_content": "Unrecognized OSA command: "
+      },
+      "0x2e9c4": {
+        "name": "a_OSAAgent",
+        "addr": 190916,
+        "size": 9,
+        "type": "str",
+        "str_content": "OSAAgent"
+      },
+      "0x2ed1c": {
+        "name": "a_Parse_error_premature_end_of_input_string",
+        "addr": 191772,
+        "size": 43,
+        "type": "str",
+        "str_content": "Parse error: premature end of input string"
+      },
+      "0x2ed48": {
+        "name": "a_Parse_error_starting_at",
+        "addr": 191816,
+        "size": 26,
+        "type": "str",
+        "str_content": "Parse error starting at: "
+      },
+      "0x2ed64": {
+        "name": "a_Usage_create_task_task_name_entry_point_stackSize_",
+        "addr": 191844,
+        "size": 85,
+        "type": "str",
+        "str_content": "Usage: create task \"<task name>\" <entry point> [<stackSize>] [<priority>] [<weight>]"
+      },
+      "0x2edbc": {
+        "name": "a_Usage_close_task_object_number",
+        "addr": 191932,
+        "size": 34,
+        "type": "str",
+        "str_content": "Usage: close task <object number>"
+      },
+      "0x2f20c": {
+        "name": "a___args_",
+        "addr": 193036,
+        "size": 8,
+        "type": "str",
+        "str_content": "__args_"
+      },
+      "0x2f214": {
+        "name": "a___env_",
+        "addr": 193044,
+        "size": 7,
+        "type": "str",
+        "str_content": "__env_"
+      },
+      "0x2f21c": {
+        "name": "a_arguments",
+        "addr": 193052,
+        "size": 10,
+        "type": "str",
+        "str_content": "arguments"
+      },
+      "0x2f5b0": {
+        "name": "a_Enclosure_Power_Request",
+        "addr": 193968,
+        "size": 24,
+        "type": "str",
+        "str_content": "Enclosure Power Request"
+      },
+      "0x2f5c8": {
+        "name": "a_Blade_Standard_base_license",
+        "addr": 193992,
+        "size": 28,
+        "type": "str",
+        "str_content": "Blade Standard base license"
+      },
+      "0x2f5e4": {
+        "name": "a_cClass_Blade_Web_Page",
+        "addr": 194020,
+        "size": 22,
+        "type": "str",
+        "str_content": "cClass Blade Web Page"
+      },
+      "0x2f5fc": {
+        "name": "a_Board_Side_A",
+        "addr": 194044,
+        "size": 13,
+        "type": "str",
+        "str_content": "Board Side A"
+      },
+      "0x2f60c": {
+        "name": "a_Board_Side_B",
+        "addr": 194060,
+        "size": 13,
+        "type": "str",
+        "str_content": "Board Side B"
+      },
+      "0x2f61c": {
+        "name": "a_Half_width_blade",
+        "addr": 194076,
+        "size": 17,
+        "type": "str",
+        "str_content": "Half-width blade"
+      },
+      "0x2f630": {
+        "name": "a_Full_width_blade",
+        "addr": 194096,
+        "size": 17,
+        "type": "str",
+        "str_content": "Full-width blade"
+      },
+      "0x2f644": {
+        "name": "a_Scalable_c_Class_blade",
+        "addr": 194116,
+        "size": 23,
+        "type": "str",
+        "str_content": "Scalable c-Class blade"
+      },
+      "0x2f65c": {
+        "name": "a_Enable_IPMI_and_RIBCL_communication_on_the_private",
+        "addr": 194140,
+        "size": 62,
+        "type": "str",
+        "str_content": "Enable IPMI and RIBCL communication on the private port 49623"
+      },
+      "0x2f69c": {
+        "name": "a_Enable_slowed_scanchain_for_long_chains",
+        "addr": 194204,
+        "size": 40,
+        "type": "str",
+        "str_content": "Enable slowed scanchain for long chains"
+      },
+      "0x2f6c4": {
+        "name": "a_SNP___supported_by_this_system",
+        "addr": 194244,
+        "size": 31,
+        "type": "str",
+        "str_content": "SNP - supported by this system"
+      },
+      "0x2f6e4": {
+        "name": "a_ASIC_supports_8_I2C_engines",
+        "addr": 194276,
+        "size": 28,
+        "type": "str",
+        "str_content": "ASIC supports 8 I2C engines"
+      },
+      "0x2f700": {
+        "name": "a_Enable_ChifLite_use_before_memory_is_initialized",
+        "addr": 194304,
+        "size": 49,
+        "type": "str",
+        "str_content": "Enable ChifLite use before memory is initialized"
+      },
+      "0x2f734": {
+        "name": "a_iLO_is_required_and_cannot_be_disabled",
+        "addr": 194356,
+        "size": 39,
+        "type": "str",
+        "str_content": "iLO is required and cannot be disabled"
+      },
+      "0x2f75c": {
+        "name": "a_Carbondale_in_scalable_chassis",
+        "addr": 194396,
+        "size": 31,
+        "type": "str",
+        "str_content": "Carbondale in scalable chassis"
+      },
+      "0x2f77c": {
+        "name": "a_Platform_may_not_have_a_dedicated_NIC",
+        "addr": 194428,
+        "size": 38,
+        "type": "str",
+        "str_content": "Platform may not have a dedicated NIC"
+      },
+      "0x2f7a4": {
+        "name": "a_Platform_has_embedded_SMSC__NAND_using_CPLD_based_",
+        "addr": 194468,
+        "size": 58,
+        "type": "str",
+        "str_content": "Platform has embedded SMSC->NAND using CPLD-based SPI bus"
+      },
+      "0x2f7e0": {
+        "name": "a_Platform_has_embedded_SMSC__NAND_using_SPI_bus_1_M",
+        "addr": 194528,
+        "size": 65,
+        "type": "str",
+        "str_content": "Platform has embedded SMSC->NAND using SPI bus 1 (Moonshot only)"
+      },
+      "0x2f824": {
+        "name": "a_Platform_has_embedded_SMSC__NAND_using_SPI_bus_2",
+        "addr": 194596,
+        "size": 49,
+        "type": "str",
+        "str_content": "Platform has embedded SMSC->NAND using SPI bus 2"
+      },
+      "0x2f858": {
+        "name": "a_Platform_has_embedded_SMSC__NAND_using_SPI_bus_2_B",
+        "addr": 194648,
+        "size": 56,
+        "type": "str",
+        "str_content": "Platform has embedded SMSC->NAND using SPI bus 2 BIGBUF"
+      },
+      "0x2f890": {
+        "name": "a_Intel_x86",
+        "addr": 194704,
+        "size": 10,
+        "type": "str",
+        "str_content": "Intel x86"
+      },
+      "0x2f89c": {
+        "name": "a_AMD",
+        "addr": 194716,
+        "size": 4,
+        "type": "str",
+        "str_content": "AMD"
+      },
+      "0x2f8a0": {
+        "name": "a_Itanium",
+        "addr": 194720,
+        "size": 8,
+        "type": "str",
+        "str_content": "Itanium"
+      },
+      "0x2f8a8": {
+        "name": "a_Development_board",
+        "addr": 194728,
+        "size": 18,
+        "type": "str",
+        "str_content": "Development board"
+      },
+      "0x2f8bc": {
+        "name": "a_Brownout_workaround",
+        "addr": 194748,
+        "size": 20,
+        "type": "str",
+        "str_content": "Brownout workaround"
+      },
+      "0x2f98c": {
+        "name": "a_c_Class_blade_server",
+        "addr": 194956,
+        "size": 21,
+        "type": "str",
+        "str_content": "c-Class blade server"
+      },
+      "0x2f9a4": {
+        "name": "a_runs_in_an_enclosure",
+        "addr": 194980,
+        "size": 21,
+        "type": "str",
+        "str_content": "runs in an enclosure"
+      },
+      "0x2f9bc": {
+        "name": "a_high_efficiency_mode_disabled",
+        "addr": 195004,
+        "size": 30,
+        "type": "str",
+        "str_content": "high efficiency mode disabled"
+      },
+      "0x2f9dc": {
+        "name": "a_shared_network_port_via_ALOM",
+        "addr": 195036,
+        "size": 29,
+        "type": "str",
+        "str_content": "shared network port via ALOM"
+      },
+      "0x2f9fc": {
+        "name": "a_shared_network_port_via_embedded_LOM",
+        "addr": 195068,
+        "size": 37,
+        "type": "str",
+        "str_content": "shared network port via embedded LOM"
+      },
+      "0x2fa24": {
+        "name": "a_shared_network_port_via_management_ethernet_kit",
+        "addr": 195108,
+        "size": 48,
+        "type": "str",
+        "str_content": "shared network port via management ethernet kit"
+      },
+      "0x2fa54": {
+        "name": "a_host_reset_needed_after_SNP_config",
+        "addr": 195156,
+        "size": 35,
+        "type": "str",
+        "str_content": "host reset needed after SNP config"
+      },
+      "0x2fa78": {
+        "name": "a_power_sequencer_fault_reporting",
+        "addr": 195192,
+        "size": 32,
+        "type": "str",
+        "str_content": "power sequencer fault reporting"
+      },
+      "0x2fa98": {
+        "name": "a_Supports_iLO_Essentials_License",
+        "addr": 195224,
+        "size": 32,
+        "type": "str",
+        "str_content": "Supports iLO Essentials License"
+      },
+      "0x2fab8": {
+        "name": "a_Supports_iLO_Hyperscale_License",
+        "addr": 195256,
+        "size": 32,
+        "type": "str",
+        "str_content": "Supports iLO Hyperscale License"
+      },
+      "0x2fad8": {
+        "name": "a_Supports_Cores_on_Demand_License",
+        "addr": 195288,
+        "size": 33,
+        "type": "str",
+        "str_content": "Supports Cores-on-Demand License"
+      },
+      "0x2fafc": {
+        "name": "a_Supports_conjoined_operation",
+        "addr": 195324,
+        "size": 29,
+        "type": "str",
+        "str_content": "Supports conjoined operation"
+      },
+      "0x2fb1c": {
+        "name": "a_Hide_able_UI_when_in_Aux_operation_mode",
+        "addr": 195356,
+        "size": 40,
+        "type": "str",
+        "str_content": "Hide-able UI when in Aux operation mode"
+      },
+      "0x2fb44": {
+        "name": "a_embedded_NAND_is_absent",
+        "addr": 195396,
+        "size": 24,
+        "type": "str",
+        "str_content": "embedded NAND is absent"
+      },
+      "0x2fb5c": {
+        "name": "a_Supports_hardware_with_no_dedicated_NIC",
+        "addr": 195420,
+        "size": 40,
+        "type": "str",
+        "str_content": "Supports hardware with no dedicated NIC"
+      },
+      "0x2fb84": {
+        "name": "a_Supports_hardware_with_no_SNP_NIC",
+        "addr": 195460,
+        "size": 34,
+        "type": "str",
+        "str_content": "Supports hardware with no SNP NIC"
+      },
+      "0x2fba8": {
+        "name": "a_Disable_SNP_NIC",
+        "addr": 195496,
+        "size": 17,
+        "type": "str",
+        "str_content": "Disable  SNP NIC"
+      },
+      "0x2fbbc": {
+        "name": "a_Disable_dedicated_NIC",
+        "addr": 195516,
+        "size": 23,
+        "type": "str",
+        "str_content": "Disable  dedicated NIC"
+      },
+      "0x2fbd4": {
+        "name": "a_Basic_IPMI_enabled_on_serial_port",
+        "addr": 195540,
+        "size": 34,
+        "type": "str",
+        "str_content": "Basic IPMI enabled on serial port"
+      },
+      "0x2fbf8": {
+        "name": "a_CLI_disabled_on_serial_port",
+        "addr": 195576,
+        "size": 28,
+        "type": "str",
+        "str_content": "CLI disabled on serial port"
+      },
+      "0x2fc14": {
+        "name": "a_Attribute_s_described_using_Xregister",
+        "addr": 195604,
+        "size": 39,
+        "type": "str",
+        "str_content": "Attribute(s) described using Xregister"
+      },
+      "0x2fc3c": {
+        "name": "a_Do_not_flag_unknown_attributes_as_self_test_errors",
+        "addr": 195644,
+        "size": 51,
+        "type": "str",
+        "str_content": "Do not flag unknown attributes as self-test errors"
+      },
+      "0x2fc70": {
+        "name": "a_Supports_Progress_Log_processing_within_iLO",
+        "addr": 195696,
+        "size": 44,
+        "type": "str",
+        "str_content": "Supports Progress Log processing within iLO"
+      },
+      "0x2fc9c": {
+        "name": "a_Platform_has_UEFI_BIOS",
+        "addr": 195740,
+        "size": 23,
+        "type": "str",
+        "str_content": "Platform has UEFI BIOS"
+      },
+      "0x2fcb4": {
+        "name": "a_APML_data_carried_in_system_ROM",
+        "addr": 195764,
+        "size": 32,
+        "type": "str",
+        "str_content": "APML data carried in system ROM"
+      },
+      "0x2fd4c": {
+        "name": "a_Slow_SPI_2_Bus_speed_for_long_trace_length",
+        "addr": 195916,
+        "size": 43,
+        "type": "str",
+        "str_content": "Slow SPI#2 Bus speed for long trace length"
+      },
+      "0x2fd78": {
+        "name": "a_Platform_requires_BladeLink_FRU_hardware_for_conjo",
+        "addr": 195960,
+        "size": 65,
+        "type": "str",
+        "str_content": "Platform requires BladeLink FRU hardware for conjoined operation"
+      },
+      "0x2fdbc": {
+        "name": "a_Platform_does_not_support_Auto_Power_On",
+        "addr": 196028,
+        "size": 40,
+        "type": "str",
+        "str_content": "Platform does not support Auto Power On"
+      },
+      "0x2fde4": {
+        "name": "a_SL_platform_with_eFuse_circuit",
+        "addr": 196068,
+        "size": 31,
+        "type": "str",
+        "str_content": "SL platform with eFuse circuit"
+      },
+      "0x2fe04": {
+        "name": "a_Deprecated_attribute",
+        "addr": 196100,
+        "size": 21,
+        "type": "str",
+        "str_content": "Deprecated attribute"
+      },
+      "0x2fe1c": {
+        "name": "a_G9_and_later_platforms_support_new_Scan_Chain_and_",
+        "addr": 196124,
+        "size": 69,
+        "type": "str",
+        "str_content": "G9 and later platforms support new Scan Chain and GPIO v02 and later"
+      },
+      "0x2fe64": {
+        "name": "a_Active_Health_System_format_version_2_Gen9",
+        "addr": 196196,
+        "size": 45,
+        "type": "str",
+        "str_content": "Active Health System format version 2 (Gen9)"
+      },
+      "0x2fe94": {
+        "name": "a_Allows_iLO_to_be_reset_externally_using_UID_button",
+        "addr": 196244,
+        "size": 51,
+        "type": "str",
+        "str_content": "Allows iLO to be reset externally using UID button"
+      },
+      "0x2fec8": {
+        "name": "a_Selected_Gen_9_platforms_support_NFC",
+        "addr": 196296,
+        "size": 37,
+        "type": "str",
+        "str_content": "Selected Gen 9 platforms support NFC"
+      },
+      "0x2fef0": {
+        "name": "a_Noisy_I2C_BUS",
+        "addr": 196336,
+        "size": 14,
+        "type": "str",
+        "str_content": "Noisy I2C BUS"
+      },
+      "0x2ff00": {
+        "name": "a_GLP_4_Updated_I2C_Block_Engine_is_NOT_Supported",
+        "addr": 196352,
+        "size": 48,
+        "type": "str",
+        "str_content": "GLP-4 Updated I2C Block Engine is NOT Supported"
+      },
+      "0x2ff30": {
+        "name": "a_Supports_hardware_with_no_power_supply_monitor",
+        "addr": 196400,
+        "size": 47,
+        "type": "str",
+        "str_content": "Supports hardware with no power supply monitor"
+      },
+      "0x2ff60": {
+        "name": "a_Identifies_Gen8_systems_so_RIS_command_can_be_deni",
+        "addr": 196448,
+        "size": 61,
+        "type": "str",
+        "str_content": "Identifies Gen8 systems so RIS command can be denied/allowed"
+      },
+      "0x2ffa0": {
+        "name": "a_No_host_DB9_serial_port",
+        "addr": 196512,
+        "size": 24,
+        "type": "str",
+        "str_content": "No host DB9 serial port"
+      },
+      "0x2ffb8": {
+        "name": "a_Blade_Server_for_Thunderbird_Enclosure",
+        "addr": 196536,
+        "size": 39,
+        "type": "str",
+        "str_content": "Blade Server for Thunderbird Enclosure"
+      },
+      "0x2ffe0": {
+        "name": "a_Blade_Server_does_not_support_brookline",
+        "addr": 196576,
+        "size": 40,
+        "type": "str",
+        "str_content": "Blade Server does not support brookline"
+      },
+      "0x30008": {
+        "name": "a_This_server_will_use_a_web_gui_specific_to_tbird_b",
+        "addr": 196616,
+        "size": 55,
+        "type": "str",
+        "str_content": "This server will use a web gui specific to tbird blade"
+      },
+      "0x30040": {
+        "name": "a_This_server_does_not_support_modification_of_the_N",
+        "addr": 196672,
+        "size": 53,
+        "type": "str",
+        "str_content": "This server does not support modification of the NIC"
+      },
+      "0x30078": {
+        "name": "a_This_blade_server_will_sync_its_smbios_and_fru_ser",
+        "addr": 196728,
+        "size": 63,
+        "type": "str",
+        "str_content": "This blade server will sync its smbios and fru serial numbers."
+      },
+      "0x300b8": {
+        "name": "a_This_server_supports_net_resets",
+        "addr": 196792,
+        "size": 33,
+        "type": "str",
+        "str_content": "This server supports net resets."
+      },
+      "0x30138": {
+        "name": "a_This_blade_server_supports_server_fru_eeprom_that_",
+        "addr": 196920,
+        "size": 62,
+        "type": "str",
+        "str_content": "This blade server supports server fru eeprom that is accesed."
+      },
+      "0x30178": {
+        "name": "a_This_blade_server_does_not_support_virtual_fru",
+        "addr": 196984,
+        "size": 47,
+        "type": "str",
+        "str_content": "This blade server does not support virtual fru"
+      },
+      "0x301a8": {
+        "name": "a_This_blade_server_requires_the_pwr_button_pass_thr",
+        "addr": 197032,
+        "size": 67,
+        "type": "str",
+        "str_content": "This blade server requires the pwr button pass thru to be cleared."
+      },
+      "0x301ec": {
+        "name": "a_This_blade_server_will_not_use_pwrmgrs_brownout_su",
+        "addr": 197100,
+        "size": 56,
+        "type": "str",
+        "str_content": "This blade server will not use pwrmgrs brownout support"
+      },
+      "0x30224": {
+        "name": "a_This_blade_server_will_not_use_pwrmgrs_shutdown_th",
+        "addr": 197156,
+        "size": 55,
+        "type": "str",
+        "str_content": "This blade server will not use pwrmgrs shutdown thread"
+      },
+      "0x3025c": {
+        "name": "a_This_blade_server_s_fru_has_a_scaling_factor_that_",
+        "addr": 197212,
+        "size": 63,
+        "type": "str",
+        "str_content": "This blade server's fru has a scaling factor that pwrmgr uses."
+      },
+      "0x3029c": {
+        "name": "a_This_blade_server_will_use_a_mock_pwrsupply_for_po",
+        "addr": 197276,
+        "size": 65,
+        "type": "str",
+        "str_content": "This blade server will use a mock pwrsupply for power reporting."
+      },
+      "0x302e0": {
+        "name": "a_This_server_supports_EFUSE",
+        "addr": 197344,
+        "size": 27,
+        "type": "str",
+        "str_content": "This server supports EFUSE"
+      },
+      "0x302fc": {
+        "name": "a_This_server_will_request_power_from_EM_via_RIS",
+        "addr": 197372,
+        "size": 47,
+        "type": "str",
+        "str_content": "This server will request power from EM via RIS"
+      },
+      "0x3032c": {
+        "name": "a_This_server_must_have_IPV6_link_local_SSDP_multica",
+        "addr": 197420,
+        "size": 68,
+        "type": "str",
+        "str_content": "This server must have IPV6 link-local SSDP multicast always enabled"
+      },
+      "0x30370": {
+        "name": "a_This_server_does_not_support_the_APO_restore_optio",
+        "addr": 197488,
+        "size": 52,
+        "type": "str",
+        "str_content": "This server does not support the APO restore option"
+      },
+      "0x303a4": {
+        "name": "a_This_server_is_a_blade_chassis",
+        "addr": 197540,
+        "size": 31,
+        "type": "str",
+        "str_content": "This server is a blade chassis"
+      },
+      "0x303c4": {
+        "name": "a_This_server_by_default_will_propagate_time_to_host",
+        "addr": 197572,
+        "size": 52,
+        "type": "str",
+        "str_content": "This server by default will propagate time to host."
+      },
+      "0x303f8": {
+        "name": "a_This_server_will_use_port_49623_to_give_iLO_RIS_Ac",
+        "addr": 197624,
+        "size": 56,
+        "type": "str",
+        "str_content": "This server will use port 49623 to give iLO RIS Access."
+      },
+      "0x30430": {
+        "name": "a_This_server_will_support_Virtual_ID_and_Server_Sig",
+        "addr": 197680,
+        "size": 78,
+        "type": "str",
+        "str_content": "This server will support Virtual ID and Server Signature Support from Fusion."
+      },
+      "0x30480": {
+        "name": "a_Platform_has_a_UEFI_Gen_9_BIOS",
+        "addr": 197760,
+        "size": 31,
+        "type": "str",
+        "str_content": "Platform has a UEFI Gen 9 BIOS"
+      },
+      "0x304a0": {
+        "name": "a_Disable_MCTP_and_AMS_support",
+        "addr": 197792,
+        "size": 29,
+        "type": "str",
+        "str_content": "Disable MCTP and AMS support"
+      },
+      "0x304c0": {
+        "name": "a_This_server_does_not_support_VLAN",
+        "addr": 197824,
+        "size": 34,
+        "type": "str",
+        "str_content": "This server does not support VLAN"
+      },
+      "0x30534": {
+        "name": "a_This_server_does_not_require_serial_port_CLI_authe",
+        "addr": 197940,
+        "size": 72,
+        "type": "str",
+        "str_content": "This server does not require serial port CLI authentication by default."
+      },
+      "0x3057c": {
+        "name": "a_This_server_uses_RIS_to_communicate_with_the_Enclo",
+        "addr": 198012,
+        "size": 64,
+        "type": "str",
+        "str_content": "This server uses RIS to communicate with the Enclosure Manager."
+      },
+      "0x305bc": {
+        "name": "a_This_server_uses_APML_and_FRU_read_values_to_refin",
+        "addr": 198076,
+        "size": 79,
+        "type": "str",
+        "str_content": "This server uses APML and FRU-read values to refine power and eBrake requests."
+      },
+      "0x3060c": {
+        "name": "a_iLO_is_able_to_deny_power_on_to_this_server_if_nec",
+        "addr": 198156,
+        "size": 58,
+        "type": "str",
+        "str_content": "iLO is able to deny power on to this server if necessary."
+      },
+      "0x30648": {
+        "name": "a_This_server_has_fast_cap_circuitry_which_iLO_shoul",
+        "addr": 198216,
+        "size": 72,
+        "type": "str",
+        "str_content": "This server has fast cap circuitry which iLO should program the DAC on."
+      },
+      "0x30690": {
+        "name": "a_No_NVRAM_device_CFG_PJFS_in_RAMDISK_SPI_Change_oth",
+        "addr": 198288,
+        "size": 70,
+        "type": "str",
+        "str_content": "No NVRAM device.  CFG PJFS in RAMDISK/SPI.  Change other SRAM access."
+      },
+      "0x306d8": {
+        "name": "a_Moonshot___many_features_disabled_if_VAs_not_easil",
+        "addr": 198360,
+        "size": 63,
+        "type": "str",
+        "str_content": "Moonshot - many features disabled (if VAs not easily removed)."
+      },
+      "0x30718": {
+        "name": "a_FUM_can_t_necessarily_access_devices_for_GUIDs",
+        "addr": 198424,
+        "size": 48,
+        "type": "str",
+        "str_content": "FUM can't necessarily access devices for GUIDs."
+      },
+      "0x30748": {
+        "name": "a_Satellite_Controller_for_Moonshot",
+        "addr": 198472,
+        "size": 35,
+        "type": "str",
+        "str_content": "Satellite Controller for Moonshot."
+      },
+      "0x3076c": {
+        "name": "a_There_is_not_a_ROM_SPI_part_connected_to_us_SPI_en",
+        "addr": 198508,
+        "size": 57,
+        "type": "str",
+        "str_content": "There is not a ROM SPI part connected to us (SPI engine)"
+      },
+      "0x307a8": {
+        "name": "a_This_server_reqiuires_a_higher_efuse_current_limit",
+        "addr": 198568,
+        "size": 62,
+        "type": "str",
+        "str_content": "This server reqiuires a higher efuse current limit to be set."
+      },
+      "0x307e8": {
+        "name": "a_TBird_log_event_if_we_think_CPU_or_FRU_is_missing_",
+        "addr": 198632,
+        "size": 61,
+        "type": "str",
+        "str_content": "TBird: log event if we think CPU or FRU is missing from APML"
+      },
+      "0x30828": {
+        "name": "a_Hood_Sensor_Supported_DIP_Switch_needed_to_activat",
+        "addr": 198696,
+        "size": 54,
+        "type": "str",
+        "str_content": "Hood Sensor Supported.  DIP Switch needed to activate"
+      },
+      "0x30860": {
+        "name": "a_Moonshot_EL_xxxx_Chassis_detected",
+        "addr": 198752,
+        "size": 35,
+        "type": "str",
+        "str_content": "Moonshot EL-xxxx Chassis detected."
+      },
+      "0x30884": {
+        "name": "a_I2C_RTC_is_available_DS_1337_data_sheet",
+        "addr": 198788,
+        "size": 43,
+        "type": "str",
+        "str_content": "I2C RTC is available (DS 1337) data sheet."
+      },
+      "0x308b0": {
+        "name": "a_This_platform_by_default_will_have_an_advanced_lic",
+        "addr": 198832,
+        "size": 56,
+        "type": "str",
+        "str_content": "This platform by default will have an advanced license."
+      },
+      "0x30a20": {
+        "name": "call_xeplat_service_0",
+        "addr": 199200
+      },
+      "0x30c2c": {
+        "name": "a_xeplat_service",
+        "addr": 199724,
+        "size": 15,
+        "type": "str",
+        "str_content": "xeplat_service"
+      },
+      "0x30c3c": {
+        "name": "a_VComClientSync_Call_failed_d",
+        "addr": 199740,
+        "size": 31,
+        "type": "str",
+        "str_content": "VComClientSync_Call failed %d\n"
+      },
+      "0x30c5c": {
+        "name": "a_svcsHost",
+        "addr": 199772,
+        "size": 9,
+        "type": "str",
+        "str_content": "svcsHost"
+      },
+      "0x30c68": {
+        "name": "a_client_Got_platform_name_s",
+        "addr": 199784,
+        "size": 30,
+        "type": "str",
+        "str_content": "client: Got platform_name %s\n"
+      },
+      "0x30c88": {
+        "name": "a_client_Unable_to_get_platform_name",
+        "addr": 199816,
+        "size": 37,
+        "type": "str",
+        "str_content": "client: Unable to get platform name\n"
+      },
+      "0x30cb0": {
+        "name": "a_client_Unable_to_get_minimum_system_ROM",
+        "addr": 199856,
+        "size": 42,
+        "type": "str",
+        "str_content": "client: Unable to get minimum system ROM\n"
+      },
+      "0x31038": {
+        "name": "a_client_Unable_to_get_minimum_firmware_version",
+        "addr": 200760,
+        "size": 48,
+        "type": "str",
+        "str_content": "client: Unable to get minimum firmware version\n"
+      },
+      "0x3106c": {
+        "name": "a_src_xeplat_c_c",
+        "addr": 200812,
+        "size": 15,
+        "type": "str",
+        "str_content": "src\\xeplat_c.c"
+      },
+      "0x310b0": {
+        "name": "a_i_vol0_cfg",
+        "addr": 200880,
+        "size": 12,
+        "type": "str",
+        "str_content": "i:/vol0/cfg"
+      },
+      "0x310bc": {
+        "name": "a_i_vol0_cfg",
+        "addr": 200892,
+        "size": 12,
+        "type": "str",
+        "str_content": "i:/vol0/cfg"
+      },
+      "0x310c8": {
+        "name": "a_IPv6RAMon",
+        "addr": 200904,
+        "size": 11,
+        "type": "str",
+        "str_content": "IPv6RAMon "
+      },
+      "0x310f0": {
+        "name": "a_pjfs",
+        "addr": 200944,
+        "size": 5,
+        "type": "str",
+        "str_content": "pjfs"
+      },
+      "0x31100": {
+        "name": "a_pjfs",
+        "addr": 200960,
+        "size": 5,
+        "type": "str",
+        "str_content": "pjfs"
+      },
+      "0x31108": {
+        "name": "a_pjfs",
+        "addr": 200968,
+        "size": 5,
+        "type": "str",
+        "str_content": "pjfs"
+      },
+      "0x31118": {
+        "name": "a_systempassword",
+        "addr": 200984,
+        "size": 16,
+        "type": "str",
+        "str_content": "!systempassword"
+      },
+      "0x31128": {
+        "name": "a_Timed_out_trying_to_connect_to_PJFS_server",
+        "addr": 201000,
+        "size": 44,
+        "type": "str",
+        "str_content": "Timed out trying to connect to PJFS server\n"
+      },
+      "0x31154": {
+        "name": "a_Failed_to_connect_to_PJFS_server",
+        "addr": 201044,
+        "size": 34,
+        "type": "str",
+        "str_content": "Failed to connect to PJFS server\n"
+      },
+      "0x31178": {
+        "name": "a_PJFSClientConnection",
+        "addr": 201080,
+        "size": 21,
+        "type": "str",
+        "str_content": "PJFSClientConnection"
+      },
+      "0x311a0": {
+        "name": "a_0123456789ABCDEF",
+        "addr": 201120,
+        "size": 17,
+        "type": "str",
+        "str_content": "0123456789ABCDEF"
+      },
+      "0x311b8": {
+        "name": "a_OFWIV",
+        "addr": 201144,
+        "size": 6,
+        "type": "str",
+        "str_content": "OFWIV"
+      },
+      "0x311c0": {
+        "name": "a_s_s_lu_09llu_seconds",
+        "addr": 201152,
+        "size": 27,
+        "type": "str",
+        "str_content": "%s %s: %lu.%09llu seconds\n"
+      },
+      "0x311dc": {
+        "name": "a_exit",
+        "addr": 201180,
+        "size": 5,
+        "type": "str",
+        "str_content": "exit"
+      },
+      "0x311e4": {
+        "name": "a_u_u_u_u",
+        "addr": 201188,
+        "size": 12,
+        "type": "str",
+        "str_content": "%u.%u.%u.%u"
+      },
+      "0x311f0": {
+        "name": "a_0123456789abcdef",
+        "addr": 201200,
+        "size": 17,
+        "type": "str",
+        "str_content": "0123456789abcdef"
+      },
+      "0x31201": {
+        "name": "a_0123456789ABCDEF",
+        "addr": 201217,
+        "size": 17,
+        "type": "str",
+        "str_content": "0123456789ABCDEF"
+      },
+      "0x31218": {
+        "name": "a_etc_services",
+        "addr": 201240,
+        "size": 14,
+        "type": "str",
+        "str_content": "/etc/services"
+      },
+      "0x31228": {
+        "name": "a_etc_nsswitch_conf",
+        "addr": 201256,
+        "size": 19,
+        "type": "str",
+        "str_content": "/etc/nsswitch.conf"
+      },
+      "0x3123c": {
+        "name": "a_etc_protocols",
+        "addr": 201276,
+        "size": 15,
+        "type": "str",
+        "str_content": "/etc/protocols"
+      },
+      "0x3124c": {
+        "name": "a_etc_hosts",
+        "addr": 201292,
+        "size": 11,
+        "type": "str",
+        "str_content": "/etc/hosts"
+      },
+      "0x312d8": {
+        "name": "a_TCP_IP",
+        "addr": 201432,
+        "size": 7,
+        "type": "str",
+        "str_content": "TCP/IP"
+      },
+      "0x312e8": {
+        "name": "a_error",
+        "addr": 201448,
+        "size": 6,
+        "type": "str",
+        "str_content": "error"
+      },
+      "0x312f0": {
+        "name": "a_error",
+        "addr": 201456,
+        "size": 6,
+        "type": "str",
+        "str_content": "error"
+      },
+      "0x312f8": {
+        "name": "a_ILO",
+        "addr": 201464,
+        "size": 5,
+        "type": "str",
+        "str_content": "#ILO"
+      },
+      "0x31310": {
+        "name": "a_iLO_4",
+        "addr": 201488,
+        "size": 6,
+        "type": "str",
+        "str_content": "iLO 4"
+      },
+      "0x31318": {
+        "name": "a_VENDABR",
+        "addr": 201496,
+        "size": 9,
+        "type": "str",
+        "str_content": "#VENDABR"
+      },
+      "0x31334": {
+        "name": "a_Hewlett_Packard_Enterprise",
+        "addr": 201524,
+        "size": 27,
+        "type": "str",
+        "str_content": "Hewlett Packard Enterprise"
+      },
+      "0x31350": {
+        "name": "a_ADVLIC",
+        "addr": 201552,
+        "size": 8,
+        "type": "str",
+        "str_content": "#ADVLIC"
+      },
+      "0x31358": {
+        "name": "a_iLO_Advanced",
+        "addr": 201560,
+        "size": 13,
+        "type": "str",
+        "str_content": "iLO Advanced"
+      },
+      "0x31368": {
+        "name": "a_WWWBMC",
+        "addr": 201576,
+        "size": 8,
+        "type": "str",
+        "str_content": "#WWWBMC"
+      },
+      "0x31370": {
+        "name": "a_www_hpe_com_info_ilo",
+        "addr": 201584,
+        "size": 21,
+        "type": "str",
+        "str_content": "www.hpe.com/info/ilo"
+      }
+    }
+  }
+}

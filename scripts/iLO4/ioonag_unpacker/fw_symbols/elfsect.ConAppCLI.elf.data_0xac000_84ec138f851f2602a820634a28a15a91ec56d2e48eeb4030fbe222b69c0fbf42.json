@@ -1,0 +1,4767 @@
+{
+  "elfsect": {
+    "name": ".ConAppCLI.elf.data",
+    "sha256.text": "84ec138f851f2602a820634a28a15a91ec56d2e48eeb4030fbe222b69c0fbf42",
+    "baseaddr": 704512,
+    "size": 258048,
+    "symbols": {
+      "0xac020": {
+        "name": "g_known_escape_sequences",
+        "addr": 704544
+      },
+      "0xac338": {
+        "name": "a_Displays_the_ILO_firmware_version_Example_show_map",
+        "addr": 705336,
+        "size": 77,
+        "type": "str",
+        "str_content": "\r\nDisplays the #ILO firmware version.\r\nExample: show /map1/firmware1 version"
+      },
+      "0xac388": {
+        "name": "a_Displays_information_about_the_system_ROM_firmware",
+        "addr": 705416,
+        "size": 62,
+        "type": "str",
+        "str_content": "\r\nDisplays information about the system ROM firmware version."
+      },
+      "0xac3c8": {
+        "name": "a_Displays_the_ILO_firmware_date_Example_show_map1_f",
+        "addr": 705480,
+        "size": 71,
+        "type": "str",
+        "str_content": "\r\nDisplays the #ILO firmware date.\r\nExample: show /map1/firmware1 date"
+      },
+      "0xac410": {
+        "name": "a_Displays_information_about_the_system_ROM_date_Exa",
+        "addr": 705552,
+        "size": 89,
+        "type": "str",
+        "str_content": "\r\nDisplays information about the system ROM date.\r\nExample: show /system1/firmware1 date"
+      },
+      "0xac46c": {
+        "name": "a_Displays_the_PRODABR_event_log_event_date_Example_",
+        "addr": 705644,
+        "size": 119,
+        "type": "str",
+        "str_content": "\r\nDisplays the #PRODABR event log event date.\r\nExample: show /map1/log1/record<n> date , where n is the record number "
+      },
+      "0xac4e4": {
+        "name": "a_Displays_the_system_event_log_event_date_Example_s",
+        "addr": 705764,
+        "size": 120,
+        "type": "str",
+        "str_content": "\r\nDisplays the system event log event date.\r\nExample: show /system1/log1/record<n> date , where n is the record number "
+      },
+      "0xac55c": {
+        "name": "a_Displays_the_PRODABR_event_log_event_time_Example_",
+        "addr": 705884,
+        "size": 119,
+        "type": "str",
+        "str_content": "\r\nDisplays the #PRODABR event log event time.\r\nExample: show /map1/log1/record<n> time , where n is the record number "
+      },
+      "0xac5d4": {
+        "name": "a_Displays_the_system_event_log_event_time_Example_s",
+        "addr": 706004,
+        "size": 120,
+        "type": "str",
+        "str_content": "\r\nDisplays the system event log event time.\r\nExample: show /system1/log1/record<n> time , where n is the record number "
+      },
+      "0xac64c": {
+        "name": "a_TESTTRAP_Sends_a_test_SNMP_trap_to_the_configured_",
+        "addr": 706124,
+        "size": 74,
+        "type": "str",
+        "str_content": "TESTTRAP : Sends a test SNMP trap to the configured alert destinations.\r\n"
+      },
+      "0xac698": {
+        "name": "a_help_Used_to_get_context_sensitive_help",
+        "addr": 706200,
+        "size": 48,
+        "type": "str",
+        "str_content": "\r\nhelp    : Used to get context sensitive help."
+      },
+      "0xac6c8": {
+        "name": "a_Displays_or_modifies_PRODABR_NIC_IP_address",
+        "addr": 706248,
+        "size": 48,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR NIC IP address."
+      },
+      "0xac6f8": {
+        "name": "a_Display_PRODABR_NIC_Link_Technology",
+        "addr": 706296,
+        "size": 40,
+        "type": "str",
+        "str_content": "\r\nDisplay #PRODABR NIC Link Technology."
+      },
+      "0xac720": {
+        "name": "a_Read_only_Should_display_DNS_Server",
+        "addr": 706336,
+        "size": 40,
+        "type": "str",
+        "str_content": "\r\n Read only. Should display DNS Server"
+      },
+      "0xac748": {
+        "name": "a_Display_DHCP_Server_property",
+        "addr": 706376,
+        "size": 32,
+        "type": "str",
+        "str_content": "\r\nDisplay DHCP Server property."
+      },
+      "0xac768": {
+        "name": "a_Displays_the_active_Onboard_Administrator_IP_Addre",
+        "addr": 706408,
+        "size": 56,
+        "type": "str",
+        "str_content": "\r\nDisplays the active Onboard Administrator IP Address."
+      },
+      "0xac7a0": {
+        "name": "a_Displays_the_acive_Onboard_Administrator_MAC_Addre",
+        "addr": 706464,
+        "size": 56,
+        "type": "str",
+        "str_content": "\r\nDisplays the acive Onboard Administrator MAC Address."
+      },
+      "0xac7d8": {
+        "name": "a_Displays_or_modifies_the_diagport_IP_address",
+        "addr": 706520,
+        "size": 48,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the diagport IP address."
+      },
+      "0xac808": {
+        "name": "a_Displays_the_enclosure_serial_number",
+        "addr": 706568,
+        "size": 40,
+        "type": "str",
+        "str_content": "\r\nDisplays the enclosure serial number."
+      },
+      "0xac830": {
+        "name": "a_Display_Fan_redundancy_info",
+        "addr": 706608,
+        "size": 32,
+        "type": "str",
+        "str_content": "\r\nDisplay Fan redundancy info. "
+      },
+      "0xac850": {
+        "name": "a_Display_power_status",
+        "addr": 706640,
+        "size": 24,
+        "type": "str",
+        "str_content": "\r\nDisplay power status "
+      },
+      "0xac868": {
+        "name": "a_Display_the_type_of_sensor_ie_Temperature",
+        "addr": 706664,
+        "size": 48,
+        "type": "str",
+        "str_content": "\r\nDisplay the type of sensor (ie. Temperature) "
+      },
+      "0xac898": {
+        "name": "a_Display_voltage_sensor_label",
+        "addr": 706712,
+        "size": 32,
+        "type": "str",
+        "str_content": "\r\nDisplay voltage sensor label "
+      },
+      "0xac8b8": {
+        "name": "a_Display_embedded_health_voltage_sensor_info",
+        "addr": 706744,
+        "size": 48,
+        "type": "str",
+        "str_content": "\r\nDisplay embedded health voltage sensor info. "
+      },
+      "0xac8e8": {
+        "name": "a_Displays_pstate_data",
+        "addr": 706792,
+        "size": 24,
+        "type": "str",
+        "str_content": "\r\nDisplays pstate data."
+      },
+      "0xac900": {
+        "name": "a_Displays_current_pstate_data",
+        "addr": 706816,
+        "size": 32,
+        "type": "str",
+        "str_content": "\r\nDisplays current pstate data."
+      },
+      "0xac920": {
+        "name": "a_cd_Used_to_set_the_current_default_target",
+        "addr": 706848,
+        "size": 52,
+        "type": "str",
+        "str_content": "\r\ncd      : Used to set the current default target."
+      },
+      "0xac954": {
+        "name": "a_Displays_or_modifies_the_PRODABR_NIC_WIN_server_ad",
+        "addr": 706900,
+        "size": 60,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the #PRODABR NIC WIN server address."
+      },
+      "0xac990": {
+        "name": "a_Displays_or_modifies_the_PRODABR_NIC_VLAN_encapsul",
+        "addr": 706960,
+        "size": 60,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the #PRODABR NIC VLAN encapsulation."
+      },
+      "0xac9cc": {
+        "name": "a_Display_PRODABR_NIC_MAC_Address",
+        "addr": 707020,
+        "size": 36,
+        "type": "str",
+        "str_content": "\r\nDisplay #PRODABR NIC MAC Address."
+      },
+      "0xac9f0": {
+        "name": "a_Display_PRODABR_NIC_MAC_Address",
+        "addr": 707056,
+        "size": 36,
+        "type": "str",
+        "str_content": "\r\nDisplay #PRODABR NIC MAC Address."
+      },
+      "0xaca14": {
+        "name": "a_Displays_or_modifies_LOM_object_password",
+        "addr": 707092,
+        "size": 44,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies LOM object password."
+      },
+      "0xaca40": {
+        "name": "a_Displays_or_modifies_PRODABR_Kerberos_KDC_server_r",
+        "addr": 707136,
+        "size": 60,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR Kerberos KDC server realm. "
+      },
+      "0xaca7c": {
+        "name": "a_Display_fan_sensor_Label",
+        "addr": 707196,
+        "size": 28,
+        "type": "str",
+        "str_content": "\r\nDisplay fan sensor Label "
+      },
+      "0xaca98": {
+        "name": "a_Display_temperature_sensor_label",
+        "addr": 707224,
+        "size": 36,
+        "type": "str",
+        "str_content": "\r\nDisplay temperature sensor label "
+      },
+      "0xacabc": {
+        "name": "a_Display_the_state_of_the_sensor_s_health",
+        "addr": 707260,
+        "size": 44,
+        "type": "str",
+        "str_content": "\r\nDisplay the state of the sensor's health "
+      },
+      "0xacae8": {
+        "name": "a_Display_temperature_caution_level",
+        "addr": 707304,
+        "size": 36,
+        "type": "str",
+        "str_content": "\r\nDisplay temperature caution level"
+      },
+      "0xacb0c": {
+        "name": "a_Display_embedded_health_fan_sensor_info",
+        "addr": 707340,
+        "size": 44,
+        "type": "str",
+        "str_content": "\r\nDisplay embedded health fan sensor info. "
+      },
+      "0xacb38": {
+        "name": "a_Display_embedded_health_temperature_sensor_info",
+        "addr": 707384,
+        "size": 52,
+        "type": "str",
+        "str_content": "\r\nDisplay embedded health temperature sensor info. "
+      },
+      "0xacb6c": {
+        "name": "a_Displays_number_of_total_pstates",
+        "addr": 707436,
+        "size": 36,
+        "type": "str",
+        "str_content": "\r\nDisplays number of total pstates."
+      },
+      "0xacb90": {
+        "name": "a_Displays_CPU_health_status",
+        "addr": 707472,
+        "size": 30,
+        "type": "str",
+        "str_content": "\r\nDisplays CPU health status."
+      },
+      "0xacbb0": {
+        "name": "a_Displays_the_name_of_a_firmware_used_by_the_system",
+        "addr": 707504,
+        "size": 54,
+        "type": "str",
+        "str_content": "\r\nDisplays the name of a firmware used by the system."
+      },
+      "0xacbe8": {
+        "name": "a_Displays_a_description_of_the_UEFI_boot_option",
+        "addr": 707560,
+        "size": 50,
+        "type": "str",
+        "str_content": "\r\nDisplays a description of the UEFI boot option."
+      },
+      "0xacc1c": {
+        "name": "a_Displays_or_modifies_the_PRODABR_NIC_name",
+        "addr": 707612,
+        "size": 46,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the #PRODABR NIC name."
+      },
+      "0xacc4c": {
+        "name": "a_Display_PRODABR_NIC_Network_IP_Information",
+        "addr": 707660,
+        "size": 46,
+        "type": "str",
+        "str_content": "\r\nDisplay #PRODABR NIC Network IP Information"
+      },
+      "0xacc7c": {
+        "name": "a_Displays_or_modifies_remote_keyboard_model_setting",
+        "addr": 707708,
+        "size": 54,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies remote keyboard model setting."
+      },
+      "0xaccb4": {
+        "name": "a_Displays_or_modifies_Insight_Manager_agent_address",
+        "addr": 707764,
+        "size": 58,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies Insight Manager agent address URL."
+      },
+      "0xaccf0": {
+        "name": "a_Displays_or_modifies_PRODABR_directory_server_addr",
+        "addr": 707824,
+        "size": 58,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR directory server address."
+      },
+      "0xacd2c": {
+        "name": "a_Displays_or_modifies_LOM_object_distinguished_name",
+        "addr": 707884,
+        "size": 54,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies LOM object distinguished name."
+      },
+      "0xacd64": {
+        "name": "a_Modifies_PRODABR_Kerberos_Keytab",
+        "addr": 707940,
+        "size": 38,
+        "type": "str",
+        "str_content": "\r\nModifies #PRODABR Kerberos Keytab. "
+      },
+      "0xacd8c": {
+        "name": "a_Displays_the_rack_name",
+        "addr": 707980,
+        "size": 26,
+        "type": "str",
+        "str_content": "\r\nDisplays the rack name."
+      },
+      "0xacda8": {
+        "name": "a_Display_Fan_Status",
+        "addr": 708008,
+        "size": 22,
+        "type": "str",
+        "str_content": "\r\nDisplay Fan Status."
+      },
+      "0xacdc0": {
+        "name": "a_Display_Temperature_status",
+        "addr": 708032,
+        "size": 30,
+        "type": "str",
+        "str_content": "\r\nDisplay Temperature status "
+      },
+      "0xacde0": {
+        "name": "a_Display_VRM_status",
+        "addr": 708064,
+        "size": 22,
+        "type": "str",
+        "str_content": "\r\nDisplay VRM status "
+      },
+      "0xacdf8": {
+        "name": "a_Display_power_sensor_label",
+        "addr": 708088,
+        "size": 30,
+        "type": "str",
+        "str_content": "\r\nDisplay power sensor label "
+      },
+      "0xace18": {
+        "name": "a_Display_embedded_health_power_sensor_info",
+        "addr": 708120,
+        "size": 46,
+        "type": "str",
+        "str_content": "\r\nDisplay embedded health power sensor info. "
+      },
+      "0xace48": {
+        "name": "a_Displays_number_of_logical_processors_within_a_CPU",
+        "addr": 708168,
+        "size": 54,
+        "type": "str",
+        "str_content": "\r\nDisplays number of logical processors within a CPU."
+      },
+      "0xace80": {
+        "name": "a_Displays_number_of_physical_processors",
+        "addr": 708224,
+        "size": 42,
+        "type": "str",
+        "str_content": "\r\nDisplays number of physical processors."
+      },
+      "0xaceac": {
+        "name": "a_ADVLIC_license_is_required_to_use_Virtual_Media",
+        "addr": 708268,
+        "size": 55,
+        "type": "str",
+        "str_content": "\r\n#ADVLIC license is required to use Virtual Media\r\n\r\n"
+      },
+      "0xacee4": {
+        "name": "a_exit_Used_to_terminate_the_CLP_session",
+        "addr": 708324,
+        "size": 47,
+        "type": "str",
+        "str_content": "\r\nexit    : Used to terminate the CLP session."
+      },
+      "0xacf14": {
+        "name": "a_Displays_the_system_name_Example_show_system1_name",
+        "addr": 708372,
+        "size": 59,
+        "type": "str",
+        "str_content": "\r\nDisplays the system name. \r\nExample : show /system1 name"
+      },
+      "0xacf50": {
+        "name": "a_Displays_CPU_name",
+        "addr": 708432,
+        "size": 21,
+        "type": "str",
+        "str_content": "\r\nDisplays CPU name."
+      },
+      "0xacf68": {
+        "name": "a_View_or_modify_the_Power_Regulator_settings",
+        "addr": 708456,
+        "size": 49,
+        "type": "str",
+        "str_content": "\r\nView or modify the Power Regulator settings.\r\n"
+      },
+      "0xacf9c": {
+        "name": "a_Displays_or_modifies_PRODABR_NIC_subnet_mask",
+        "addr": 708508,
+        "size": 49,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR NIC subnet mask."
+      },
+      "0xacfd0": {
+        "name": "a_Displays_or_modifies_PRODABR_NIC_gateway_address",
+        "addr": 708560,
+        "size": 53,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR NIC gateway address."
+      },
+      "0xad008": {
+        "name": "a_Displays_or_modifies_PRODABR_DNS_server_address",
+        "addr": 708616,
+        "size": 55,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR DNS server address \r\n."
+      },
+      "0xad040": {
+        "name": "a_Displays_or_modifies_the_PRODABR_NIC_static_route_",
+        "addr": 708672,
+        "size": 59,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the #PRODABR NIC static route mask."
+      },
+      "0xad07c": {
+        "name": "a_Displays_or_modifies_the_PRODABR_NIC_domain_name",
+        "addr": 708732,
+        "size": 53,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the #PRODABR NIC domain name."
+      },
+      "0xad0b4": {
+        "name": "a_Displays_or_modifies_the_PRODABR_NIC_VLAN_tag_ID",
+        "addr": 708788,
+        "size": 53,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the #PRODABR NIC VLAN tag ID."
+      },
+      "0xad0ec": {
+        "name": "a_Display_or_modify_System_Name",
+        "addr": 708844,
+        "size": 33,
+        "type": "str",
+        "str_content": "\r\nDisplay or modify System Name."
+      },
+      "0xad110": {
+        "name": "a_Display_PRODABR_Network_Information",
+        "addr": 708880,
+        "size": 39,
+        "type": "str",
+        "str_content": "\r\nDisplay #PRODABR Network Information"
+      },
+      "0xad138": {
+        "name": "a_Read_only_This_property_shall_have_a_value_of_DHCP",
+        "addr": 708920,
+        "size": 57,
+        "type": "str",
+        "str_content": "\r\nRead only.  This property shall have a value of DHCP. "
+      },
+      "0xad174": {
+        "name": "a_Read_Only_This_property_shall_have_a_value_of_DNS",
+        "addr": 708980,
+        "size": 53,
+        "type": "str",
+        "str_content": "\r\nRead Only This property shall have a value of DNS."
+      },
+      "0xad1ac": {
+        "name": "a_Read_only_Should_display_Default_Gateway",
+        "addr": 709036,
+        "size": 45,
+        "type": "str",
+        "str_content": "\r\n Read only. Should display Default Gateway"
+      },
+      "0xad1dc": {
+        "name": "a_Read_only_Should_display_DHCP_Server",
+        "addr": 709084,
+        "size": 41,
+        "type": "str",
+        "str_content": "\r\n Read only. Should display DHCP Server"
+      },
+      "0xad208": {
+        "name": "a_Display_if_Domain_Name_is_provided_by_DHCP_Server",
+        "addr": 709128,
+        "size": 53,
+        "type": "str",
+        "str_content": "\r\nDisplay if Domain Name is provided by DHCP Server."
+      },
+      "0xad240": {
+        "name": "a_Displays_or_modifies_remote_console_mouse_configur",
+        "addr": 709184,
+        "size": 59,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies remote console mouse configuration."
+      },
+      "0xad27c": {
+        "name": "a_Displays_or_modifies_SNMP_alert_destination_addres",
+        "addr": 709244,
+        "size": 55,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies SNMP alert destination address."
+      },
+      "0xad2b4": {
+        "name": "a_Displays_or_modifies_PRODABR_Kerberos_KDC_server_a",
+        "addr": 709300,
+        "size": 61,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR Kerberos KDC server address."
+      },
+      "0xad2f4": {
+        "name": "a_Displays_the_map_firmware_Example_show_map1_firmwa",
+        "addr": 709364,
+        "size": 61,
+        "type": "str",
+        "str_content": "\r\nDisplays the map firmware. \r\nExample: show /map1/firmware1"
+      },
+      "0xad334": {
+        "name": "a_Displays_or_modifies_the_blade_bay_name",
+        "addr": 709428,
+        "size": 43,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the blade bay name."
+      },
+      "0xad360": {
+        "name": "a_Displays_the_blade_bay_number",
+        "addr": 709472,
+        "size": 33,
+        "type": "str",
+        "str_content": "\r\nDisplays the blade bay number."
+      },
+      "0xad384": {
+        "name": "a_Displays_active_Onboard_Administrator_health_statu",
+        "addr": 709508,
+        "size": 55,
+        "type": "str",
+        "str_content": "\r\nDisplays active Onboard Administrator health status."
+      },
+      "0xad3bc": {
+        "name": "a_Displays_or_modifies_the_diagport_subnet_mask",
+        "addr": 709564,
+        "size": 49,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the diagport subnet mask."
+      },
+      "0xad3f0": {
+        "name": "a_Displays_the_rack_serial_number",
+        "addr": 709616,
+        "size": 35,
+        "type": "str",
+        "str_content": "\r\nDisplays the rack serial number."
+      },
+      "0xad414": {
+        "name": "a_Displays_the_enclosure_name",
+        "addr": 709652,
+        "size": 31,
+        "type": "str",
+        "str_content": "\r\nDisplays the enclosure name."
+      },
+      "0xad434": {
+        "name": "a_Displays_the_enclosure_type",
+        "addr": 709684,
+        "size": 31,
+        "type": "str",
+        "str_content": "\r\nDisplays the enclosure type."
+      },
+      "0xad454": {
+        "name": "a_Display_system_embedded_health_info",
+        "addr": 709716,
+        "size": 39,
+        "type": "str",
+        "str_content": "\r\nDisplay system embedded health info."
+      },
+      "0xad47c": {
+        "name": "a_Display_VRM_location",
+        "addr": 709756,
+        "size": 23,
+        "type": "str",
+        "str_content": "\r\nDisplay VRM location"
+      },
+      "0xad494": {
+        "name": "a_Display_power_redundancy_status",
+        "addr": 709780,
+        "size": 35,
+        "type": "str",
+        "str_content": "\r\nDisplay power redundancy status "
+      },
+      "0xad4b8": {
+        "name": "a_Display_fan_sensor_Location",
+        "addr": 709816,
+        "size": 31,
+        "type": "str",
+        "str_content": "\r\nDisplay fan sensor Location "
+      },
+      "0xad4d8": {
+        "name": "a_Display_fan_sensor_status",
+        "addr": 709848,
+        "size": 29,
+        "type": "str",
+        "str_content": "\r\nDisplay fan sensor status "
+      },
+      "0xad4f8": {
+        "name": "a_Display_fan_speed_info",
+        "addr": 709880,
+        "size": 27,
+        "type": "str",
+        "str_content": "\r\nDisplay fan speed info. "
+      },
+      "0xad514": {
+        "name": "a_Display_temperature_sensor_location",
+        "addr": 709908,
+        "size": 39,
+        "type": "str",
+        "str_content": "\r\nDisplay temperature sensor location "
+      },
+      "0xad53c": {
+        "name": "a_Display_temperature_sensor_status",
+        "addr": 709948,
+        "size": 37,
+        "type": "str",
+        "str_content": "\r\nDisplay temperature sensor status "
+      },
+      "0xad564": {
+        "name": "a_Display_the_unit_of_the_measurement_ie_Celsius",
+        "addr": 709988,
+        "size": 53,
+        "type": "str",
+        "str_content": "\r\nDisplay the unit of the measurement (ie. Celsius) "
+      },
+      "0xad59c": {
+        "name": "a_Display_the_current_reading_from_the_sensor",
+        "addr": 710044,
+        "size": 47,
+        "type": "str",
+        "str_content": "\r\nDisplay the current reading from the sensor "
+      },
+      "0xad5cc": {
+        "name": "a_Display_temperature_in_celsius_degree",
+        "addr": 710092,
+        "size": 41,
+        "type": "str",
+        "str_content": "\r\nDisplay temperature in celsius degree "
+      },
+      "0xad5f8": {
+        "name": "a_Display_temperature_critical_level",
+        "addr": 710136,
+        "size": 37,
+        "type": "str",
+        "str_content": "\r\nDisplay temperature critical level"
+      },
+      "0xad620": {
+        "name": "a_Display_voltage_sensor_status",
+        "addr": 710176,
+        "size": 33,
+        "type": "str",
+        "str_content": "\r\nDisplay voltage sensor status "
+      },
+      "0xad644": {
+        "name": "a_Display_the_condition_of_the_power_supply",
+        "addr": 710212,
+        "size": 45,
+        "type": "str",
+        "str_content": "\r\nDisplay the condition of the power supply "
+      },
+      "0xad674": {
+        "name": "a_Display_the_error_state_of_the_power_supply",
+        "addr": 710260,
+        "size": 47,
+        "type": "str",
+        "str_content": "\r\nDisplay the error state of the power supply "
+      },
+      "0xad6a4": {
+        "name": "a_Displays_power_regulator_property",
+        "addr": 710308,
+        "size": 37,
+        "type": "str",
+        "str_content": "\r\nDisplays power regulator property."
+      },
+      "0xad6cc": {
+        "name": "a_Displays_number_of_active_logical_processors_withi",
+        "addr": 710348,
+        "size": 61,
+        "type": "str",
+        "str_content": "\r\nDisplays number of active logical processors within a CPU."
+      },
+      "0xad70c": {
+        "name": "a_Displays_number_of_logical_threads_within_a_CPU",
+        "addr": 710412,
+        "size": 51,
+        "type": "str",
+        "str_content": "\r\nDisplays number of logical threads within a CPU."
+      },
+      "0xad740": {
+        "name": "a_Displays_average_pstate0_data",
+        "addr": 710464,
+        "size": 33,
+        "type": "str",
+        "str_content": "\r\nDisplays average pstate0 data."
+      },
+      "0xad764": {
+        "name": "a_Displays_average_pstate1_data",
+        "addr": 710500,
+        "size": 33,
+        "type": "str",
+        "str_content": "\r\nDisplays average pstate1 data."
+      },
+      "0xad788": {
+        "name": "a_Displays_average_pstate2_data",
+        "addr": 710536,
+        "size": 33,
+        "type": "str",
+        "str_content": "\r\nDisplays average pstate2 data."
+      },
+      "0xad7ac": {
+        "name": "a_Displays_average_pstate3_data",
+        "addr": 710572,
+        "size": 33,
+        "type": "str",
+        "str_content": "\r\nDisplays average pstate3 data."
+      },
+      "0xad7d0": {
+        "name": "a_Displays_average_pstate4_data",
+        "addr": 710608,
+        "size": 33,
+        "type": "str",
+        "str_content": "\r\nDisplays average pstate4 data."
+      },
+      "0xad7f4": {
+        "name": "a_Displays_average_pstate5_data",
+        "addr": 710644,
+        "size": 33,
+        "type": "str",
+        "str_content": "\r\nDisplays average pstate5 data."
+      },
+      "0xad818": {
+        "name": "a_Displays_average_pstate6_data",
+        "addr": 710680,
+        "size": 33,
+        "type": "str",
+        "str_content": "\r\nDisplays average pstate6 data."
+      },
+      "0xad83c": {
+        "name": "a_Displays_average_pstate7_data",
+        "addr": 710716,
+        "size": 33,
+        "type": "str",
+        "str_content": "\r\nDisplays average pstate7 data."
+      },
+      "0xad860": {
+        "name": "a_Settings_change_applied_PRODABR_will_now_be_reset_",
+        "addr": 710752,
+        "size": 146,
+        "type": "str",
+        "str_content": "Settings change applied, #PRODABR will now be reset.\r\nLogged Out: It may take several minutes before you can log back in.\r\n\nCLI session stopped\r\n"
+      },
+      "0xad8f4": {
+        "name": "a_There_are_pending_changes_deferred_until_PRODABR_i",
+        "addr": 710900,
+        "size": 141,
+        "type": "str",
+        "str_content": "There are pending changes deferred until #PRODABR is reset.\r\nTo reset, run 'reset /map1' or logout after all desired changes are applied.\r\n\n"
+      },
+      "0xad984": {
+        "name": "a_ADVLIC_license_including_Console_Record_and_Replay",
+        "addr": 711044,
+        "size": 107,
+        "type": "str",
+        "str_content": "\r\n#ADVLIC license including Console Record and Replay support is required to send the prefailure video.\r\n\n"
+      },
+      "0xad9f0": {
+        "name": "a_oemhp_loadSSHKey_Used_to_authorize_a_SSH_Key_File_",
+        "addr": 711152,
+        "size": 714,
+        "type": "str",
+        "str_content": "oemhp_loadSSHKey    : Used to authorize a SSH Key File from an URL.\r\nExample : oemhp_loadSSHKey /map1/config1/ -source http://user:pwd@192.168.1.1/SSHkey1.pub\r\n          oemhp_loadSSHKey /map1/accounts1/<lname> -source http://user:pwd@192.168.1.1/SSHkey1.pub\r\n          where <lname> is the name of the user that an SSH key is to be loaded.\r\n          The SSHkeyhash of a given user is located in the directory /map1/accounts/<lname>.\r\n Usage: protocol://username:password@hostname:port/filename\r\n  The protocol field is mandatory and must be either HTTP or HTTPS.\r\n  The username:password field is optional.\r\n  The hostname field is mandatory.\r\n  The port field is optional.\r\n  The filename field is mandatory.\r\n"
+      },
+      "0xadcbc": {
+        "name": "a_POWER_The_power_command_is_used_to_change_the_powe",
+        "addr": 711868,
+        "size": 392,
+        "type": "str",
+        "str_content": "POWER  : The power command is used to change the power state of the server\r\n and is limited to users with the Power and Reset privilege\r\nUsage:\r\n  power          -- Displays the current server power state\r\n  power on       -- Turns the server on\r\n  power off      -- Turns the server off\r\n  power off hard -- Force the server off using press and hold\r\n  power reset    -- Reset the server\r\n\n"
+      },
+      "0xade44": {
+        "name": "a_UID_View_or_alter_the_unit_identifier_state_Usage_",
+        "addr": 712260,
+        "size": 190,
+        "type": "str",
+        "str_content": "UID    : View or alter the unit identifier state.\r\nUsage:\r\n  uid     -- Display the current server UID state.\r\n  uid on  -- Activate the UID light.\r\n  uid off -- Deactivate the UID light.\r\n"
+      },
+      "0xadf04": {
+        "name": "a_ONETIMEBOOT_View_or_alter_the_server_One_Time_Boot",
+        "addr": 712452,
+        "size": 497,
+        "type": "str",
+        "str_content": "ONETIMEBOOT: View or alter the server One-Time Boot setting.\r\nThe supported settings are a subset of settings found in other interfaces.\r\nUsage:\r\n  onetimeboot                -- Display the current state.\r\n  onetimeboot usb            -- Set to USB.\r\n  onetimeboot ip             -- Set to Intelligent Provisioning.\r\n  onetimeboot smartstartLX   -- Set to IP Smart Start Linux PE.\r\n  onetimeboot netdev1        -- Set to Network Device 1.\r\n  onetimeboot none           -- Disable One-Time Boot.\r\n"
+      },
+      "0xae0f8": {
+        "name": "a_VM_Virtual_media_commands_Usage_vm_device_insert_p",
+        "addr": 712952,
+        "size": 907,
+        "type": "str",
+        "str_content": "VM     : Virtual media commands.\r\nUsage:\r\n  vm <device> insert <path> -- Inserts an image\r\nCLP COMMAND: set /map1/oemhp_vm1/<device> oemhp_image=<path>\r\n  vm <device> eject -- Ejects an image\r\nCLP COMMAND: set /map1/oemhp_vm1/<device> oemhp_image=none\r\n  vm device get -- Gets the status of the virtual media\r\nCLP COMMAND: show /map1/oemhp_vm1/<device>\r\n  vm <device> set <options> -- Sets the status of the virtual media\r\nCLP COMMAND: set /map1/oemhp_vm1/<device> <property=value>\r\nCommand Options:\r\n  Device is floppy or cdrom\r\n  CLP device is floppydr or cddr\r\n  Path is the url to the media image\r\n  Access option is write_protect or write_allow\r\n   (cannot be set for CD devices)\r\n  Boot options are connect, disconnect, as well as\r\n   boot_always, boot_once, or no_boot (these 3 cannot be set for\r\n   floppy devices on UEFI-capable systems)\r\n  CLP properties are oemhp_connect, oemhp_boot, oemhp_wp\r\n"
+      },
+      "0xae484": {
+        "name": "a_show_Used_to_show_values_of_a_property_or_contents",
+        "addr": 713860,
+        "size": 82,
+        "type": "str",
+        "str_content": "\r\nshow    : Used to show values of a property or contents of a collection target."
+      },
+      "0xae4d8": {
+        "name": "a_create_Used_to_create_new_instances_in_the_name_sp",
+        "addr": 713944,
+        "size": 306,
+        "type": "str",
+        "str_content": "\r\ncreate  : Used to create new instances in the name space of the MAP. \r\n Example: create /map1/accounts1 username=<lname1> password=<pwd12345> name= \r\n          <dname1> group=<admin,config,oemhp_vm,oemhp_rc,oemhp_power> \r\n Note: usernames longer than 16 characters will not meet IPMI 2.0 Specifications."
+      },
+      "0xae60c": {
+        "name": "a_delete_Used_to_destroy_instances_in_the_name_space",
+        "addr": 714252,
+        "size": 116,
+        "type": "str",
+        "str_content": "\r\ndelete  : Used to destroy instances in the name space of the MAP. \r\n Example: delete /map1/accounts1/<lname1> \r\n "
+      },
+      "0xae680": {
+        "name": "a_load_Used_to_move_a_binary_image_from_an_URL_to_th",
+        "addr": 714368,
+        "size": 203,
+        "type": "str",
+        "str_content": "\r\nload    : Used to move a binary image from an URL to the MAP.  This command can \r\nonly be called from the /map1/firmware1 directory. \r\nExample : load -source http://192.168.1.1/images/fw/#ILO4_100.bin"
+      },
+      "0xae74c": {
+        "name": "a_reset_Used_to_cause_a_target_to_cycle_from_enabled",
+        "addr": 714572,
+        "size": 98,
+        "type": "str",
+        "str_content": "\r\nreset   : Used to cause a target to cycle from enabled to disabled and back to \r\n      enabled."
+      },
+      "0xae7b0": {
+        "name": "a_set_Used_to_set_a_property_or_set_of_properties_to",
+        "addr": 714672,
+        "size": 77,
+        "type": "str",
+        "str_content": "\r\nset     : Used to set a property or set of properties to a specific value."
+      },
+      "0xae800": {
+        "name": "a_start_Used_to_cause_a_target_to_change_state_to_a_",
+        "addr": 714752,
+        "size": 74,
+        "type": "str",
+        "str_content": "\r\nstart   : Used to cause a target to change state to a higher run level."
+      },
+      "0xae84c": {
+        "name": "a_stop_Used_to_cause_a_target_to_change_state_to_a_l",
+        "addr": 714828,
+        "size": 73,
+        "type": "str",
+        "str_content": "\r\nstop    : Used to cause a target to change state to a lower run level."
+      },
+      "0xae898": {
+        "name": "a_version_Used_to_query_the_version_of_the_CLP_imple",
+        "addr": 714904,
+        "size": 99,
+        "type": "str",
+        "str_content": "\r\nversion : Used to query the version of the CLP implementation or other CLP \r\n          elements."
+      },
+      "0xae8fc": {
+        "name": "a_oemhp_ping_Used_to_determine_if_an_IP_address_is_r",
+        "addr": 715004,
+        "size": 122,
+        "type": "str",
+        "str_content": "\r\noemhp_ping    : Used to determine if an IP address is reachable from this #PRODABR.\r\nExample : oemhp_ping 192.168.1.1\r\n"
+      },
+      "0xae978": {
+        "name": "a_oemhp_loadSSHKey_Used_to_authorize_a_SSH_Key_File_",
+        "addr": 715128,
+        "size": 167,
+        "type": "str",
+        "str_content": "\r\noemhp_loadSSHKey    : Used to authorize a SSH Key File from a URL.\r\nExample : oemhp_loadSSHKey /map1/config1 -source http://user:pwd@192.168.1.1/images/SSHkey1.pub\n"
+      },
+      "0xaea20": {
+        "name": "a_Displays_the_serial_number_logical_for_the_system_",
+        "addr": 715296,
+        "size": 90,
+        "type": "str",
+        "str_content": "\r\nDisplays the serial number (logical) for the system.\r\nExample : show /system1 oemhp_vsn"
+      },
+      "0xaea7c": {
+        "name": "a_Displays_the_system_serial_number_Example_show_sys",
+        "addr": 715388,
+        "size": 69,
+        "type": "str",
+        "str_content": "\r\nDisplays the system serial number.\r\nExample : show /system1 number"
+      },
+      "0xaeac4": {
+        "name": "a_Displays_information_about_the_system_and_alters_s",
+        "addr": 715460,
+        "size": 240,
+        "type": "str",
+        "str_content": "\r\nDisplays information about the system and alters system state.\r\nExamples: show /system1 \r\n          start /system1 - turns on system power \r\n          stop /system1  - turns off system power \r\n          reset /system1 - resets the system"
+      },
+      "0xaebb4": {
+        "name": "a_Displays_information_about_the_system_power_state_",
+        "addr": 715700,
+        "size": 90,
+        "type": "str",
+        "str_content": "\r\nDisplays information about the system power state.\r\nExample: show /system1 enabledstate"
+      },
+      "0xaec10": {
+        "name": "a_Displays_and_modifies_the_Power_Regulator_for_Prol",
+        "addr": 715792,
+        "size": 343,
+        "type": "str",
+        "str_content": "\r\nDisplays and modifies the Power Regulator for Proliant state. Valid values \r\nare dynamic, max, min, or os. Note: For OS Control Mode, you must reboot the\r\nserver to invoke changes of Power Regulator settings.\r\nExamples: show /system1/oemhp_power1  oemhp_powerreg   \r\n          set /system1/oemhp_power1   oemhp_powerreg=<dynamic|max|min|os>"
+      },
+      "0xaed68": {
+        "name": "a_Display_and_modify_the_server_name_string_used_by_",
+        "addr": 716136,
+        "size": 263,
+        "type": "str",
+        "str_content": "\r\nDisplay and modify the server name string used by #PRODABR and RBSU to identify\r\nthis host.  This field can also be set via host RBSU, and if Management Agents load.\r\nExamples: show /system1 oemhp_server_name\r\n          set  /system1 oemhp_server_name=MxServ05"
+      },
+      "0xaee70": {
+        "name": "a_Display_and_modify_the_server_fully_qualified_doma",
+        "addr": 716400,
+        "size": 382,
+        "type": "str",
+        "str_content": "\r\nDisplay and modify the server fully qualified domain name (FQDN) or IP Address\r\nused by #PRODABR to identify this host. This field can also be set when the\r\n#VENDABR Management Agents are loaded. The CLI accepts a maximum input of\r\n232 characters for the FQDN or IP Address.\r\nExamples: show /system1 oemhp_server_fqdn\r\n          set  /system1 oemhp_server_fqdn=myhost.example.com"
+      },
+      "0xaeff0": {
+        "name": "a_Display_and_modify_the_SMH_fully_qualified_domain_",
+        "addr": 716784,
+        "size": 415,
+        "type": "str",
+        "str_content": "\r\nDisplay and modify the SMH fully qualified domain name (FQDN) or IP Address\r\nused by #PRODABR to identify the system management homepage host. This\r\nfield can also be set when the #VENDABR Management Agents are loaded.\r\nThe CLI accepts a maximum input of 235 characters for the FQDN or IP Address.\r\nExamples: show /system1 oemhp_smh_fqdn\r\n          set  /system1 oemhp_smh_fqdn=system_management_host.example.com"
+      },
+      "0xaf190": {
+        "name": "a_Displays_information_if_a_remote_console_session_i",
+        "addr": 717200,
+        "size": 230,
+        "type": "str",
+        "str_content": "\r\nDisplays information if a remote console session is active.\r\n'enabled' means that a remote console session is open while 'disabled' means  \r\nthat no remote console session is open. \r\nExample: show /system1/console1 enabledstate"
+      },
+      "0xaf278": {
+        "name": "a_Displays_information_if_a_virtual_serial_port_sess",
+        "addr": 717432,
+        "size": 214,
+        "type": "str",
+        "str_content": "\r\nDisplays information if a virtual serial port session is active.\r\n'enabled' means that a vsp session is open while 'disabled' means that no \r\nvsp session is open. \r\nExample: show /system1/oemhp_vsp1 enabledstate"
+      },
+      "0xaf350": {
+        "name": "a_Displays_and_modifies_the_power_cap_setting_for_th",
+        "addr": 717648,
+        "size": 554,
+        "type": "str",
+        "str_content": "\r\nDisplays and modifies the power cap setting for the server. A power cap\r\nwattage of zero indicates that power capping is disabled.\r\nExamples:\r\n    show /system1/oemhp_power1 oemhp_pwrcap - displays the current power capping level\r\n    set /system1/oemhp_power1  oemhp_pwrcap=<n> where n is an integer cap value in watts\r\n       <n> must be greater than or equal to oemhp_serverminpower\r\n       <n> must be less than or equal to oemhp_powersupplycapacity\r\n    set /system1/oemhp_power1  oemhp_pwrcap=0 - setting power cap to zero disables power capping"
+      },
+      "0xaf57c": {
+        "name": "a_Displays_and_modifies_the_power_mode_setting_for_t",
+        "addr": 718204,
+        "size": 457,
+        "type": "str",
+        "str_content": "\r\nDisplays and modifies the power mode setting for the server.\r\nModes:  \r\n  0 - No Capping  \r\n  1 - Max Performance with Redundancy  \r\n  2 - Max Redundancy  \r\n  3 - User Selectable Advanced Power Capping  \r\n       Note - For mode 3 a capping value for the enclosure must be provided using set oemhp_pwrcap  \r\nExamples: show /system1/oemhp_power1  oemhp_pwrmode   \r\n          set /system1/oemhp_power1  oemhp_pwrmode=<n> where n is an integer value from 0-3"
+      },
+      "0xaf748": {
+        "name": "a_PRODABR_samples_the_power_meter_every_five_minutes",
+        "addr": 718664,
+        "size": 800,
+        "type": "str",
+        "str_content": "\r\n #PRODABR samples the power meter every five minutes and records both the average   \r\n power and the peak power consumed since the last sample was obtained.   \r\n   \r\n oemhp_PresentPower        - Displays the average power reading from the last sample.  \r\n oemhp_AvgPower            - Displays the average power reading from the past 24 hours.  \r\n oemhp_MaxPower            - Displays the greatest peak power reading from the past 24 hours.  \r\n oemhp_MinPower            - Displays the minimum average power reading from the past 24 hours.  \r\n oemhp_powersupplycapacity - Displays the power supply's total capacity in watts.  \r\n oemhp_servermaxpower      - Displays the server's maximum power capacity in watts.  \r\n oemhp_serverminpower      - Displays the server's minimum power capacity in watts."
+      },
+      "0xafa68": {
+        "name": "a_PRODABR_samples_the_power_meter_every_five_minutes",
+        "addr": 719464,
+        "size": 312,
+        "type": "str",
+        "str_content": "\r\n #PRODABR samples the power meter every five minutes and records both the average   \r\n power and the peak power consumed since the last sample was obtained. Peak power  \r\n is specific to SL servers which do not have power capping.  \r\n   \r\n oemhp_peakmeasuredpower   - Displays the peak measured power reading."
+      },
+      "0xafba0": {
+        "name": "a_Displays_and_modifies_the_warning_type_Valid_value",
+        "addr": 719776,
+        "size": 366,
+        "type": "str",
+        "str_content": "\r\nDisplays and modifies the warning type.\r\n     Valid values are :\r\n     1 - Disable warnings\r\n     2 or average - Warnings based on average power consumption\r\n     3 or peak    - Warnings based on peak power consumption\r\nExamples: show /system1/oemhp_power1 warning_type   \r\n          set /system1/oemhp_power1  warning_type=<n> where n is one of the above options"
+      },
+      "0xafd10": {
+        "name": "a_Displays_and_modifies_the_warning_threshold_for_po",
+        "addr": 720144,
+        "size": 345,
+        "type": "str",
+        "str_content": "\r\nDisplays and modifies the warning threshold for power consumption.\r\nExamples: show /system1/oemhp_power1 warning_threshold  \r\n          set /system1/oemhp_power1 warning_threshold=<n> where n is the threshold in watts.\r\nThe valid range of values for warning_threshold is between oemhp_serverminpower and \r\n          oemhp_powersupplycapacity."
+      },
+      "0xafe6c": {
+        "name": "a_Displays_and_modifies_the_length_of_time_in_minute",
+        "addr": 720492,
+        "size": 471,
+        "type": "str",
+        "str_content": "\r\nDisplays and modifies the length of time in minutes that power consumption must remain\r\nabove the warning threshold before a SNMP alert is triggered.\r\nExample:   \r\nshow /system1/oemhp_power1 warning_duration  \r\nset /system1/oemhp_power1  warning_duration=<n> where n is the time limit in minutes.\r\nThe valid range of values for warning_duration is between 1 and 240. If the value provided\r\nis not a multiple of 5, it will be rounded up to the nearest multiple of 5. \r\n"
+      },
+      "0xb0044": {
+        "name": "a_Displays_the_firmware_version_number_for_the_power",
+        "addr": 720964,
+        "size": 131,
+        "type": "str",
+        "str_content": "\r\nDisplays the firmware version number for the power microcontroller. \r\nExample : show /system1/oemhp_power1 oemhp_power_micro_ver"
+      },
+      "0xb00c8": {
+        "name": "a_Displays_and_modifies_Server_Automatic_Power_On_se",
+        "addr": 721096,
+        "size": 581,
+        "type": "str",
+        "str_content": "\r\nDisplays and modifies Server Automatic Power On setting. \r\nExample : show /system1/oemhp_power1 oemhp_auto_pwr \r\n          set /system1/oemhp_power1 oemhp_auto_pwr=on \r\n          Valid values are : \r\n                 ON  - turns on automatic power on with minimum delay \r\n                 15,30,45,60,random - automatic power on with a timed delay starting when #ILO\r\n                     finishes booting.  Random is a delay up to 120 seconds.\r\n                 RESTORE - restore the last power state (except on BL servers)\r\n                 OFF - turns off automatic power on."
+      },
+      "0xb0310": {
+        "name": "a_cpu_Displays_information_about_the_system_processo",
+        "addr": 721680,
+        "size": 115,
+        "type": "str",
+        "str_content": "\r\ncpu : Displays information about the system processor.\r\nExample: show /system1/cpu<n>, where n is the cpu number"
+      },
+      "0xb0384": {
+        "name": "a_Displays_information_about_the_system_processor_sp",
+        "addr": 721796,
+        "size": 121,
+        "type": "str",
+        "str_content": "\r\nDisplays information about the system processor speed.\r\nExample: show /system1/cpu<n> speed, where n is the cpu number"
+      },
+      "0xb0400": {
+        "name": "a_Displays_information_about_the_system_processor_me",
+        "addr": 721920,
+        "size": 145,
+        "type": "str",
+        "str_content": "\r\nDisplays information about the system processor memory technology.\r\nExample: show /system1/cpu<n> memory_technology, where n is the cpu number"
+      },
+      "0xb0494": {
+        "name": "a_Displays_information_about_the_system_processor_le",
+        "addr": 722068,
+        "size": 136,
+        "type": "str",
+        "str_content": "\r\nDisplays information about the system processor level 1 cache.\r\nExample: show /system1/cpu<n> cachememory1, where n is the cpu number"
+      },
+      "0xb051c": {
+        "name": "a_Displays_information_about_the_system_processor_le",
+        "addr": 722204,
+        "size": 136,
+        "type": "str",
+        "str_content": "\r\nDisplays information about the system processor level 2 cache.\r\nExample: show /system1/cpu<n> cachememory2, where n is the cpu number"
+      },
+      "0xb05a4": {
+        "name": "a_Displays_information_about_the_system_processor_le",
+        "addr": 722340,
+        "size": 136,
+        "type": "str",
+        "str_content": "\r\nDisplays information about the system processor level 3 cache.\r\nExample: show /system1/cpu<n> cachememory3, where n is the cpu number"
+      },
+      "0xb062c": {
+        "name": "a_memory_Displays_information_about_the_system_memor",
+        "addr": 722476,
+        "size": 134,
+        "type": "str",
+        "str_content": "\r\nmemory  : Displays information about the system memory.\r\nExample: show /system1/memory<n>, where n is the number of the memory slot"
+      },
+      "0xb06b4": {
+        "name": "a_Displays_information_about_the_system_memory_capac",
+        "addr": 722612,
+        "size": 138,
+        "type": "str",
+        "str_content": "\r\nDisplays information about the system memory capacity.\r\nExample: show /system1/memory<n> size, where n is the number of the memory slot"
+      },
+      "0xb0740": {
+        "name": "a_Displays_information_about_the_system_memory_frequ",
+        "addr": 722752,
+        "size": 144,
+        "type": "str",
+        "str_content": "\r\nDisplays information about the system memory frequency.\r\nExample: show /system1/memory<n> frequency, where n is the number of the memory slot"
+      },
+      "0xb07d0": {
+        "name": "a_Displays_information_about_the_system_memory_locat",
+        "addr": 722896,
+        "size": 142,
+        "type": "str",
+        "str_content": "\r\nDisplays information about the system memory location.\r\nExample: show /system1/memory<n> location, where n is the number of the memory slot"
+      },
+      "0xb0860": {
+        "name": "a_Displays_information_about_the_System_ROM_firmware",
+        "addr": 723040,
+        "size": 221,
+        "type": "str",
+        "str_content": "\r\nDisplays information about the System ROM firmware installed on the system.\r\nWhen flashing non-#ILO firmware, the system may need to be manually reset for the\r\n  changes to be applied.\r\nExample: show /system1/firmware1"
+      },
+      "0xb0940": {
+        "name": "a_Displays_information_about_the_firmware_entities_i",
+        "addr": 723264,
+        "size": 215,
+        "type": "str",
+        "str_content": "\r\nDisplays information about the firmware entities installed on the system.\r\nWhen flashing non-#ILO firmware, the system may need to be manually reset for the\r\n  changes to be applied.\r\nExample: show /system1/swid1"
+      },
+      "0xb0a18": {
+        "name": "a_Displays_the_version_information_of_a_firmware_use",
+        "addr": 723480,
+        "size": 69,
+        "type": "str",
+        "str_content": "\r\nDisplays the version information of a firmware used by the system."
+      },
+      "0xb0a60": {
+        "name": "a_slot_Displays_information_about_the_system_slots_E",
+        "addr": 723552,
+        "size": 115,
+        "type": "str",
+        "str_content": "\r\nslot  : Displays information about the system slots.\r\nExample: show /system1/slot<n>, where n is the slot number"
+      },
+      "0xb0ad4": {
+        "name": "a_Displays_information_about_the_system_slot_type_Ex",
+        "addr": 723668,
+        "size": 116,
+        "type": "str",
+        "str_content": "\r\nDisplays information about the system slot type.\r\nExample: show /system1/slot<n> type, where n is the slot number"
+      },
+      "0xb0b48": {
+        "name": "a_Displays_information_about_the_system_slot_width_E",
+        "addr": 723784,
+        "size": 118,
+        "type": "str",
+        "str_content": "\r\nDisplays information about the system slot width.\r\nExample: show /system1/slot<n> width, where n is the slot number"
+      },
+      "0xb0bc0": {
+        "name": "a_Displays_name_of_the_system_slot_Example_show_syst",
+        "addr": 723904,
+        "size": 101,
+        "type": "str",
+        "str_content": "\r\nDisplays name of the system slot.\r\nExample: show /system1/slot<n> name, where n is the slot number"
+      },
+      "0xb0c28": {
+        "name": "a_Displays_and_changes_the_system_led_state_Examples",
+        "addr": 724008,
+        "size": 190,
+        "type": "str",
+        "str_content": "\r\nDisplays and changes the system led state.\r\nExamples: show /system1/led1 \r\n          start /system1/led1 - turns on Unit ID light \r\n          stop /system1/led1  - turns off Unit ID light"
+      },
+      "0xb0ce8": {
+        "name": "a_Displays_the_system_led_state_Example_show_system1",
+        "addr": 724200,
+        "size": 75,
+        "type": "str",
+        "str_content": "\r\nDisplays the system led state.\r\nExample: show /system1/led1 enabledstate"
+      },
+      "0xb0d34": {
+        "name": "a_Starts_the_text_based_remote_console_session_Examp",
+        "addr": 724276,
+        "size": 83,
+        "type": "str",
+        "str_content": "\r\nStarts the text based remote console session.\r\nExample: start /system1/console1 "
+      },
+      "0xb0d88": {
+        "name": "a_Start_or_stop_the_virtual_serial_port_session_Exam",
+        "addr": 724360,
+        "size": 122,
+        "type": "str",
+        "str_content": "\r\nStart or stop the virtual serial port session.\r\nExample: start /system1/oemhp_vsp1\r\n         stop  /system1/oemhp_vsp1 "
+      },
+      "0xb0e04": {
+        "name": "a_Displays_and_deletes_the_system_event_log_Integrat",
+        "addr": 724484,
+        "size": 168,
+        "type": "str",
+        "str_content": "\r\nDisplays and deletes the system event log (Integrated Management Log).\r\nExamples: show /system1/log1 \r\n          delete /system1/log1 - deletes the system event log "
+      },
+      "0xb0eac": {
+        "name": "a_Displays_the_system_event_log_record_Example_show_",
+        "addr": 724652,
+        "size": 111,
+        "type": "str",
+        "str_content": "\r\nDisplays the system event log record.\r\nExample: show /system1/log1/record<n> , where n is the record number "
+      },
+      "0xb0f1c": {
+        "name": "a_Displays_the_system_event_log_event_number_Example",
+        "addr": 724764,
+        "size": 124,
+        "type": "str",
+        "str_content": "\r\nDisplays the system event log event number.\r\nExample: show /system1/log1/record<n> number , where n is the record number "
+      },
+      "0xb0f98": {
+        "name": "a_Displays_the_system_event_log_event_severity_Examp",
+        "addr": 724888,
+        "size": 128,
+        "type": "str",
+        "str_content": "\r\nDisplays the system event log event severity.\r\nExample: show /system1/log1/record<n> severity , where n is the record number "
+      },
+      "0xb1018": {
+        "name": "a_Displays_the_system_event_log_event_description_Ex",
+        "addr": 725016,
+        "size": 134,
+        "type": "str",
+        "str_content": "\r\nDisplays the system event log event description.\r\nExample: show /system1/log1/record<n> description , where n is the record number "
+      },
+      "0xb10a0": {
+        "name": "a_Displays_and_deletes_the_PRODABR_event_log_Example",
+        "addr": 725152,
+        "size": 138,
+        "type": "str",
+        "str_content": "\r\nDisplays and deletes the #PRODABR event log.\r\nExamples: show /map1/log1 \r\n          delete /map1/log1 - deletes the #PRODABR event log "
+      },
+      "0xb112c": {
+        "name": "a_Displays_the_PRODABR_event_log_record_Example_show",
+        "addr": 725292,
+        "size": 110,
+        "type": "str",
+        "str_content": "\r\nDisplays the #PRODABR event log record.\r\nExample: show /map1/log1/record<n> , where n is the record number "
+      },
+      "0xb119c": {
+        "name": "a_Displays_the_PRODABR_event_log_event_number_Exampl",
+        "addr": 725404,
+        "size": 123,
+        "type": "str",
+        "str_content": "\r\nDisplays the #PRODABR event log event number.\r\nExample: show /map1/log1/record<n> number , where n is the record number "
+      },
+      "0xb1218": {
+        "name": "a_Displays_the_PRODABR_event_log_event_severity_Exam",
+        "addr": 725528,
+        "size": 127,
+        "type": "str",
+        "str_content": "\r\nDisplays the #PRODABR event log event severity.\r\nExample: show /map1/log1/record<n> severity , where n is the record number "
+      },
+      "0xb1298": {
+        "name": "a_Displays_the_PRODABR_event_log_event_description_E",
+        "addr": 725656,
+        "size": 133,
+        "type": "str",
+        "str_content": "\r\nDisplays the #PRODABR event log event description.\r\nExample: show /map1/log1/record<n> description , where n is the record number "
+      },
+      "0xb1320": {
+        "name": "a_Displays_the_system_boot_configuration_information",
+        "addr": 725792,
+        "size": 1064,
+        "type": "str",
+        "str_content": "\r\nDisplays the system boot configuration information.\r\nExample: show /system1/bootconfig1 \r\n\r\nPossible boot sources for the system. The values for servers\r\nnot supporting booting from the Network:\r\nBootFmCd     : bootsource1\r\nBootFmFloppy : bootsource2\r\nBootFmDrive  : bootsource3\r\nBootFmUSBKey : bootsource4\r\n\r\nFor systems with booting from the Network: \r\nBootFmCd     : bootsource1\r\nBootFmFloppy : bootsource2\r\nBootFmDrive  : bootsource3\r\nBootFmUSBKey : bootsource4\r\nBootFmNetwork: bootsource5\r\n\r\nOn UEFI-capable systems in legacy boot mode, the BootFmFloppy option is\r\nno longer available, so BootFmDrive is now bootsource2, BootFmUSBKey \r\nis bootsource3, and BootFmNetwork (when applicable) is bootsource4. \r\n\r\nTo display the bootorder corresponding to the bootsource, run\r\nshow -all /system1/bootconfig1 \r\n\r\nFor systems that support UEFI, the oemhp_uefibootsourceN targets\r\nare listed in their respective boot order.  Oemhp_description \r\nprovides a description of the UEFI boot option.  Setting bootorder\r\nwill rearrange the UEFI boot sources as specified.\r\n"
+      },
+      "0xb1748": {
+        "name": "a_Displays_the_system_boot_source_information_Exampl",
+        "addr": 726856,
+        "size": 1011,
+        "type": "str",
+        "str_content": "\r\nDisplays the system boot source information.\r\nExample: show /system1/bootconfig1/bootsource<n>, where n is the bootsource number\r\n\r\nTo show the boot device name corresponding to a particular bootsource:\r\nshow /system1/bootconfig1/bootsource<n> bootdevice, where n is the bootsource number\r\n\r\nPossible boot sources for the system. The values for servers\r\nnot supporting booting from the Network:\r\nBootFmCd     : bootsource1\r\nBootFmFloppy : bootsource2\r\nBootFmDrive  : bootsource3\r\nBootFmUSBKey : bootsource4\r\n\r\nFor systems with booting from the Network: \r\nBootFmCd     : bootsource1\r\nBootFmFloppy : bootsource2\r\nBootFmDrive  : bootsource3\r\nBootFmUSBKey : bootsource4\r\nBootFmNetwork: bootsource5\r\n\r\nOn UEFI-capable systems in legacy boot mode, the BootFmFloppy option is\r\nno longer available, so BootFmDrive is now bootsource2, BootFmUSBKey \r\nis bootsource3, and BootFmNetwork (when applicable) is bootsource4. \r\n\r\nTo display the bootorder corresponding to the bootsource, run\r\nshow -all /system1/bootconfig1\r\n"
+      },
+      "0xb1b3c": {
+        "name": "a_Displays_and_sets_the_system_boot_order_informatio",
+        "addr": 727868,
+        "size": 1061,
+        "type": "str",
+        "str_content": "\r\nDisplays and sets the system boot order information.\r\nExamples: show /system1/bootconfig1/bootsource<n> bootorder,  where n is the bootsource number \r\n          set /system1/bootconfig1/bootsource<n> bootorder=<x>, where n is the bootsource number and\r\n                                                              x is the new bootorder \r\n\r\nPossible boot sources for the system. The values for servers\r\nnot supporting booting from the Network:\r\nBootFmCd     : bootsource1\r\nBootFmFloppy : bootsource2\r\nBootFmDrive  : bootsource3\r\nBootFmUSBKey : bootsource4\r\n\r\nFor systems with booting from the Network:\r\nBootFmCd     : bootsource1\r\nBootFmFloppy : bootsource2\r\nBootFmDrive  : bootsource3\r\nBootFmUSBKey : bootsource4\r\nBootFmNetwork: bootsource5\r\n\r\nOn UEFI-capable systems in legacy boot mode, the BootFmFloppy option is\r\nno longer available, so BootFmDrive is now bootsource2, BootFmUSBKey \r\nis bootsource3, and BootFmNetwork (when applicable) is bootsource4. \r\n\r\nTo display the bootorder corresponding to the bootsource, run\r\nshow -all /system1/bootconfig1 \r\n"
+      },
+      "0xb1f64": {
+        "name": "a_Displays_the_system_boot_mode_which_can_be_UEFI_on",
+        "addr": 728932,
+        "size": 87,
+        "type": "str",
+        "str_content": "\r\nDisplays the system boot mode, which can be UEFI only, Legacy only, UEFI, or Legacy."
+      },
+      "0xb1fbc": {
+        "name": "a_Displays_or_modifies_the_pending_boot_mode_changes",
+        "addr": 729020,
+        "size": 363,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the pending boot mode changes which will be applied when the system reboots.\r\nIf oemhp_bootmode is UEFI only or Legacy only, the oemhp_pendingbootmode property will\r\nread only. For systems with UEFI available, the available options are 'uefi' and 'legacy'.\r\nChanging this property will require a system reset for the changes to take place."
+      },
+      "0xb2128": {
+        "name": "a_Displays_the_system_secure_boot_setting_for_system",
+        "addr": 729384,
+        "size": 73,
+        "type": "str",
+        "str_content": "\r\nDisplays the system secure boot setting for systems with UEFI enabled."
+      },
+      "0xb2174": {
+        "name": "a_Displays_the_UEFI_boot_sources_available_For_syste",
+        "addr": 729460,
+        "size": 292,
+        "type": "str",
+        "str_content": "\r\nDisplays the UEFI boot sources available For systems that support UEFI,\r\nthe oemhp_uefibootsourceN targets are listed in their respective boot order.\r\nOemhp_description provides a description of the UEFI boot option.  Setting bootorder\r\nwill rearrange the UEFI boot sources as specified.\r\n"
+      },
+      "0xb2298": {
+        "name": "a_Displays_and_sets_the_system_boot_order_informatio",
+        "addr": 729752,
+        "size": 131,
+        "type": "str",
+        "str_content": "\r\nDisplays and sets the system boot order information. Setting the bootorder\r\nwill rearrange the UEFI boot sources as specified.\r\n"
+      },
+      "0xb231c": {
+        "name": "a_Displays_creates_or_deletes_user_account_informati",
+        "addr": 729884,
+        "size": 461,
+        "type": "str",
+        "str_content": "\r\nDisplays, creates or deletes user account information. \r\nExamples: show /map1/accounts1 - displays all account names\r\n          create /map1/accounts1 username=<lname1> password=<pwd12345> name= \r\n          <dname1> group=<admin,config,oemhp_vm,oemhp_rc,oemhp_power>-creates \r\n          new account lname1 \r\n          delete /map1/accounts1/<dname1> - deletes account dname1 \r\n Note: usernames longer than 16 characters will not meet IPMI 2.0 Specifications."
+      },
+      "0xb24ec": {
+        "name": "a_Displays_creates_or_deletes_user_account_informati",
+        "addr": 730348,
+        "size": 427,
+        "type": "str",
+        "str_content": "\r\nDisplays, creates or deletes user account information. \r\nExamples: show /map1/accounts1 - displays all account names\r\n          create /map1/accounts1 username=<lname1> password=<pwd12345> name= \r\n          <dname1> group=<admin,config,oemhp_vm>-creates new account lname1 \r\n          delete /map1/accounts1/<dname1> - deletes account dname1\r\n Note: usernames longer than 16 characters will not meet IPMI 2.0 Specifications."
+      },
+      "0xb2698": {
+        "name": "a_Displays_or_modifies_user_login_name_information_M",
+        "addr": 730776,
+        "size": 461,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies user login name information. Maximum length is 39. \r\nExamples: show /map1/accounts1/<lname1> username - displays login name for \r\n                                                  account lname1 \r\n          set /map1/accounts1/<lname1> username=<lname2> - modifies login name \r\n                                                          for account lname1\r\n Note: usernames longer than 16 characters will not meet IPMI 2.0 Specifications."
+      },
+      "0xb2868": {
+        "name": "a_Displays_or_modifies_user_password_information_Max",
+        "addr": 731240,
+        "size": 461,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies user password information. Maximum length is 39.\r\nExamples: show /map1/accounts1/<lname1> password - displays password for account \r\n                                                  lname1. Actual password isn't \r\n                                                  displayed \r\n          set /map1/accounts1/<lname1> password=<password> - modifies password \r\n                                                            for account lname1 "
+      },
+      "0xb2a38": {
+        "name": "a_Displays_or_modifies_user_name_information_Maximum",
+        "addr": 731704,
+        "size": 354,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies user name information. Maximum length is 39.\r\nExamples: show /map1/accounts1/<lname1> name - displays user name for account \r\n                                              lname1 \r\n          set /map1/accounts1/<lname1> name=<dname2> - modifies user name for \r\n                                                      account lname1 "
+      },
+      "0xb2b9c": {
+        "name": "a_Displays_or_modifies_user_privilege_information_Th",
+        "addr": 732060,
+        "size": 476,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies user privilege information. The valid privileges \r\nare: admin, config,oemhp_rc,oemhp_power,oemhp_vm,none,0. \r\n0 or none can be used to clear privilege information. \r\nExamples: show /map1/accounts1/<lname1> group - displays privilege for account \r\n                                               lname1 \r\n          set /map1/accounts1/<lname1> group=<admin> - modifies privilege for \r\n                                                      account lname1 "
+      },
+      "0xb2d78": {
+        "name": "a_Displays_or_modifies_user_sshkey_Examples_oemhp_lo",
+        "addr": 732536,
+        "size": 303,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies user sshkey.\r\nExamples: oemhp_loadsshkey /map1/accounts1/<lname1> -source http://192.168.1.1/pubkey.ppk\r\n            - loads the sshkey to the specified user lname1.\r\n          oemhp_deletesshkey /map1/accounts1/<lname1> \r\n            - removes the sshkey for the account lname1."
+      },
+      "0xb2ea8": {
+        "name": "a_Displays_or_modifies_PRODABR_network_information_E",
+        "addr": 732840,
+        "size": 210,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR network information.\r\nExamples: show /map1/enetport1 - displays the current properties and values \r\n          set /map1/enetport1 <property=value> - modifies the property value "
+      },
+      "0xb2f7c": {
+        "name": "a_Displays_or_modifies_PRODABR_network_information_E",
+        "addr": 733052,
+        "size": 212,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR network information.\r\nExamples: show /map1/dhcpendpt1 - displays the current properties and values \r\n          set /map1/dhcpendpt1 <property=value> - modifies the property value "
+      },
+      "0xb3050": {
+        "name": "a_Displays_or_modifies_PRODABR_network_information_E",
+        "addr": 733264,
+        "size": 210,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR network information.\r\nExamples: show /map1/dnsendpt1 - displays the current properties and values \r\n          set /map1/dnsendpt1 <property=value> - modifies the property value "
+      },
+      "0xb3124": {
+        "name": "a_Displays_or_modifies_PRODABR_network_information_E",
+        "addr": 733476,
+        "size": 208,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR network information.\r\nExamples: show /map1/gateway1 - displays the current properties and values \r\n          set /map1/gateway1 <property=value> - modifies the property value "
+      },
+      "0xb31f4": {
+        "name": "a_Displays_or_modifies_PRODABR_network_information_E",
+        "addr": 733684,
+        "size": 212,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR network information.\r\nExamples: show /map1/dnsserver1 - displays the current properties and values \r\n          set /map1/dnsserver1 <property=value> - modifies the property value "
+      },
+      "0xb32c8": {
+        "name": "a_Displays_or_modifies_PRODABR_network_information_E",
+        "addr": 733896,
+        "size": 212,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR network information.\r\nExamples: show /map1/dnsserver2 - displays the current properties and values \r\n          set /map1/dnsserver2 <property=value> - modifies the property value "
+      },
+      "0xb339c": {
+        "name": "a_Displays_or_modifies_PRODABR_network_information_E",
+        "addr": 734108,
+        "size": 212,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR network information.\r\nExamples: show /map1/dnsserver3 - displays the current properties and values \r\n          set /map1/dnsserver3 <property=value> - modifies the property value "
+      },
+      "0xb3470": {
+        "name": "a_Displays_or_modifies_PRODABR_network_information_E",
+        "addr": 734320,
+        "size": 210,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR network information.\r\nExamples: show /map1/settings1 - displays the current properties and values \r\n          set /map1/settings1 <property=value> - modifies the property value "
+      },
+      "0xb3544": {
+        "name": "a_Displays_or_modifies_PRODABR_network_information_E",
+        "addr": 734532,
+        "size": 200,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR network information.\r\nExamples: show /map1/nic1 - displays the current properties and values \r\n          set /map1/nic1 <property=value> - modifies the property value "
+      },
+      "0xb360c": {
+        "name": "a_Displays_or_modifies_PRODABR_NIC_status_Valid_valu",
+        "addr": 734732,
+        "size": 233,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR NIC status. Valid values can be 2 ( enabled), \r\n 3( disabled), 32768 (shared network port - LOM), \r\n or 32769 (shared network port enabled - FlexibleLOM).\r\n Not all platforms will support all options."
+      },
+      "0xb36f8": {
+        "name": "a_Displays_or_modifies_sideband_port_number_Legal_va",
+        "addr": 734968,
+        "size": 190,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies sideband port number. Legal values for port are 1-32.\r\nModifying port to an unsupported values on this system can result in default selection to port 1 automatically."
+      },
+      "0xb37b8": {
+        "name": "a_Displays_or_modifies_PRODABR_shared_network_port_s",
+        "addr": 735160,
+        "size": 94,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR shared network port status. Valid values are \r\n'yes' or 'no'."
+      },
+      "0xb3818": {
+        "name": "a_Displays_or_modifies_PRODABR_NIC_autosense_status_",
+        "addr": 735256,
+        "size": 199,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR NIC autosense status.\r\n Examples: show /map1/enetport1 Autosense  \r\n           set  /map1/enetport1 Autosense=<value> \r\n           Valid values are 'true' or 'false'."
+      },
+      "0xb38e0": {
+        "name": "a_Displays_or_modifies_PRODABR_NIC_speed_On_Blade_se",
+        "addr": 735456,
+        "size": 290,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR NIC speed. On Blade servers the NIC speed is read-only.\r\nIf autosense is enabled, then speed will be shown as 'Auto'.\r\nExamples : show /map1/enetport1 Speed\r\n           set /map1/enetport1 Speed=<value> \r\n           Valid values are '10' or '100' or '1000'."
+      },
+      "0xb3a04": {
+        "name": "a_Displays_or_modifies_PRODABR_NIC_fullduplex_status",
+        "addr": 735748,
+        "size": 155,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR NIC fullduplex status. Valid values are 'yes' \r\nor 'no'. If autosense is enabled, then fullduplex will be shown as 'Auto'."
+      },
+      "0xb3aa0": {
+        "name": "a_Displays_or_modifies_PRODABR_NIC_DHCP_enable_statu",
+        "addr": 735904,
+        "size": 205,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR NIC DHCP enable status.\r\nExamples: show /map1/dhcpendpt1 EnabledState \r\n          set /map1/dhcpendpt1 EnabledState=<value> \r\n          Valid values can be 'yes' or 'no' \r\n"
+      },
+      "0xb3b70": {
+        "name": "a_Displays_or_modifies_if_the_PRODABR_NIC_gets_its_g",
+        "addr": 736112,
+        "size": 122,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies if the #PRODABR NIC gets its gateway address from a \r\nDHCP server. Valid values are 'yes' or 'no'."
+      },
+      "0xb3bec": {
+        "name": "a_Displays_or_modifies_the_PRODABR_WIN_server_addres",
+        "addr": 736236,
+        "size": 179,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the #PRODABR WIN server address.\r\nExample: set WINSServerAddress=192.168.100.1,192.168.100.2\r\n         set WINSServerAddress=\"192.168.100.1, 192.168.100.2\""
+      },
+      "0xb3ca0": {
+        "name": "a_Displays_or_modifies_if_the_PRODABR_NIC_gets_its_s",
+        "addr": 736416,
+        "size": 120,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies if the #PRODABR NIC gets its static routes from a DHCP \r\nserver. Valid values are 'yes' or 'no'."
+      },
+      "0xb3d18": {
+        "name": "a_Displays_or_modifies_if_the_PRODABR_NIC_gets_its_d",
+        "addr": 736536,
+        "size": 118,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies if the #PRODABR NIC gets its domain name from a DHCP \r\nserver. Valid values are 'yes' or 'no'."
+      },
+      "0xb3d90": {
+        "name": "a_Displays_or_modifies_if_the_PRODABR_NIC_registers_",
+        "addr": 736656,
+        "size": 107,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies if the #PRODABR NIC registers with a WINS server. Valid \r\nvalues are 'yes' or 'no'."
+      },
+      "0xb3dfc": {
+        "name": "a_Displays_or_modifies_the_PRODABR_NIC_Domain_Name_S",
+        "addr": 736764,
+        "size": 73,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the #PRODABR NIC Domain Name Server(DNS) address."
+      },
+      "0xb3e48": {
+        "name": "a_Displays_or_modifies_if_the_PRODABR_NIC_registers_",
+        "addr": 736840,
+        "size": 106,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies if the #PRODABR NIC registers with a DNS server. Valid \r\nvalues are 'yes' or 'no'."
+      },
+      "0xb3eb4": {
+        "name": "a_Displays_or_modifies_the_PRODABR_NIC_static_route_",
+        "addr": 736948,
+        "size": 74,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the #PRODABR NIC static route destination address."
+      },
+      "0xb3f00": {
+        "name": "a_Displays_or_modifies_the_PRODABR_NIC_static_route_",
+        "addr": 737024,
+        "size": 70,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the #PRODABR NIC static route gateway address."
+      },
+      "0xb3f48": {
+        "name": "a_Display_if_PRODABR_NIC_IP_address_is_provided_by_D",
+        "addr": 737096,
+        "size": 66,
+        "type": "str",
+        "str_content": "\r\nDisplay if #PRODABR NIC IP address is provided by DHCP Server. "
+      },
+      "0xb3f8c": {
+        "name": "a_Displays_or_modifies_if_ILO_is_to_register_with_a_",
+        "addr": 737164,
+        "size": 73,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies if #ILO is to register with a Dynamic DNS server."
+      },
+      "0xb3fd8": {
+        "name": "a_Displays_or_modifies_the_hostname_associated_with_",
+        "addr": 737240,
+        "size": 68,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the hostname associated with the IP endpoint"
+      },
+      "0xb401c": {
+        "name": "a_Read_Only_Display_IPv4_address_of_PRODABR_expresse",
+        "addr": 737308,
+        "size": 156,
+        "type": "str",
+        "str_content": "\r\nRead Only: Display IPv4 address of #PRODABR, expressed in dotted decimal notation.\r\n More information is available at /map1/enetport1/lanendpt1/ipendpt1."
+      },
+      "0xb40b8": {
+        "name": "a_Display_or_modifies_PRODABR_NIC_Settings_Informati",
+        "addr": 737464,
+        "size": 149,
+        "type": "str",
+        "str_content": "\r\n Display or modifies #PRODABR NIC Settings Information. Most of the properties under \r\n StaticIPSettings1 cannot be modified if DHCP is turned on."
+      },
+      "0xb4150": {
+        "name": "a_Display_Modify_DHCPOptionToUse_if_DNS_server_IP_ad",
+        "addr": 737616,
+        "size": 88,
+        "type": "str",
+        "str_content": "\r\nDisplay/Modify 'DHCPOptionToUse' if DNS server IP address is provided by DHCP Server."
+      },
+      "0xb41a8": {
+        "name": "a_Displays_or_modifies_if_the_PRODABR_Gateway1_gets_",
+        "addr": 737704,
+        "size": 125,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies if the #PRODABR Gateway1 gets its static routes from a DHCP \r\nserver. Valid values are 'yes' or 'no'."
+      },
+      "0xb4228": {
+        "name": "a_Displays_or_modifies_PRODABR_global_settings_confi",
+        "addr": 737832,
+        "size": 216,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR global settings configuration.\r\nExamples: show /map1/config1 - displays the current properties and values \r\n          set /map1/config1 <property=value> - modifies the property value "
+      },
+      "0xb4300": {
+        "name": "a_Displays_or_modifies_PRODABR_status_Valid_values_a",
+        "addr": 738048,
+        "size": 72,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR status. Valid values are 'yes' or 'no'."
+      },
+      "0xb4348": {
+        "name": "a_Displays_or_modifies_idle_timeout_setting_Valid_va",
+        "addr": 738120,
+        "size": 134,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies idle timeout setting. Valid values are '15','30',\r\n'60', or '120'.  Use a value of '0' to indicate no timeout."
+      },
+      "0xb43d0": {
+        "name": "a_Displays_or_modifies_terminal_services_passthrough",
+        "addr": 738256,
+        "size": 120,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies terminal services passthrough setting. Valid values\r\nare 'enabled' , 'disabled', or 'automatic'."
+      },
+      "0xb4448": {
+        "name": "a_Displays_or_modifies_RBSU_enable_setting_Valid_val",
+        "addr": 738376,
+        "size": 75,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies RBSU enable setting.Valid values are 'yes' or 'no'."
+      },
+      "0xb4494": {
+        "name": "a_Displays_or_modifies_RBSU_login_setting_Valid_valu",
+        "addr": 738452,
+        "size": 74,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies RBSU login setting.Valid values are 'yes' or 'no'."
+      },
+      "0xb44e0": {
+        "name": "a_Displays_or_modifies_RBSU_IP_address_display_setti",
+        "addr": 738528,
+        "size": 89,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies RBSU IP address display setting.Valid values are \r\n'yes' or 'no'."
+      },
+      "0xb453c": {
+        "name": "a_Displays_or_modifies_remote_console_configuration_",
+        "addr": 738620,
+        "size": 115,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies remote console configuration setting. Valid values \r\n'enabled', disabled', or 'automatic'. "
+      },
+      "0xb45b0": {
+        "name": "a_Displays_or_modifies_remote_console_encryption_set",
+        "addr": 738736,
+        "size": 89,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies remote console encryption setting.Valid values are\r\nyes' or 'no'."
+      },
+      "0xb460c": {
+        "name": "a_Displays_or_modifies_non_SSL_HTTP_port_setting_Val",
+        "addr": 738828,
+        "size": 125,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies non-SSL HTTP port setting. Valid value is between \r\n0 and 65535. A value of 0 will turn the port off."
+      },
+      "0xb468c": {
+        "name": "a_Displays_or_modifies_SSL_port_setting_Valid_value_",
+        "addr": 738956,
+        "size": 116,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies SSL port setting. Valid value is between 0 and 65535. A \r\nvalue of 0 will turn the port off."
+      },
+      "0xb4700": {
+        "name": "a_Displays_or_modifies_remote_console_port_setting_V",
+        "addr": 739072,
+        "size": 89,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies remote console port setting. Valid value is between\r\n1 and 65535."
+      },
+      "0xb475c": {
+        "name": "a_Displays_or_modifies_AES_encryption_configuration_",
+        "addr": 739164,
+        "size": 155,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies AES encryption configuration. Valid values are 'yes' or 'no'.\r\nThis setting requires a forced logout for the changes to take place."
+      },
+      "0xb47f8": {
+        "name": "a_Displays_or_modifies_virtual_media_port_setting_Va",
+        "addr": 739320,
+        "size": 89,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies virtual media port setting. Valid value is between \r\n1 and 65535."
+      },
+      "0xb4854": {
+        "name": "a_Displays_or_modifies_terminal_services_port_settin",
+        "addr": 739412,
+        "size": 93,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies terminal services port setting. Valid value is \r\nbetween 1 and 65535."
+      },
+      "0xb48b4": {
+        "name": "a_Displays_or_modifies_Secure_Shell_SSH_port_setting",
+        "addr": 739508,
+        "size": 93,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies Secure Shell(SSH) port setting. Valid value is \r\nbetween 1 and 65535."
+      },
+      "0xb4914": {
+        "name": "a_Displays_or_modifies_Secure_Shell_SSH_status_setti",
+        "addr": 739604,
+        "size": 91,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies Secure Shell(SSH) status setting. Valid values are \r\n'yes' or 'no'."
+      },
+      "0xb4970": {
+        "name": "a_Displays_or_modifies_Raw_Serial_Data_port_setting_",
+        "addr": 739696,
+        "size": 91,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies Raw Serial Data port setting. Valid value is \r\nbetween 1 and 65535."
+      },
+      "0xb49cc": {
+        "name": "a_Displays_or_modifies_serial_port_CLI_status_settin",
+        "addr": 739788,
+        "size": 90,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies serial port CLI status setting. Valid values are '\r\n yes' or 'no'."
+      },
+      "0xb4a28": {
+        "name": "a_Displays_or_modifies_serial_port_CLI_authorization",
+        "addr": 739880,
+        "size": 102,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies serial port CLI authorization status setting. Valid\r\nvalues are 'yes' or 'no'."
+      },
+      "0xb4a90": {
+        "name": "a_Displays_or_modifies_serial_port_CLI_speed_setting",
+        "addr": 739984,
+        "size": 122,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies serial port CLI speed setting. Valid values are \r\n'9600', '19200', '38400', '57600', or '115200'. "
+      },
+      "0xb4b0c": {
+        "name": "a_Displays_or_modifies_minimum_password_length_setti",
+        "addr": 740108,
+        "size": 94,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies minimum password length setting. Valid values are \r\nbetween 0 and 39. "
+      },
+      "0xb4b6c": {
+        "name": "a_Displays_or_modifies_remote_console_hotkey_configu",
+        "addr": 740204,
+        "size": 261,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies remote console hotkey configuration.\r\nExamples: set /map1/config1/ oemhp_hotkey_ctrl_t=\"L_CTRL,L_ALT,DEL\"\r\n          set /map1/config1/ oemhp_hotkey_ctrl_x=\"L_CTRL,L_ALT,BACKSPACE\"\r\n          set /map1/config1/ oemhp_hotkey_ctrl_w=\"NONE\""
+      },
+      "0xb4c74": {
+        "name": "a_Displays_or_modifies_authentication_failure_loggin",
+        "addr": 740468,
+        "size": 111,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies authentication failure logging setting. Valid values\r\nare 1, 2, 3, 5 and 0 (disabled). "
+      },
+      "0xb4ce4": {
+        "name": "a_Displays_or_modifies_Remote_Console_Computer_Lock_",
+        "addr": 740580,
+        "size": 807,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies Remote Console Computer Lock configuration. Valid\r\nvalues are 'windows' 'disabled' 'custom'. If multiple properties are on the\r\nsame command line, they must be separated by a space.\r\nExamples: set oemhp_computer_lock=windows - enables remote console computer lock\r\n          set oemhp_computer_lock=disabled - disables remote console computer lock\r\nThe custom option sends the selected key sequence to the server operating system\r\nwhen a remote session is terminated or the #ILO network link is lost. The custom\r\nsequence can have a maximum of five keys. Keys with a space must have the\r\nspace replaced with an underscore. Keys are not case sensitive. \r\nExamples: set oemhp_computer_lock=custom,f5 - sets computer lock to F5\r\n          set oemhp_computer_lock=custom,l_alt,l_ctrl,del"
+      },
+      "0xb500c": {
+        "name": "a_Enables_or_disables_the_Virtual_Serial_Port_log_Wh",
+        "addr": 741388,
+        "size": 311,
+        "type": "str",
+        "str_content": "\r\nEnables or disables the Virtual Serial Port log. When the VSP log is \r\nenabled, it can be accessed via the command \"vsp log\".\r\nExamples: set oemhp_vsp_log_enable=1 - enables the VSP log\r\n          set oemhp_vsp_log_enable=0 - disables the VSP log\r\n          vsp log                    - displays the VSP log "
+      },
+      "0xb5144": {
+        "name": "a_Displays_or_modifies_remote_console_key_up_key_dow",
+        "addr": 741700,
+        "size": 69,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies remote console key-up/key-down configuration."
+      },
+      "0xb518c": {
+        "name": "a_Displays_or_enables_FIPS_mode_setting_Valid_values",
+        "addr": 741772,
+        "size": 201,
+        "type": "str",
+        "str_content": "\r\nDisplays or enables FIPS mode setting. Valid values are 'yes' or 'no'.\r\nEnabling requires a forced logout for the changes to take place. #ILO must be\r\nreset to factory defaults to disable FIPS mode."
+      },
+      "0xb5258": {
+        "name": "a_Displays_or_modifies_SNMP_Access_Modification_of_t",
+        "addr": 741976,
+        "size": 96,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies SNMP Access. Modification of this property will \r\nrequire an #ILO reset."
+      },
+      "0xb52b8": {
+        "name": "a_Displays_or_modifies_SNMP_port_setting_Valid_value",
+        "addr": 742072,
+        "size": 80,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies SNMP port setting. Valid value is \r\nbetween 1 and 65535."
+      },
+      "0xb5308": {
+        "name": "a_Displays_or_modifies_SNMP_Trap_port_setting_Valid_",
+        "addr": 742152,
+        "size": 85,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies SNMP Trap port setting. Valid value is \r\nbetween 1 and 65535."
+      },
+      "0xb5360": {
+        "name": "a_Displays_or_modifies_SNMP_and_Insight_Manager_sett",
+        "addr": 742240,
+        "size": 207,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies SNMP and Insight Manager settings.\r\nExamples: show /map1/snmp1 - displays the current properties and values \r\n          set /map1/snmp1 <property=value> - modifies the property value "
+      },
+      "0xb5430": {
+        "name": "a_Displays_or_modifies_SNMP_read_community_address_f",
+        "addr": 742448,
+        "size": 127,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies SNMP read community address for when Agentless\r\nManagement is enabled.\r\nExample: set readcom1=\"public1\""
+      },
+      "0xb54b0": {
+        "name": "a_Displays_or_modifies_SNMP_trap_community_address_E",
+        "addr": 742576,
+        "size": 87,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies SNMP trap community address.\r\nExample: set trapcom1=\"trapcomm1\""
+      },
+      "0xb5508": {
+        "name": "a_Displays_or_modifies_PRODABR_SNMP_alert_forwarding",
+        "addr": 742664,
+        "size": 98,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR SNMP alert forwarding status. Valid values are \r\n'yes' or 'no'.  "
+      },
+      "0xb556c": {
+        "name": "a_Displays_or_modifies_host_agent_SNMP_alert_forward",
+        "addr": 742764,
+        "size": 99,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies host agent SNMP alert forwarding status. Valid \r\nvalues are 'yes' or 'no'. "
+      },
+      "0xb55d0": {
+        "name": "a_Displays_or_modifies_PRODABR_SNMP_passthrough_stat",
+        "addr": 742864,
+        "size": 162,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR SNMP passthrough status. Valid values are 'yes' \r\nor 'no'. If SNMP passthrough is disabled, agentless management will be enabled."
+      },
+      "0xb5674": {
+        "name": "a_Displays_or_modifies_the_SNMP_Agentless_Management",
+        "addr": 743028,
+        "size": 159,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the SNMP Agentless Management. \r\nValid values are 'yes', or 'no'. If Agentless Management is disabled, \r\nSNMP passthru will be enabled."
+      },
+      "0xb5714": {
+        "name": "a_Displays_or_modifies_SNMP_System_Location_for_when",
+        "addr": 743188,
+        "size": 152,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies SNMP System Location for when Agentless\r\nManagement is enabled.\r\nExample: set oemhp_systemlocation=\"HP Data Center, Hockley, TX\""
+      },
+      "0xb57ac": {
+        "name": "a_Displays_or_modifies_SNMP_System_Contact_for_when_",
+        "addr": 743340,
+        "size": 147,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies SNMP System Contact for when Agentless\r\nManagement is enabled.\r\nExample: set oemhp_systemcontact=\"Mr. System Administrator\""
+      },
+      "0xb5840": {
+        "name": "a_Displays_or_modifies_SNMP_System_Role_information_",
+        "addr": 743488,
+        "size": 167,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies SNMP System Role information for when Agentless\r\nManagement is enabled.\r\nExample: set oemhp_systemrole=\"Brief Role Description [60 characters]\""
+      },
+      "0xb58e8": {
+        "name": "a_Displays_or_modifies_SNMP_System_Role_detail_for_w",
+        "addr": 743656,
+        "size": 687,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies SNMP System Role detail for when Agentless\r\nManagement is enabled. This is limited to 512 characters together.\r\noemhp_systemroledetail1 - 4 are limited to 100 characters, oemhp_systemroledetail5\r\nis limited to 112 characters.  If more than one lines are to be used, the previous\r\nlines will have spaces added to them to meet the 100 character limit if a subsequent\r\nline has information provided.\r\nExample: set oemhp_systemroledetail1=\"Extended role description [100 characters]\"\r\nExample showing multiple lines:\r\n         set oemhp_systemroledetail2=\"Extended role description\"\r\n         show - Existing string in detail1 has spaces added to meet 100 char limit."
+      },
+      "0xb5b98": {
+        "name": "a_Displays_or_modifies_level_of_data_returned_to_Ins",
+        "addr": 744344,
+        "size": 111,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies level of data returned to Insight Manager. Valid \r\nvalues are 'enabled' or 'disabled'. "
+      },
+      "0xb5c08": {
+        "name": "a_Displays_or_modifies_the_SNMP_alert_forwarding_sta",
+        "addr": 744456,
+        "size": 112,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the SNMP alert forwarding status for p-Class blades. \r\nValid values are 'yes', or 'no'. "
+      },
+      "0xb5c78": {
+        "name": "a_Displays_or_modifies_the_SNMP_Cold_Start_Trap_Broa",
+        "addr": 744568,
+        "size": 95,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the SNMP Cold Start Trap Broadcast. \r\nValid values are 'yes', or 'no'. "
+      },
+      "0xb5cd8": {
+        "name": "a_Displays_or_modifies_the_SNMP_trap_source_setting_",
+        "addr": 744664,
+        "size": 89,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the SNMP trap source setting.\r\nValid values are '#ILO', or 'OS'. "
+      },
+      "0xb5d34": {
+        "name": "a_Sends_a_test_SNMP_trap_to_the_alert_destinations_c",
+        "addr": 744756,
+        "size": 150,
+        "type": "str",
+        "str_content": "\r\nSends a test SNMP trap to the alert destinations configured for the #ILO.\r\nValid value is 'yes'. Only set operation is supported for this command. "
+      },
+      "0xb5dcc": {
+        "name": "a_Displays_or_modifies_PRODABR_syslog_settings_Examp",
+        "addr": 744908,
+        "size": 234,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR syslog settings\r\nExamples: set /map1/oemhp_syslog1 oemhp_syslog_enable=yes\r\n          -syslog settings can only be modified if syslog is enabled\r\n          set /map1/oemhp_syslog1 oemhp_syslog_port=514"
+      },
+      "0xb5eb8": {
+        "name": "a_Displays_or_modifies_PRODABR_syslog_feature_status",
+        "addr": 745144,
+        "size": 89,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR syslog feature status. \r\nValid values are 'yes' or 'no'."
+      },
+      "0xb5f14": {
+        "name": "a_Displays_or_modifies_syslog_port_setting_Valid_val",
+        "addr": 745236,
+        "size": 83,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies syslog port setting. \r\nValid value is between 1 and 65535. "
+      },
+      "0xb5f68": {
+        "name": "a_Displays_or_modifies_syslog_server_address_Maximum",
+        "addr": 745320,
+        "size": 69,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies syslog server address. Maximum length is 127."
+      },
+      "0xb5fb0": {
+        "name": "a_Displays_or_modifies_PRODABR_alertmail_settings_Ex",
+        "addr": 745392,
+        "size": 192,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR alertmail settings\r\nExamples: set /map1/oemhp_alertmail1 oemhp_alertmail_enable=yes\r\n          set /map1/oemhp_alertmail1 oemhp_alertmail_email=username@hp.com"
+      },
+      "0xb6070": {
+        "name": "a_Displays_or_modifies_PRODABR_alertmail_feature_sta",
+        "addr": 745584,
+        "size": 92,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR alertmail feature status. \r\nValid values are 'yes' or 'no'."
+      },
+      "0xb60cc": {
+        "name": "a_Displays_or_modifies_the_email_address_to_receive_",
+        "addr": 745676,
+        "size": 76,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the email address to receive mail alerts from #ILO. "
+      },
+      "0xb6118": {
+        "name": "a_Displays_or_modifies_the_sender_domain_name_If_not",
+        "addr": 745752,
+        "size": 107,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the sender domain name.  \r\n If not specified, a generic domain name would be used. "
+      },
+      "0xb6184": {
+        "name": "a_Displays_or_modifies_the_address_that_the_SMTP_ser",
+        "addr": 745860,
+        "size": 103,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the address that the SMTP server will use for unauthenticated SMTP connections."
+      },
+      "0xb61ec": {
+        "name": "a_Displays_or_modifies_the_port_that_the_SMTP_server",
+        "addr": 745964,
+        "size": 125,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the port that the SMTP server will use for unauthenticated SMTP connections. The default value is 25."
+      },
+      "0xb626c": {
+        "name": "a_Displays_or_modifies_IPMI_port_setting_Valid_value",
+        "addr": 746092,
+        "size": 78,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies IPMI port setting. Valid value is between 1 and 65535."
+      },
+      "0xb62bc": {
+        "name": "a_Displays_or_modifies_IPMI_status_setting_Valid_val",
+        "addr": 746172,
+        "size": 76,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies IPMI status setting. Valid values are 'yes' or 'no'."
+      },
+      "0xb6308": {
+        "name": "a_Displays_or_modifies_PRODABR_directory_configurati",
+        "addr": 746248,
+        "size": 422,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR directory configuration settings.\r\nExamples: show /map1/oemhp_dircfg - displays the current properties and values \r\n          set /map1/oemhp_dircfg <property=value> - modifies the property value\r\nNOTE: an unlicensed user with the Configure #ILO Settings privilege can change\r\nDirectory settings. However, Directory support will not be enabled until an #ILO\r\nAdvanced license is installed."
+      },
+      "0xb64b0": {
+        "name": "a_Displays_or_modifies_PRODABR_directory_authorizati",
+        "addr": 746672,
+        "size": 134,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR directory authorization setting. Valid values \r\nare 'disabled', 'default_schema', 'extended_schema'. "
+      },
+      "0xb6538": {
+        "name": "a_Displays_or_modifies_PRODABR_generic_ldap_setting_",
+        "addr": 746808,
+        "size": 217,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR generic ldap setting for directory default schema. Valid values \r\nare 'yes' and 'no'.\r\n\n Directory authorization should be set to 'Default Schema' before this property can be modified."
+      },
+      "0xb6614": {
+        "name": "a_Displays_or_modifies_PRODABR_local_account_status_",
+        "addr": 747028,
+        "size": 96,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR local account status setting. Valid values are\r\n'yes' or 'no'. "
+      },
+      "0xb6674": {
+        "name": "a_Displays_or_modifies_PRODABR_directory_server_LDAP",
+        "addr": 747124,
+        "size": 106,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR directory server LDAP port value. Valid value \r\nis between 1 and 65535.  "
+      },
+      "0xb66e0": {
+        "name": "a_Displays_or_modifies_directory_user_contexts_To_cl",
+        "addr": 747232,
+        "size": 95,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies directory user contexts.\r\nTo clear a user context, set context to \" \". "
+      },
+      "0xb6740": {
+        "name": "a_Displays_or_modifies_group_names_To_clear_the_grou",
+        "addr": 747328,
+        "size": 156,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies group names.\r\nTo clear the group name, set the group name to 0.  Clearing the group name also clears the permissions\r\nfor the group."
+      },
+      "0xb67dc": {
+        "name": "a_Displays_or_modifies_group_privileges_The_matching",
+        "addr": 747484,
+        "size": 197,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies group privileges.\r\nThe matching group name needs to be set before this property can be modified.\r\nValid values are: 0, ADMIN, LOGIN, CONFIG, OEMHP_RC, OEMHP_POWER, OEMHP_VM."
+      },
+      "0xb68a4": {
+        "name": "a_Displays_or_modifies_PRODABR_Kerberos_authenticati",
+        "addr": 747684,
+        "size": 109,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR Kerberos authentication setting.\r\nValid values are 'disabled' or 'enabled'. "
+      },
+      "0xb6914": {
+        "name": "a_Displays_or_modifies_PRODABR_Kerberos_KDC_server_p",
+        "addr": 747796,
+        "size": 97,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR Kerberos KDC server port. Valid values are between 1 and 65535. "
+      },
+      "0xb6978": {
+        "name": "a_Displays_PRODABR_scripted_virtual_media_device_inf",
+        "addr": 747896,
+        "size": 292,
+        "type": "str",
+        "str_content": "\r\nDisplays #PRODABR scripted virtual media device information. Targets are 'floppydr1' \r\nand 'cddr1'. Each target has options that allows you to mount images hosted over\r\na network connection and to choose how to boot from them.\r\nExample: show /map1/oemhp_vm1 - displays the current targets "
+      },
+      "0xb6a9c": {
+        "name": "a_Displays_or_modifies_PRODABR_virtual_media_floppy_",
+        "addr": 748188,
+        "size": 1017,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR virtual media floppy information. This feature\r\nrequires an advanced license key.\r\nExamples: \r\n  show /map1/oemhp_vm1/floppydr1 - displays the current properties and values \r\n  set /map1/oemhp_vm1/floppydr1 <property=value> - modifies the property value \r\nExample showing the steps to connect an floppy image for one-time boot\r\n  set /map1/oemhp_vm1/floppydr1 oemhp_image=http://12.21.34.43/boot.img\r\n  set /map1/oemhp_vm1/floppydr1 oemhp_boot=connect\r\n    <At this point, verify that oemhp_connect=yes and #ILO network settings are configured to access the image>\r\n  set /map1/oemhp_vm1/floppydr1 oemhp_boot=once\r\n    <One can substitute 'once' for 'always' or 'never' as desired>\r\n    <These boot options cannot be set for floppy devices on UEFI-capable systems>\r\n  set /map1/oemhp_vm1/floppydr1 oemhp_wp=yes\r\n    <Optional write protection setting; possible values are 'yes' and 'no'>\r\n  set /map1/oemhp_vm1/floppydr1 oemhp_boot=disconnect\r\n    <This command disconnects the image>"
+      },
+      "0xb6e98": {
+        "name": "a_Displays_or_modifies_PRODABR_virtual_media_CD_ROM_",
+        "addr": 749208,
+        "size": 882,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR virtual media CD-ROM information. This feature\r\nrequires an advanced license key.\r\nExamples:\r\n  show /map1/oemhp_vm1/cddr1 - displays the current properties and values \r\n  set /map1/oemhp_vm1/cddr1 <property=value> - modifies the property value \r\nExample showing the steps to connect an CD-ROM image for one-time boot\r\n  set /map1/oemhp_vm1/cddr1 oemhp_image=http://12.21.34.43/boot.iso\r\n  set /map1/oemhp_vm1/cddr1 oemhp_boot=connect\r\n    <At this point, verify that oemhp_connect=yes and #ILO network settings are configured to access the image>\r\n    <To disconnect the image later, run 'set /map1/oemhp_vm1/cddr1 oemhp_boot=disconnect'>\r\n  set /map1/oemhp_vm1/cddr1 oemhp_boot=once\r\n    <One can substitute 'once' for 'always' or 'never' as desired>\r\n  set /map1/oemhp_vm1/floppydr1 oemhp_boot=disconnect\r\n    <This command disconnects the image>"
+      },
+      "0xb720c": {
+        "name": "a_Displays_or_modifies_PRODABR_virtual_media_image_f",
+        "addr": 750092,
+        "size": 463,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR virtual media image file. For floppydr1, the size \r\nof the .img file is limited to 1.44 MB. The URL is limited to 80 characters.\r\nThis feature requires an advanced license key.\r\nExamples: \r\n  set oemhp_image=http://12.21.34.43/boot.<img|iso>\r\n    <img for floppydr1, iso for cddr1>\r\n    <Note: the image isn't connected until you execute oemhp_boot=connect>\r\n  set oemhp_image=none  -sets image to None(same as ejecting the image)"
+      },
+      "0xb73dc": {
+        "name": "a_Displays_PRODABR_scriptable_virtual_media_connecti",
+        "addr": 750556,
+        "size": 334,
+        "type": "str",
+        "str_content": "\r\nDisplays #PRODABR scriptable virtual media connection status. This feature\r\nrequires an advanced license key.\r\nTo connect an image:\r\n  set oemhp_image=http://12.21.34.43/boot.<img|iso>\r\n    <img for floppydr1, iso for cddr1>\r\n  set oemhp_boot=connect\r\nTo disconnect an image (which clears oemhp_image):\r\n  set oemhp_boot=disconnect"
+      },
+      "0xb752c": {
+        "name": "a_Displays_or_modifies_PRODABR_virtual_media_boot_st",
+        "addr": 750892,
+        "size": 603,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR virtual media boot status. This feature\r\nrequires an advanced license key. Valid values are \r\n'always', 'once', 'never', 'connect', or 'disconnect'. \r\nThe boot options 'always', 'once', and 'never' cannot be set\r\nfor floppy devices on UEFI-capable systems.\r\nTo connect an image to always boot:\r\n  set oemhp_image=http://12.21.34.43/boot.<img|iso>\r\n    <img for floppydr1, iso for cddr1>\r\n  set oemhp_boot=connect\r\n    <At this point, verify that oemhp_connect=yes>\r\n  set oemhp_boot=always\r\nTo disconnect an image (which clears oemhp_image):\r\n  set oemhp_boot=disconnect"
+      },
+      "0xb7788": {
+        "name": "a_Displays_or_modifies_PRODABR_virtual_media_write_p",
+        "addr": 751496,
+        "size": 144,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR virtual media write protection status. This\r\nrequires an advanced license key. Valid values are 'yes', or 'no'."
+      },
+      "0xb7818": {
+        "name": "a_Displays_or_modifies_PRODABR_virtual_media_write_p",
+        "addr": 751640,
+        "size": 111,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR virtual media write protection status. This\r\nrequires an advanced license key."
+      },
+      "0xb7888": {
+        "name": "a_Displays_if_an_PRODABR_virtual_media_device_is_con",
+        "addr": 751752,
+        "size": 121,
+        "type": "str",
+        "str_content": "\r\nDisplays if an #PRODABR virtual media device is connected via IRC or Java\r\nIRC. This requires an advanced license key."
+      },
+      "0xb7904": {
+        "name": "a_Displays_management_access_point_information_Examp",
+        "addr": 751876,
+        "size": 112,
+        "type": "str",
+        "str_content": "\r\nDisplays management access point information.\r\nExamples: show /map1 \r\n          reset /map1 - resets #PRODABR"
+      },
+      "0xb7974": {
+        "name": "a_Displays_the_name_of_the_installed_ILO_license_Exa",
+        "addr": 751988,
+        "size": 78,
+        "type": "str",
+        "str_content": "\r\nDisplays the name of the installed #ILO license.\r\nExample: show /map1 name "
+      },
+      "0xb79c4": {
+        "name": "a_Displays_or_modifies_the_map_license_data_Examples",
+        "addr": 752068,
+        "size": 175,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the map license data.\r\nExamples: show /map1 license - displays license information \r\n          set /map1 license=<value> - modifies license information"
+      },
+      "0xb7a74": {
+        "name": "a_Displays_or_modifies_the_manual_ILO_reset_setting_",
+        "addr": 752244,
+        "size": 749,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the manual #ILO reset setting, which\r\nenables the ability to perform multiple configuration changes, \r\nthat typically need an #ILO reset, to be performed in one session.\r\nNote that an #ILO reset or logout will be required after all settings are\r\nmodified for those settings to take effect.\r\nExamples: show /map1 manual_#ILO_reset - If 'yes', automatic resets are disabled \r\n          set /map1 manual_#ILO_reset=<value> - valid values are 'yes' and 'no'\r\nNote: Changing the following properties will cause #ILO to reset, regardless of the\r\n      state of manual_#ILO_reset:\r\n/map1/config1 oemhp_enforce_aes\r\n/map1/config1 oemhp_sshstatus\r\n/map1/config1 oemhp_httpport\r\n/map1/config1 oemhp_sslport\r\n/map1/config1 oemhp_sshport"
+      },
+      "0xb7d64": {
+        "name": "a_Displays_the_iLO_firmware_name_Example_show_map1_f",
+        "addr": 752996,
+        "size": 70,
+        "type": "str",
+        "str_content": "\r\nDisplays the iLO firmware name.\r\nExample: show /map1/firmware1 name"
+      },
+      "0xb7dac": {
+        "name": "a_Displays_the_status_of_the_Active_Health_System_Ex",
+        "addr": 753068,
+        "size": 83,
+        "type": "str",
+        "str_content": "\r\nDisplays the status of the Active Health System.\r\nExample: show /map1/oemhp_ahs1"
+      },
+      "0xb7e00": {
+        "name": "a_Displays_or_modifies_the_status_of_the_Active_Heal",
+        "addr": 753152,
+        "size": 287,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the status of the Active Health System logging.\r\nExample: show /map1/oemhp_ahs1 EnabledState\r\n         set /map1/oemhp_ahs1 EnabledState=no - disables AHS\r\n         Note: When enabling AHS, #ILO must be reset to enable full\r\n         Active Health System logging."
+      },
+      "0xb7f20": {
+        "name": "a_ILO_must_be_reset_in_order_to_enable_full_Active_H",
+        "addr": 753440,
+        "size": 78,
+        "type": "str",
+        "str_content": "\r\n#ILO must be reset in order to enable full Active Health System logging.\r\n\n"
+      },
+      "0xb7f70": {
+        "name": "a_Displays_or_applies_licenses_to_the_system_The_pro",
+        "addr": 753520,
+        "size": 447,
+        "type": "str",
+        "str_content": "\r\nDisplays or applies licenses to the system. The properties oemhp_name1 and\r\noemhp_key1 are reserved for the #ILO license.  All subsequent properties describe\r\noptional licenses that have been applied to the system.\r\nExample: show /map1/oemhp_license1 - shows the licenses installed.\r\n         oemhp_licenseinstall /map1/oemhp_license1 XXXXX-XXXXX-XXXXX-XXXXX-XXXXX\r\n            - installs the optional license (not case sensitive, can omit -'s)"
+      },
+      "0xb8130": {
+        "name": "a_Displays_the_name_of_the_license_oemhp_name1_is_re",
+        "addr": 753968,
+        "size": 167,
+        "type": "str",
+        "str_content": "\r\nDisplays the name of the license. oemhp_name1 is reserved for the #ILO \r\nlicense, and all subsequent names are for optional licenses. This is a read-only\r\nproperty."
+      },
+      "0xb81d8": {
+        "name": "a_Displays_the_key_of_the_license_A_new_license_can_",
+        "addr": 754136,
+        "size": 259,
+        "type": "str",
+        "str_content": "\r\nDisplays the key of the license. A new license can be applied by using the\r\noemhp_licenseinstall verb. \r\nExample: oemhp_licenseinstall /map1/oemhp_license1 XXXXX-XXXXX-XXXXX-XXXXX-XXXXX\r\n            - installs the license (not case sensitive, can omit -'s)"
+      },
+      "0xb82dc": {
+        "name": "a_Displays_or_modifies_the_blade_information_Example",
+        "addr": 754396,
+        "size": 181,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the blade information.\r\nExamples: show /map1/blade1 - displays targets and properties\r\n          set /map1/blade1 <property=value> - modifies property value "
+      },
+      "0xb8394": {
+        "name": "a_Displays_or_modifies_if_the_blades_48V_power_is_pr",
+        "addr": 754580,
+        "size": 111,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies if the blades 48V power is provided by the facility.\r\nValid values are 'yes' or 'no'.  "
+      },
+      "0xb8404": {
+        "name": "a_Displays_or_modifies_if_the_blade_is_enabled_to_au",
+        "addr": 754692,
+        "size": 201,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies if the blade is enabled to automatically power on.\r\nValid values are: \r\n      'yes' or 'on' - turns on automatic power on.\r\n      'no' or 'off' - turns off automatic power on.\r\n"
+      },
+      "0xb84d0": {
+        "name": "a_Displays_or_modifies_if_rack_alert_logging_is_enab",
+        "addr": 754896,
+        "size": 91,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies if rack alert logging is enabled. Valid values are \r\n'yes' or 'no'."
+      },
+      "0xb852c": {
+        "name": "a_Displays_or_modifies_the_front_diagport_informatio",
+        "addr": 754988,
+        "size": 205,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the front diagport information.\r\nExamples: show /map1/blade1/diagport - displays diagport properties\r\n          set /map1/blade1/diagport <property=value> - modifies property value "
+      },
+      "0xb85fc": {
+        "name": "a_Displays_or_modifies_the_rack_information_Examples",
+        "addr": 755196,
+        "size": 183,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the rack information.\r\nExamples: show /map1/blade1/rack - displays rack properties\r\n          set /map1/blade1/rack <property=value> - modifies property value "
+      },
+      "0xb86b4": {
+        "name": "a_Displays_or_modifies_the_diagport_autoselect_setti",
+        "addr": 755380,
+        "size": 91,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the diagport autoselect setting. Valid values are \r\n'yes' or 'no'. "
+      },
+      "0xb8710": {
+        "name": "a_Displays_or_modifies_the_diagport_speed_setting_Va",
+        "addr": 755472,
+        "size": 86,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the diagport speed setting. Valid values are '10' \r\nor '100'. "
+      },
+      "0xb8768": {
+        "name": "a_Displays_or_modifies_the_diagport_full_duplex_sett",
+        "addr": 755560,
+        "size": 95,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the diagport full duplex setting. Valid values are \r\n'yes' or 'no'.    "
+      },
+      "0xb87c8": {
+        "name": "a_Displays_or_modifies_the_enclosure_information_Exa",
+        "addr": 755656,
+        "size": 270,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the enclosure information.\r\nExamples: show /map1/blade1/rack/enclosure - displays rack properties\r\n          set /map1/blade1/rack/enclosure <property=value> - modifies property \r\n                                                            value "
+      },
+      "0xb88d8": {
+        "name": "a_Displays_or_modifies_settings_related_to_HP_Single",
+        "addr": 755928,
+        "size": 333,
+        "type": "str",
+        "str_content": "Displays or modifies settings related to HP Single Sign-On (HP SSO).\r\nExamples: show /map1/oemhp_ssocfg1 - display the current properties and values\r\n          set /map1/oemhp_ssocfg1 <property>=<value> - modifies the property value.\r\n Other command help is available by typing\r\n   help /map1/oemhp_ssocfg1/<property> for details.\r\n"
+      },
+      "0xb8a28": {
+        "name": "a_oemhp_ssotrust_reflects_the_trust_mode_configured_",
+        "addr": 756264,
+        "size": 138,
+        "type": "str",
+        "str_content": "oemhp_ssotrust reflects the trust mode configured for single sign-on attempts.\r\nValid values are 'disabled' 'all' 'name' 'certificate'.\r\n"
+      },
+      "0xb8ab4": {
+        "name": "a_oemhp_ssouser_reflects_user_role_associated_privil",
+        "addr": 756404,
+        "size": 427,
+        "type": "str",
+        "str_content": "oemhp_ssouser reflects user role associated privileges.\r\noemhp_ssooperator reflects operator role associated privileges.\r\noemhp_ssoadministrator reflects administrator role associated privileges.\r\nEach role can have privileges from: 'login' 'oemhp_rc' 'oemhp_power' 'oemhp_vm'\r\n 'config' 'admin'\r\nExample: set oemhp_ssoadministrator=login,oemhp_rc\r\nSetting the role associated privileges to 'none' will clear all privileges.\r\n"
+      },
+      "0xb8c60": {
+        "name": "a_oemhp_ssoserver_reflects_the_records_of_HP_SSO_com",
+        "addr": 756832,
+        "size": 433,
+        "type": "str",
+        "str_content": "oemhp_ssoserver reflects the records of HP SSO-compliant applications registered\r\n for use with this #ILO.\r\nHP SSO-compliant applications can be registered by name or by certificate.\r\nUse 'create' to add a new HP SSO record using network name.\r\n example: create hpsim.net\r\nUse 'load' to import the trusted certificate using the network name.\r\n example: load hpsim.net\r\nUse 'delete' to remove a record by index.\r\n example: delete 2\r\n"
+      },
+      "0xb8e14": {
+        "name": "a_Displays_or_modifies_boot_fault_Console_Capture_en",
+        "addr": 757268,
+        "size": 298,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies boot/fault Console Capture enable setting. Valid values \r\nare 'yes' or 'no'. \r\nYes specifies that boot and fault capture will automatically occur\r\nto internal #ILO buffers.\r\nWhich buffers are enabled is controlled with the Console Capture\r\nboot/fault buffer enable settings."
+      },
+      "0xb8f40": {
+        "name": "a_Displays_or_modifies_Client_Capture_setting_Valid_",
+        "addr": 757568,
+        "size": 178,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies Client Capture setting. Valid values \r\nare 'yes' or 'no'.\r\nYes enables capture of server console video manually with Integrated \r\nRemote Console controls."
+      },
+      "0xb8ff4": {
+        "name": "a_Displays_or_modifies_Console_Capture_boot_buffer_e",
+        "addr": 757748,
+        "size": 152,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies Console Capture boot buffer enable setting. Valid values \r\nare 'yes' or 'no'.\r\nYes enables capture of server boot console video."
+      },
+      "0xb908c": {
+        "name": "a_Displays_or_modifies_Console_Capture_fault_buffer_",
+        "addr": 757900,
+        "size": 154,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies Console Capture fault buffer enable setting. Valid values \r\nare 'yes' or 'no'.\r\nYes enables capture of server fault console video."
+      },
+      "0xb9128": {
+        "name": "a_Displays_or_modifies_auto_export_enable_setting_fo",
+        "addr": 758056,
+        "size": 211,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies auto export enable setting for console capture buffers. Valid values \r\nare 'yes' or 'no'. \r\nYes enables auto export to the the web server location specified\r\nby the export location field."
+      },
+      "0xb91fc": {
+        "name": "a_Displays_or_modifies_the_auto_export_location_of_t",
+        "addr": 758268,
+        "size": 202,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the auto export location of the internal console capture buffers.\r\nThe location must be a valid web server with write access.\r\nExample: http://1.1.1.1/directory/capture %h %t.ilo"
+      },
+      "0xb92c8": {
+        "name": "a_oemhp_video_Used_to_send_prefailure_video_to_a_rem",
+        "addr": 758472,
+        "size": 259,
+        "type": "str",
+        "str_content": "oemhp_video    : Used to send prefailure video to a remote webdav server with\r\n                 read and write access.\r\nExample (may overwrite an existing file at the destination):\r\n oemhp_video -destination http://user:pwd@192.168.1.1:port/webdav/pref.vid\r\n"
+      },
+      "0xb93cc": {
+        "name": "a_Displays_or_modifies_the_auto_export_location_user",
+        "addr": 758732,
+        "size": 115,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the auto export location username of the webserver used to store\r\nexported capture buffers."
+      },
+      "0xb9440": {
+        "name": "a_Displays_or_modifies_the_auto_export_location_pass",
+        "addr": 758848,
+        "size": 115,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the auto export location password of the webserver used to store\r\nexported capture buffers."
+      },
+      "0xb94b4": {
+        "name": "a_Causes_an_export_of_the_internal_console_capture_b",
+        "addr": 758964,
+        "size": 158,
+        "type": "str",
+        "str_content": "\r\nCauses an export of the internal console capture buffers to the export location specified\r\nin the auto export location field.  Valid values 'yes' or 'no'. "
+      },
+      "0xb9554": {
+        "name": "a_Displays_or_modifies_console_capture_port_setting_",
+        "addr": 759124,
+        "size": 115,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies console capture port setting. Valid value is between \r\n1 and 65535.  Default value is 17990"
+      },
+      "0xb95c8": {
+        "name": "a_Displays_or_modifies_the_shared_console_port_setti",
+        "addr": 759240,
+        "size": 117,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the shared console port setting.  Valid value is between\r\n1 and 65535.  Default value is 9300"
+      },
+      "0xb9640": {
+        "name": "a_Displays_or_modifies_the_shared_console_enable_set",
+        "addr": 759360,
+        "size": 93,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the shared console enable setting.  Valid values are \r\n'yes' or 'no'."
+      },
+      "0xb96a0": {
+        "name": "a_show_drives_Displays_information_about_the_drive_b",
+        "addr": 759456,
+        "size": 358,
+        "type": "str",
+        "str_content": "\r\nshow drives : Displays information about the drive bays in the system.\r\nShows the status of any drive in the bays and if a drive is installed.\r\nExample: show /system1/drives.\r\n\nThe UID led can be controlled using the set command and the enclosure addr and bay number.\r\nExample: set uid=224,1,on.  This sets the uid led on for enclosure addr 224 and bay 1."
+      },
+      "0xb9808": {
+        "name": "a_Displays_information_about_the_drive_bay_status_Ok",
+        "addr": 759816,
+        "size": 143,
+        "type": "str",
+        "str_content": "\r\nDisplays information about the drive bay status (Ok, Fault, Not Installed).\r\nExample: show /system1/bay<n> status, where n is the bay number"
+      },
+      "0xb9898": {
+        "name": "a_Displays_information_about_the_drive_bay_uid_led_o",
+        "addr": 759960,
+        "size": 96,
+        "type": "str",
+        "str_content": "\r\nDisplays information about the drive bay uid led (on/off).\r\nExample: show /system1/drives/UID"
+      },
+      "0xb98f8": {
+        "name": "a_Displays_information_about_the_drive_backplane_fir",
+        "addr": 760056,
+        "size": 115,
+        "type": "str",
+        "str_content": "\r\nDisplays information about the drive backplane firmware version.\r\nExample: show /system1/drives/firmware_version"
+      },
+      "0xb996c": {
+        "name": "a_Displays_information_about_the_system_s_network_in",
+        "addr": 760172,
+        "size": 142,
+        "type": "str",
+        "str_content": "\r\nDisplays information about the system's network information.\r\nExamples: show /system1/network1 - displays all available network information"
+      },
+      "0xb99fc": {
+        "name": "a_Displays_information_about_the_system_s_Integrated",
+        "addr": 760316,
+        "size": 176,
+        "type": "str",
+        "str_content": "\r\nDisplays information about the system's Integrated network interface controllers.\r\nExamples: show /system1/network1/Integrated_NICs - displays all Integrated NIC information"
+      },
+      "0xb9aac": {
+        "name": "a_Display_s_the_MAC_address_of_the_systems_PRODABR_n",
+        "addr": 760492,
+        "size": 82,
+        "type": "str",
+        "str_content": "\r\nDisplay's the MAC address of the systems #PRODABR network interface controller."
+      },
+      "0xb9b00": {
+        "name": "a_Display_s_the_MAC_address_of_the_systems_Integrate",
+        "addr": 760576,
+        "size": 85,
+        "type": "str",
+        "str_content": "\r\nDisplay's the MAC address of the systems Integrated network interface controllers."
+      },
+      "0xb9b58": {
+        "name": "a_Display_s_the_MAC_address_of_the_systems_iSCSI_net",
+        "addr": 760664,
+        "size": 80,
+        "type": "str",
+        "str_content": "\r\nDisplay's the MAC address of the systems iSCSI network interface controllers."
+      },
+      "0xb9ba8": {
+        "name": "a_Enables_or_disables_PRODABR_Trusted_Certificate_ch",
+        "addr": 760744,
+        "size": 228,
+        "type": "str",
+        "str_content": "\r\nEnables or disables #PRODABR Trusted Certificate check for Integrated Remote Console.\r\nExamples: set oemhp_irc_trust_enable=yes - enables certificate check\r\n          set oemhp_irc_trust_enable=no - disables certificate check"
+      },
+      "0xb9c8c": {
+        "name": "a_load_Used_to_move_a_binary_image_from_an_URL_to_th",
+        "addr": 760972,
+        "size": 1284,
+        "type": "str",
+        "str_content": "load    : Used to move a binary image from an URL to the MAP or System.\r\n Usage: protocol://username:password@hostname:port/filename\r\n  The protocol field is mandatory and must be either HTTP or HTTPS.\r\n  The username:password field is optional.\r\n  The hostname field is mandatory.\r\n  The port field is optional.\r\n  The filename field is mandatory.\r\n\r\n The CLP only performs a cursory syntax verification of the <URL>\r\n value. You must visually ensure the URL is valid. Firmware components\r\n loaded will be flashed onto the system, replacing the existing versions.\r\n If the firmware flash was successful, then the status_tag of COMMAND COMPLETED\r\n will be shown. The management processor is reset if it was updated.\r\n\r\nExample : load /map1/firmware1/ -source http://192.168.1.1/images/fw/#ILO4_100.bin\r\n\r\nIf a Trusted Module is installed and enabled the load\r\ncommand must include the '-TPM_force' option after the URL. Otherwise the\r\ncommand will fail.  NOTICE: If a TM is enabled then upgrading without\r\nperforming the proper OS encryption procedure will result in loss of access\r\nto your data.  If you do not have your recovery key or have not suspended\r\nencryption software do not flash #ILO.\r\n\r\nExample : load /map1/firmware1/ -source http://192.168.1.1/fw/ilo4.bin -TPM_force\r\n"
+      },
+      "0xba190": {
+        "name": "a_load_Used_to_move_a_binary_image_from_an_URL_to_th",
+        "addr": 762256,
+        "size": 804,
+        "type": "str",
+        "str_content": "load    : Used to move a binary image from an URL to the MAP or System.\r\n Usage: protocol://username:password@hostname:port/filename\r\n  The protocol field is mandatory and must be either HTTP or HTTPS.\r\n  The username:password field is optional.\r\n  The hostname field is mandatory.\r\n  The port field is optional.\r\n  The filename field is mandatory.\r\n\r\n The CLP only performs a cursory syntax verification of the <URL>\r\n value. You must visually ensure the URL is valid. Firmware components\r\n loaded will be flashed onto the system, replacing the existing versions.\r\n If the firmware flash was successful, then the status_tag of COMMAND COMPLETED\r\n will be shown. The management processor is reset if it was updated.\r\n\r\nExample : load /map1/firmware1/ -source http://192.168.1.1/images/fw/#ILO4_100.bin\r\n"
+      },
+      "0xba4b4": {
+        "name": "a_load_Used_to_move_a_binary_image_from_an_URL_to_th",
+        "addr": 763060,
+        "size": 147,
+        "type": "str",
+        "str_content": "load    : Used to move a binary image from an URL to the MAP.\r\n Example: load /map1/firmware1 -source http://192.168.1.1/images/fw/#ILO4_100.bin\r\n"
+      },
+      "0xba548": {
+        "name": "a_oemhp_clearRESTAPIstate_This_feature_clears_any_da",
+        "addr": 763208,
+        "size": 149,
+        "type": "str",
+        "str_content": "oemhp_clearRESTAPIstate    : This feature clears any data cache stored by the #VENDABR #ILO RESTful interface.\r\nExample : oemhp_clearRESTAPIstate \r\n"
+      },
+      "0xba5e4": {
+        "name": "g_main_verbs",
+        "addr": 763364
+      },
+      "0xbabf4": {
+        "name": "g_CLI_prop__system1__slotSTAR__type",
+        "addr": 764916
+      },
+      "0xbac14": {
+        "name": "g_CLI_prop__system1__slotSTAR__width",
+        "addr": 764948
+      },
+      "0xbac34": {
+        "name": "g_CLI_prop__system1__slotSTAR__name",
+        "addr": 764980
+      },
+      "0xbac54": {
+        "name": "g_CLI_propfct__system1__slotSTAR__type",
+        "addr": 765012
+      },
+      "0xbac90": {
+        "name": "g_CLI_propfct__system1__slotSTAR__width",
+        "addr": 765072
+      },
+      "0xbaccc": {
+        "name": "g_CLI_propfct__system1__slotSTAR__name",
+        "addr": 765132
+      },
+      "0xbad08": {
+        "name": "g_CLI_prop__system1__memorySTAR__size",
+        "addr": 765192
+      },
+      "0xbad28": {
+        "name": "g_CLI_prop__system1__memorySTAR__frequency",
+        "addr": 765224
+      },
+      "0xbad48": {
+        "name": "g_CLI_prop__system1__memorySTAR__location",
+        "addr": 765256
+      },
+      "0xbad68": {
+        "name": "g_CLI_propfct__system1__memorySTAR__size",
+        "addr": 765288
+      },
+      "0xbada4": {
+        "name": "g_CLI_propfct__system1__memorySTAR__frequency",
+        "addr": 765348
+      },
+      "0xbade0": {
+        "name": "g_CLI_propfct__system1__memorySTAR__location",
+        "addr": 765408
+      },
+      "0xbae1c": {
+        "name": "g_CLI_prop__system1__firmware1__version",
+        "addr": 765468
+      },
+      "0xbae3c": {
+        "name": "g_CLI_prop__system1__firmware1__date",
+        "addr": 765500
+      },
+      "0xbae5c": {
+        "name": "g_CLI_propfct__system1__firmware1__version",
+        "addr": 765532
+      },
+      "0xbae98": {
+        "name": "g_CLI_propfct__system1__firmware1__date",
+        "addr": 765592
+      },
+      "0xbaed4": {
+        "name": "g_CLI_prop__system1__swidSTAR__name",
+        "addr": 765652
+      },
+      "0xbaef4": {
+        "name": "g_CLI_prop__system1__swidSTAR__VersionString",
+        "addr": 765684
+      },
+      "0xbaf14": {
+        "name": "g_CLI_prop__system1__swidSTAR__oemhp_VersionStrings",
+        "addr": 765716
+      },
+      "0xbaf34": {
+        "name": "g_CLI_propfct__system1__swidSTAR__name",
+        "addr": 765748
+      },
+      "0xbaf70": {
+        "name": "g_CLI_propfct__system1__swidSTAR__VersionString",
+        "addr": 765808
+      },
+      "0xbafac": {
+        "name": "g_CLI_propfct__system1__swidSTAR__oemhp_VersionStrings",
+        "addr": 765868
+      },
+      "0xbb080": {
+        "name": "g_CLI_targetfct__system1__slotSTAR",
+        "addr": 766080
+      },
+      "0xbb0bc": {
+        "name": "g_CLI_targetfct__system1__memorySTAR",
+        "addr": 766140
+      },
+      "0xbb0f8": {
+        "name": "g_CLI_targetfct__system1__cpuSTAR",
+        "addr": 766200
+      },
+      "0xbb134": {
+        "name": "g_CLI_targetfct__system1__firmware1",
+        "addr": 766260
+      },
+      "0xbb170": {
+        "name": "g_CLI_targetfct__system1__swidSTAR",
+        "addr": 766320
+      },
+      "0xbb1ac": {
+        "name": "g_CLI_propfct__system1__cpuSTAR__speed",
+        "addr": 766380
+      },
+      "0xbb1e8": {
+        "name": "g_CLI_propfct__system1__cpuSTAR__memory_technology",
+        "addr": 766440
+      },
+      "0xbb224": {
+        "name": "g_CLI_propfct__system1__cpuSTAR__name",
+        "addr": 766500
+      },
+      "0xbb260": {
+        "name": "g_CLI_propfct__system1__cpuSTAR__status",
+        "addr": 766560
+      },
+      "0xbb29c": {
+        "name": "g_CLI_propfct__system1__cpuSTAR__cachememory1",
+        "addr": 766620
+      },
+      "0xbb2d8": {
+        "name": "g_CLI_propfct__system1__cpuSTAR__cachememory2",
+        "addr": 766680
+      },
+      "0xbb314": {
+        "name": "g_CLI_propfct__system1__cpuSTAR__cachememory3",
+        "addr": 766740
+      },
+      "0xbb350": {
+        "name": "g_CLI_propfct__system1__cpuSTAR__active_cores",
+        "addr": 766800
+      },
+      "0xbb38c": {
+        "name": "g_CLI_propfct__system1__cpuSTAR__threads",
+        "addr": 766860
+      },
+      "0xbb3c8": {
+        "name": "g_CLI_propfct__system1__cpuSTAR__number_cores",
+        "addr": 766920
+      },
+      "0xbb404": {
+        "name": "g_CLI_prop__system1__cpuSTAR__name",
+        "addr": 766980
+      },
+      "0xbb424": {
+        "name": "g_CLI_prop__system1__cpuSTAR__status",
+        "addr": 767012
+      },
+      "0xbb444": {
+        "name": "g_CLI_prop__system1__cpuSTAR__number_cores",
+        "addr": 767044
+      },
+      "0xbb464": {
+        "name": "g_CLI_prop__system1__cpuSTAR__active_cores",
+        "addr": 767076
+      },
+      "0xbb484": {
+        "name": "g_CLI_prop__system1__cpuSTAR__threads",
+        "addr": 767108
+      },
+      "0xbb4a4": {
+        "name": "g_CLI_prop__system1__cpuSTAR__speed",
+        "addr": 767140
+      },
+      "0xbb4c4": {
+        "name": "g_CLI_prop__system1__cpuSTAR__memory_technology",
+        "addr": 767172
+      },
+      "0xbb4e4": {
+        "name": "g_CLI_prop__system1__cpuSTAR__cachememory1",
+        "addr": 767204
+      },
+      "0xbb504": {
+        "name": "g_CLI_prop__system1__cpuSTAR__cachememory2",
+        "addr": 767236
+      },
+      "0xbb524": {
+        "name": "g_CLI_prop__system1__cpuSTAR__cachememory3",
+        "addr": 767268
+      },
+      "0xbb9d4": {
+        "name": "g_debug_logger",
+        "addr": 768468
+      },
+      "0xbb9e4": {
+        "name": "g_CLI_prop__map1__firmware1__version",
+        "addr": 768484
+      },
+      "0xbba04": {
+        "name": "g_CLI_prop__map1__firmware1__date",
+        "addr": 768516
+      },
+      "0xbba24": {
+        "name": "g_CLI_prop__map1__firmware1__name",
+        "addr": 768548
+      },
+      "0xbba44": {
+        "name": "g_CLI_propfct__map1__firmware1__version",
+        "addr": 768580
+      },
+      "0xbba80": {
+        "name": "g_CLI_propfct__map1__firmware1__date",
+        "addr": 768640
+      },
+      "0xbbabc": {
+        "name": "g_CLI_propfct__map1__firmware1__name",
+        "addr": 768700
+      },
+      "0xbbaf8": {
+        "name": "g_CLI_prop__map1__oemhp_ahs1__EnabledState",
+        "addr": 768760
+      },
+      "0xbbb18": {
+        "name": "g_CLI_propfct__map1__oemhp_ahs1__EnabledState",
+        "addr": 768792
+      },
+      "0xbbb54": {
+        "name": "g_CLI_targetfct__map1",
+        "addr": 768852
+      },
+      "0xbbb90": {
+        "name": "g_CLI_propfct__map1__name",
+        "addr": 768912
+      },
+      "0xbbbcc": {
+        "name": "g_CLI_propfct__map1__oemhp_licensetype",
+        "addr": 768972
+      },
+      "0xbbc08": {
+        "name": "g_CLI_propfct__map1__license",
+        "addr": 769032
+      },
+      "0xbbc44": {
+        "name": "g_CLI_propfct__map1__manual_iLO_reset",
+        "addr": 769092
+      },
+      "0xbbc80": {
+        "name": "g_CLI_targetfct__map1__firmware1",
+        "addr": 769152
+      },
+      "0xbbcbc": {
+        "name": "g_CLI_targetfct__map1__oemhp_ahs1",
+        "addr": 769212
+      },
+      "0xbbcf8": {
+        "name": "g_CLI_targetfct__map1__oemhp_license1",
+        "addr": 769272
+      },
+      "0xbbd34": {
+        "name": "g_CLI_propfct__map1__oemhp_license1__oemhp_name3",
+        "addr": 769332
+      },
+      "0xbbd70": {
+        "name": "g_CLI_propfct__map1__oemhp_license1__oemhp_key3",
+        "addr": 769392
+      },
+      "0xbbdac": {
+        "name": "g_CLI_prop__map1__oemhp_license1__oemhp_name1",
+        "addr": 769452
+      },
+      "0xbbdcc": {
+        "name": "g_CLI_prop__map1__oemhp_license1__oemhp_key1",
+        "addr": 769484
+      },
+      "0xbbdec": {
+        "name": "g_CLI_prop__map1__oemhp_license1__oemhp_name2",
+        "addr": 769516
+      },
+      "0xbbe0c": {
+        "name": "g_CLI_prop__map1__oemhp_license1__oemhp_key2",
+        "addr": 769548
+      },
+      "0xbbe2c": {
+        "name": "g_CLI_prop__map1__oemhp_license1__oemhp_name3",
+        "addr": 769580
+      },
+      "0xbbe4c": {
+        "name": "g_CLI_prop__map1__oemhp_license1__oemhp_key3",
+        "addr": 769612
+      },
+      "0xbbe6c": {
+        "name": "g_CLI_prop__map1__name",
+        "addr": 769644
+      },
+      "0xbbe8c": {
+        "name": "g_CLI_prop__map1__license",
+        "addr": 769676
+      },
+      "0xbbeac": {
+        "name": "g_CLI_prop__map1__oemhp_licensetype",
+        "addr": 769708
+      },
+      "0xbbecc": {
+        "name": "g_CLI_prop__map1__manual_iLO_reset",
+        "addr": 769740
+      },
+      "0xbbeec": {
+        "name": "g_CLI_target__map1__firmware1",
+        "addr": 769772
+      },
+      "0xbbf14": {
+        "name": "g_CLI_target__map1__accounts1",
+        "addr": 769812
+      },
+      "0xbbf3c": {
+        "name": "g_CLI_target__map1__log1",
+        "addr": 769852
+      },
+      "0xbbf64": {
+        "name": "g_CLI_target__map1__enetport1",
+        "addr": 769892
+      },
+      "0xbbf8c": {
+        "name": "g_CLI_target__map1__dhcpendpt1",
+        "addr": 769932
+      },
+      "0xbbfb4": {
+        "name": "g_CLI_target__map1__dnsendpt1",
+        "addr": 769972
+      },
+      "0xbbfdc": {
+        "name": "g_CLI_target__map1__gateway1",
+        "addr": 770012
+      },
+      "0xbc004": {
+        "name": "g_CLI_target__map1__dnsserver1",
+        "addr": 770052
+      },
+      "0xbc02c": {
+        "name": "g_CLI_target__map1__dnsserver2",
+        "addr": 770092
+      },
+      "0xbc054": {
+        "name": "g_CLI_target__map1__dnsserver3",
+        "addr": 770132
+      },
+      "0xbc07c": {
+        "name": "g_CLI_target__map1__settings1",
+        "addr": 770172
+      },
+      "0xbc0a4": {
+        "name": "g_CLI_target__map1__config1",
+        "addr": 770212
+      },
+      "0xbc0cc": {
+        "name": "g_CLI_target__map1__snmp1",
+        "addr": 770252
+      },
+      "0xbc0f4": {
+        "name": "g_CLI_target__map1__oemhp_dircfg1",
+        "addr": 770292
+      },
+      "0xbc11c": {
+        "name": "g_CLI_target__map1__oemhp_vm1",
+        "addr": 770332
+      },
+      "0xbc144": {
+        "name": "g_CLI_target__map1__vlan1",
+        "addr": 770372
+      },
+      "0xbc16c": {
+        "name": "g_CLI_target__map1__oemhp_ssocfg1",
+        "addr": 770412
+      },
+      "0xbc194": {
+        "name": "g_CLI_target__map1__oemhp_syslog1",
+        "addr": 770452
+      },
+      "0xbc1bc": {
+        "name": "g_CLI_target__map1__oemhp_alertmail1",
+        "addr": 770492
+      },
+      "0xbc1e4": {
+        "name": "g_CLI_target__map1__oemhp_ahs1",
+        "addr": 770532
+      },
+      "0xbc20c": {
+        "name": "g_CLI_target__map1__oemhp_license1",
+        "addr": 770572
+      },
+      "0xbc234": {
+        "name": "g_CLI_target__map1__blade1",
+        "addr": 770612
+      },
+      "0xbc26c": {
+        "name": "g_CLI_prop__system1__network1__Integrated_NICs___NULL_",
+        "addr": 770668
+      },
+      "0xbc28c": {
+        "name": "g_CLI_prop__system1__network1__Integrated_NICs__PortSTARNIC_MACAddress",
+        "addr": 770700
+      },
+      "0xbc2ac": {
+        "name": "g_CLI_prop__system1__network1__Integrated_NICs__PortSTARiSCSI_MACAddress",
+        "addr": 770732
+      },
+      "0xbc2cc": {
+        "name": "g_CLI_propfct__system1__network1__Integrated_NICs__PortSTARiSCSI_MACAddress",
+        "addr": 770764
+      },
+      "0xbc308": {
+        "name": "g_CLI_prop__system1__led1__enabledstate",
+        "addr": 770824
+      },
+      "0xbc328": {
+        "name": "g_CLI_propfct__system1__led1__enabledstate",
+        "addr": 770856
+      },
+      "0xbc368": {
+        "name": "g_CLI_prop__system1__oemhp_vsp1__enabledstate",
+        "addr": 770920
+      },
+      "0xbc388": {
+        "name": "g_CLI_propfct__system1__oemhp_vsp1__enabledstate",
+        "addr": 770952
+      },
+      "0xbc3c4": {
+        "name": "g_CLI_target_Table",
+        "addr": 771012
+      },
+      "0xbc414": {
+        "name": "g_CLI_targetfct__system1",
+        "addr": 771092
+      },
+      "0xbc450": {
+        "name": "g_CLI_target__system1__network1__Integrated_NICs",
+        "addr": 771152
+      },
+      "0xbc478": {
+        "name": "g_cmd_base_show",
+        "addr": 771192
+      },
+      "0xbc4b4": {
+        "name": "g_CLI_targetfct__system1__network1",
+        "addr": 771252
+      },
+      "0xbc4f0": {
+        "name": "g_CLI_propfct__system1__name",
+        "addr": 771312
+      },
+      "0xbc52c": {
+        "name": "g_CLI_propfct__system1__number",
+        "addr": 771372
+      },
+      "0xbc568": {
+        "name": "g_CLI_propfct__system1__oemhp_server_name",
+        "addr": 771432
+      },
+      "0xbc5a4": {
+        "name": "g_CLI_propfct__system1__oemhp_server_fqdn",
+        "addr": 771492
+      },
+      "0xbc5e0": {
+        "name": "g_CLI_propfct__system1__oemhp_smh_fqdn",
+        "addr": 771552
+      },
+      "0xbc61c": {
+        "name": "g_CLI_propfct__system1__enabledstate",
+        "addr": 771612
+      },
+      "0xbc658": {
+        "name": "g_CLI_propfct__system1__oemhp_power1__oemhp_powerreg",
+        "addr": 771672
+      },
+      "0xbc694": {
+        "name": "g_CLI_propfct__system1__processor_number",
+        "addr": 771732
+      },
+      "0xbc6d0": {
+        "name": "g_CLI_propfct__system1__oemhp_power1__oemhp_pwrcap",
+        "addr": 771792
+      },
+      "0xbc70c": {
+        "name": "g_CLI_propfct__system1__oemhp_power1__oemhp_PresentPower",
+        "addr": 771852
+      },
+      "0xbc748": {
+        "name": "g_CLI_propfct__system1__oemhp_power1__oemhp_AvgPower",
+        "addr": 771912
+      },
+      "0xbc784": {
+        "name": "g_CLI_propfct__system1__oemhp_power1__oemhp_MaxPower",
+        "addr": 771972
+      },
+      "0xbc7c0": {
+        "name": "g_CLI_propfct__system1__oemhp_power1__oemhp_MinPower",
+        "addr": 772032
+      },
+      "0xbc7fc": {
+        "name": "g_CLI_propfct__system1__oemhp_power1__oemhp_powersupplycapacity",
+        "addr": 772092
+      },
+      "0xbc838": {
+        "name": "g_CLI_propfct__system1__oemhp_power1__oemhp_peakmeasuredpower",
+        "addr": 772152
+      },
+      "0xbc874": {
+        "name": "g_CLI_propfct__system1__oemhp_power1__oemhp_servermaxpower",
+        "addr": 772212
+      },
+      "0xbc8b0": {
+        "name": "g_CLI_propfct__system1__oemhp_power1__oemhp_serverminpower",
+        "addr": 772272
+      },
+      "0xbc8ec": {
+        "name": "g_CLI_propfct__system1__oemhp_power1__warning_type",
+        "addr": 772332
+      },
+      "0xbc928": {
+        "name": "g_CLI_propfct__system1__oemhp_power1__warning_threshold",
+        "addr": 772392
+      },
+      "0xbc964": {
+        "name": "g_CLI_propfct__system1__oemhp_power1__warning_duration",
+        "addr": 772452
+      },
+      "0xbc9a0": {
+        "name": "g_CLI_propfct__system1__oemhp_power1__oemhp_power_micro_ver",
+        "addr": 772512
+      },
+      "0xbc9dc": {
+        "name": "g_CLI_propfct__system1__oemhp_power1__oemhp_auto_pwr",
+        "addr": 772572
+      },
+      "0xbca18": {
+        "name": "g_CLI_targetfct__system1__led1",
+        "addr": 772632
+      },
+      "0xbca54": {
+        "name": "g_CLI_targetfct__system1__oemhp_power1",
+        "addr": 772692
+      },
+      "0xbca90": {
+        "name": "g_CLI_targetfct__system1__oemhp_vsp1",
+        "addr": 772752
+      },
+      "0xbcacc": {
+        "name": "g_CLI_prop__system1__oemhp_power1__oemhp_powerreg",
+        "addr": 772812
+      },
+      "0xbcaec": {
+        "name": "g_CLI_prop__system1__oemhp_power1__oemhp_pwrcap",
+        "addr": 772844
+      },
+      "0xbcb0c": {
+        "name": "g_CLI_prop__system1__oemhp_power1__oemhp_PresentPower",
+        "addr": 772876
+      },
+      "0xbcb2c": {
+        "name": "g_CLI_prop__system1__oemhp_power1__oemhp_AvgPower",
+        "addr": 772908
+      },
+      "0xbcb4c": {
+        "name": "g_CLI_prop__system1__oemhp_power1__oemhp_MaxPower",
+        "addr": 772940
+      },
+      "0xbcb6c": {
+        "name": "g_CLI_prop__system1__oemhp_power1__oemhp_MinPower",
+        "addr": 772972
+      },
+      "0xbcb8c": {
+        "name": "g_CLI_prop__system1__oemhp_power1__oemhp_powersupplycapacity",
+        "addr": 773004
+      },
+      "0xbcbac": {
+        "name": "g_CLI_prop__system1__oemhp_power1__oemhp_peakmeasuredpower",
+        "addr": 773036
+      },
+      "0xbcbcc": {
+        "name": "g_CLI_prop__system1__oemhp_power1__oemhp_servermaxpower",
+        "addr": 773068
+      },
+      "0xbcbec": {
+        "name": "g_CLI_prop__system1__oemhp_power1__oemhp_serverminpower",
+        "addr": 773100
+      },
+      "0xbcc0c": {
+        "name": "g_CLI_prop__system1__oemhp_power1__warning_type",
+        "addr": 773132
+      },
+      "0xbcc2c": {
+        "name": "g_CLI_prop__system1__oemhp_power1__warning_threshold",
+        "addr": 773164
+      },
+      "0xbcc4c": {
+        "name": "g_CLI_prop__system1__oemhp_power1__warning_duration",
+        "addr": 773196
+      },
+      "0xbcc6c": {
+        "name": "g_CLI_prop__system1__oemhp_power1__oemhp_power_micro_ver",
+        "addr": 773228
+      },
+      "0xbcc8c": {
+        "name": "g_CLI_prop__system1__oemhp_power1__oemhp_auto_pwr",
+        "addr": 773260
+      },
+      "0xbccac": {
+        "name": "g_CLI_prop__system1__name",
+        "addr": 773292
+      },
+      "0xbcccc": {
+        "name": "g_CLI_prop__system1__number",
+        "addr": 773324
+      },
+      "0xbccec": {
+        "name": "g_CLI_prop__system1__oemhp_server_name",
+        "addr": 773356
+      },
+      "0xbcd0c": {
+        "name": "g_CLI_prop__system1__oemhp_server_fqdn",
+        "addr": 773388
+      },
+      "0xbcd2c": {
+        "name": "g_CLI_prop__system1__oemhp_smh_fqdn",
+        "addr": 773420
+      },
+      "0xbcd4c": {
+        "name": "g_CLI_prop__system1__enabledstate",
+        "addr": 773452
+      },
+      "0xbcd6c": {
+        "name": "g_CLI_prop__system1__processor_number",
+        "addr": 773484
+      },
+      "0xbcd8c": {
+        "name": "g_CLI_target__system1__firmware1",
+        "addr": 773516
+      },
+      "0xbcdb4": {
+        "name": "g_CLI_target__system1__bootconfig1",
+        "addr": 773556
+      },
+      "0xbcddc": {
+        "name": "g_CLI_target__system1__log1",
+        "addr": 773596
+      },
+      "0xbce04": {
+        "name": "g_CLI_target__system1__led1",
+        "addr": 773636
+      },
+      "0xbce2c": {
+        "name": "g_CLI_target__system1__network1",
+        "addr": 773676
+      },
+      "0xbce54": {
+        "name": "g_CLI_target__system1__oemhp_power1",
+        "addr": 773716
+      },
+      "0xbce7c": {
+        "name": "g_CLI_target__system1__oemhp_vsp1",
+        "addr": 773756
+      },
+      "0xbcea4": {
+        "name": "g_CLI_target__system1__cpuSTAR",
+        "addr": 773796
+      },
+      "0xbcecc": {
+        "name": "g_CLI_target__system1__memorySTAR",
+        "addr": 773836
+      },
+      "0xbcef4": {
+        "name": "g_CLI_target__system1__slotSTAR",
+        "addr": 773876
+      },
+      "0xbcf1c": {
+        "name": "g_CLI_target__system1__swidSTAR",
+        "addr": 773916
+      },
+      "0xbcf44": {
+        "name": "g_CLI_target__system1__fanSTAR",
+        "addr": 773956
+      },
+      "0xbcf6c": {
+        "name": "g_CLI_target__system1__sensorSTAR",
+        "addr": 773996
+      },
+      "0xbcf94": {
+        "name": "g_CLI_target__system1__powersupplySTAR",
+        "addr": 774036
+      },
+      "0xbcfc4": {
+        "name": "g_CLI_prop__map1__oemhp_syslog1__oemhp_syslog_enable",
+        "addr": 774084
+      },
+      "0xbcfe4": {
+        "name": "g_CLI_prop__map1__oemhp_syslog1__oemhp_syslog_port",
+        "addr": 774116
+      },
+      "0xbd004": {
+        "name": "g_CLI_prop__map1__oemhp_syslog1__oemhp_syslog_serveraddress",
+        "addr": 774148
+      },
+      "0xbd024": {
+        "name": "g_CLI_propfct__map1__oemhp_syslog1__oemhp_syslog_serveraddress",
+        "addr": 774180
+      },
+      "0xbd060": {
+        "name": "g_CLI_targetfct__map1__config1",
+        "addr": 774240
+      },
+      "0xbd09c": {
+        "name": "g_CLI_propfct__map1__config1__oemhp_ipmi_dcmi_overlan_port",
+        "addr": 774300
+      },
+      "0xbd0d8": {
+        "name": "g_CLI_targetfct__map1__oemhp_syslog1",
+        "addr": 774360
+      },
+      "0xbd114": {
+        "name": "g_CLI_targetfct__map1__oemhp_alertmail1",
+        "addr": 774420
+      },
+      "0xbd150": {
+        "name": "g_CLI_propfct__map1__oemhp_alertmail1__oemhp_alertmail_smtp_port",
+        "addr": 774480
+      },
+      "0xbd18c": {
+        "name": "g_CLI_prop__map1__config1__oemhp_mapenable",
+        "addr": 774540
+      },
+      "0xbd1ac": {
+        "name": "g_CLI_prop__map1__config1__oemhp_timeout",
+        "addr": 774572
+      },
+      "0xbd1cc": {
+        "name": "g_CLI_prop__map1__config1__oemhp_rbsuenable",
+        "addr": 774604
+      },
+      "0xbd1ec": {
+        "name": "g_CLI_prop__map1__config1__oemhp_rbsulogin",
+        "addr": 774636
+      },
+      "0xbd20c": {
+        "name": "g_CLI_prop__map1__config1__oemhp_rbsushowip",
+        "addr": 774668
+      },
+      "0xbd22c": {
+        "name": "g_CLI_prop__map1__config1__oemhp_httpport",
+        "addr": 774700
+      },
+      "0xbd24c": {
+        "name": "g_CLI_prop__map1__config1__oemhp_sslport",
+        "addr": 774732
+      },
+      "0xbd26c": {
+        "name": "g_CLI_prop__map1__config1__oemhp_rcport",
+        "addr": 774764
+      },
+      "0xbd28c": {
+        "name": "g_CLI_prop__map1__config1__oemhp_vmport",
+        "addr": 774796
+      },
+      "0xbd2ac": {
+        "name": "g_CLI_prop__map1__config1__oemhp_sshport",
+        "addr": 774828
+      },
+      "0xbd2cc": {
+        "name": "g_CLI_prop__map1__config1__oemhp_sshstatus",
+        "addr": 774860
+      },
+      "0xbd2ec": {
+        "name": "g_CLI_prop__map1__config1__oemhp_serialclistatus",
+        "addr": 774892
+      },
+      "0xbd30c": {
+        "name": "g_CLI_prop__map1__config1__oemhp_serialcliauth",
+        "addr": 774924
+      },
+      "0xbd32c": {
+        "name": "g_CLI_prop__map1__config1__oemhp_serialclispeed",
+        "addr": 774956
+      },
+      "0xbd34c": {
+        "name": "g_CLI_prop__map1__config1__oemhp_minpwdlen",
+        "addr": 774988
+      },
+      "0xbd36c": {
+        "name": "g_CLI_prop__map1__config1__oemhp_enforce_aes",
+        "addr": 775020
+      },
+      "0xbd38c": {
+        "name": "g_CLI_prop__map1__config1__oemhp_authfailurelogging",
+        "addr": 775052
+      },
+      "0xbd3ac": {
+        "name": "g_CLI_prop__map1__config1__oemhp_computer_lock",
+        "addr": 775084
+      },
+      "0xbd3cc": {
+        "name": "g_CLI_prop__map1__config1__oemhp_hotkey_ctrl_t",
+        "addr": 775116
+      },
+      "0xbd3ec": {
+        "name": "g_CLI_prop__map1__config1__oemhp_hotkey_ctrl_u",
+        "addr": 775148
+      },
+      "0xbd40c": {
+        "name": "g_CLI_prop__map1__config1__oemhp_hotkey_ctrl_v",
+        "addr": 775180
+      },
+      "0xbd42c": {
+        "name": "g_CLI_prop__map1__config1__oemhp_hotkey_ctrl_w",
+        "addr": 775212
+      },
+      "0xbd44c": {
+        "name": "g_CLI_prop__map1__config1__oemhp_hotkey_ctrl_x",
+        "addr": 775244
+      },
+      "0xbd46c": {
+        "name": "g_CLI_prop__map1__config1__oemhp_hotkey_ctrl_y",
+        "addr": 775276
+      },
+      "0xbd48c": {
+        "name": "g_CLI_prop__map1__config1__oemhp_irc_trust_enable",
+        "addr": 775308
+      },
+      "0xbd4ac": {
+        "name": "g_CLI_prop__map1__config1__oemhp_vsp_log_enable",
+        "addr": 775340
+      },
+      "0xbd4cc": {
+        "name": "g_CLI_prop__map1__config1__oemhp_snmp_access",
+        "addr": 775372
+      },
+      "0xbd4ec": {
+        "name": "g_CLI_prop__map1__config1__oemhp_snmp_port",
+        "addr": 775404
+      },
+      "0xbd50c": {
+        "name": "g_CLI_prop__map1__config1__oemhp_snmp_trapport",
+        "addr": 775436
+      },
+      "0xbd52c": {
+        "name": "g_CLI_prop__map1__config1__oemhp_fips_enable",
+        "addr": 775468
+      },
+      "0xbd54c": {
+        "name": "g_CLI_prop__map1__config1__oemhp_ipmi_dcmi_overlan_enable",
+        "addr": 775500
+      },
+      "0xbd56c": {
+        "name": "g_CLI_prop__map1__config1__oemhp_ipmi_dcmi_overlan_port",
+        "addr": 775532
+      },
+      "0xbd58c": {
+        "name": "g_CLI_prop__map1__oemhp_alertmail1__oemhp_alertmail_enable",
+        "addr": 775564
+      },
+      "0xbd5ac": {
+        "name": "g_CLI_prop__map1__oemhp_alertmail1__oemhp_alertmail_email",
+        "addr": 775596
+      },
+      "0xbd5cc": {
+        "name": "g_CLI_prop__map1__oemhp_alertmail1__oemhp_alertmail_sender_domain",
+        "addr": 775628
+      },
+      "0xbd5ec": {
+        "name": "g_CLI_prop__map1__oemhp_alertmail1__oemhp_alertmail_smtp_server",
+        "addr": 775660
+      },
+      "0xbd60c": {
+        "name": "g_CLI_prop__map1__oemhp_alertmail1__oemhp_alertmail_smtp_port",
+        "addr": 775692
+      },
+      "0xbd640": {
+        "name": "g_CLI_prop__map1__settings1__WINSSettingData1__WINSServerAddress",
+        "addr": 775744
+      },
+      "0xbd660": {
+        "name": "g_CLI_prop__map1__settings1__WINSSettingData1__RegisterThisConnection",
+        "addr": 775776
+      },
+      "0xbd680": {
+        "name": "g_CLI_prop__map1__settings1__WINSSettingData1__DHCPOptionToUse",
+        "addr": 775808
+      },
+      "0xbd6a0": {
+        "name": "g_CLI_propfct__map1__settings1__WINSSettingData1__DHCPOptionToUse",
+        "addr": 775840
+      },
+      "0xbd6dc": {
+        "name": "g_CLI_prop__map1__enetport1__lanendpt1__ipendpt1__IPv4Address",
+        "addr": 775900
+      },
+      "0xbd6fc": {
+        "name": "g_CLI_prop__map1__enetport1__lanendpt1__ipendpt1__SubnetMask",
+        "addr": 775932
+      },
+      "0xbd71c": {
+        "name": "g_CLI_prop__map1__enetport1__lanendpt1__ipendpt1__AddressOrigin",
+        "addr": 775964
+      },
+      "0xbd73c": {
+        "name": "g_CLI_propfct__map1__enetport1__lanendpt1__ipendpt1__AddressOrigin",
+        "addr": 775996
+      },
+      "0xbd77c": {
+        "name": "g_CLI_prop__map1__enetport1__lanendpt1__EnabledState",
+        "addr": 776060
+      },
+      "0xbd79c": {
+        "name": "g_CLI_prop__map1__enetport1__lanendpt1__MACAddress",
+        "addr": 776092
+      },
+      "0xbd7bc": {
+        "name": "g_CLI_prop__map1__enetport1__lanendpt1__LOMAndFlexibleLOMPortNumber",
+        "addr": 776124
+      },
+      "0xbd7dc": {
+        "name": "g_CLI_propfct__map1__enetport1__lanendpt1__LOMAndFlexibleLOMPortNumber",
+        "addr": 776156
+      },
+      "0xbd818": {
+        "name": "g_CLI_prop__map1__dhcpendpt1__EnabledState",
+        "addr": 776216
+      },
+      "0xbd838": {
+        "name": "g_CLI_prop__map1__dhcpendpt1__OtherTypeDescription",
+        "addr": 776248
+      },
+      "0xbd858": {
+        "name": "g_CLI_propfct__map1__dhcpendpt1__OtherTypeDescription",
+        "addr": 776280
+      },
+      "0xbd894": {
+        "name": "g_CLI_prop__map1__gateway1__AccessInfo",
+        "addr": 776340
+      },
+      "0xbd8b4": {
+        "name": "g_CLI_prop__map1__gateway1__AccessContext",
+        "addr": 776372
+      },
+      "0xbd8d4": {
+        "name": "g_CLI_prop__map1__gateway1__DHCPOptionToUse",
+        "addr": 776404
+      },
+      "0xbd8f4": {
+        "name": "g_CLI_propfct__map1__gateway1__DHCPOptionToUse",
+        "addr": 776436
+      },
+      "0xbd930": {
+        "name": "g_CLI_prop__map1__dnsserver1__AccessInfo",
+        "addr": 776496
+      },
+      "0xbd950": {
+        "name": "g_CLI_prop__map1__dnsserver1__AccessContext",
+        "addr": 776528
+      },
+      "0xbd970": {
+        "name": "g_CLI_propfct__map1__dnsserver1__AccessContext",
+        "addr": 776560
+      },
+      "0xbd9ac": {
+        "name": "g_CLI_prop__map1__dnsserver2__AccessInfo",
+        "addr": 776620
+      },
+      "0xbd9cc": {
+        "name": "g_CLI_prop__map1__dnsserver2__AccessContext",
+        "addr": 776652
+      },
+      "0xbd9ec": {
+        "name": "g_CLI_propfct__map1__dnsserver2__AccessContext",
+        "addr": 776684
+      },
+      "0xbda28": {
+        "name": "g_CLI_prop__map1__dnsserver3__AccessInfo",
+        "addr": 776744
+      },
+      "0xbda48": {
+        "name": "g_CLI_prop__map1__dnsserver3__AccessContext",
+        "addr": 776776
+      },
+      "0xbda68": {
+        "name": "g_CLI_propfct__map1__dnsserver3__AccessContext",
+        "addr": 776808
+      },
+      "0xbdb20": {
+        "name": "g_CLI_prop__map1__vlan1__EnabledState",
+        "addr": 776992
+      },
+      "0xbdb40": {
+        "name": "g_CLI_prop__map1__vlan1__VLANID",
+        "addr": 777024
+      },
+      "0xbdb60": {
+        "name": "g_CLI_propfct__map1__vlan1__VLANID",
+        "addr": 777056
+      },
+      "0xbdb9c": {
+        "name": "g_CLI_target__map1__enetport1__lanendpt1__ipendpt1",
+        "addr": 777116
+      },
+      "0xbdbc4": {
+        "name": "g_CLI_targetfct__map1__enetport1__lanendpt1__ipendpt1",
+        "addr": 777156
+      },
+      "0xbdc00": {
+        "name": "g_CLI_target__map1__enetport1__lanendpt1",
+        "addr": 777216
+      },
+      "0xbdc28": {
+        "name": "g_CLI_targetfct__map1__enetport1__lanendpt1",
+        "addr": 777256
+      },
+      "0xbdc64": {
+        "name": "g_CLI_target__map1__settings1__DNSSettings1",
+        "addr": 777316
+      },
+      "0xbdc8c": {
+        "name": "g_CLI_target__map1__settings1__WINSSettingData1",
+        "addr": 777356
+      },
+      "0xbdcb4": {
+        "name": "g_CLI_target__map1__settings1__StaticIPSettings1",
+        "addr": 777396
+      },
+      "0xbdcdc": {
+        "name": "g_CLI_targetfct__map1__settings1__DNSSettings1",
+        "addr": 777436
+      },
+      "0xbdd18": {
+        "name": "g_CLI_targetfct__map1__settings1__WINSSettingData1",
+        "addr": 777496
+      },
+      "0xbdd54": {
+        "name": "g_CLI_targetfct__map1__settings1__StaticIPSettings1",
+        "addr": 777556
+      },
+      "0xbdd90": {
+        "name": "g_CLI_targetfct__map1__enetport1",
+        "addr": 777616
+      },
+      "0xbddcc": {
+        "name": "g_CLI_targetfct__map1__dhcpendpt1",
+        "addr": 777676
+      },
+      "0xbde08": {
+        "name": "g_CLI_targetfct__map1__dnsendpt1",
+        "addr": 777736
+      },
+      "0xbde44": {
+        "name": "g_CLI_targetfct__map1__gateway1",
+        "addr": 777796
+      },
+      "0xbde80": {
+        "name": "g_CLI_targetfct__map1__dnsserver1",
+        "addr": 777856
+      },
+      "0xbdebc": {
+        "name": "g_CLI_targetfct__map1__dnsserver2",
+        "addr": 777916
+      },
+      "0xbdef8": {
+        "name": "g_CLI_targetfct__map1__dnsserver3",
+        "addr": 777976
+      },
+      "0xbdf70": {
+        "name": "g_CLI_targetfct__map1__settings1",
+        "addr": 778096
+      },
+      "0xbdfac": {
+        "name": "g_CLI_targetfct__map1__vlan1",
+        "addr": 778156
+      },
+      "0xbdfe8": {
+        "name": "g_CLI_propfct__map1__settings1__DNSSettings1__oemhp_UseDHCPv4DomainName",
+        "addr": 778216
+      },
+      "0xbe024": {
+        "name": "g_CLI_propfct__map1__settings1__StaticIPSettings1__DHCPOptionToUse",
+        "addr": 778276
+      },
+      "0xbe060": {
+        "name": "g_CLI_propfct__map1__enetport1__Fullduplex",
+        "addr": 778336
+      },
+      "0xbe09c": {
+        "name": "g_CLI_propfct__map1__dnsendpt1__OtherTypeDescription",
+        "addr": 778396
+      },
+      "0xbe0d8": {
+        "name": "g_CLI_prop__map1__settings1__DNSSettings1__DNSServerAddress",
+        "addr": 778456
+      },
+      "0xbe0f8": {
+        "name": "g_CLI_prop__map1__settings1__DNSSettings1__RegisterThisConnection",
+        "addr": 778488
+      },
+      "0xbe118": {
+        "name": "g_CLI_prop__map1__settings1__DNSSettings1__DomainName",
+        "addr": 778520
+      },
+      "0xbe138": {
+        "name": "g_CLI_prop__map1__settings1__DNSSettings1__DHCPOptionToUse",
+        "addr": 778552
+      },
+      "0xbe158": {
+        "name": "g_CLI_prop__map1__settings1__DNSSettings1__oemhp_UseDHCPv4DomainName",
+        "addr": 778584
+      },
+      "0xbe178": {
+        "name": "g_CLI_prop__map1__settings1__StaticIPSettings1__oemhp_SRoute1Address",
+        "addr": 778616
+      },
+      "0xbe198": {
+        "name": "g_CLI_prop__map1__settings1__StaticIPSettings1__oemhp_Mask1Address",
+        "addr": 778648
+      },
+      "0xbe1b8": {
+        "name": "g_CLI_prop__map1__settings1__StaticIPSettings1__oemhp_Gateway1Address",
+        "addr": 778680
+      },
+      "0xbe1d8": {
+        "name": "g_CLI_prop__map1__settings1__StaticIPSettings1__oemhp_SRoute2Address",
+        "addr": 778712
+      },
+      "0xbe1f8": {
+        "name": "g_CLI_prop__map1__settings1__StaticIPSettings1__oemhp_Mask2Address",
+        "addr": 778744
+      },
+      "0xbe218": {
+        "name": "g_CLI_prop__map1__settings1__StaticIPSettings1__oemhp_Gateway2Address",
+        "addr": 778776
+      },
+      "0xbe238": {
+        "name": "g_CLI_prop__map1__settings1__StaticIPSettings1__oemhp_SRoute3Address",
+        "addr": 778808
+      },
+      "0xbe258": {
+        "name": "g_CLI_prop__map1__settings1__StaticIPSettings1__oemhp_Mask3Address",
+        "addr": 778840
+      },
+      "0xbe278": {
+        "name": "g_CLI_prop__map1__settings1__StaticIPSettings1__oemhp_Gateway3Address",
+        "addr": 778872
+      },
+      "0xbe298": {
+        "name": "g_CLI_prop__map1__settings1__StaticIPSettings1__DHCPOptionToUse",
+        "addr": 778904
+      },
+      "0xbe2b8": {
+        "name": "g_CLI_prop__map1__enetport1__Autosense",
+        "addr": 778936
+      },
+      "0xbe2d8": {
+        "name": "g_CLI_prop__map1__enetport1__PermanentAddress",
+        "addr": 778968
+      },
+      "0xbe2f8": {
+        "name": "g_CLI_prop__map1__enetport1__LinkTechnology",
+        "addr": 779000
+      },
+      "0xbe318": {
+        "name": "g_CLI_prop__map1__enetport1__Speed",
+        "addr": 779032
+      },
+      "0xbe338": {
+        "name": "g_CLI_prop__map1__enetport1__SystemName",
+        "addr": 779064
+      },
+      "0xbe358": {
+        "name": "g_CLI_prop__map1__enetport1__Fullduplex",
+        "addr": 779096
+      },
+      "0xbe378": {
+        "name": "g_CLI_prop__map1__dnsendpt1__EnabledState",
+        "addr": 779128
+      },
+      "0xbe398": {
+        "name": "g_CLI_prop__map1__dnsendpt1__Hostname",
+        "addr": 779160
+      },
+      "0xbe3b8": {
+        "name": "g_CLI_prop__map1__dnsendpt1__DomainName",
+        "addr": 779192
+      },
+      "0xbe3d8": {
+        "name": "g_CLI_prop__map1__dnsendpt1__OtherTypeDescription",
+        "addr": 779224
+      },
+      "0xbe3fc": {
+        "name": "g_CLI_prop__system1__powersupplySTAR__ElementName",
+        "addr": 779260
+      },
+      "0xbe41c": {
+        "name": "g_CLI_prop__system1__powersupplySTAR__OperationalStatus",
+        "addr": 779292
+      },
+      "0xbe43c": {
+        "name": "g_CLI_prop__system1__powersupplySTAR__HealthState",
+        "addr": 779324
+      },
+      "0xbe45c": {
+        "name": "g_CLI_propfct__system1__powersupplySTAR__ElementName",
+        "addr": 779356
+      },
+      "0xbe498": {
+        "name": "g_CLI_propfct__system1__powersupplySTAR__OperationalStatus",
+        "addr": 779416
+      },
+      "0xbe4d4": {
+        "name": "g_CLI_propfct__system1__powersupplySTAR__HealthState",
+        "addr": 779476
+      },
+      "0xbe510": {
+        "name": "g_CLI_targetfct__system1__fanSTAR",
+        "addr": 779536
+      },
+      "0xbe54c": {
+        "name": "g_CLI_targetfct__system1__sensorSTAR",
+        "addr": 779596
+      },
+      "0xbe588": {
+        "name": "g_CLI_targetfct__system1__powersupplySTAR",
+        "addr": 779656
+      },
+      "0xbe5c4": {
+        "name": "g_CLI_propfct__system1__fanSTAR__DeviceID",
+        "addr": 779716
+      },
+      "0xbe600": {
+        "name": "g_CLI_propfct__system1__fanSTAR__ElementName",
+        "addr": 779776
+      },
+      "0xbe63c": {
+        "name": "g_CLI_propfct__system1__fanSTAR__OperationalStatus",
+        "addr": 779836
+      },
+      "0xbe678": {
+        "name": "g_CLI_propfct__system1__fanSTAR__VariableSpeed",
+        "addr": 779896
+      },
+      "0xbe6b4": {
+        "name": "g_CLI_propfct__system1__fanSTAR__DesiredSpeed",
+        "addr": 779956
+      },
+      "0xbe6f0": {
+        "name": "g_CLI_propfct__system1__fanSTAR__HealthState",
+        "addr": 780016
+      },
+      "0xbe72c": {
+        "name": "g_CLI_propfct__system1__sensorSTAR__DeviceID",
+        "addr": 780076
+      },
+      "0xbe768": {
+        "name": "g_CLI_propfct__system1__sensorSTAR__ElementName",
+        "addr": 780136
+      },
+      "0xbe7a4": {
+        "name": "g_CLI_propfct__system1__sensorSTAR__OperationalStatus",
+        "addr": 780196
+      },
+      "0xbe7e0": {
+        "name": "g_CLI_propfct__system1__sensorSTAR__RateUnits",
+        "addr": 780256
+      },
+      "0xbe81c": {
+        "name": "g_CLI_propfct__system1__sensorSTAR__CurrentReading",
+        "addr": 780316
+      },
+      "0xbe858": {
+        "name": "g_CLI_propfct__system1__sensorSTAR__SensorType",
+        "addr": 780376
+      },
+      "0xbe894": {
+        "name": "g_CLI_propfct__system1__sensorSTAR__HealthState",
+        "addr": 780436
+      },
+      "0xbe8d0": {
+        "name": "g_CLI_propfct__system1__sensorSTAR__oemhp_CautionValue",
+        "addr": 780496
+      },
+      "0xbe90c": {
+        "name": "g_CLI_propfct__system1__sensorSTAR__oemhp_CriticalValue",
+        "addr": 780556
+      },
+      "0xbe948": {
+        "name": "g_CLI_prop__system1__fanSTAR__DeviceID",
+        "addr": 780616
+      },
+      "0xbe968": {
+        "name": "g_CLI_prop__system1__fanSTAR__ElementName",
+        "addr": 780648
+      },
+      "0xbe988": {
+        "name": "g_CLI_prop__system1__fanSTAR__OperationalStatus",
+        "addr": 780680
+      },
+      "0xbe9a8": {
+        "name": "g_CLI_prop__system1__fanSTAR__VariableSpeed",
+        "addr": 780712
+      },
+      "0xbe9c8": {
+        "name": "g_CLI_prop__system1__fanSTAR__DesiredSpeed",
+        "addr": 780744
+      },
+      "0xbe9e8": {
+        "name": "g_CLI_prop__system1__fanSTAR__HealthState",
+        "addr": 780776
+      },
+      "0xbea08": {
+        "name": "g_CLI_prop__system1__sensorSTAR__DeviceID",
+        "addr": 780808
+      },
+      "0xbea28": {
+        "name": "g_CLI_prop__system1__sensorSTAR__ElementName",
+        "addr": 780840
+      },
+      "0xbea48": {
+        "name": "g_CLI_prop__system1__sensorSTAR__OperationalStatus",
+        "addr": 780872
+      },
+      "0xbea68": {
+        "name": "g_CLI_prop__system1__sensorSTAR__RateUnits",
+        "addr": 780904
+      },
+      "0xbea88": {
+        "name": "g_CLI_prop__system1__sensorSTAR__CurrentReading",
+        "addr": 780936
+      },
+      "0xbeaa8": {
+        "name": "g_CLI_prop__system1__sensorSTAR__SensorType",
+        "addr": 780968
+      },
+      "0xbeac8": {
+        "name": "g_CLI_prop__system1__sensorSTAR__HealthState",
+        "addr": 781000
+      },
+      "0xbeae8": {
+        "name": "g_CLI_prop__system1__sensorSTAR__oemhp_CautionValue",
+        "addr": 781032
+      },
+      "0xbeb08": {
+        "name": "g_CLI_prop__system1__sensorSTAR__oemhp_CriticalValue",
+        "addr": 781064
+      },
+      "0xbeb30": {
+        "name": "g_CLI_target__map1__blade1__rack__enclosure",
+        "addr": 781104
+      },
+      "0xbeb58": {
+        "name": "g_CLI_prop__map1__blade1__rack__rack_name",
+        "addr": 781144
+      },
+      "0xbeb78": {
+        "name": "g_CLI_prop__map1__blade1__rack__enclosure__encl_name",
+        "addr": 781176
+      },
+      "0xbeb98": {
+        "name": "g_CLI_prop__map1__blade1__rack__enclosure__ser",
+        "addr": 781208
+      },
+      "0xbebb8": {
+        "name": "g_CLI_prop__map1__blade1__rack__enclosure__encl_type",
+        "addr": 781240
+      },
+      "0xbebd8": {
+        "name": "g_CLI_targetfct__map1__blade1__rack__enclosure",
+        "addr": 781272
+      },
+      "0xbec14": {
+        "name": "g_CLI_propfct__map1__blade1__rack__rack_name",
+        "addr": 781332
+      },
+      "0xbec50": {
+        "name": "g_CLI_propfct__map1__blade1__rack__enclosure__encl_name",
+        "addr": 781392
+      },
+      "0xbec8c": {
+        "name": "g_CLI_propfct__map1__blade1__rack__enclosure__ser",
+        "addr": 781452
+      },
+      "0xbecc8": {
+        "name": "g_CLI_propfct__map1__blade1__rack__enclosure__encl_type",
+        "addr": 781512
+      },
+      "0xbed04": {
+        "name": "g_CLI_target__map1__blade1__rack",
+        "addr": 781572
+      },
+      "0xbed2c": {
+        "name": "g_CLI_targetfct__map1__blade1__rack",
+        "addr": 781612
+      },
+      "0xbed68": {
+        "name": "g_CLI_targetfct__map1__blade1",
+        "addr": 781672
+      },
+      "0xbeda4": {
+        "name": "g_CLI_propfct__map1__blade1__bay_number",
+        "addr": 781732
+      },
+      "0xbede0": {
+        "name": "g_CLI_propfct__map1__blade1__auto_power",
+        "addr": 781792
+      },
+      "0xbee1c": {
+        "name": "g_CLI_propfct__map1__blade1__mac_address",
+        "addr": 781852
+      },
+      "0xbee58": {
+        "name": "g_CLI_propfct__map1__blade1__ip_address",
+        "addr": 781912
+      },
+      "0xbee94": {
+        "name": "g_CLI_propfct__map1__blade1__sys_health",
+        "addr": 781972
+      },
+      "0xbeed0": {
+        "name": "g_CLI_prop__map1__blade1__bay_number",
+        "addr": 782032
+      },
+      "0xbeef0": {
+        "name": "g_CLI_prop__map1__blade1__auto_power",
+        "addr": 782064
+      },
+      "0xbef10": {
+        "name": "g_CLI_prop__map1__blade1__ip_address",
+        "addr": 782096
+      },
+      "0xbef30": {
+        "name": "g_CLI_prop__map1__blade1__mac_address",
+        "addr": 782128
+      },
+      "0xbef50": {
+        "name": "g_CLI_prop__map1__blade1__sys_health",
+        "addr": 782160
+      },
+      "0xbef78": {
+        "name": "g_CLI_target__map1__accounts1__STAR",
+        "addr": 782200
+      },
+      "0xbefa0": {
+        "name": "g_CLI_targetfct__map1__accounts1",
+        "addr": 782240
+      },
+      "0xbefdc": {
+        "name": "g_CLI_propfct__map1__accounts1__STAR__username",
+        "addr": 782300
+      },
+      "0xbf018": {
+        "name": "g_CLI_propfct__map1__accounts1__STAR__password",
+        "addr": 782360
+      },
+      "0xbf054": {
+        "name": "g_CLI_propfct__map1__accounts1__STAR__name",
+        "addr": 782420
+      },
+      "0xbf090": {
+        "name": "g_CLI_propfct__map1__accounts1__STAR__group",
+        "addr": 782480
+      },
+      "0xbf0cc": {
+        "name": "g_CLI_propfct__map1__accounts1__STAR__sshkeyhash",
+        "addr": 782540
+      },
+      "0xbf108": {
+        "name": "g_CLI_targetfct__map1__accounts1__STAR",
+        "addr": 782600
+      },
+      "0xbf144": {
+        "name": "g_CLI_prop__map1__accounts1__STAR__username",
+        "addr": 782660
+      },
+      "0xbf164": {
+        "name": "g_CLI_prop__map1__accounts1__STAR__password",
+        "addr": 782692
+      },
+      "0xbf184": {
+        "name": "g_CLI_prop__map1__accounts1__STAR__name",
+        "addr": 782724
+      },
+      "0xbf1a4": {
+        "name": "g_CLI_prop__map1__accounts1__STAR__group",
+        "addr": 782756
+      },
+      "0xbf1c4": {
+        "name": "g_CLI_prop__map1__accounts1__STAR__sshkeyhash",
+        "addr": 782788
+      },
+      "0xbf1e8": {
+        "name": "g_CLI_target__system1__log1__recordSTAR",
+        "addr": 782824
+      },
+      "0xbf210": {
+        "name": "g_CLI_target__map1__log1__recordSTAR",
+        "addr": 782864
+      },
+      "0xbf238": {
+        "name": "g_CLI_targetfct__system1__log1",
+        "addr": 782904
+      },
+      "0xbf274": {
+        "name": "g_CLI_targetfct__map1__log1",
+        "addr": 782964
+      },
+      "0xbf2b0": {
+        "name": "g_CLI_propfct__system1__log1__recordSTAR__number",
+        "addr": 783024
+      },
+      "0xbf2ec": {
+        "name": "g_CLI_propfct__system1__log1__recordSTAR__severity",
+        "addr": 783084
+      },
+      "0xbf328": {
+        "name": "g_CLI_propfct__system1__log1__recordSTAR__date",
+        "addr": 783144
+      },
+      "0xbf364": {
+        "name": "g_CLI_propfct__system1__log1__recordSTAR__time",
+        "addr": 783204
+      },
+      "0xbf3a0": {
+        "name": "g_CLI_propfct__system1__log1__recordSTAR__description",
+        "addr": 783264
+      },
+      "0xbf3dc": {
+        "name": "g_CLI_propfct__map1__log1__recordSTAR__number",
+        "addr": 783324
+      },
+      "0xbf418": {
+        "name": "g_CLI_propfct__map1__log1__recordSTAR__severity",
+        "addr": 783384
+      },
+      "0xbf454": {
+        "name": "g_CLI_propfct__map1__log1__recordSTAR__date",
+        "addr": 783444
+      },
+      "0xbf490": {
+        "name": "g_CLI_propfct__map1__log1__recordSTAR__time",
+        "addr": 783504
+      },
+      "0xbf4cc": {
+        "name": "g_CLI_propfct__map1__log1__recordSTAR__description",
+        "addr": 783564
+      },
+      "0xbf508": {
+        "name": "g_CLI_targetfct__system1__log1__recordSTAR",
+        "addr": 783624
+      },
+      "0xbf544": {
+        "name": "g_CLI_targetfct__map1__log1__recordSTAR",
+        "addr": 783684
+      },
+      "0xbf580": {
+        "name": "g_CLI_prop__system1__log1__recordSTAR__number",
+        "addr": 783744
+      },
+      "0xbf5a0": {
+        "name": "g_CLI_prop__system1__log1__recordSTAR__severity",
+        "addr": 783776
+      },
+      "0xbf5c0": {
+        "name": "g_CLI_prop__system1__log1__recordSTAR__date",
+        "addr": 783808
+      },
+      "0xbf5e0": {
+        "name": "g_CLI_prop__system1__log1__recordSTAR__time",
+        "addr": 783840
+      },
+      "0xbf600": {
+        "name": "g_CLI_prop__system1__log1__recordSTAR__description",
+        "addr": 783872
+      },
+      "0xbf620": {
+        "name": "g_CLI_prop__map1__log1__recordSTAR__number",
+        "addr": 783904
+      },
+      "0xbf640": {
+        "name": "g_CLI_prop__map1__log1__recordSTAR__severity",
+        "addr": 783936
+      },
+      "0xbf660": {
+        "name": "g_CLI_prop__map1__log1__recordSTAR__date",
+        "addr": 783968
+      },
+      "0xbf680": {
+        "name": "g_CLI_prop__map1__log1__recordSTAR__time",
+        "addr": 784000
+      },
+      "0xbf6a0": {
+        "name": "g_CLI_prop__map1__log1__recordSTAR__description",
+        "addr": 784032
+      },
+      "0xbf6c4": {
+        "name": "g_CLI_target__map1__oemhp_vm1__floppydr1",
+        "addr": 784068
+      },
+      "0xbf6ec": {
+        "name": "g_CLI_target__map1__oemhp_vm1__cddr1",
+        "addr": 784108
+      },
+      "0xbf714": {
+        "name": "g_CLI_targetfct__map1__oemhp_vm1__floppydr1",
+        "addr": 784148
+      },
+      "0xbf750": {
+        "name": "g_CLI_targetfct__map1__oemhp_vm1__cddr1",
+        "addr": 784208
+      },
+      "0xbf78c": {
+        "name": "g_CLI_targetfct__map1__oemhp_vm1",
+        "addr": 784268
+      },
+      "0xbf7c8": {
+        "name": "g_CLI_propfct__map1__oemhp_vm1__cddr1__oemhp_image",
+        "addr": 784328
+      },
+      "0xbf804": {
+        "name": "g_CLI_propfct__map1__oemhp_vm1__cddr1__oemhp_connect",
+        "addr": 784388
+      },
+      "0xbf840": {
+        "name": "g_CLI_propfct__map1__oemhp_vm1__cddr1__oemhp_boot",
+        "addr": 784448
+      },
+      "0xbf87c": {
+        "name": "g_CLI_propfct__map1__oemhp_vm1__cddr1__oemhp_wp",
+        "addr": 784508
+      },
+      "0xbf8b8": {
+        "name": "g_CLI_propfct__map1__oemhp_vm1__cddr1__vm_applet",
+        "addr": 784568
+      },
+      "0xbf8f4": {
+        "name": "g_CLI_propfct__map1__oemhp_vm1__floppydr1__oemhp_image",
+        "addr": 784628
+      },
+      "0xbf930": {
+        "name": "g_CLI_propfct__map1__oemhp_vm1__floppydr1__oemhp_connect",
+        "addr": 784688
+      },
+      "0xbf96c": {
+        "name": "g_CLI_propfct__map1__oemhp_vm1__floppydr1__oemhp_boot",
+        "addr": 784748
+      },
+      "0xbf9a8": {
+        "name": "g_CLI_propfct__map1__oemhp_vm1__floppydr1__oemhp_wp",
+        "addr": 784808
+      },
+      "0xbf9e4": {
+        "name": "g_CLI_propfct__map1__oemhp_vm1__floppydr1__vm_applet",
+        "addr": 784868
+      },
+      "0xbfa20": {
+        "name": "g_CLI_prop__map1__oemhp_vm1__floppydr1__oemhp_image",
+        "addr": 784928
+      },
+      "0xbfa40": {
+        "name": "g_CLI_prop__map1__oemhp_vm1__floppydr1__oemhp_connect",
+        "addr": 784960
+      },
+      "0xbfa60": {
+        "name": "g_CLI_prop__map1__oemhp_vm1__floppydr1__oemhp_boot",
+        "addr": 784992
+      },
+      "0xbfa80": {
+        "name": "g_CLI_prop__map1__oemhp_vm1__floppydr1__oemhp_wp",
+        "addr": 785024
+      },
+      "0xbfaa0": {
+        "name": "g_CLI_prop__map1__oemhp_vm1__floppydr1__vm_applet",
+        "addr": 785056
+      },
+      "0xbfac0": {
+        "name": "g_CLI_prop__map1__oemhp_vm1__cddr1__oemhp_image",
+        "addr": 785088
+      },
+      "0xbfae0": {
+        "name": "g_CLI_prop__map1__oemhp_vm1__cddr1__oemhp_connect",
+        "addr": 785120
+      },
+      "0xbfb00": {
+        "name": "g_CLI_prop__map1__oemhp_vm1__cddr1__oemhp_boot",
+        "addr": 785152
+      },
+      "0xbfb20": {
+        "name": "g_CLI_prop__map1__oemhp_vm1__cddr1__oemhp_wp",
+        "addr": 785184
+      },
+      "0xbfb40": {
+        "name": "g_CLI_prop__map1__oemhp_vm1__cddr1__vm_applet",
+        "addr": 785216
+      },
+      "0xbfb68": {
+        "name": "g_CLI_prop__system1__bootconfig1__bootsourceSTAR__bootorder",
+        "addr": 785256
+      },
+      "0xbfb88": {
+        "name": "g_CLI_prop__system1__bootconfig1__bootsourceSTAR__bootdevice",
+        "addr": 785288
+      },
+      "0xbfba8": {
+        "name": "g_CLI_propfct__system1__bootconfig1__bootsourceSTAR__bootorder",
+        "addr": 785320
+      },
+      "0xbfbe4": {
+        "name": "g_CLI_propfct__system1__bootconfig1__bootsourceSTAR__bootdevice",
+        "addr": 785380
+      },
+      "0xbfc20": {
+        "name": "g_CLI_prop__system1__bootconfig1__oemhp_bootmode",
+        "addr": 785440
+      },
+      "0xbfc40": {
+        "name": "g_CLI_prop__system1__bootconfig1__oemhp_secureboot",
+        "addr": 785472
+      },
+      "0xbfc60": {
+        "name": "g_CLI_prop__system1__bootconfig1__oemhp_pendingbootmode",
+        "addr": 785504
+      },
+      "0xbfc80": {
+        "name": "g_CLI_propfct__system1__bootconfig1__oemhp_bootmode",
+        "addr": 785536
+      },
+      "0xbfcbc": {
+        "name": "g_CLI_propfct__system1__bootconfig1__oemhp_secureboot",
+        "addr": 785596
+      },
+      "0xbfcf8": {
+        "name": "g_CLI_propfct__system1__bootconfig1__oemhp_pendingbootmode",
+        "addr": 785656
+      },
+      "0xbfd34": {
+        "name": "g_CLI_prop__system1__bootconfig1__oemhp_uefibootsourceSTAR__bootorder",
+        "addr": 785716
+      },
+      "0xbfd54": {
+        "name": "g_CLI_prop__system1__bootconfig1__oemhp_uefibootsourceSTAR__oemhp_description",
+        "addr": 785748
+      },
+      "0xbfd74": {
+        "name": "g_CLI_propfct__system1__bootconfig1__oemhp_uefibootsourceSTAR__bootorder",
+        "addr": 785780
+      },
+      "0xbfdb0": {
+        "name": "g_CLI_propfct__system1__bootconfig1__oemhp_uefibootsourceSTAR__oemhp_description",
+        "addr": 785840
+      },
+      "0xbfdec": {
+        "name": "g_CLI_targetfct__system1__bootconfig1",
+        "addr": 785900
+      },
+      "0xbfe28": {
+        "name": "g_CLI_targetfct__system1__bootconfig1__bootsourceSTAR",
+        "addr": 785960
+      },
+      "0xbfe64": {
+        "name": "g_CLI_targetfct__system1__bootconfig1__oemhp_uefibootsourceSTAR",
+        "addr": 786020
+      },
+      "0xbfea0": {
+        "name": "g_CLI_target__system1__bootconfig1__bootsourceSTAR",
+        "addr": 786080
+      },
+      "0xbfec8": {
+        "name": "g_CLI_target__system1__bootconfig1__oemhp_uefibootsourceSTAR",
+        "addr": 786120
+      },
+      "0xbfef8": {
+        "name": "g_CLI_targetfct__map1__snmp1",
+        "addr": 786168
+      },
+      "0xbff34": {
+        "name": "g_CLI_propfct__map1__snmp1__oemhp_trapsource",
+        "addr": 786228
+      },
+      "0xbff70": {
+        "name": "g_CLI_prop__map1__snmp1__accessinfo1",
+        "addr": 786288
+      },
+      "0xbff90": {
+        "name": "g_CLI_prop__map1__snmp1__readcom1",
+        "addr": 786320
+      },
+      "0xbffb0": {
+        "name": "g_CLI_prop__map1__snmp1__trapcom1",
+        "addr": 786352
+      },
+      "0xbffd0": {
+        "name": "g_CLI_prop__map1__snmp1__accessinfo2",
+        "addr": 786384
+      },
+      "0xbfff0": {
+        "name": "g_CLI_prop__map1__snmp1__readcom2",
+        "addr": 786416
+      },
+      "0xc0010": {
+        "name": "g_CLI_prop__map1__snmp1__trapcom2",
+        "addr": 786448
+      },
+      "0xc0030": {
+        "name": "g_CLI_prop__map1__snmp1__accessinfo3",
+        "addr": 786480
+      },
+      "0xc0050": {
+        "name": "g_CLI_prop__map1__snmp1__readcom3",
+        "addr": 786512
+      },
+      "0xc0070": {
+        "name": "g_CLI_prop__map1__snmp1__trapcom3",
+        "addr": 786544
+      },
+      "0xc0090": {
+        "name": "g_CLI_prop__map1__snmp1__oemhp_iloalert",
+        "addr": 786576
+      },
+      "0xc00b0": {
+        "name": "g_CLI_prop__map1__snmp1__oemhp_agentalert",
+        "addr": 786608
+      },
+      "0xc00d0": {
+        "name": "g_CLI_prop__map1__snmp1__oemhp_snmppassthru",
+        "addr": 786640
+      },
+      "0xc00f0": {
+        "name": "g_CLI_prop__map1__snmp1__oemhp_agentlessenable",
+        "addr": 786672
+      },
+      "0xc0110": {
+        "name": "g_CLI_prop__map1__snmp1__oemhp_systemlocation",
+        "addr": 786704
+      },
+      "0xc0130": {
+        "name": "g_CLI_prop__map1__snmp1__oemhp_systemcontact",
+        "addr": 786736
+      },
+      "0xc0150": {
+        "name": "g_CLI_prop__map1__snmp1__oemhp_systemrole",
+        "addr": 786768
+      },
+      "0xc0170": {
+        "name": "g_CLI_prop__map1__snmp1__oemhp_systemroledetail1",
+        "addr": 786800
+      },
+      "0xc0190": {
+        "name": "g_CLI_prop__map1__snmp1__oemhp_systemroledetail2",
+        "addr": 786832
+      },
+      "0xc01b0": {
+        "name": "g_CLI_prop__map1__snmp1__oemhp_systemroledetail3",
+        "addr": 786864
+      },
+      "0xc01d0": {
+        "name": "g_CLI_prop__map1__snmp1__oemhp_systemroledetail4",
+        "addr": 786896
+      },
+      "0xc01f0": {
+        "name": "g_CLI_prop__map1__snmp1__oemhp_systemroledetail5",
+        "addr": 786928
+      },
+      "0xc0210": {
+        "name": "g_CLI_prop__map1__snmp1__oemhp_imagenturl",
+        "addr": 786960
+      },
+      "0xc0230": {
+        "name": "g_CLI_prop__map1__snmp1__oemhp_imdatalevel",
+        "addr": 786992
+      },
+      "0xc0250": {
+        "name": "g_CLI_prop__map1__snmp1__oemhp_coldstarttrap",
+        "addr": 787024
+      },
+      "0xc0270": {
+        "name": "g_CLI_prop__map1__snmp1__oemhp_trapsource",
+        "addr": 787056
+      },
+      "0xc0294": {
+        "name": "g_CLI_target__map1__oemhp_dircfg1__oemhp_keytab1",
+        "addr": 787092
+      },
+      "0xc02bc": {
+        "name": "g_CLI_targetfct__map1__oemhp_dircfg1__oemhp_keytab1",
+        "addr": 787132
+      },
+      "0xc02fc": {
+        "name": "g_CLI_targetfct__map1__oemhp_dircfg1",
+        "addr": 787196
+      },
+      "0xc0338": {
+        "name": "g_CLI_propfct__map1__oemhp_dircfg1__oemhp_dir_generic_ldap_enabled",
+        "addr": 787256
+      },
+      "0xc0374": {
+        "name": "g_CLI_prop__map1__oemhp_dircfg1__oemhp_dirauth",
+        "addr": 787316
+      },
+      "0xc0394": {
+        "name": "g_CLI_prop__map1__oemhp_dircfg1__oemhp_localacct",
+        "addr": 787348
+      },
+      "0xc03b4": {
+        "name": "g_CLI_prop__map1__oemhp_dircfg1__oemhp_dirsrvaddr",
+        "addr": 787380
+      },
+      "0xc03d4": {
+        "name": "g_CLI_prop__map1__oemhp_dircfg1__oemhp_ldapport",
+        "addr": 787412
+      },
+      "0xc03f4": {
+        "name": "g_CLI_prop__map1__oemhp_dircfg1__oemhp_dirdn",
+        "addr": 787444
+      },
+      "0xc0414": {
+        "name": "g_CLI_prop__map1__oemhp_dircfg1__oemhp_usercntxt1",
+        "addr": 787476
+      },
+      "0xc0434": {
+        "name": "g_CLI_prop__map1__oemhp_dircfg1__oemhp_usercntxt2",
+        "addr": 787508
+      },
+      "0xc0454": {
+        "name": "g_CLI_prop__map1__oemhp_dircfg1__oemhp_usercntxt3",
+        "addr": 787540
+      },
+      "0xc0474": {
+        "name": "g_CLI_prop__map1__oemhp_dircfg1__oemhp_usercntxt4",
+        "addr": 787572
+      },
+      "0xc0494": {
+        "name": "g_CLI_prop__map1__oemhp_dircfg1__oemhp_usercntxt5",
+        "addr": 787604
+      },
+      "0xc04b4": {
+        "name": "g_CLI_prop__map1__oemhp_dircfg1__oemhp_usercntxt6",
+        "addr": 787636
+      },
+      "0xc04d4": {
+        "name": "g_CLI_prop__map1__oemhp_dircfg1__oemhp_usercntxt7",
+        "addr": 787668
+      },
+      "0xc04f4": {
+        "name": "g_CLI_prop__map1__oemhp_dircfg1__oemhp_usercntxt8",
+        "addr": 787700
+      },
+      "0xc0514": {
+        "name": "g_CLI_prop__map1__oemhp_dircfg1__oemhp_usercntxt9",
+        "addr": 787732
+      },
+      "0xc0534": {
+        "name": "g_CLI_prop__map1__oemhp_dircfg1__oemhp_usercntxt10",
+        "addr": 787764
+      },
+      "0xc0554": {
+        "name": "g_CLI_prop__map1__oemhp_dircfg1__oemhp_usercntxt11",
+        "addr": 787796
+      },
+      "0xc0574": {
+        "name": "g_CLI_prop__map1__oemhp_dircfg1__oemhp_usercntxt12",
+        "addr": 787828
+      },
+      "0xc0594": {
+        "name": "g_CLI_prop__map1__oemhp_dircfg1__oemhp_usercntxt13",
+        "addr": 787860
+      },
+      "0xc05b4": {
+        "name": "g_CLI_prop__map1__oemhp_dircfg1__oemhp_usercntxt14",
+        "addr": 787892
+      },
+      "0xc05d4": {
+        "name": "g_CLI_prop__map1__oemhp_dircfg1__oemhp_usercntxt15",
+        "addr": 787924
+      },
+      "0xc05f4": {
+        "name": "g_CLI_prop__map1__oemhp_dircfg1__oemhp_group1_name",
+        "addr": 787956
+      },
+      "0xc0614": {
+        "name": "g_CLI_prop__map1__oemhp_dircfg1__oemhp_group2_name",
+        "addr": 787988
+      },
+      "0xc0634": {
+        "name": "g_CLI_prop__map1__oemhp_dircfg1__oemhp_group3_name",
+        "addr": 788020
+      },
+      "0xc0654": {
+        "name": "g_CLI_prop__map1__oemhp_dircfg1__oemhp_group4_name",
+        "addr": 788052
+      },
+      "0xc0674": {
+        "name": "g_CLI_prop__map1__oemhp_dircfg1__oemhp_group5_name",
+        "addr": 788084
+      },
+      "0xc0694": {
+        "name": "g_CLI_prop__map1__oemhp_dircfg1__oemhp_group6_name",
+        "addr": 788116
+      },
+      "0xc06b4": {
+        "name": "g_CLI_prop__map1__oemhp_dircfg1__oemhp_group1_priv",
+        "addr": 788148
+      },
+      "0xc06d4": {
+        "name": "g_CLI_prop__map1__oemhp_dircfg1__oemhp_group2_priv",
+        "addr": 788180
+      },
+      "0xc06f4": {
+        "name": "g_CLI_prop__map1__oemhp_dircfg1__oemhp_group3_priv",
+        "addr": 788212
+      },
+      "0xc0714": {
+        "name": "g_CLI_prop__map1__oemhp_dircfg1__oemhp_group4_priv",
+        "addr": 788244
+      },
+      "0xc0734": {
+        "name": "g_CLI_prop__map1__oemhp_dircfg1__oemhp_group5_priv",
+        "addr": 788276
+      },
+      "0xc0754": {
+        "name": "g_CLI_prop__map1__oemhp_dircfg1__oemhp_group6_priv",
+        "addr": 788308
+      },
+      "0xc0774": {
+        "name": "g_CLI_prop__map1__oemhp_dircfg1__oemhp_dir_kerberos_enabled",
+        "addr": 788340
+      },
+      "0xc0794": {
+        "name": "g_CLI_prop__map1__oemhp_dircfg1__oemhp_dir_kerberos_kdc_port",
+        "addr": 788372
+      },
+      "0xc07b4": {
+        "name": "g_CLI_prop__map1__oemhp_dircfg1__oemhp_dir_kerberos_kdc_address",
+        "addr": 788404
+      },
+      "0xc07d4": {
+        "name": "g_CLI_prop__map1__oemhp_dircfg1__oemhp_dir_kerberos_realm",
+        "addr": 788436
+      },
+      "0xc07f4": {
+        "name": "g_CLI_prop__map1__oemhp_dircfg1__oemhp_dir_generic_ldap_enabled",
+        "addr": 788468
+      },
+      "0xc0818": {
+        "name": "g_CLI_targetfct__map1__oemhp_ssocfg1",
+        "addr": 788504
+      },
+      "0xc0854": {
+        "name": "g_CLI_propfct__map1__oemhp_ssocfg1__oemhp_ssoserver",
+        "addr": 788564
+      },
+      "0xc0890": {
+        "name": "g_CLI_prop__map1__oemhp_ssocfg1__oemhp_ssotrust",
+        "addr": 788624
+      },
+      "0xc08b0": {
+        "name": "g_CLI_prop__map1__oemhp_ssocfg1__oemhp_ssouser",
+        "addr": 788656
+      },
+      "0xc08d0": {
+        "name": "g_CLI_prop__map1__oemhp_ssocfg1__oemhp_ssooperator",
+        "addr": 788688
+      },
+      "0xc08f0": {
+        "name": "g_CLI_prop__map1__oemhp_ssocfg1__oemhp_ssoadministrator",
+        "addr": 788720
+      },
+      "0xc0910": {
+        "name": "g_CLI_prop__map1__oemhp_ssocfg1__oemhp_ssoserver",
+        "addr": 788752
+      },
+      "0xc0934": {
+        "name": "a_NONE",
+        "addr": 788788,
+        "size": 5,
+        "type": "str",
+        "str_content": "NONE"
+      },
+      "0xc0948": {
+        "name": "a_ESC",
+        "addr": 788808,
+        "size": 4,
+        "type": "str",
+        "str_content": "ESC"
+      },
+      "0xc095c": {
+        "name": "a_L_ALT",
+        "addr": 788828,
+        "size": 6,
+        "type": "str",
+        "str_content": "L_ALT"
+      },
+      "0xc0970": {
+        "name": "a_R_ALT",
+        "addr": 788848,
+        "size": 6,
+        "type": "str",
+        "str_content": "R_ALT"
+      },
+      "0xc0984": {
+        "name": "a_L_SHIFT",
+        "addr": 788868,
+        "size": 8,
+        "type": "str",
+        "str_content": "L_SHIFT"
+      },
+      "0xc108c": {
+        "name": "a_NONE",
+        "addr": 790668,
+        "size": 5,
+        "type": "str",
+        "str_content": "NONE"
+      },
+      "0xc10a0": {
+        "name": "a_ESC",
+        "addr": 790688,
+        "size": 4,
+        "type": "str",
+        "str_content": "ESC"
+      },
+      "0xc10b4": {
+        "name": "a_L_ALT",
+        "addr": 790708,
+        "size": 6,
+        "type": "str",
+        "str_content": "L_ALT"
+      },
+      "0xc2de4": {
+        "name": "a_Backplane_Name",
+        "addr": 798180,
+        "size": 15,
+        "type": "str",
+        "str_content": "Backplane Name"
+      },
+      "0xc2df4": {
+        "name": "a_1_04",
+        "addr": 798196,
+        "size": 5,
+        "type": "str",
+        "str_content": "1.04"
+      },
+      "0xc2e34": {
+        "name": "a_ConAppCLI",
+        "addr": 798260,
+        "size": 10,
+        "type": "str",
+        "str_content": "ConAppCLI"
+      },
+      "0xc2f98": {
+        "name": "a_sunrpc_111_udp_rpcbind_sunrpc_111_tcp_rpcbind_doma",
+        "addr": 798616,
+        "size": 201,
+        "type": "str",
+        "str_content": "sunrpc\t\t111/udp\t\trpcbind\nsunrpc\t\t111/tcp\t\trpcbind\ndomain\t\t53/udp\ndomain\t\t53/tcp\ntftp\t\t69/udp\ntftp\t\t69/tcp\nwww\t\t80/udp\nwww\t\t80/tcp\nnfsd\t\t2049/udp\tnfs\nnfsd\t\t2049/tcp\tnfs\ngii\t\t616/tcp\ngated_mio\t9999/tcp\n"
+      },
+      "0xc3064": {
+        "name": "a_hosts_dns_files",
+        "addr": 798820,
+        "size": 18,
+        "type": "str",
+        "str_content": "hosts: dns files\n"
+      },
+      "0xc3078": {
+        "name": "a_ip_0_IP_icmp_1_ICMP_igmp_2_IGMP_ipencap_4_IP_ENCAP",
+        "addr": 798840,
+        "size": 245,
+        "type": "str",
+        "str_content": "ip\t\t0\tIP\nicmp\t\t1\tICMP\nigmp\t\t2\tIGMP\nipencap\t4\tIP-ENCAP\ntcp\t\t6\tTCP\nudp\t\t17\tUDP\nipv6\t\t41\tIPv6\nipv6-route\t43\tIPv6-Route\nipv6-frag\t44\tIPv6-Frag\ngre\t\t47\tGRE\nesp\t\t50\tESP\nah\t\t51\tAH\nipv6-icmp\t58\tIPv6-ICMP\nipv6-nonxt\t59\tIPv6-NoNxt\nipv6-opts\t60\tIPv6-Opts\n"
+      },
+      "0xc3170": {
+        "name": "a_127_0_0_1_localhost",
+        "addr": 799088,
+        "size": 21,
+        "type": "str",
+        "str_content": "127.0.0.1 localhost\n"
+      },
+      "0xc37a4": {
+        "name": "a_0123456789",
+        "addr": 800676,
+        "size": 11,
+        "type": "str",
+        "str_content": "0123456789"
+      },
+      "0xc398c": {
+        "name": "a_j_vol0",
+        "addr": 801164,
+        "size": 8,
+        "type": "str",
+        "str_content": "j:/vol0"
+      },
+      "0xc39e0": {
+        "name": "g_CLI_sz_current_input_line",
+        "addr": 801248
+      },
+      "0xc3ae0": {
+        "name": "g_CLI_sz_Escape_Sequence",
+        "addr": 801504
+      },
+      "0xc3bec": {
+        "name": "g_szUserName",
+        "addr": 801772
+      },
+      "0xc3c6c": {
+        "name": "g_SerialIODevice",
+        "addr": 801900
+      },
+      "0xc3c7c": {
+        "name": "serialio_act_clock",
+        "addr": 801916
+      },
+      "0xc3c80": {
+        "name": "serialio_act_siod",
+        "addr": 801920
+      },
+      "0xc3c84": {
+        "name": "g_serialio_clock",
+        "addr": 801924
+      },
+      "0xc3d00": {
+        "name": "g_CLI_six_sessions",
+        "addr": 802048
+      },
+      "0xd0f78": {
+        "name": "g_stringtable_messages",
+        "addr": 855928
+      },
+      "0xd8a60": {
+        "name": "g_CLI_dw_len_current_input_line",
+        "addr": 887392
+      },
+      "0xd8a6c": {
+        "name": "g_CLI_dw_Escape_Sequence",
+        "addr": 887404
+      },
+      "0xd8a70": {
+        "name": "g_CLI_bHas_incomming_escape_sequence",
+        "addr": 887408
+      },
+      "0xd8adc": {
+        "name": "g_CLI_Prompt",
+        "addr": 887516
+      },
+      "0xe787c": {
+        "name": "g_bInitialized_stringtable_messages",
+        "addr": 948348
+      }
+    }
+  }
+}

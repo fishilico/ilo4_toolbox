@@ -1,0 +1,2695 @@
+{
+  "elfsect": {
+    "name": ".ConAppCLI.elf.data",
+    "sha256": "705b4eab86d2e94637f0229eb0865b32e26aaff2a04a4ade29d0cc21b5ddf3df",
+    "sha256.text": "a06436256ba8bff2fd88451d7e938bf06296fd4cca5fe1eb8a958b39d3aaea73",
+    "baseaddr": 688128,
+    "size": 258048,
+    "symbols": {
+      "0xa8338": {
+        "name": "a_Displays_the_ILO_firmware_version_Example_show_map",
+        "addr": 688952,
+        "size": 77,
+        "type": "str",
+        "str_content": "\r\nDisplays the #ILO firmware version.\r\nExample: show /map1/firmware1 version"
+      },
+      "0xa8388": {
+        "name": "a_Displays_information_about_the_system_ROM_firmware",
+        "addr": 689032,
+        "size": 62,
+        "type": "str",
+        "str_content": "\r\nDisplays information about the system ROM firmware version."
+      },
+      "0xa83c8": {
+        "name": "a_Displays_the_ILO_firmware_date_Example_show_map1_f",
+        "addr": 689096,
+        "size": 71,
+        "type": "str",
+        "str_content": "\r\nDisplays the #ILO firmware date.\r\nExample: show /map1/firmware1 date"
+      },
+      "0xa8410": {
+        "name": "a_Displays_information_about_the_system_ROM_date_Exa",
+        "addr": 689168,
+        "size": 89,
+        "type": "str",
+        "str_content": "\r\nDisplays information about the system ROM date.\r\nExample: show /system1/firmware1 date"
+      },
+      "0xa846c": {
+        "name": "a_Displays_the_PRODABR_event_log_event_date_Example_",
+        "addr": 689260,
+        "size": 119,
+        "type": "str",
+        "str_content": "\r\nDisplays the #PRODABR event log event date.\r\nExample: show /map1/log1/record<n> date , where n is the record number "
+      },
+      "0xa84e4": {
+        "name": "a_Displays_the_system_event_log_event_date_Example_s",
+        "addr": 689380,
+        "size": 120,
+        "type": "str",
+        "str_content": "\r\nDisplays the system event log event date.\r\nExample: show /system1/log1/record<n> date , where n is the record number "
+      },
+      "0xa855c": {
+        "name": "a_Displays_the_PRODABR_event_log_event_time_Example_",
+        "addr": 689500,
+        "size": 119,
+        "type": "str",
+        "str_content": "\r\nDisplays the #PRODABR event log event time.\r\nExample: show /map1/log1/record<n> time , where n is the record number "
+      },
+      "0xa85d4": {
+        "name": "a_Displays_the_system_event_log_event_time_Example_s",
+        "addr": 689620,
+        "size": 120,
+        "type": "str",
+        "str_content": "\r\nDisplays the system event log event time.\r\nExample: show /system1/log1/record<n> time , where n is the record number "
+      },
+      "0xa864c": {
+        "name": "a_TESTTRAP_Sends_a_test_SNMP_trap_to_the_configured_",
+        "addr": 689740,
+        "size": 74,
+        "type": "str",
+        "str_content": "TESTTRAP : Sends a test SNMP trap to the configured alert destinations.\r\n"
+      },
+      "0xa8698": {
+        "name": "a_help_Used_to_get_context_sensitive_help",
+        "addr": 689816,
+        "size": 48,
+        "type": "str",
+        "str_content": "\r\nhelp    : Used to get context sensitive help."
+      },
+      "0xa86c8": {
+        "name": "a_Displays_or_modifies_PRODABR_NIC_IP_address",
+        "addr": 689864,
+        "size": 48,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR NIC IP address."
+      },
+      "0xa86f8": {
+        "name": "a_Display_PRODABR_NIC_Link_Technology",
+        "addr": 689912,
+        "size": 40,
+        "type": "str",
+        "str_content": "\r\nDisplay #PRODABR NIC Link Technology."
+      },
+      "0xa8720": {
+        "name": "a_Read_only_Should_display_DNS_Server",
+        "addr": 689952,
+        "size": 40,
+        "type": "str",
+        "str_content": "\r\n Read only. Should display DNS Server"
+      },
+      "0xa8748": {
+        "name": "a_Display_DHCP_Server_property",
+        "addr": 689992,
+        "size": 32,
+        "type": "str",
+        "str_content": "\r\nDisplay DHCP Server property."
+      },
+      "0xa8768": {
+        "name": "a_Displays_the_active_Onboard_Administrator_IP_Addre",
+        "addr": 690024,
+        "size": 56,
+        "type": "str",
+        "str_content": "\r\nDisplays the active Onboard Administrator IP Address."
+      },
+      "0xa87a0": {
+        "name": "a_Displays_the_acive_Onboard_Administrator_MAC_Addre",
+        "addr": 690080,
+        "size": 56,
+        "type": "str",
+        "str_content": "\r\nDisplays the acive Onboard Administrator MAC Address."
+      },
+      "0xa87d8": {
+        "name": "a_Displays_or_modifies_the_diagport_IP_address",
+        "addr": 690136,
+        "size": 48,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the diagport IP address."
+      },
+      "0xa8808": {
+        "name": "a_Displays_the_enclosure_serial_number",
+        "addr": 690184,
+        "size": 40,
+        "type": "str",
+        "str_content": "\r\nDisplays the enclosure serial number."
+      },
+      "0xa8830": {
+        "name": "a_Display_Fan_redundancy_info",
+        "addr": 690224,
+        "size": 32,
+        "type": "str",
+        "str_content": "\r\nDisplay Fan redundancy info. "
+      },
+      "0xa8850": {
+        "name": "a_Display_power_status",
+        "addr": 690256,
+        "size": 24,
+        "type": "str",
+        "str_content": "\r\nDisplay power status "
+      },
+      "0xa8868": {
+        "name": "a_Display_the_type_of_sensor_ie_Temperature",
+        "addr": 690280,
+        "size": 48,
+        "type": "str",
+        "str_content": "\r\nDisplay the type of sensor (ie. Temperature) "
+      },
+      "0xa8898": {
+        "name": "a_Display_voltage_sensor_label",
+        "addr": 690328,
+        "size": 32,
+        "type": "str",
+        "str_content": "\r\nDisplay voltage sensor label "
+      },
+      "0xa88b8": {
+        "name": "a_Display_embedded_health_voltage_sensor_info",
+        "addr": 690360,
+        "size": 48,
+        "type": "str",
+        "str_content": "\r\nDisplay embedded health voltage sensor info. "
+      },
+      "0xa88e8": {
+        "name": "a_Displays_pstate_data",
+        "addr": 690408,
+        "size": 24,
+        "type": "str",
+        "str_content": "\r\nDisplays pstate data."
+      },
+      "0xa8900": {
+        "name": "a_Displays_current_pstate_data",
+        "addr": 690432,
+        "size": 32,
+        "type": "str",
+        "str_content": "\r\nDisplays current pstate data."
+      },
+      "0xa8920": {
+        "name": "a_cd_Used_to_set_the_current_default_target",
+        "addr": 690464,
+        "size": 52,
+        "type": "str",
+        "str_content": "\r\ncd      : Used to set the current default target."
+      },
+      "0xa8954": {
+        "name": "a_Displays_or_modifies_the_PRODABR_NIC_WIN_server_ad",
+        "addr": 690516,
+        "size": 60,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the #PRODABR NIC WIN server address."
+      },
+      "0xa8990": {
+        "name": "a_Displays_or_modifies_the_PRODABR_NIC_VLAN_encapsul",
+        "addr": 690576,
+        "size": 60,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the #PRODABR NIC VLAN encapsulation."
+      },
+      "0xa89cc": {
+        "name": "a_Display_PRODABR_NIC_MAC_Address",
+        "addr": 690636,
+        "size": 36,
+        "type": "str",
+        "str_content": "\r\nDisplay #PRODABR NIC MAC Address."
+      },
+      "0xa89f0": {
+        "name": "a_Display_PRODABR_NIC_MAC_Address",
+        "addr": 690672,
+        "size": 36,
+        "type": "str",
+        "str_content": "\r\nDisplay #PRODABR NIC MAC Address."
+      },
+      "0xa8a14": {
+        "name": "a_Displays_or_modifies_LOM_object_password",
+        "addr": 690708,
+        "size": 44,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies LOM object password."
+      },
+      "0xa8a40": {
+        "name": "a_Displays_or_modifies_PRODABR_Kerberos_KDC_server_r",
+        "addr": 690752,
+        "size": 60,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR Kerberos KDC server realm. "
+      },
+      "0xa8a7c": {
+        "name": "a_Display_fan_sensor_Label",
+        "addr": 690812,
+        "size": 28,
+        "type": "str",
+        "str_content": "\r\nDisplay fan sensor Label "
+      },
+      "0xa8a98": {
+        "name": "a_Display_temperature_sensor_label",
+        "addr": 690840,
+        "size": 36,
+        "type": "str",
+        "str_content": "\r\nDisplay temperature sensor label "
+      },
+      "0xa8abc": {
+        "name": "a_Display_the_state_of_the_sensor_s_health",
+        "addr": 690876,
+        "size": 44,
+        "type": "str",
+        "str_content": "\r\nDisplay the state of the sensor's health "
+      },
+      "0xa8ae8": {
+        "name": "a_Display_temperature_caution_level",
+        "addr": 690920,
+        "size": 36,
+        "type": "str",
+        "str_content": "\r\nDisplay temperature caution level"
+      },
+      "0xa8b0c": {
+        "name": "a_Display_embedded_health_fan_sensor_info",
+        "addr": 690956,
+        "size": 44,
+        "type": "str",
+        "str_content": "\r\nDisplay embedded health fan sensor info. "
+      },
+      "0xa8b38": {
+        "name": "a_Display_embedded_health_temperature_sensor_info",
+        "addr": 691000,
+        "size": 52,
+        "type": "str",
+        "str_content": "\r\nDisplay embedded health temperature sensor info. "
+      },
+      "0xa8b6c": {
+        "name": "a_Displays_number_of_total_pstates",
+        "addr": 691052,
+        "size": 36,
+        "type": "str",
+        "str_content": "\r\nDisplays number of total pstates."
+      },
+      "0xa8b90": {
+        "name": "a_Displays_CPU_health_status",
+        "addr": 691088,
+        "size": 30,
+        "type": "str",
+        "str_content": "\r\nDisplays CPU health status."
+      },
+      "0xa8bb0": {
+        "name": "a_Displays_the_name_of_a_firmware_used_by_the_system",
+        "addr": 691120,
+        "size": 54,
+        "type": "str",
+        "str_content": "\r\nDisplays the name of a firmware used by the system."
+      },
+      "0xa8be8": {
+        "name": "a_Displays_a_description_of_the_UEFI_boot_option",
+        "addr": 691176,
+        "size": 50,
+        "type": "str",
+        "str_content": "\r\nDisplays a description of the UEFI boot option."
+      },
+      "0xa8c1c": {
+        "name": "a_Displays_or_modifies_the_PRODABR_NIC_name",
+        "addr": 691228,
+        "size": 46,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the #PRODABR NIC name."
+      },
+      "0xa8c4c": {
+        "name": "a_Display_PRODABR_NIC_Network_IP_Information",
+        "addr": 691276,
+        "size": 46,
+        "type": "str",
+        "str_content": "\r\nDisplay #PRODABR NIC Network IP Information"
+      },
+      "0xa8c7c": {
+        "name": "a_Displays_or_modifies_remote_keyboard_model_setting",
+        "addr": 691324,
+        "size": 54,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies remote keyboard model setting."
+      },
+      "0xa8cb4": {
+        "name": "a_Displays_or_modifies_Insight_Manager_agent_address",
+        "addr": 691380,
+        "size": 58,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies Insight Manager agent address URL."
+      },
+      "0xa8cf0": {
+        "name": "a_Displays_or_modifies_PRODABR_directory_server_addr",
+        "addr": 691440,
+        "size": 58,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR directory server address."
+      },
+      "0xa8d2c": {
+        "name": "a_Displays_or_modifies_LOM_object_distinguished_name",
+        "addr": 691500,
+        "size": 54,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies LOM object distinguished name."
+      },
+      "0xa8d64": {
+        "name": "a_Modifies_PRODABR_Kerberos_Keytab",
+        "addr": 691556,
+        "size": 38,
+        "type": "str",
+        "str_content": "\r\nModifies #PRODABR Kerberos Keytab. "
+      },
+      "0xa8d8c": {
+        "name": "a_Displays_the_rack_name",
+        "addr": 691596,
+        "size": 26,
+        "type": "str",
+        "str_content": "\r\nDisplays the rack name."
+      },
+      "0xa8da8": {
+        "name": "a_Display_Fan_Status",
+        "addr": 691624,
+        "size": 22,
+        "type": "str",
+        "str_content": "\r\nDisplay Fan Status."
+      },
+      "0xa8dc0": {
+        "name": "a_Display_Temperature_status",
+        "addr": 691648,
+        "size": 30,
+        "type": "str",
+        "str_content": "\r\nDisplay Temperature status "
+      },
+      "0xa8de0": {
+        "name": "a_Display_VRM_status",
+        "addr": 691680,
+        "size": 22,
+        "type": "str",
+        "str_content": "\r\nDisplay VRM status "
+      },
+      "0xa8df8": {
+        "name": "a_Display_power_sensor_label",
+        "addr": 691704,
+        "size": 30,
+        "type": "str",
+        "str_content": "\r\nDisplay power sensor label "
+      },
+      "0xa8e18": {
+        "name": "a_Display_embedded_health_power_sensor_info",
+        "addr": 691736,
+        "size": 46,
+        "type": "str",
+        "str_content": "\r\nDisplay embedded health power sensor info. "
+      },
+      "0xa8e48": {
+        "name": "a_Displays_number_of_logical_processors_within_a_CPU",
+        "addr": 691784,
+        "size": 54,
+        "type": "str",
+        "str_content": "\r\nDisplays number of logical processors within a CPU."
+      },
+      "0xa8e80": {
+        "name": "a_Displays_number_of_physical_processors",
+        "addr": 691840,
+        "size": 42,
+        "type": "str",
+        "str_content": "\r\nDisplays number of physical processors."
+      },
+      "0xa8eac": {
+        "name": "a_ADVLIC_license_is_required_to_use_Virtual_Media",
+        "addr": 691884,
+        "size": 55,
+        "type": "str",
+        "str_content": "\r\n#ADVLIC license is required to use Virtual Media\r\n\r\n"
+      },
+      "0xa8ee4": {
+        "name": "a_exit_Used_to_terminate_the_CLP_session",
+        "addr": 691940,
+        "size": 47,
+        "type": "str",
+        "str_content": "\r\nexit    : Used to terminate the CLP session."
+      },
+      "0xa8f14": {
+        "name": "a_Displays_the_system_name_Example_show_system1_name",
+        "addr": 691988,
+        "size": 59,
+        "type": "str",
+        "str_content": "\r\nDisplays the system name. \r\nExample : show /system1 name"
+      },
+      "0xa8f50": {
+        "name": "a_Displays_CPU_name",
+        "addr": 692048,
+        "size": 21,
+        "type": "str",
+        "str_content": "\r\nDisplays CPU name."
+      },
+      "0xa8f68": {
+        "name": "a_View_or_modify_the_Power_Regulator_settings",
+        "addr": 692072,
+        "size": 49,
+        "type": "str",
+        "str_content": "\r\nView or modify the Power Regulator settings.\r\n"
+      },
+      "0xa8f9c": {
+        "name": "a_Displays_or_modifies_PRODABR_NIC_subnet_mask",
+        "addr": 692124,
+        "size": 49,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR NIC subnet mask."
+      },
+      "0xa8fd0": {
+        "name": "a_Displays_or_modifies_PRODABR_NIC_gateway_address",
+        "addr": 692176,
+        "size": 53,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR NIC gateway address."
+      },
+      "0xa9008": {
+        "name": "a_Displays_or_modifies_PRODABR_DNS_server_address",
+        "addr": 692232,
+        "size": 55,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR DNS server address \r\n."
+      },
+      "0xa9040": {
+        "name": "a_Displays_or_modifies_the_PRODABR_NIC_static_route_",
+        "addr": 692288,
+        "size": 59,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the #PRODABR NIC static route mask."
+      },
+      "0xa907c": {
+        "name": "a_Displays_or_modifies_the_PRODABR_NIC_domain_name",
+        "addr": 692348,
+        "size": 53,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the #PRODABR NIC domain name."
+      },
+      "0xa90b4": {
+        "name": "a_Displays_or_modifies_the_PRODABR_NIC_VLAN_tag_ID",
+        "addr": 692404,
+        "size": 53,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the #PRODABR NIC VLAN tag ID."
+      },
+      "0xa90ec": {
+        "name": "a_Display_or_modify_System_Name",
+        "addr": 692460,
+        "size": 33,
+        "type": "str",
+        "str_content": "\r\nDisplay or modify System Name."
+      },
+      "0xa9110": {
+        "name": "a_Display_PRODABR_Network_Information",
+        "addr": 692496,
+        "size": 39,
+        "type": "str",
+        "str_content": "\r\nDisplay #PRODABR Network Information"
+      },
+      "0xa9138": {
+        "name": "a_Read_only_This_property_shall_have_a_value_of_DHCP",
+        "addr": 692536,
+        "size": 57,
+        "type": "str",
+        "str_content": "\r\nRead only.  This property shall have a value of DHCP. "
+      },
+      "0xa9174": {
+        "name": "a_Read_Only_This_property_shall_have_a_value_of_DNS",
+        "addr": 692596,
+        "size": 53,
+        "type": "str",
+        "str_content": "\r\nRead Only This property shall have a value of DNS."
+      },
+      "0xa91ac": {
+        "name": "a_Read_only_Should_display_Default_Gateway",
+        "addr": 692652,
+        "size": 45,
+        "type": "str",
+        "str_content": "\r\n Read only. Should display Default Gateway"
+      },
+      "0xa91dc": {
+        "name": "a_Read_only_Should_display_DHCP_Server",
+        "addr": 692700,
+        "size": 41,
+        "type": "str",
+        "str_content": "\r\n Read only. Should display DHCP Server"
+      },
+      "0xa9208": {
+        "name": "a_Display_if_Domain_Name_is_provided_by_DHCP_Server",
+        "addr": 692744,
+        "size": 53,
+        "type": "str",
+        "str_content": "\r\nDisplay if Domain Name is provided by DHCP Server."
+      },
+      "0xa9240": {
+        "name": "a_Displays_or_modifies_remote_console_mouse_configur",
+        "addr": 692800,
+        "size": 59,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies remote console mouse configuration."
+      },
+      "0xa927c": {
+        "name": "a_Displays_or_modifies_SNMP_alert_destination_addres",
+        "addr": 692860,
+        "size": 55,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies SNMP alert destination address."
+      },
+      "0xa92b4": {
+        "name": "a_Displays_or_modifies_PRODABR_Kerberos_KDC_server_a",
+        "addr": 692916,
+        "size": 61,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR Kerberos KDC server address."
+      },
+      "0xa92f4": {
+        "name": "a_Displays_the_map_firmware_Example_show_map1_firmwa",
+        "addr": 692980,
+        "size": 61,
+        "type": "str",
+        "str_content": "\r\nDisplays the map firmware. \r\nExample: show /map1/firmware1"
+      },
+      "0xa9334": {
+        "name": "a_Displays_or_modifies_the_blade_bay_name",
+        "addr": 693044,
+        "size": 43,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the blade bay name."
+      },
+      "0xa9360": {
+        "name": "a_Displays_the_blade_bay_number",
+        "addr": 693088,
+        "size": 33,
+        "type": "str",
+        "str_content": "\r\nDisplays the blade bay number."
+      },
+      "0xa9384": {
+        "name": "a_Displays_active_Onboard_Administrator_health_statu",
+        "addr": 693124,
+        "size": 55,
+        "type": "str",
+        "str_content": "\r\nDisplays active Onboard Administrator health status."
+      },
+      "0xa93bc": {
+        "name": "a_Displays_or_modifies_the_diagport_subnet_mask",
+        "addr": 693180,
+        "size": 49,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the diagport subnet mask."
+      },
+      "0xa93f0": {
+        "name": "a_Displays_the_rack_serial_number",
+        "addr": 693232,
+        "size": 35,
+        "type": "str",
+        "str_content": "\r\nDisplays the rack serial number."
+      },
+      "0xa9414": {
+        "name": "a_Displays_the_enclosure_name",
+        "addr": 693268,
+        "size": 31,
+        "type": "str",
+        "str_content": "\r\nDisplays the enclosure name."
+      },
+      "0xa9434": {
+        "name": "a_Displays_the_enclosure_type",
+        "addr": 693300,
+        "size": 31,
+        "type": "str",
+        "str_content": "\r\nDisplays the enclosure type."
+      },
+      "0xa9454": {
+        "name": "a_Display_system_embedded_health_info",
+        "addr": 693332,
+        "size": 39,
+        "type": "str",
+        "str_content": "\r\nDisplay system embedded health info."
+      },
+      "0xa947c": {
+        "name": "a_Display_VRM_location",
+        "addr": 693372,
+        "size": 23,
+        "type": "str",
+        "str_content": "\r\nDisplay VRM location"
+      },
+      "0xa9494": {
+        "name": "a_Display_power_redundancy_status",
+        "addr": 693396,
+        "size": 35,
+        "type": "str",
+        "str_content": "\r\nDisplay power redundancy status "
+      },
+      "0xa94b8": {
+        "name": "a_Display_fan_sensor_Location",
+        "addr": 693432,
+        "size": 31,
+        "type": "str",
+        "str_content": "\r\nDisplay fan sensor Location "
+      },
+      "0xa94d8": {
+        "name": "a_Display_fan_sensor_status",
+        "addr": 693464,
+        "size": 29,
+        "type": "str",
+        "str_content": "\r\nDisplay fan sensor status "
+      },
+      "0xa94f8": {
+        "name": "a_Display_fan_speed_info",
+        "addr": 693496,
+        "size": 27,
+        "type": "str",
+        "str_content": "\r\nDisplay fan speed info. "
+      },
+      "0xa9514": {
+        "name": "a_Display_temperature_sensor_location",
+        "addr": 693524,
+        "size": 39,
+        "type": "str",
+        "str_content": "\r\nDisplay temperature sensor location "
+      },
+      "0xa953c": {
+        "name": "a_Display_temperature_sensor_status",
+        "addr": 693564,
+        "size": 37,
+        "type": "str",
+        "str_content": "\r\nDisplay temperature sensor status "
+      },
+      "0xa9564": {
+        "name": "a_Display_the_unit_of_the_measurement_ie_Celsius",
+        "addr": 693604,
+        "size": 53,
+        "type": "str",
+        "str_content": "\r\nDisplay the unit of the measurement (ie. Celsius) "
+      },
+      "0xa959c": {
+        "name": "a_Display_the_current_reading_from_the_sensor",
+        "addr": 693660,
+        "size": 47,
+        "type": "str",
+        "str_content": "\r\nDisplay the current reading from the sensor "
+      },
+      "0xa95cc": {
+        "name": "a_Display_temperature_in_celsius_degree",
+        "addr": 693708,
+        "size": 41,
+        "type": "str",
+        "str_content": "\r\nDisplay temperature in celsius degree "
+      },
+      "0xa95f8": {
+        "name": "a_Display_temperature_critical_level",
+        "addr": 693752,
+        "size": 37,
+        "type": "str",
+        "str_content": "\r\nDisplay temperature critical level"
+      },
+      "0xa9620": {
+        "name": "a_Display_voltage_sensor_status",
+        "addr": 693792,
+        "size": 33,
+        "type": "str",
+        "str_content": "\r\nDisplay voltage sensor status "
+      },
+      "0xa9644": {
+        "name": "a_Display_the_condition_of_the_power_supply",
+        "addr": 693828,
+        "size": 45,
+        "type": "str",
+        "str_content": "\r\nDisplay the condition of the power supply "
+      },
+      "0xa9674": {
+        "name": "a_Display_the_error_state_of_the_power_supply",
+        "addr": 693876,
+        "size": 47,
+        "type": "str",
+        "str_content": "\r\nDisplay the error state of the power supply "
+      },
+      "0xa96a4": {
+        "name": "a_Displays_power_regulator_property",
+        "addr": 693924,
+        "size": 37,
+        "type": "str",
+        "str_content": "\r\nDisplays power regulator property."
+      },
+      "0xa96cc": {
+        "name": "a_Displays_number_of_active_logical_processors_withi",
+        "addr": 693964,
+        "size": 61,
+        "type": "str",
+        "str_content": "\r\nDisplays number of active logical processors within a CPU."
+      },
+      "0xa970c": {
+        "name": "a_Displays_number_of_logical_threads_within_a_CPU",
+        "addr": 694028,
+        "size": 51,
+        "type": "str",
+        "str_content": "\r\nDisplays number of logical threads within a CPU."
+      },
+      "0xa9740": {
+        "name": "a_Displays_average_pstate0_data",
+        "addr": 694080,
+        "size": 33,
+        "type": "str",
+        "str_content": "\r\nDisplays average pstate0 data."
+      },
+      "0xa9764": {
+        "name": "a_Displays_average_pstate1_data",
+        "addr": 694116,
+        "size": 33,
+        "type": "str",
+        "str_content": "\r\nDisplays average pstate1 data."
+      },
+      "0xa9788": {
+        "name": "a_Displays_average_pstate2_data",
+        "addr": 694152,
+        "size": 33,
+        "type": "str",
+        "str_content": "\r\nDisplays average pstate2 data."
+      },
+      "0xa97ac": {
+        "name": "a_Displays_average_pstate3_data",
+        "addr": 694188,
+        "size": 33,
+        "type": "str",
+        "str_content": "\r\nDisplays average pstate3 data."
+      },
+      "0xa97d0": {
+        "name": "a_Displays_average_pstate4_data",
+        "addr": 694224,
+        "size": 33,
+        "type": "str",
+        "str_content": "\r\nDisplays average pstate4 data."
+      },
+      "0xa97f4": {
+        "name": "a_Displays_average_pstate5_data",
+        "addr": 694260,
+        "size": 33,
+        "type": "str",
+        "str_content": "\r\nDisplays average pstate5 data."
+      },
+      "0xa9818": {
+        "name": "a_Displays_average_pstate6_data",
+        "addr": 694296,
+        "size": 33,
+        "type": "str",
+        "str_content": "\r\nDisplays average pstate6 data."
+      },
+      "0xa983c": {
+        "name": "a_Displays_average_pstate7_data",
+        "addr": 694332,
+        "size": 33,
+        "type": "str",
+        "str_content": "\r\nDisplays average pstate7 data."
+      },
+      "0xa9860": {
+        "name": "a_Settings_change_applied_PRODABR_will_now_be_reset_",
+        "addr": 694368,
+        "size": 146,
+        "type": "str",
+        "str_content": "Settings change applied, #PRODABR will now be reset.\r\nLogged Out: It may take several minutes before you can log back in.\r\n\nCLI session stopped\r\n"
+      },
+      "0xa98f4": {
+        "name": "a_There_are_pending_changes_deferred_until_PRODABR_i",
+        "addr": 694516,
+        "size": 141,
+        "type": "str",
+        "str_content": "There are pending changes deferred until #PRODABR is reset.\r\nTo reset, run 'reset /map1' or logout after all desired changes are applied.\r\n\n"
+      },
+      "0xa9984": {
+        "name": "a_ADVLIC_license_including_Console_Record_and_Replay",
+        "addr": 694660,
+        "size": 107,
+        "type": "str",
+        "str_content": "\r\n#ADVLIC license including Console Record and Replay support is required to send the prefailure video.\r\n\n"
+      },
+      "0xa99f0": {
+        "name": "a_oemhp_loadSSHKey_Used_to_authorize_a_SSH_Key_File_",
+        "addr": 694768,
+        "size": 714,
+        "type": "str",
+        "str_content": "oemhp_loadSSHKey    : Used to authorize a SSH Key File from an URL.\r\nExample : oemhp_loadSSHKey /map1/config1/ -source http://user:pwd@192.168.1.1/SSHkey1.pub\r\n          oemhp_loadSSHKey /map1/accounts1/<lname> -source http://user:pwd@192.168.1.1/SSHkey1.pub\r\n          where <lname> is the name of the user that an SSH key is to be loaded.\r\n          The SSHkeyhash of a given user is located in the directory /map1/accounts/<lname>.\r\n Usage: protocol://username:password@hostname:port/filename\r\n  The protocol field is mandatory and must be either HTTP or HTTPS.\r\n  The username:password field is optional.\r\n  The hostname field is mandatory.\r\n  The port field is optional.\r\n  The filename field is mandatory.\r\n"
+      },
+      "0xa9cbc": {
+        "name": "a_POWER_The_power_command_is_used_to_change_the_powe",
+        "addr": 695484,
+        "size": 392,
+        "type": "str",
+        "str_content": "POWER  : The power command is used to change the power state of the server\r\n and is limited to users with the Power and Reset privilege\r\nUsage:\r\n  power          -- Displays the current server power state\r\n  power on       -- Turns the server on\r\n  power off      -- Turns the server off\r\n  power off hard -- Force the server off using press and hold\r\n  power reset    -- Reset the server\r\n\n"
+      },
+      "0xa9e44": {
+        "name": "a_UID_View_or_alter_the_unit_identifier_state_Usage_",
+        "addr": 695876,
+        "size": 190,
+        "type": "str",
+        "str_content": "UID    : View or alter the unit identifier state.\r\nUsage:\r\n  uid     -- Display the current server UID state.\r\n  uid on  -- Activate the UID light.\r\n  uid off -- Deactivate the UID light.\r\n"
+      },
+      "0xa9f04": {
+        "name": "a_ONETIMEBOOT_View_or_alter_the_server_One_Time_Boot",
+        "addr": 696068,
+        "size": 497,
+        "type": "str",
+        "str_content": "ONETIMEBOOT: View or alter the server One-Time Boot setting.\r\nThe supported settings are a subset of settings found in other interfaces.\r\nUsage:\r\n  onetimeboot                -- Display the current state.\r\n  onetimeboot usb            -- Set to USB.\r\n  onetimeboot ip             -- Set to Intelligent Provisioning.\r\n  onetimeboot smartstartLX   -- Set to IP Smart Start Linux PE.\r\n  onetimeboot netdev1        -- Set to Network Device 1.\r\n  onetimeboot none           -- Disable One-Time Boot.\r\n"
+      },
+      "0xaa0f8": {
+        "name": "a_VM_Virtual_media_commands_Usage_vm_device_insert_p",
+        "addr": 696568,
+        "size": 907,
+        "type": "str",
+        "str_content": "VM     : Virtual media commands.\r\nUsage:\r\n  vm <device> insert <path> -- Inserts an image\r\nCLP COMMAND: set /map1/oemhp_vm1/<device> oemhp_image=<path>\r\n  vm <device> eject -- Ejects an image\r\nCLP COMMAND: set /map1/oemhp_vm1/<device> oemhp_image=none\r\n  vm device get -- Gets the status of the virtual media\r\nCLP COMMAND: show /map1/oemhp_vm1/<device>\r\n  vm <device> set <options> -- Sets the status of the virtual media\r\nCLP COMMAND: set /map1/oemhp_vm1/<device> <property=value>\r\nCommand Options:\r\n  Device is floppy or cdrom\r\n  CLP device is floppydr or cddr\r\n  Path is the url to the media image\r\n  Access option is write_protect or write_allow\r\n   (cannot be set for CD devices)\r\n  Boot options are connect, disconnect, as well as\r\n   boot_always, boot_once, or no_boot (these 3 cannot be set for\r\n   floppy devices on UEFI-capable systems)\r\n  CLP properties are oemhp_connect, oemhp_boot, oemhp_wp\r\n"
+      },
+      "0xaa484": {
+        "name": "a_show_Used_to_show_values_of_a_property_or_contents",
+        "addr": 697476,
+        "size": 82,
+        "type": "str",
+        "str_content": "\r\nshow    : Used to show values of a property or contents of a collection target."
+      },
+      "0xaa4d8": {
+        "name": "a_create_Used_to_create_new_instances_in_the_name_sp",
+        "addr": 697560,
+        "size": 306,
+        "type": "str",
+        "str_content": "\r\ncreate  : Used to create new instances in the name space of the MAP. \r\n Example: create /map1/accounts1 username=<lname1> password=<pwd12345> name= \r\n          <dname1> group=<admin,config,oemhp_vm,oemhp_rc,oemhp_power> \r\n Note: usernames longer than 16 characters will not meet IPMI 2.0 Specifications."
+      },
+      "0xaa60c": {
+        "name": "a_delete_Used_to_destroy_instances_in_the_name_space",
+        "addr": 697868,
+        "size": 116,
+        "type": "str",
+        "str_content": "\r\ndelete  : Used to destroy instances in the name space of the MAP. \r\n Example: delete /map1/accounts1/<lname1> \r\n "
+      },
+      "0xaa680": {
+        "name": "a_load_Used_to_move_a_binary_image_from_an_URL_to_th",
+        "addr": 697984,
+        "size": 203,
+        "type": "str",
+        "str_content": "\r\nload    : Used to move a binary image from an URL to the MAP.  This command can \r\nonly be called from the /map1/firmware1 directory. \r\nExample : load -source http://192.168.1.1/images/fw/#ILO4_100.bin"
+      },
+      "0xaa74c": {
+        "name": "a_reset_Used_to_cause_a_target_to_cycle_from_enabled",
+        "addr": 698188,
+        "size": 98,
+        "type": "str",
+        "str_content": "\r\nreset   : Used to cause a target to cycle from enabled to disabled and back to \r\n      enabled."
+      },
+      "0xaa7b0": {
+        "name": "a_set_Used_to_set_a_property_or_set_of_properties_to",
+        "addr": 698288,
+        "size": 77,
+        "type": "str",
+        "str_content": "\r\nset     : Used to set a property or set of properties to a specific value."
+      },
+      "0xaa800": {
+        "name": "a_start_Used_to_cause_a_target_to_change_state_to_a_",
+        "addr": 698368,
+        "size": 74,
+        "type": "str",
+        "str_content": "\r\nstart   : Used to cause a target to change state to a higher run level."
+      },
+      "0xaa84c": {
+        "name": "a_stop_Used_to_cause_a_target_to_change_state_to_a_l",
+        "addr": 698444,
+        "size": 73,
+        "type": "str",
+        "str_content": "\r\nstop    : Used to cause a target to change state to a lower run level."
+      },
+      "0xaa898": {
+        "name": "a_version_Used_to_query_the_version_of_the_CLP_imple",
+        "addr": 698520,
+        "size": 99,
+        "type": "str",
+        "str_content": "\r\nversion : Used to query the version of the CLP implementation or other CLP \r\n          elements."
+      },
+      "0xaa8fc": {
+        "name": "a_oemhp_ping_Used_to_determine_if_an_IP_address_is_r",
+        "addr": 698620,
+        "size": 122,
+        "type": "str",
+        "str_content": "\r\noemhp_ping    : Used to determine if an IP address is reachable from this #PRODABR.\r\nExample : oemhp_ping 192.168.1.1\r\n"
+      },
+      "0xaa978": {
+        "name": "a_oemhp_loadSSHKey_Used_to_authorize_a_SSH_Key_File_",
+        "addr": 698744,
+        "size": 167,
+        "type": "str",
+        "str_content": "\r\noemhp_loadSSHKey    : Used to authorize a SSH Key File from a URL.\r\nExample : oemhp_loadSSHKey /map1/config1 -source http://user:pwd@192.168.1.1/images/SSHkey1.pub\n"
+      },
+      "0xaaa20": {
+        "name": "a_Displays_the_serial_number_logical_for_the_system_",
+        "addr": 698912,
+        "size": 90,
+        "type": "str",
+        "str_content": "\r\nDisplays the serial number (logical) for the system.\r\nExample : show /system1 oemhp_vsn"
+      },
+      "0xaaa7c": {
+        "name": "a_Displays_the_system_serial_number_Example_show_sys",
+        "addr": 699004,
+        "size": 69,
+        "type": "str",
+        "str_content": "\r\nDisplays the system serial number.\r\nExample : show /system1 number"
+      },
+      "0xaaac4": {
+        "name": "a_Displays_information_about_the_system_and_alters_s",
+        "addr": 699076,
+        "size": 240,
+        "type": "str",
+        "str_content": "\r\nDisplays information about the system and alters system state.\r\nExamples: show /system1 \r\n          start /system1 - turns on system power \r\n          stop /system1  - turns off system power \r\n          reset /system1 - resets the system"
+      },
+      "0xaabb4": {
+        "name": "a_Displays_information_about_the_system_power_state_",
+        "addr": 699316,
+        "size": 90,
+        "type": "str",
+        "str_content": "\r\nDisplays information about the system power state.\r\nExample: show /system1 enabledstate"
+      },
+      "0xaac10": {
+        "name": "a_Displays_and_modifies_the_Power_Regulator_for_Prol",
+        "addr": 699408,
+        "size": 343,
+        "type": "str",
+        "str_content": "\r\nDisplays and modifies the Power Regulator for Proliant state. Valid values \r\nare dynamic, max, min, or os. Note: For OS Control Mode, you must reboot the\r\nserver to invoke changes of Power Regulator settings.\r\nExamples: show /system1/oemhp_power1  oemhp_powerreg   \r\n          set /system1/oemhp_power1   oemhp_powerreg=<dynamic|max|min|os>"
+      },
+      "0xaad68": {
+        "name": "a_Display_and_modify_the_server_name_string_used_by_",
+        "addr": 699752,
+        "size": 263,
+        "type": "str",
+        "str_content": "\r\nDisplay and modify the server name string used by #PRODABR and RBSU to identify\r\nthis host.  This field can also be set via host RBSU, and if Management Agents load.\r\nExamples: show /system1 oemhp_server_name\r\n          set  /system1 oemhp_server_name=MxServ05"
+      },
+      "0xaae70": {
+        "name": "a_Display_and_modify_the_server_fully_qualified_doma",
+        "addr": 700016,
+        "size": 382,
+        "type": "str",
+        "str_content": "\r\nDisplay and modify the server fully qualified domain name (FQDN) or IP Address\r\nused by #PRODABR to identify this host. This field can also be set when the\r\n#VENDABR Management Agents are loaded. The CLI accepts a maximum input of\r\n232 characters for the FQDN or IP Address.\r\nExamples: show /system1 oemhp_server_fqdn\r\n          set  /system1 oemhp_server_fqdn=myhost.example.com"
+      },
+      "0xaaff0": {
+        "name": "a_Display_and_modify_the_SMH_fully_qualified_domain_",
+        "addr": 700400,
+        "size": 415,
+        "type": "str",
+        "str_content": "\r\nDisplay and modify the SMH fully qualified domain name (FQDN) or IP Address\r\nused by #PRODABR to identify the system management homepage host. This\r\nfield can also be set when the #VENDABR Management Agents are loaded.\r\nThe CLI accepts a maximum input of 235 characters for the FQDN or IP Address.\r\nExamples: show /system1 oemhp_smh_fqdn\r\n          set  /system1 oemhp_smh_fqdn=system_management_host.example.com"
+      },
+      "0xab190": {
+        "name": "a_Displays_information_if_a_remote_console_session_i",
+        "addr": 700816,
+        "size": 230,
+        "type": "str",
+        "str_content": "\r\nDisplays information if a remote console session is active.\r\n'enabled' means that a remote console session is open while 'disabled' means  \r\nthat no remote console session is open. \r\nExample: show /system1/console1 enabledstate"
+      },
+      "0xab278": {
+        "name": "a_Displays_information_if_a_virtual_serial_port_sess",
+        "addr": 701048,
+        "size": 214,
+        "type": "str",
+        "str_content": "\r\nDisplays information if a virtual serial port session is active.\r\n'enabled' means that a vsp session is open while 'disabled' means that no \r\nvsp session is open. \r\nExample: show /system1/oemhp_vsp1 enabledstate"
+      },
+      "0xab350": {
+        "name": "a_Displays_and_modifies_the_power_cap_setting_for_th",
+        "addr": 701264,
+        "size": 554,
+        "type": "str",
+        "str_content": "\r\nDisplays and modifies the power cap setting for the server. A power cap\r\nwattage of zero indicates that power capping is disabled.\r\nExamples:\r\n    show /system1/oemhp_power1 oemhp_pwrcap - displays the current power capping level\r\n    set /system1/oemhp_power1  oemhp_pwrcap=<n> where n is an integer cap value in watts\r\n       <n> must be greater than or equal to oemhp_serverminpower\r\n       <n> must be less than or equal to oemhp_powersupplycapacity\r\n    set /system1/oemhp_power1  oemhp_pwrcap=0 - setting power cap to zero disables power capping"
+      },
+      "0xab57c": {
+        "name": "a_Displays_and_modifies_the_power_mode_setting_for_t",
+        "addr": 701820,
+        "size": 457,
+        "type": "str",
+        "str_content": "\r\nDisplays and modifies the power mode setting for the server.\r\nModes:  \r\n  0 - No Capping  \r\n  1 - Max Performance with Redundancy  \r\n  2 - Max Redundancy  \r\n  3 - User Selectable Advanced Power Capping  \r\n       Note - For mode 3 a capping value for the enclosure must be provided using set oemhp_pwrcap  \r\nExamples: show /system1/oemhp_power1  oemhp_pwrmode   \r\n          set /system1/oemhp_power1  oemhp_pwrmode=<n> where n is an integer value from 0-3"
+      },
+      "0xab748": {
+        "name": "a_PRODABR_samples_the_power_meter_every_five_minutes",
+        "addr": 702280,
+        "size": 800,
+        "type": "str",
+        "str_content": "\r\n #PRODABR samples the power meter every five minutes and records both the average   \r\n power and the peak power consumed since the last sample was obtained.   \r\n   \r\n oemhp_PresentPower        - Displays the average power reading from the last sample.  \r\n oemhp_AvgPower            - Displays the average power reading from the past 24 hours.  \r\n oemhp_MaxPower            - Displays the greatest peak power reading from the past 24 hours.  \r\n oemhp_MinPower            - Displays the minimum average power reading from the past 24 hours.  \r\n oemhp_powersupplycapacity - Displays the power supply's total capacity in watts.  \r\n oemhp_servermaxpower      - Displays the server's maximum power capacity in watts.  \r\n oemhp_serverminpower      - Displays the server's minimum power capacity in watts."
+      },
+      "0xaba68": {
+        "name": "a_PRODABR_samples_the_power_meter_every_five_minutes",
+        "addr": 703080,
+        "size": 312,
+        "type": "str",
+        "str_content": "\r\n #PRODABR samples the power meter every five minutes and records both the average   \r\n power and the peak power consumed since the last sample was obtained. Peak power  \r\n is specific to SL servers which do not have power capping.  \r\n   \r\n oemhp_peakmeasuredpower   - Displays the peak measured power reading."
+      },
+      "0xabba0": {
+        "name": "a_Displays_and_modifies_the_warning_type_Valid_value",
+        "addr": 703392,
+        "size": 366,
+        "type": "str",
+        "str_content": "\r\nDisplays and modifies the warning type.\r\n     Valid values are :\r\n     1 - Disable warnings\r\n     2 or average - Warnings based on average power consumption\r\n     3 or peak    - Warnings based on peak power consumption\r\nExamples: show /system1/oemhp_power1 warning_type   \r\n          set /system1/oemhp_power1  warning_type=<n> where n is one of the above options"
+      },
+      "0xabd10": {
+        "name": "a_Displays_and_modifies_the_warning_threshold_for_po",
+        "addr": 703760,
+        "size": 345,
+        "type": "str",
+        "str_content": "\r\nDisplays and modifies the warning threshold for power consumption.\r\nExamples: show /system1/oemhp_power1 warning_threshold  \r\n          set /system1/oemhp_power1 warning_threshold=<n> where n is the threshold in watts.\r\nThe valid range of values for warning_threshold is between oemhp_serverminpower and \r\n          oemhp_powersupplycapacity."
+      },
+      "0xabe6c": {
+        "name": "a_Displays_and_modifies_the_length_of_time_in_minute",
+        "addr": 704108,
+        "size": 471,
+        "type": "str",
+        "str_content": "\r\nDisplays and modifies the length of time in minutes that power consumption must remain\r\nabove the warning threshold before a SNMP alert is triggered.\r\nExample:   \r\nshow /system1/oemhp_power1 warning_duration  \r\nset /system1/oemhp_power1  warning_duration=<n> where n is the time limit in minutes.\r\nThe valid range of values for warning_duration is between 1 and 240. If the value provided\r\nis not a multiple of 5, it will be rounded up to the nearest multiple of 5. \r\n"
+      },
+      "0xac044": {
+        "name": "a_Displays_the_firmware_version_number_for_the_power",
+        "addr": 704580,
+        "size": 131,
+        "type": "str",
+        "str_content": "\r\nDisplays the firmware version number for the power microcontroller. \r\nExample : show /system1/oemhp_power1 oemhp_power_micro_ver"
+      },
+      "0xac0c8": {
+        "name": "a_Displays_and_modifies_Server_Automatic_Power_On_se",
+        "addr": 704712,
+        "size": 581,
+        "type": "str",
+        "str_content": "\r\nDisplays and modifies Server Automatic Power On setting. \r\nExample : show /system1/oemhp_power1 oemhp_auto_pwr \r\n          set /system1/oemhp_power1 oemhp_auto_pwr=on \r\n          Valid values are : \r\n                 ON  - turns on automatic power on with minimum delay \r\n                 15,30,45,60,random - automatic power on with a timed delay starting when #ILO\r\n                     finishes booting.  Random is a delay up to 120 seconds.\r\n                 RESTORE - restore the last power state (except on BL servers)\r\n                 OFF - turns off automatic power on."
+      },
+      "0xac310": {
+        "name": "a_cpu_Displays_information_about_the_system_processo",
+        "addr": 705296,
+        "size": 115,
+        "type": "str",
+        "str_content": "\r\ncpu : Displays information about the system processor.\r\nExample: show /system1/cpu<n>, where n is the cpu number"
+      },
+      "0xac384": {
+        "name": "a_Displays_information_about_the_system_processor_sp",
+        "addr": 705412,
+        "size": 121,
+        "type": "str",
+        "str_content": "\r\nDisplays information about the system processor speed.\r\nExample: show /system1/cpu<n> speed, where n is the cpu number"
+      },
+      "0xac400": {
+        "name": "a_Displays_information_about_the_system_processor_me",
+        "addr": 705536,
+        "size": 145,
+        "type": "str",
+        "str_content": "\r\nDisplays information about the system processor memory technology.\r\nExample: show /system1/cpu<n> memory_technology, where n is the cpu number"
+      },
+      "0xac494": {
+        "name": "a_Displays_information_about_the_system_processor_le",
+        "addr": 705684,
+        "size": 136,
+        "type": "str",
+        "str_content": "\r\nDisplays information about the system processor level 1 cache.\r\nExample: show /system1/cpu<n> cachememory1, where n is the cpu number"
+      },
+      "0xac51c": {
+        "name": "a_Displays_information_about_the_system_processor_le",
+        "addr": 705820,
+        "size": 136,
+        "type": "str",
+        "str_content": "\r\nDisplays information about the system processor level 2 cache.\r\nExample: show /system1/cpu<n> cachememory2, where n is the cpu number"
+      },
+      "0xac5a4": {
+        "name": "a_Displays_information_about_the_system_processor_le",
+        "addr": 705956,
+        "size": 136,
+        "type": "str",
+        "str_content": "\r\nDisplays information about the system processor level 3 cache.\r\nExample: show /system1/cpu<n> cachememory3, where n is the cpu number"
+      },
+      "0xac62c": {
+        "name": "a_memory_Displays_information_about_the_system_memor",
+        "addr": 706092,
+        "size": 134,
+        "type": "str",
+        "str_content": "\r\nmemory  : Displays information about the system memory.\r\nExample: show /system1/memory<n>, where n is the number of the memory slot"
+      },
+      "0xac6b4": {
+        "name": "a_Displays_information_about_the_system_memory_capac",
+        "addr": 706228,
+        "size": 138,
+        "type": "str",
+        "str_content": "\r\nDisplays information about the system memory capacity.\r\nExample: show /system1/memory<n> size, where n is the number of the memory slot"
+      },
+      "0xac740": {
+        "name": "a_Displays_information_about_the_system_memory_frequ",
+        "addr": 706368,
+        "size": 144,
+        "type": "str",
+        "str_content": "\r\nDisplays information about the system memory frequency.\r\nExample: show /system1/memory<n> frequency, where n is the number of the memory slot"
+      },
+      "0xac7d0": {
+        "name": "a_Displays_information_about_the_system_memory_locat",
+        "addr": 706512,
+        "size": 142,
+        "type": "str",
+        "str_content": "\r\nDisplays information about the system memory location.\r\nExample: show /system1/memory<n> location, where n is the number of the memory slot"
+      },
+      "0xac860": {
+        "name": "a_Displays_information_about_the_System_ROM_firmware",
+        "addr": 706656,
+        "size": 221,
+        "type": "str",
+        "str_content": "\r\nDisplays information about the System ROM firmware installed on the system.\r\nWhen flashing non-#ILO firmware, the system may need to be manually reset for the\r\n  changes to be applied.\r\nExample: show /system1/firmware1"
+      },
+      "0xac940": {
+        "name": "a_Displays_information_about_the_firmware_entities_i",
+        "addr": 706880,
+        "size": 215,
+        "type": "str",
+        "str_content": "\r\nDisplays information about the firmware entities installed on the system.\r\nWhen flashing non-#ILO firmware, the system may need to be manually reset for the\r\n  changes to be applied.\r\nExample: show /system1/swid1"
+      },
+      "0xaca18": {
+        "name": "a_Displays_the_version_information_of_a_firmware_use",
+        "addr": 707096,
+        "size": 69,
+        "type": "str",
+        "str_content": "\r\nDisplays the version information of a firmware used by the system."
+      },
+      "0xaca60": {
+        "name": "a_slot_Displays_information_about_the_system_slots_E",
+        "addr": 707168,
+        "size": 115,
+        "type": "str",
+        "str_content": "\r\nslot  : Displays information about the system slots.\r\nExample: show /system1/slot<n>, where n is the slot number"
+      },
+      "0xacad4": {
+        "name": "a_Displays_information_about_the_system_slot_type_Ex",
+        "addr": 707284,
+        "size": 116,
+        "type": "str",
+        "str_content": "\r\nDisplays information about the system slot type.\r\nExample: show /system1/slot<n> type, where n is the slot number"
+      },
+      "0xacb48": {
+        "name": "a_Displays_information_about_the_system_slot_width_E",
+        "addr": 707400,
+        "size": 118,
+        "type": "str",
+        "str_content": "\r\nDisplays information about the system slot width.\r\nExample: show /system1/slot<n> width, where n is the slot number"
+      },
+      "0xacbc0": {
+        "name": "a_Displays_name_of_the_system_slot_Example_show_syst",
+        "addr": 707520,
+        "size": 101,
+        "type": "str",
+        "str_content": "\r\nDisplays name of the system slot.\r\nExample: show /system1/slot<n> name, where n is the slot number"
+      },
+      "0xacc28": {
+        "name": "a_Displays_and_changes_the_system_led_state_Examples",
+        "addr": 707624,
+        "size": 190,
+        "type": "str",
+        "str_content": "\r\nDisplays and changes the system led state.\r\nExamples: show /system1/led1 \r\n          start /system1/led1 - turns on Unit ID light \r\n          stop /system1/led1  - turns off Unit ID light"
+      },
+      "0xacce8": {
+        "name": "a_Displays_the_system_led_state_Example_show_system1",
+        "addr": 707816,
+        "size": 75,
+        "type": "str",
+        "str_content": "\r\nDisplays the system led state.\r\nExample: show /system1/led1 enabledstate"
+      },
+      "0xacd34": {
+        "name": "a_Starts_the_text_based_remote_console_session_Examp",
+        "addr": 707892,
+        "size": 83,
+        "type": "str",
+        "str_content": "\r\nStarts the text based remote console session.\r\nExample: start /system1/console1 "
+      },
+      "0xacd88": {
+        "name": "a_Start_or_stop_the_virtual_serial_port_session_Exam",
+        "addr": 707976,
+        "size": 122,
+        "type": "str",
+        "str_content": "\r\nStart or stop the virtual serial port session.\r\nExample: start /system1/oemhp_vsp1\r\n         stop  /system1/oemhp_vsp1 "
+      },
+      "0xace04": {
+        "name": "a_Displays_and_deletes_the_system_event_log_Integrat",
+        "addr": 708100,
+        "size": 168,
+        "type": "str",
+        "str_content": "\r\nDisplays and deletes the system event log (Integrated Management Log).\r\nExamples: show /system1/log1 \r\n          delete /system1/log1 - deletes the system event log "
+      },
+      "0xaceac": {
+        "name": "a_Displays_the_system_event_log_record_Example_show_",
+        "addr": 708268,
+        "size": 111,
+        "type": "str",
+        "str_content": "\r\nDisplays the system event log record.\r\nExample: show /system1/log1/record<n> , where n is the record number "
+      },
+      "0xacf1c": {
+        "name": "a_Displays_the_system_event_log_event_number_Example",
+        "addr": 708380,
+        "size": 124,
+        "type": "str",
+        "str_content": "\r\nDisplays the system event log event number.\r\nExample: show /system1/log1/record<n> number , where n is the record number "
+      },
+      "0xacf98": {
+        "name": "a_Displays_the_system_event_log_event_severity_Examp",
+        "addr": 708504,
+        "size": 128,
+        "type": "str",
+        "str_content": "\r\nDisplays the system event log event severity.\r\nExample: show /system1/log1/record<n> severity , where n is the record number "
+      },
+      "0xad018": {
+        "name": "a_Displays_the_system_event_log_event_description_Ex",
+        "addr": 708632,
+        "size": 134,
+        "type": "str",
+        "str_content": "\r\nDisplays the system event log event description.\r\nExample: show /system1/log1/record<n> description , where n is the record number "
+      },
+      "0xad0a0": {
+        "name": "a_Displays_and_deletes_the_PRODABR_event_log_Example",
+        "addr": 708768,
+        "size": 138,
+        "type": "str",
+        "str_content": "\r\nDisplays and deletes the #PRODABR event log.\r\nExamples: show /map1/log1 \r\n          delete /map1/log1 - deletes the #PRODABR event log "
+      },
+      "0xad12c": {
+        "name": "a_Displays_the_PRODABR_event_log_record_Example_show",
+        "addr": 708908,
+        "size": 110,
+        "type": "str",
+        "str_content": "\r\nDisplays the #PRODABR event log record.\r\nExample: show /map1/log1/record<n> , where n is the record number "
+      },
+      "0xad19c": {
+        "name": "a_Displays_the_PRODABR_event_log_event_number_Exampl",
+        "addr": 709020,
+        "size": 123,
+        "type": "str",
+        "str_content": "\r\nDisplays the #PRODABR event log event number.\r\nExample: show /map1/log1/record<n> number , where n is the record number "
+      },
+      "0xad218": {
+        "name": "a_Displays_the_PRODABR_event_log_event_severity_Exam",
+        "addr": 709144,
+        "size": 127,
+        "type": "str",
+        "str_content": "\r\nDisplays the #PRODABR event log event severity.\r\nExample: show /map1/log1/record<n> severity , where n is the record number "
+      },
+      "0xad298": {
+        "name": "a_Displays_the_PRODABR_event_log_event_description_E",
+        "addr": 709272,
+        "size": 133,
+        "type": "str",
+        "str_content": "\r\nDisplays the #PRODABR event log event description.\r\nExample: show /map1/log1/record<n> description , where n is the record number "
+      },
+      "0xad320": {
+        "name": "a_Displays_the_system_boot_configuration_information",
+        "addr": 709408,
+        "size": 1064,
+        "type": "str",
+        "str_content": "\r\nDisplays the system boot configuration information.\r\nExample: show /system1/bootconfig1 \r\n\r\nPossible boot sources for the system. The values for servers\r\nnot supporting booting from the Network:\r\nBootFmCd     : bootsource1\r\nBootFmFloppy : bootsource2\r\nBootFmDrive  : bootsource3\r\nBootFmUSBKey : bootsource4\r\n\r\nFor systems with booting from the Network: \r\nBootFmCd     : bootsource1\r\nBootFmFloppy : bootsource2\r\nBootFmDrive  : bootsource3\r\nBootFmUSBKey : bootsource4\r\nBootFmNetwork: bootsource5\r\n\r\nOn UEFI-capable systems in legacy boot mode, the BootFmFloppy option is\r\nno longer available, so BootFmDrive is now bootsource2, BootFmUSBKey \r\nis bootsource3, and BootFmNetwork (when applicable) is bootsource4. \r\n\r\nTo display the bootorder corresponding to the bootsource, run\r\nshow -all /system1/bootconfig1 \r\n\r\nFor systems that support UEFI, the oemhp_uefibootsourceN targets\r\nare listed in their respective boot order.  Oemhp_description \r\nprovides a description of the UEFI boot option.  Setting bootorder\r\nwill rearrange the UEFI boot sources as specified.\r\n"
+      },
+      "0xad748": {
+        "name": "a_Displays_the_system_boot_source_information_Exampl",
+        "addr": 710472,
+        "size": 1011,
+        "type": "str",
+        "str_content": "\r\nDisplays the system boot source information.\r\nExample: show /system1/bootconfig1/bootsource<n>, where n is the bootsource number\r\n\r\nTo show the boot device name corresponding to a particular bootsource:\r\nshow /system1/bootconfig1/bootsource<n> bootdevice, where n is the bootsource number\r\n\r\nPossible boot sources for the system. The values for servers\r\nnot supporting booting from the Network:\r\nBootFmCd     : bootsource1\r\nBootFmFloppy : bootsource2\r\nBootFmDrive  : bootsource3\r\nBootFmUSBKey : bootsource4\r\n\r\nFor systems with booting from the Network: \r\nBootFmCd     : bootsource1\r\nBootFmFloppy : bootsource2\r\nBootFmDrive  : bootsource3\r\nBootFmUSBKey : bootsource4\r\nBootFmNetwork: bootsource5\r\n\r\nOn UEFI-capable systems in legacy boot mode, the BootFmFloppy option is\r\nno longer available, so BootFmDrive is now bootsource2, BootFmUSBKey \r\nis bootsource3, and BootFmNetwork (when applicable) is bootsource4. \r\n\r\nTo display the bootorder corresponding to the bootsource, run\r\nshow -all /system1/bootconfig1\r\n"
+      },
+      "0xadb3c": {
+        "name": "a_Displays_and_sets_the_system_boot_order_informatio",
+        "addr": 711484,
+        "size": 1061,
+        "type": "str",
+        "str_content": "\r\nDisplays and sets the system boot order information.\r\nExamples: show /system1/bootconfig1/bootsource<n> bootorder,  where n is the bootsource number \r\n          set /system1/bootconfig1/bootsource<n> bootorder=<x>, where n is the bootsource number and\r\n                                                              x is the new bootorder \r\n\r\nPossible boot sources for the system. The values for servers\r\nnot supporting booting from the Network:\r\nBootFmCd     : bootsource1\r\nBootFmFloppy : bootsource2\r\nBootFmDrive  : bootsource3\r\nBootFmUSBKey : bootsource4\r\n\r\nFor systems with booting from the Network:\r\nBootFmCd     : bootsource1\r\nBootFmFloppy : bootsource2\r\nBootFmDrive  : bootsource3\r\nBootFmUSBKey : bootsource4\r\nBootFmNetwork: bootsource5\r\n\r\nOn UEFI-capable systems in legacy boot mode, the BootFmFloppy option is\r\nno longer available, so BootFmDrive is now bootsource2, BootFmUSBKey \r\nis bootsource3, and BootFmNetwork (when applicable) is bootsource4. \r\n\r\nTo display the bootorder corresponding to the bootsource, run\r\nshow -all /system1/bootconfig1 \r\n"
+      },
+      "0xadf64": {
+        "name": "a_Displays_the_system_boot_mode_which_can_be_UEFI_on",
+        "addr": 712548,
+        "size": 87,
+        "type": "str",
+        "str_content": "\r\nDisplays the system boot mode, which can be UEFI only, Legacy only, UEFI, or Legacy."
+      },
+      "0xadfbc": {
+        "name": "a_Displays_or_modifies_the_pending_boot_mode_changes",
+        "addr": 712636,
+        "size": 363,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the pending boot mode changes which will be applied when the system reboots.\r\nIf oemhp_bootmode is UEFI only or Legacy only, the oemhp_pendingbootmode property will\r\nread only. For systems with UEFI available, the available options are 'uefi' and 'legacy'.\r\nChanging this property will require a system reset for the changes to take place."
+      },
+      "0xae128": {
+        "name": "a_Displays_the_system_secure_boot_setting_for_system",
+        "addr": 713000,
+        "size": 73,
+        "type": "str",
+        "str_content": "\r\nDisplays the system secure boot setting for systems with UEFI enabled."
+      },
+      "0xae174": {
+        "name": "a_Displays_the_UEFI_boot_sources_available_For_syste",
+        "addr": 713076,
+        "size": 292,
+        "type": "str",
+        "str_content": "\r\nDisplays the UEFI boot sources available For systems that support UEFI,\r\nthe oemhp_uefibootsourceN targets are listed in their respective boot order.\r\nOemhp_description provides a description of the UEFI boot option.  Setting bootorder\r\nwill rearrange the UEFI boot sources as specified.\r\n"
+      },
+      "0xae298": {
+        "name": "a_Displays_and_sets_the_system_boot_order_informatio",
+        "addr": 713368,
+        "size": 131,
+        "type": "str",
+        "str_content": "\r\nDisplays and sets the system boot order information. Setting the bootorder\r\nwill rearrange the UEFI boot sources as specified.\r\n"
+      },
+      "0xae31c": {
+        "name": "a_Displays_creates_or_deletes_user_account_informati",
+        "addr": 713500,
+        "size": 461,
+        "type": "str",
+        "str_content": "\r\nDisplays, creates or deletes user account information. \r\nExamples: show /map1/accounts1 - displays all account names\r\n          create /map1/accounts1 username=<lname1> password=<pwd12345> name= \r\n          <dname1> group=<admin,config,oemhp_vm,oemhp_rc,oemhp_power>-creates \r\n          new account lname1 \r\n          delete /map1/accounts1/<dname1> - deletes account dname1 \r\n Note: usernames longer than 16 characters will not meet IPMI 2.0 Specifications."
+      },
+      "0xae4ec": {
+        "name": "a_Displays_creates_or_deletes_user_account_informati",
+        "addr": 713964,
+        "size": 427,
+        "type": "str",
+        "str_content": "\r\nDisplays, creates or deletes user account information. \r\nExamples: show /map1/accounts1 - displays all account names\r\n          create /map1/accounts1 username=<lname1> password=<pwd12345> name= \r\n          <dname1> group=<admin,config,oemhp_vm>-creates new account lname1 \r\n          delete /map1/accounts1/<dname1> - deletes account dname1\r\n Note: usernames longer than 16 characters will not meet IPMI 2.0 Specifications."
+      },
+      "0xae698": {
+        "name": "a_Displays_or_modifies_user_login_name_information_M",
+        "addr": 714392,
+        "size": 461,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies user login name information. Maximum length is 39. \r\nExamples: show /map1/accounts1/<lname1> username - displays login name for \r\n                                                  account lname1 \r\n          set /map1/accounts1/<lname1> username=<lname2> - modifies login name \r\n                                                          for account lname1\r\n Note: usernames longer than 16 characters will not meet IPMI 2.0 Specifications."
+      },
+      "0xae868": {
+        "name": "a_Displays_or_modifies_user_password_information_Max",
+        "addr": 714856,
+        "size": 461,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies user password information. Maximum length is 39.\r\nExamples: show /map1/accounts1/<lname1> password - displays password for account \r\n                                                  lname1. Actual password isn't \r\n                                                  displayed \r\n          set /map1/accounts1/<lname1> password=<password> - modifies password \r\n                                                            for account lname1 "
+      },
+      "0xaea38": {
+        "name": "a_Displays_or_modifies_user_name_information_Maximum",
+        "addr": 715320,
+        "size": 354,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies user name information. Maximum length is 39.\r\nExamples: show /map1/accounts1/<lname1> name - displays user name for account \r\n                                              lname1 \r\n          set /map1/accounts1/<lname1> name=<dname2> - modifies user name for \r\n                                                      account lname1 "
+      },
+      "0xaeb9c": {
+        "name": "a_Displays_or_modifies_user_privilege_information_Th",
+        "addr": 715676,
+        "size": 476,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies user privilege information. The valid privileges \r\nare: admin, config,oemhp_rc,oemhp_power,oemhp_vm,none,0. \r\n0 or none can be used to clear privilege information. \r\nExamples: show /map1/accounts1/<lname1> group - displays privilege for account \r\n                                               lname1 \r\n          set /map1/accounts1/<lname1> group=<admin> - modifies privilege for \r\n                                                      account lname1 "
+      },
+      "0xaed78": {
+        "name": "a_Displays_or_modifies_user_sshkey_Examples_oemhp_lo",
+        "addr": 716152,
+        "size": 303,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies user sshkey.\r\nExamples: oemhp_loadsshkey /map1/accounts1/<lname1> -source http://192.168.1.1/pubkey.ppk\r\n            - loads the sshkey to the specified user lname1.\r\n          oemhp_deletesshkey /map1/accounts1/<lname1> \r\n            - removes the sshkey for the account lname1."
+      },
+      "0xaeea8": {
+        "name": "a_Displays_or_modifies_PRODABR_network_information_E",
+        "addr": 716456,
+        "size": 210,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR network information.\r\nExamples: show /map1/enetport1 - displays the current properties and values \r\n          set /map1/enetport1 <property=value> - modifies the property value "
+      },
+      "0xaef7c": {
+        "name": "a_Displays_or_modifies_PRODABR_network_information_E",
+        "addr": 716668,
+        "size": 212,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR network information.\r\nExamples: show /map1/dhcpendpt1 - displays the current properties and values \r\n          set /map1/dhcpendpt1 <property=value> - modifies the property value "
+      },
+      "0xaf050": {
+        "name": "a_Displays_or_modifies_PRODABR_network_information_E",
+        "addr": 716880,
+        "size": 210,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR network information.\r\nExamples: show /map1/dnsendpt1 - displays the current properties and values \r\n          set /map1/dnsendpt1 <property=value> - modifies the property value "
+      },
+      "0xaf124": {
+        "name": "a_Displays_or_modifies_PRODABR_network_information_E",
+        "addr": 717092,
+        "size": 208,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR network information.\r\nExamples: show /map1/gateway1 - displays the current properties and values \r\n          set /map1/gateway1 <property=value> - modifies the property value "
+      },
+      "0xaf1f4": {
+        "name": "a_Displays_or_modifies_PRODABR_network_information_E",
+        "addr": 717300,
+        "size": 212,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR network information.\r\nExamples: show /map1/dnsserver1 - displays the current properties and values \r\n          set /map1/dnsserver1 <property=value> - modifies the property value "
+      },
+      "0xaf2c8": {
+        "name": "a_Displays_or_modifies_PRODABR_network_information_E",
+        "addr": 717512,
+        "size": 212,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR network information.\r\nExamples: show /map1/dnsserver2 - displays the current properties and values \r\n          set /map1/dnsserver2 <property=value> - modifies the property value "
+      },
+      "0xaf39c": {
+        "name": "a_Displays_or_modifies_PRODABR_network_information_E",
+        "addr": 717724,
+        "size": 212,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR network information.\r\nExamples: show /map1/dnsserver3 - displays the current properties and values \r\n          set /map1/dnsserver3 <property=value> - modifies the property value "
+      },
+      "0xaf470": {
+        "name": "a_Displays_or_modifies_PRODABR_network_information_E",
+        "addr": 717936,
+        "size": 210,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR network information.\r\nExamples: show /map1/settings1 - displays the current properties and values \r\n          set /map1/settings1 <property=value> - modifies the property value "
+      },
+      "0xaf544": {
+        "name": "a_Displays_or_modifies_PRODABR_network_information_E",
+        "addr": 718148,
+        "size": 200,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR network information.\r\nExamples: show /map1/nic1 - displays the current properties and values \r\n          set /map1/nic1 <property=value> - modifies the property value "
+      },
+      "0xaf60c": {
+        "name": "a_Displays_or_modifies_PRODABR_NIC_status_Valid_valu",
+        "addr": 718348,
+        "size": 233,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR NIC status. Valid values can be 2 ( enabled), \r\n 3( disabled), 32768 (shared network port - LOM), \r\n or 32769 (shared network port enabled - FlexibleLOM).\r\n Not all platforms will support all options."
+      },
+      "0xaf6f8": {
+        "name": "a_Displays_or_modifies_sideband_port_number_Legal_va",
+        "addr": 718584,
+        "size": 190,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies sideband port number. Legal values for port are 1-32.\r\nModifying port to an unsupported values on this system can result in default selection to port 1 automatically."
+      },
+      "0xaf7b8": {
+        "name": "a_Displays_or_modifies_PRODABR_shared_network_port_s",
+        "addr": 718776,
+        "size": 94,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR shared network port status. Valid values are \r\n'yes' or 'no'."
+      },
+      "0xaf818": {
+        "name": "a_Displays_or_modifies_PRODABR_NIC_autosense_status_",
+        "addr": 718872,
+        "size": 199,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR NIC autosense status.\r\n Examples: show /map1/enetport1 Autosense  \r\n           set  /map1/enetport1 Autosense=<value> \r\n           Valid values are 'true' or 'false'."
+      },
+      "0xaf8e0": {
+        "name": "a_Displays_or_modifies_PRODABR_NIC_speed_On_Blade_se",
+        "addr": 719072,
+        "size": 290,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR NIC speed. On Blade servers the NIC speed is read-only.\r\nIf autosense is enabled, then speed will be shown as 'Auto'.\r\nExamples : show /map1/enetport1 Speed\r\n           set /map1/enetport1 Speed=<value> \r\n           Valid values are '10' or '100' or '1000'."
+      },
+      "0xafa04": {
+        "name": "a_Displays_or_modifies_PRODABR_NIC_fullduplex_status",
+        "addr": 719364,
+        "size": 155,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR NIC fullduplex status. Valid values are 'yes' \r\nor 'no'. If autosense is enabled, then fullduplex will be shown as 'Auto'."
+      },
+      "0xafaa0": {
+        "name": "a_Displays_or_modifies_PRODABR_NIC_DHCP_enable_statu",
+        "addr": 719520,
+        "size": 205,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR NIC DHCP enable status.\r\nExamples: show /map1/dhcpendpt1 EnabledState \r\n          set /map1/dhcpendpt1 EnabledState=<value> \r\n          Valid values can be 'yes' or 'no' \r\n"
+      },
+      "0xafb70": {
+        "name": "a_Displays_or_modifies_if_the_PRODABR_NIC_gets_its_g",
+        "addr": 719728,
+        "size": 122,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies if the #PRODABR NIC gets its gateway address from a \r\nDHCP server. Valid values are 'yes' or 'no'."
+      },
+      "0xafbec": {
+        "name": "a_Displays_or_modifies_the_PRODABR_WIN_server_addres",
+        "addr": 719852,
+        "size": 179,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the #PRODABR WIN server address.\r\nExample: set WINSServerAddress=192.168.100.1,192.168.100.2\r\n         set WINSServerAddress=\"192.168.100.1, 192.168.100.2\""
+      },
+      "0xafca0": {
+        "name": "a_Displays_or_modifies_if_the_PRODABR_NIC_gets_its_s",
+        "addr": 720032,
+        "size": 120,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies if the #PRODABR NIC gets its static routes from a DHCP \r\nserver. Valid values are 'yes' or 'no'."
+      },
+      "0xafd18": {
+        "name": "a_Displays_or_modifies_if_the_PRODABR_NIC_gets_its_d",
+        "addr": 720152,
+        "size": 118,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies if the #PRODABR NIC gets its domain name from a DHCP \r\nserver. Valid values are 'yes' or 'no'."
+      },
+      "0xafd90": {
+        "name": "a_Displays_or_modifies_if_the_PRODABR_NIC_registers_",
+        "addr": 720272,
+        "size": 107,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies if the #PRODABR NIC registers with a WINS server. Valid \r\nvalues are 'yes' or 'no'."
+      },
+      "0xafdfc": {
+        "name": "a_Displays_or_modifies_the_PRODABR_NIC_Domain_Name_S",
+        "addr": 720380,
+        "size": 73,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the #PRODABR NIC Domain Name Server(DNS) address."
+      },
+      "0xafe48": {
+        "name": "a_Displays_or_modifies_if_the_PRODABR_NIC_registers_",
+        "addr": 720456,
+        "size": 106,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies if the #PRODABR NIC registers with a DNS server. Valid \r\nvalues are 'yes' or 'no'."
+      },
+      "0xafeb4": {
+        "name": "a_Displays_or_modifies_the_PRODABR_NIC_static_route_",
+        "addr": 720564,
+        "size": 74,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the #PRODABR NIC static route destination address."
+      },
+      "0xaff00": {
+        "name": "a_Displays_or_modifies_the_PRODABR_NIC_static_route_",
+        "addr": 720640,
+        "size": 70,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the #PRODABR NIC static route gateway address."
+      },
+      "0xaff48": {
+        "name": "a_Display_if_PRODABR_NIC_IP_address_is_provided_by_D",
+        "addr": 720712,
+        "size": 66,
+        "type": "str",
+        "str_content": "\r\nDisplay if #PRODABR NIC IP address is provided by DHCP Server. "
+      },
+      "0xaff8c": {
+        "name": "a_Displays_or_modifies_if_ILO_is_to_register_with_a_",
+        "addr": 720780,
+        "size": 73,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies if #ILO is to register with a Dynamic DNS server."
+      },
+      "0xaffd8": {
+        "name": "a_Displays_or_modifies_the_hostname_associated_with_",
+        "addr": 720856,
+        "size": 68,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the hostname associated with the IP endpoint"
+      },
+      "0xb001c": {
+        "name": "a_Read_Only_Display_IPv4_address_of_PRODABR_expresse",
+        "addr": 720924,
+        "size": 156,
+        "type": "str",
+        "str_content": "\r\nRead Only: Display IPv4 address of #PRODABR, expressed in dotted decimal notation.\r\n More information is available at /map1/enetport1/lanendpt1/ipendpt1."
+      },
+      "0xb00b8": {
+        "name": "a_Display_or_modifies_PRODABR_NIC_Settings_Informati",
+        "addr": 721080,
+        "size": 149,
+        "type": "str",
+        "str_content": "\r\n Display or modifies #PRODABR NIC Settings Information. Most of the properties under \r\n StaticIPSettings1 cannot be modified if DHCP is turned on."
+      },
+      "0xb0150": {
+        "name": "a_Display_Modify_DHCPOptionToUse_if_DNS_server_IP_ad",
+        "addr": 721232,
+        "size": 88,
+        "type": "str",
+        "str_content": "\r\nDisplay/Modify 'DHCPOptionToUse' if DNS server IP address is provided by DHCP Server."
+      },
+      "0xb01a8": {
+        "name": "a_Displays_or_modifies_if_the_PRODABR_Gateway1_gets_",
+        "addr": 721320,
+        "size": 125,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies if the #PRODABR Gateway1 gets its static routes from a DHCP \r\nserver. Valid values are 'yes' or 'no'."
+      },
+      "0xb0228": {
+        "name": "a_Displays_or_modifies_PRODABR_global_settings_confi",
+        "addr": 721448,
+        "size": 216,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR global settings configuration.\r\nExamples: show /map1/config1 - displays the current properties and values \r\n          set /map1/config1 <property=value> - modifies the property value "
+      },
+      "0xb0300": {
+        "name": "a_Displays_or_modifies_PRODABR_status_Valid_values_a",
+        "addr": 721664,
+        "size": 72,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR status. Valid values are 'yes' or 'no'."
+      },
+      "0xb0348": {
+        "name": "a_Displays_or_modifies_idle_timeout_setting_Valid_va",
+        "addr": 721736,
+        "size": 134,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies idle timeout setting. Valid values are '15','30',\r\n'60', or '120'.  Use a value of '0' to indicate no timeout."
+      },
+      "0xb03d0": {
+        "name": "a_Displays_or_modifies_terminal_services_passthrough",
+        "addr": 721872,
+        "size": 120,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies terminal services passthrough setting. Valid values\r\nare 'enabled' , 'disabled', or 'automatic'."
+      },
+      "0xb0448": {
+        "name": "a_Displays_or_modifies_RBSU_enable_setting_Valid_val",
+        "addr": 721992,
+        "size": 75,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies RBSU enable setting.Valid values are 'yes' or 'no'."
+      },
+      "0xb0494": {
+        "name": "a_Displays_or_modifies_RBSU_login_setting_Valid_valu",
+        "addr": 722068,
+        "size": 74,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies RBSU login setting.Valid values are 'yes' or 'no'."
+      },
+      "0xb04e0": {
+        "name": "a_Displays_or_modifies_RBSU_IP_address_display_setti",
+        "addr": 722144,
+        "size": 89,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies RBSU IP address display setting.Valid values are \r\n'yes' or 'no'."
+      },
+      "0xb053c": {
+        "name": "a_Displays_or_modifies_remote_console_configuration_",
+        "addr": 722236,
+        "size": 115,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies remote console configuration setting. Valid values \r\n'enabled', disabled', or 'automatic'. "
+      },
+      "0xb05b0": {
+        "name": "a_Displays_or_modifies_remote_console_encryption_set",
+        "addr": 722352,
+        "size": 89,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies remote console encryption setting.Valid values are\r\nyes' or 'no'."
+      },
+      "0xb060c": {
+        "name": "a_Displays_or_modifies_non_SSL_HTTP_port_setting_Val",
+        "addr": 722444,
+        "size": 125,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies non-SSL HTTP port setting. Valid value is between \r\n0 and 65535. A value of 0 will turn the port off."
+      },
+      "0xb068c": {
+        "name": "a_Displays_or_modifies_SSL_port_setting_Valid_value_",
+        "addr": 722572,
+        "size": 116,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies SSL port setting. Valid value is between 0 and 65535. A \r\nvalue of 0 will turn the port off."
+      },
+      "0xb0700": {
+        "name": "a_Displays_or_modifies_remote_console_port_setting_V",
+        "addr": 722688,
+        "size": 89,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies remote console port setting. Valid value is between\r\n1 and 65535."
+      },
+      "0xb075c": {
+        "name": "a_Displays_or_modifies_AES_encryption_configuration_",
+        "addr": 722780,
+        "size": 155,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies AES encryption configuration. Valid values are 'yes' or 'no'.\r\nThis setting requires a forced logout for the changes to take place."
+      },
+      "0xb07f8": {
+        "name": "a_Displays_or_modifies_virtual_media_port_setting_Va",
+        "addr": 722936,
+        "size": 89,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies virtual media port setting. Valid value is between \r\n1 and 65535."
+      },
+      "0xb0854": {
+        "name": "a_Displays_or_modifies_terminal_services_port_settin",
+        "addr": 723028,
+        "size": 93,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies terminal services port setting. Valid value is \r\nbetween 1 and 65535."
+      },
+      "0xb08b4": {
+        "name": "a_Displays_or_modifies_Secure_Shell_SSH_port_setting",
+        "addr": 723124,
+        "size": 93,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies Secure Shell(SSH) port setting. Valid value is \r\nbetween 1 and 65535."
+      },
+      "0xb0914": {
+        "name": "a_Displays_or_modifies_Secure_Shell_SSH_status_setti",
+        "addr": 723220,
+        "size": 91,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies Secure Shell(SSH) status setting. Valid values are \r\n'yes' or 'no'."
+      },
+      "0xb0970": {
+        "name": "a_Displays_or_modifies_Raw_Serial_Data_port_setting_",
+        "addr": 723312,
+        "size": 91,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies Raw Serial Data port setting. Valid value is \r\nbetween 1 and 65535."
+      },
+      "0xb09cc": {
+        "name": "a_Displays_or_modifies_serial_port_CLI_status_settin",
+        "addr": 723404,
+        "size": 90,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies serial port CLI status setting. Valid values are '\r\n yes' or 'no'."
+      },
+      "0xb0a28": {
+        "name": "a_Displays_or_modifies_serial_port_CLI_authorization",
+        "addr": 723496,
+        "size": 102,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies serial port CLI authorization status setting. Valid\r\nvalues are 'yes' or 'no'."
+      },
+      "0xb0a90": {
+        "name": "a_Displays_or_modifies_serial_port_CLI_speed_setting",
+        "addr": 723600,
+        "size": 122,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies serial port CLI speed setting. Valid values are \r\n'9600', '19200', '38400', '57600', or '115200'. "
+      },
+      "0xb0b0c": {
+        "name": "a_Displays_or_modifies_minimum_password_length_setti",
+        "addr": 723724,
+        "size": 94,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies minimum password length setting. Valid values are \r\nbetween 0 and 39. "
+      },
+      "0xb0b6c": {
+        "name": "a_Displays_or_modifies_remote_console_hotkey_configu",
+        "addr": 723820,
+        "size": 261,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies remote console hotkey configuration.\r\nExamples: set /map1/config1/ oemhp_hotkey_ctrl_t=\"L_CTRL,L_ALT,DEL\"\r\n          set /map1/config1/ oemhp_hotkey_ctrl_x=\"L_CTRL,L_ALT,BACKSPACE\"\r\n          set /map1/config1/ oemhp_hotkey_ctrl_w=\"NONE\""
+      },
+      "0xb0c74": {
+        "name": "a_Displays_or_modifies_authentication_failure_loggin",
+        "addr": 724084,
+        "size": 111,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies authentication failure logging setting. Valid values\r\nare 1, 2, 3, 5 and 0 (disabled). "
+      },
+      "0xb0ce4": {
+        "name": "a_Displays_or_modifies_Remote_Console_Computer_Lock_",
+        "addr": 724196,
+        "size": 807,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies Remote Console Computer Lock configuration. Valid\r\nvalues are 'windows' 'disabled' 'custom'. If multiple properties are on the\r\nsame command line, they must be separated by a space.\r\nExamples: set oemhp_computer_lock=windows - enables remote console computer lock\r\n          set oemhp_computer_lock=disabled - disables remote console computer lock\r\nThe custom option sends the selected key sequence to the server operating system\r\nwhen a remote session is terminated or the #ILO network link is lost. The custom\r\nsequence can have a maximum of five keys. Keys with a space must have the\r\nspace replaced with an underscore. Keys are not case sensitive. \r\nExamples: set oemhp_computer_lock=custom,f5 - sets computer lock to F5\r\n          set oemhp_computer_lock=custom,l_alt,l_ctrl,del"
+      },
+      "0xb100c": {
+        "name": "a_Enables_or_disables_the_Virtual_Serial_Port_log_Wh",
+        "addr": 725004,
+        "size": 311,
+        "type": "str",
+        "str_content": "\r\nEnables or disables the Virtual Serial Port log. When the VSP log is \r\nenabled, it can be accessed via the command \"vsp log\".\r\nExamples: set oemhp_vsp_log_enable=1 - enables the VSP log\r\n          set oemhp_vsp_log_enable=0 - disables the VSP log\r\n          vsp log                    - displays the VSP log "
+      },
+      "0xb1144": {
+        "name": "a_Displays_or_modifies_remote_console_key_up_key_dow",
+        "addr": 725316,
+        "size": 69,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies remote console key-up/key-down configuration."
+      },
+      "0xb118c": {
+        "name": "a_Displays_or_enables_FIPS_mode_setting_Valid_values",
+        "addr": 725388,
+        "size": 201,
+        "type": "str",
+        "str_content": "\r\nDisplays or enables FIPS mode setting. Valid values are 'yes' or 'no'.\r\nEnabling requires a forced logout for the changes to take place. #ILO must be\r\nreset to factory defaults to disable FIPS mode."
+      },
+      "0xb1258": {
+        "name": "a_Displays_or_modifies_SNMP_Access_Modification_of_t",
+        "addr": 725592,
+        "size": 96,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies SNMP Access. Modification of this property will \r\nrequire an #ILO reset."
+      },
+      "0xb12b8": {
+        "name": "a_Displays_or_modifies_SNMP_port_setting_Valid_value",
+        "addr": 725688,
+        "size": 80,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies SNMP port setting. Valid value is \r\nbetween 1 and 65535."
+      },
+      "0xb1308": {
+        "name": "a_Displays_or_modifies_SNMP_Trap_port_setting_Valid_",
+        "addr": 725768,
+        "size": 85,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies SNMP Trap port setting. Valid value is \r\nbetween 1 and 65535."
+      },
+      "0xb1360": {
+        "name": "a_Displays_or_modifies_SNMP_and_Insight_Manager_sett",
+        "addr": 725856,
+        "size": 207,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies SNMP and Insight Manager settings.\r\nExamples: show /map1/snmp1 - displays the current properties and values \r\n          set /map1/snmp1 <property=value> - modifies the property value "
+      },
+      "0xb1430": {
+        "name": "a_Displays_or_modifies_SNMP_read_community_address_f",
+        "addr": 726064,
+        "size": 127,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies SNMP read community address for when Agentless\r\nManagement is enabled.\r\nExample: set readcom1=\"public1\""
+      },
+      "0xb14b0": {
+        "name": "a_Displays_or_modifies_SNMP_trap_community_address_E",
+        "addr": 726192,
+        "size": 87,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies SNMP trap community address.\r\nExample: set trapcom1=\"trapcomm1\""
+      },
+      "0xb1508": {
+        "name": "a_Displays_or_modifies_PRODABR_SNMP_alert_forwarding",
+        "addr": 726280,
+        "size": 98,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR SNMP alert forwarding status. Valid values are \r\n'yes' or 'no'.  "
+      },
+      "0xb156c": {
+        "name": "a_Displays_or_modifies_host_agent_SNMP_alert_forward",
+        "addr": 726380,
+        "size": 99,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies host agent SNMP alert forwarding status. Valid \r\nvalues are 'yes' or 'no'. "
+      },
+      "0xb15d0": {
+        "name": "a_Displays_or_modifies_PRODABR_SNMP_passthrough_stat",
+        "addr": 726480,
+        "size": 162,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR SNMP passthrough status. Valid values are 'yes' \r\nor 'no'. If SNMP passthrough is disabled, agentless management will be enabled."
+      },
+      "0xb1674": {
+        "name": "a_Displays_or_modifies_the_SNMP_Agentless_Management",
+        "addr": 726644,
+        "size": 159,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the SNMP Agentless Management. \r\nValid values are 'yes', or 'no'. If Agentless Management is disabled, \r\nSNMP passthru will be enabled."
+      },
+      "0xb1714": {
+        "name": "a_Displays_or_modifies_SNMP_System_Location_for_when",
+        "addr": 726804,
+        "size": 152,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies SNMP System Location for when Agentless\r\nManagement is enabled.\r\nExample: set oemhp_systemlocation=\"HP Data Center, Hockley, TX\""
+      },
+      "0xb17ac": {
+        "name": "a_Displays_or_modifies_SNMP_System_Contact_for_when_",
+        "addr": 726956,
+        "size": 147,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies SNMP System Contact for when Agentless\r\nManagement is enabled.\r\nExample: set oemhp_systemcontact=\"Mr. System Administrator\""
+      },
+      "0xb1840": {
+        "name": "a_Displays_or_modifies_SNMP_System_Role_information_",
+        "addr": 727104,
+        "size": 167,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies SNMP System Role information for when Agentless\r\nManagement is enabled.\r\nExample: set oemhp_systemrole=\"Brief Role Description [60 characters]\""
+      },
+      "0xb18e8": {
+        "name": "a_Displays_or_modifies_SNMP_System_Role_detail_for_w",
+        "addr": 727272,
+        "size": 687,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies SNMP System Role detail for when Agentless\r\nManagement is enabled. This is limited to 512 characters together.\r\noemhp_systemroledetail1 - 4 are limited to 100 characters, oemhp_systemroledetail5\r\nis limited to 112 characters.  If more than one lines are to be used, the previous\r\nlines will have spaces added to them to meet the 100 character limit if a subsequent\r\nline has information provided.\r\nExample: set oemhp_systemroledetail1=\"Extended role description [100 characters]\"\r\nExample showing multiple lines:\r\n         set oemhp_systemroledetail2=\"Extended role description\"\r\n         show - Existing string in detail1 has spaces added to meet 100 char limit."
+      },
+      "0xb1b98": {
+        "name": "a_Displays_or_modifies_level_of_data_returned_to_Ins",
+        "addr": 727960,
+        "size": 111,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies level of data returned to Insight Manager. Valid \r\nvalues are 'enabled' or 'disabled'. "
+      },
+      "0xb1c08": {
+        "name": "a_Displays_or_modifies_the_SNMP_alert_forwarding_sta",
+        "addr": 728072,
+        "size": 112,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the SNMP alert forwarding status for p-Class blades. \r\nValid values are 'yes', or 'no'. "
+      },
+      "0xb1c78": {
+        "name": "a_Displays_or_modifies_the_SNMP_Cold_Start_Trap_Broa",
+        "addr": 728184,
+        "size": 95,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the SNMP Cold Start Trap Broadcast. \r\nValid values are 'yes', or 'no'. "
+      },
+      "0xb1cd8": {
+        "name": "a_Displays_or_modifies_the_SNMP_trap_source_setting_",
+        "addr": 728280,
+        "size": 89,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the SNMP trap source setting.\r\nValid values are '#ILO', or 'OS'. "
+      },
+      "0xb1d34": {
+        "name": "a_Sends_a_test_SNMP_trap_to_the_alert_destinations_c",
+        "addr": 728372,
+        "size": 150,
+        "type": "str",
+        "str_content": "\r\nSends a test SNMP trap to the alert destinations configured for the #ILO.\r\nValid value is 'yes'. Only set operation is supported for this command. "
+      },
+      "0xb1dcc": {
+        "name": "a_Displays_or_modifies_PRODABR_syslog_settings_Examp",
+        "addr": 728524,
+        "size": 234,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR syslog settings\r\nExamples: set /map1/oemhp_syslog1 oemhp_syslog_enable=yes\r\n          -syslog settings can only be modified if syslog is enabled\r\n          set /map1/oemhp_syslog1 oemhp_syslog_port=514"
+      },
+      "0xb1eb8": {
+        "name": "a_Displays_or_modifies_PRODABR_syslog_feature_status",
+        "addr": 728760,
+        "size": 89,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR syslog feature status. \r\nValid values are 'yes' or 'no'."
+      },
+      "0xb1f14": {
+        "name": "a_Displays_or_modifies_syslog_port_setting_Valid_val",
+        "addr": 728852,
+        "size": 83,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies syslog port setting. \r\nValid value is between 1 and 65535. "
+      },
+      "0xb1f68": {
+        "name": "a_Displays_or_modifies_syslog_server_address_Maximum",
+        "addr": 728936,
+        "size": 69,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies syslog server address. Maximum length is 127."
+      },
+      "0xb1fb0": {
+        "name": "a_Displays_or_modifies_PRODABR_alertmail_settings_Ex",
+        "addr": 729008,
+        "size": 192,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR alertmail settings\r\nExamples: set /map1/oemhp_alertmail1 oemhp_alertmail_enable=yes\r\n          set /map1/oemhp_alertmail1 oemhp_alertmail_email=username@hp.com"
+      },
+      "0xb2070": {
+        "name": "a_Displays_or_modifies_PRODABR_alertmail_feature_sta",
+        "addr": 729200,
+        "size": 92,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR alertmail feature status. \r\nValid values are 'yes' or 'no'."
+      },
+      "0xb20cc": {
+        "name": "a_Displays_or_modifies_the_email_address_to_receive_",
+        "addr": 729292,
+        "size": 76,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the email address to receive mail alerts from #ILO. "
+      },
+      "0xb2118": {
+        "name": "a_Displays_or_modifies_the_sender_domain_name_If_not",
+        "addr": 729368,
+        "size": 107,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the sender domain name.  \r\n If not specified, a generic domain name would be used. "
+      },
+      "0xb2184": {
+        "name": "a_Displays_or_modifies_the_address_that_the_SMTP_ser",
+        "addr": 729476,
+        "size": 103,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the address that the SMTP server will use for unauthenticated SMTP connections."
+      },
+      "0xb21ec": {
+        "name": "a_Displays_or_modifies_the_port_that_the_SMTP_server",
+        "addr": 729580,
+        "size": 125,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the port that the SMTP server will use for unauthenticated SMTP connections. The default value is 25."
+      },
+      "0xb226c": {
+        "name": "a_Displays_or_modifies_IPMI_port_setting_Valid_value",
+        "addr": 729708,
+        "size": 78,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies IPMI port setting. Valid value is between 1 and 65535."
+      },
+      "0xb22bc": {
+        "name": "a_Displays_or_modifies_IPMI_status_setting_Valid_val",
+        "addr": 729788,
+        "size": 76,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies IPMI status setting. Valid values are 'yes' or 'no'."
+      },
+      "0xb2308": {
+        "name": "a_Displays_or_modifies_PRODABR_directory_configurati",
+        "addr": 729864,
+        "size": 422,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR directory configuration settings.\r\nExamples: show /map1/oemhp_dircfg - displays the current properties and values \r\n          set /map1/oemhp_dircfg <property=value> - modifies the property value\r\nNOTE: an unlicensed user with the Configure #ILO Settings privilege can change\r\nDirectory settings. However, Directory support will not be enabled until an #ILO\r\nAdvanced license is installed."
+      },
+      "0xb24b0": {
+        "name": "a_Displays_or_modifies_PRODABR_directory_authorizati",
+        "addr": 730288,
+        "size": 134,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR directory authorization setting. Valid values \r\nare 'disabled', 'default_schema', 'extended_schema'. "
+      },
+      "0xb2538": {
+        "name": "a_Displays_or_modifies_PRODABR_local_account_status_",
+        "addr": 730424,
+        "size": 96,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR local account status setting. Valid values are\r\n'yes' or 'no'. "
+      },
+      "0xb2598": {
+        "name": "a_Displays_or_modifies_PRODABR_directory_server_LDAP",
+        "addr": 730520,
+        "size": 106,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR directory server LDAP port value. Valid value \r\nis between 1 and 65535.  "
+      },
+      "0xb2604": {
+        "name": "a_Displays_or_modifies_directory_user_contexts_To_cl",
+        "addr": 730628,
+        "size": 95,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies directory user contexts.\r\nTo clear a user context, set context to \" \". "
+      },
+      "0xb2664": {
+        "name": "a_Displays_or_modifies_group_names_To_clear_the_grou",
+        "addr": 730724,
+        "size": 156,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies group names.\r\nTo clear the group name, set the group name to 0.  Clearing the group name also clears the permissions\r\nfor the group."
+      },
+      "0xb2700": {
+        "name": "a_Displays_or_modifies_group_privileges_The_matching",
+        "addr": 730880,
+        "size": 197,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies group privileges.\r\nThe matching group name needs to be set before this property can be modified.\r\nValid values are: 0, ADMIN, LOGIN, CONFIG, OEMHP_RC, OEMHP_POWER, OEMHP_VM."
+      },
+      "0xb27c8": {
+        "name": "a_Displays_or_modifies_PRODABR_Kerberos_authenticati",
+        "addr": 731080,
+        "size": 109,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR Kerberos authentication setting.\r\nValid values are 'disabled' or 'enabled'. "
+      },
+      "0xb2838": {
+        "name": "a_Displays_or_modifies_PRODABR_Kerberos_KDC_server_p",
+        "addr": 731192,
+        "size": 97,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR Kerberos KDC server port. Valid values are between 1 and 65535. "
+      },
+      "0xb289c": {
+        "name": "a_Displays_PRODABR_scripted_virtual_media_device_inf",
+        "addr": 731292,
+        "size": 292,
+        "type": "str",
+        "str_content": "\r\nDisplays #PRODABR scripted virtual media device information. Targets are 'floppydr1' \r\nand 'cddr1'. Each target has options that allows you to mount images hosted over\r\na network connection and to choose how to boot from them.\r\nExample: show /map1/oemhp_vm1 - displays the current targets "
+      },
+      "0xb29c0": {
+        "name": "a_Displays_or_modifies_PRODABR_virtual_media_floppy_",
+        "addr": 731584,
+        "size": 1017,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR virtual media floppy information. This feature\r\nrequires an advanced license key.\r\nExamples: \r\n  show /map1/oemhp_vm1/floppydr1 - displays the current properties and values \r\n  set /map1/oemhp_vm1/floppydr1 <property=value> - modifies the property value \r\nExample showing the steps to connect an floppy image for one-time boot\r\n  set /map1/oemhp_vm1/floppydr1 oemhp_image=http://12.21.34.43/boot.img\r\n  set /map1/oemhp_vm1/floppydr1 oemhp_boot=connect\r\n    <At this point, verify that oemhp_connect=yes and #ILO network settings are configured to access the image>\r\n  set /map1/oemhp_vm1/floppydr1 oemhp_boot=once\r\n    <One can substitute 'once' for 'always' or 'never' as desired>\r\n    <These boot options cannot be set for floppy devices on UEFI-capable systems>\r\n  set /map1/oemhp_vm1/floppydr1 oemhp_wp=yes\r\n    <Optional write protection setting; possible values are 'yes' and 'no'>\r\n  set /map1/oemhp_vm1/floppydr1 oemhp_boot=disconnect\r\n    <This command disconnects the image>"
+      },
+      "0xb2dbc": {
+        "name": "a_Displays_or_modifies_PRODABR_virtual_media_CD_ROM_",
+        "addr": 732604,
+        "size": 882,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR virtual media CD-ROM information. This feature\r\nrequires an advanced license key.\r\nExamples:\r\n  show /map1/oemhp_vm1/cddr1 - displays the current properties and values \r\n  set /map1/oemhp_vm1/cddr1 <property=value> - modifies the property value \r\nExample showing the steps to connect an CD-ROM image for one-time boot\r\n  set /map1/oemhp_vm1/cddr1 oemhp_image=http://12.21.34.43/boot.iso\r\n  set /map1/oemhp_vm1/cddr1 oemhp_boot=connect\r\n    <At this point, verify that oemhp_connect=yes and #ILO network settings are configured to access the image>\r\n    <To disconnect the image later, run 'set /map1/oemhp_vm1/cddr1 oemhp_boot=disconnect'>\r\n  set /map1/oemhp_vm1/cddr1 oemhp_boot=once\r\n    <One can substitute 'once' for 'always' or 'never' as desired>\r\n  set /map1/oemhp_vm1/floppydr1 oemhp_boot=disconnect\r\n    <This command disconnects the image>"
+      },
+      "0xb3130": {
+        "name": "a_Displays_or_modifies_PRODABR_virtual_media_image_f",
+        "addr": 733488,
+        "size": 463,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR virtual media image file. For floppydr1, the size \r\nof the .img file is limited to 1.44 MB. The URL is limited to 80 characters.\r\nThis feature requires an advanced license key.\r\nExamples: \r\n  set oemhp_image=http://12.21.34.43/boot.<img|iso>\r\n    <img for floppydr1, iso for cddr1>\r\n    <Note: the image isn't connected until you execute oemhp_boot=connect>\r\n  set oemhp_image=none  -sets image to None(same as ejecting the image)"
+      },
+      "0xb3300": {
+        "name": "a_Displays_PRODABR_scriptable_virtual_media_connecti",
+        "addr": 733952,
+        "size": 334,
+        "type": "str",
+        "str_content": "\r\nDisplays #PRODABR scriptable virtual media connection status. This feature\r\nrequires an advanced license key.\r\nTo connect an image:\r\n  set oemhp_image=http://12.21.34.43/boot.<img|iso>\r\n    <img for floppydr1, iso for cddr1>\r\n  set oemhp_boot=connect\r\nTo disconnect an image (which clears oemhp_image):\r\n  set oemhp_boot=disconnect"
+      },
+      "0xb3450": {
+        "name": "a_Displays_or_modifies_PRODABR_virtual_media_boot_st",
+        "addr": 734288,
+        "size": 603,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR virtual media boot status. This feature\r\nrequires an advanced license key. Valid values are \r\n'always', 'once', 'never', 'connect', or 'disconnect'. \r\nThe boot options 'always', 'once', and 'never' cannot be set\r\nfor floppy devices on UEFI-capable systems.\r\nTo connect an image to always boot:\r\n  set oemhp_image=http://12.21.34.43/boot.<img|iso>\r\n    <img for floppydr1, iso for cddr1>\r\n  set oemhp_boot=connect\r\n    <At this point, verify that oemhp_connect=yes>\r\n  set oemhp_boot=always\r\nTo disconnect an image (which clears oemhp_image):\r\n  set oemhp_boot=disconnect"
+      },
+      "0xb36ac": {
+        "name": "a_Displays_or_modifies_PRODABR_virtual_media_write_p",
+        "addr": 734892,
+        "size": 144,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR virtual media write protection status. This\r\nrequires an advanced license key. Valid values are 'yes', or 'no'."
+      },
+      "0xb373c": {
+        "name": "a_Displays_or_modifies_PRODABR_virtual_media_write_p",
+        "addr": 735036,
+        "size": 111,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies #PRODABR virtual media write protection status. This\r\nrequires an advanced license key."
+      },
+      "0xb37ac": {
+        "name": "a_Displays_if_an_PRODABR_virtual_media_device_is_con",
+        "addr": 735148,
+        "size": 121,
+        "type": "str",
+        "str_content": "\r\nDisplays if an #PRODABR virtual media device is connected via IRC or Java\r\nIRC. This requires an advanced license key."
+      },
+      "0xb3828": {
+        "name": "a_Displays_management_access_point_information_Examp",
+        "addr": 735272,
+        "size": 112,
+        "type": "str",
+        "str_content": "\r\nDisplays management access point information.\r\nExamples: show /map1 \r\n          reset /map1 - resets #PRODABR"
+      },
+      "0xb3898": {
+        "name": "a_Displays_the_name_of_the_installed_ILO_license_Exa",
+        "addr": 735384,
+        "size": 78,
+        "type": "str",
+        "str_content": "\r\nDisplays the name of the installed #ILO license.\r\nExample: show /map1 name "
+      },
+      "0xb38e8": {
+        "name": "a_Displays_or_modifies_the_map_license_data_Examples",
+        "addr": 735464,
+        "size": 175,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the map license data.\r\nExamples: show /map1 license - displays license information \r\n          set /map1 license=<value> - modifies license information"
+      },
+      "0xb3998": {
+        "name": "a_Displays_or_modifies_the_manual_ILO_reset_setting_",
+        "addr": 735640,
+        "size": 749,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the manual #ILO reset setting, which\r\nenables the ability to perform multiple configuration changes, \r\nthat typically need an #ILO reset, to be performed in one session.\r\nNote that an #ILO reset or logout will be required after all settings are\r\nmodified for those settings to take effect.\r\nExamples: show /map1 manual_#ILO_reset - If 'yes', automatic resets are disabled \r\n          set /map1 manual_#ILO_reset=<value> - valid values are 'yes' and 'no'\r\nNote: Changing the following properties will cause #ILO to reset, regardless of the\r\n      state of manual_#ILO_reset:\r\n/map1/config1 oemhp_enforce_aes\r\n/map1/config1 oemhp_sshstatus\r\n/map1/config1 oemhp_httpport\r\n/map1/config1 oemhp_sslport\r\n/map1/config1 oemhp_sshport"
+      },
+      "0xb3c88": {
+        "name": "a_Displays_the_iLO_firmware_name_Example_show_map1_f",
+        "addr": 736392,
+        "size": 70,
+        "type": "str",
+        "str_content": "\r\nDisplays the iLO firmware name.\r\nExample: show /map1/firmware1 name"
+      },
+      "0xb3cd0": {
+        "name": "a_Displays_the_status_of_the_Active_Health_System_Ex",
+        "addr": 736464,
+        "size": 83,
+        "type": "str",
+        "str_content": "\r\nDisplays the status of the Active Health System.\r\nExample: show /map1/oemhp_ahs1"
+      },
+      "0xb3d24": {
+        "name": "a_Displays_or_modifies_the_status_of_the_Active_Heal",
+        "addr": 736548,
+        "size": 287,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the status of the Active Health System logging.\r\nExample: show /map1/oemhp_ahs1 EnabledState\r\n         set /map1/oemhp_ahs1 EnabledState=no - disables AHS\r\n         Note: When enabling AHS, #ILO must be reset to enable full\r\n         Active Health System logging."
+      },
+      "0xb3e44": {
+        "name": "a_ILO_must_be_reset_in_order_to_enable_full_Active_H",
+        "addr": 736836,
+        "size": 78,
+        "type": "str",
+        "str_content": "\r\n#ILO must be reset in order to enable full Active Health System logging.\r\n\n"
+      },
+      "0xb3e94": {
+        "name": "a_Displays_or_applies_licenses_to_the_system_The_pro",
+        "addr": 736916,
+        "size": 447,
+        "type": "str",
+        "str_content": "\r\nDisplays or applies licenses to the system. The properties oemhp_name1 and\r\noemhp_key1 are reserved for the #ILO license.  All subsequent properties describe\r\noptional licenses that have been applied to the system.\r\nExample: show /map1/oemhp_license1 - shows the licenses installed.\r\n         oemhp_licenseinstall /map1/oemhp_license1 XXXXX-XXXXX-XXXXX-XXXXX-XXXXX\r\n            - installs the optional license (not case sensitive, can omit -'s)"
+      },
+      "0xb4054": {
+        "name": "a_Displays_the_name_of_the_license_oemhp_name1_is_re",
+        "addr": 737364,
+        "size": 167,
+        "type": "str",
+        "str_content": "\r\nDisplays the name of the license. oemhp_name1 is reserved for the #ILO \r\nlicense, and all subsequent names are for optional licenses. This is a read-only\r\nproperty."
+      },
+      "0xb40fc": {
+        "name": "a_Displays_the_key_of_the_license_A_new_license_can_",
+        "addr": 737532,
+        "size": 259,
+        "type": "str",
+        "str_content": "\r\nDisplays the key of the license. A new license can be applied by using the\r\noemhp_licenseinstall verb. \r\nExample: oemhp_licenseinstall /map1/oemhp_license1 XXXXX-XXXXX-XXXXX-XXXXX-XXXXX\r\n            - installs the license (not case sensitive, can omit -'s)"
+      },
+      "0xb4200": {
+        "name": "a_Displays_or_modifies_the_blade_information_Example",
+        "addr": 737792,
+        "size": 181,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the blade information.\r\nExamples: show /map1/blade1 - displays targets and properties\r\n          set /map1/blade1 <property=value> - modifies property value "
+      },
+      "0xb42b8": {
+        "name": "a_Displays_or_modifies_if_the_blades_48V_power_is_pr",
+        "addr": 737976,
+        "size": 111,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies if the blades 48V power is provided by the facility.\r\nValid values are 'yes' or 'no'.  "
+      },
+      "0xb4328": {
+        "name": "a_Displays_or_modifies_if_the_blade_is_enabled_to_au",
+        "addr": 738088,
+        "size": 201,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies if the blade is enabled to automatically power on.\r\nValid values are: \r\n      'yes' or 'on' - turns on automatic power on.\r\n      'no' or 'off' - turns off automatic power on.\r\n"
+      },
+      "0xb43f4": {
+        "name": "a_Displays_or_modifies_if_rack_alert_logging_is_enab",
+        "addr": 738292,
+        "size": 91,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies if rack alert logging is enabled. Valid values are \r\n'yes' or 'no'."
+      },
+      "0xb4450": {
+        "name": "a_Displays_or_modifies_the_front_diagport_informatio",
+        "addr": 738384,
+        "size": 205,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the front diagport information.\r\nExamples: show /map1/blade1/diagport - displays diagport properties\r\n          set /map1/blade1/diagport <property=value> - modifies property value "
+      },
+      "0xb4520": {
+        "name": "a_Displays_or_modifies_the_rack_information_Examples",
+        "addr": 738592,
+        "size": 183,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the rack information.\r\nExamples: show /map1/blade1/rack - displays rack properties\r\n          set /map1/blade1/rack <property=value> - modifies property value "
+      },
+      "0xb45d8": {
+        "name": "a_Displays_or_modifies_the_diagport_autoselect_setti",
+        "addr": 738776,
+        "size": 91,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the diagport autoselect setting. Valid values are \r\n'yes' or 'no'. "
+      },
+      "0xb4634": {
+        "name": "a_Displays_or_modifies_the_diagport_speed_setting_Va",
+        "addr": 738868,
+        "size": 86,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the diagport speed setting. Valid values are '10' \r\nor '100'. "
+      },
+      "0xb468c": {
+        "name": "a_Displays_or_modifies_the_diagport_full_duplex_sett",
+        "addr": 738956,
+        "size": 95,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the diagport full duplex setting. Valid values are \r\n'yes' or 'no'.    "
+      },
+      "0xb46ec": {
+        "name": "a_Displays_or_modifies_the_enclosure_information_Exa",
+        "addr": 739052,
+        "size": 270,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the enclosure information.\r\nExamples: show /map1/blade1/rack/enclosure - displays rack properties\r\n          set /map1/blade1/rack/enclosure <property=value> - modifies property \r\n                                                            value "
+      },
+      "0xb47fc": {
+        "name": "a_Displays_or_modifies_settings_related_to_HP_Single",
+        "addr": 739324,
+        "size": 333,
+        "type": "str",
+        "str_content": "Displays or modifies settings related to HP Single Sign-On (HP SSO).\r\nExamples: show /map1/oemhp_ssocfg1 - display the current properties and values\r\n          set /map1/oemhp_ssocfg1 <property>=<value> - modifies the property value.\r\n Other command help is available by typing\r\n   help /map1/oemhp_ssocfg1/<property> for details.\r\n"
+      },
+      "0xb494c": {
+        "name": "a_oemhp_ssotrust_reflects_the_trust_mode_configured_",
+        "addr": 739660,
+        "size": 138,
+        "type": "str",
+        "str_content": "oemhp_ssotrust reflects the trust mode configured for single sign-on attempts.\r\nValid values are 'disabled' 'all' 'name' 'certificate'.\r\n"
+      },
+      "0xb49d8": {
+        "name": "a_oemhp_ssouser_reflects_user_role_associated_privil",
+        "addr": 739800,
+        "size": 427,
+        "type": "str",
+        "str_content": "oemhp_ssouser reflects user role associated privileges.\r\noemhp_ssooperator reflects operator role associated privileges.\r\noemhp_ssoadministrator reflects administrator role associated privileges.\r\nEach role can have privileges from: 'login' 'oemhp_rc' 'oemhp_power' 'oemhp_vm'\r\n 'config' 'admin'\r\nExample: set oemhp_ssoadministrator=login,oemhp_rc\r\nSetting the role associated privileges to 'none' will clear all privileges.\r\n"
+      },
+      "0xb4b84": {
+        "name": "a_oemhp_ssoserver_reflects_the_records_of_HP_SSO_com",
+        "addr": 740228,
+        "size": 433,
+        "type": "str",
+        "str_content": "oemhp_ssoserver reflects the records of HP SSO-compliant applications registered\r\n for use with this #ILO.\r\nHP SSO-compliant applications can be registered by name or by certificate.\r\nUse 'create' to add a new HP SSO record using network name.\r\n example: create hpsim.net\r\nUse 'load' to import the trusted certificate using the network name.\r\n example: load hpsim.net\r\nUse 'delete' to remove a record by index.\r\n example: delete 2\r\n"
+      },
+      "0xb4d38": {
+        "name": "a_Displays_or_modifies_boot_fault_Console_Capture_en",
+        "addr": 740664,
+        "size": 298,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies boot/fault Console Capture enable setting. Valid values \r\nare 'yes' or 'no'. \r\nYes specifies that boot and fault capture will automatically occur\r\nto internal #ILO buffers.\r\nWhich buffers are enabled is controlled with the Console Capture\r\nboot/fault buffer enable settings."
+      },
+      "0xb4e64": {
+        "name": "a_Displays_or_modifies_Client_Capture_setting_Valid_",
+        "addr": 740964,
+        "size": 178,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies Client Capture setting. Valid values \r\nare 'yes' or 'no'.\r\nYes enables capture of server console video manually with Integrated \r\nRemote Console controls."
+      },
+      "0xb4f18": {
+        "name": "a_Displays_or_modifies_Console_Capture_boot_buffer_e",
+        "addr": 741144,
+        "size": 152,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies Console Capture boot buffer enable setting. Valid values \r\nare 'yes' or 'no'.\r\nYes enables capture of server boot console video."
+      },
+      "0xb4fb0": {
+        "name": "a_Displays_or_modifies_Console_Capture_fault_buffer_",
+        "addr": 741296,
+        "size": 154,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies Console Capture fault buffer enable setting. Valid values \r\nare 'yes' or 'no'.\r\nYes enables capture of server fault console video."
+      },
+      "0xb504c": {
+        "name": "a_Displays_or_modifies_auto_export_enable_setting_fo",
+        "addr": 741452,
+        "size": 211,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies auto export enable setting for console capture buffers. Valid values \r\nare 'yes' or 'no'. \r\nYes enables auto export to the the web server location specified\r\nby the export location field."
+      },
+      "0xb5120": {
+        "name": "a_Displays_or_modifies_the_auto_export_location_of_t",
+        "addr": 741664,
+        "size": 202,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the auto export location of the internal console capture buffers.\r\nThe location must be a valid web server with write access.\r\nExample: http://1.1.1.1/directory/capture %h %t.ilo"
+      },
+      "0xb51ec": {
+        "name": "a_oemhp_video_Used_to_send_prefailure_video_to_a_rem",
+        "addr": 741868,
+        "size": 259,
+        "type": "str",
+        "str_content": "oemhp_video    : Used to send prefailure video to a remote webdav server with\r\n                 read and write access.\r\nExample (may overwrite an existing file at the destination):\r\n oemhp_video -destination http://user:pwd@192.168.1.1:port/webdav/pref.vid\r\n"
+      },
+      "0xb52f0": {
+        "name": "a_Displays_or_modifies_the_auto_export_location_user",
+        "addr": 742128,
+        "size": 115,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the auto export location username of the webserver used to store\r\nexported capture buffers."
+      },
+      "0xb5364": {
+        "name": "a_Displays_or_modifies_the_auto_export_location_pass",
+        "addr": 742244,
+        "size": 115,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the auto export location password of the webserver used to store\r\nexported capture buffers."
+      },
+      "0xb53d8": {
+        "name": "a_Causes_an_export_of_the_internal_console_capture_b",
+        "addr": 742360,
+        "size": 158,
+        "type": "str",
+        "str_content": "\r\nCauses an export of the internal console capture buffers to the export location specified\r\nin the auto export location field.  Valid values 'yes' or 'no'. "
+      },
+      "0xb5478": {
+        "name": "a_Displays_or_modifies_console_capture_port_setting_",
+        "addr": 742520,
+        "size": 115,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies console capture port setting. Valid value is between \r\n1 and 65535.  Default value is 17990"
+      },
+      "0xb54ec": {
+        "name": "a_Displays_or_modifies_the_shared_console_port_setti",
+        "addr": 742636,
+        "size": 117,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the shared console port setting.  Valid value is between\r\n1 and 65535.  Default value is 9300"
+      },
+      "0xb5564": {
+        "name": "a_Displays_or_modifies_the_shared_console_enable_set",
+        "addr": 742756,
+        "size": 93,
+        "type": "str",
+        "str_content": "\r\nDisplays or modifies the shared console enable setting.  Valid values are \r\n'yes' or 'no'."
+      },
+      "0xb55c4": {
+        "name": "a_show_drives_Displays_information_about_the_drive_b",
+        "addr": 742852,
+        "size": 358,
+        "type": "str",
+        "str_content": "\r\nshow drives : Displays information about the drive bays in the system.\r\nShows the status of any drive in the bays and if a drive is installed.\r\nExample: show /system1/drives.\r\n\nThe UID led can be controlled using the set command and the enclosure addr and bay number.\r\nExample: set uid=224,1,on.  This sets the uid led on for enclosure addr 224 and bay 1."
+      },
+      "0xb572c": {
+        "name": "a_Displays_information_about_the_drive_bay_status_Ok",
+        "addr": 743212,
+        "size": 143,
+        "type": "str",
+        "str_content": "\r\nDisplays information about the drive bay status (Ok, Fault, Not Installed).\r\nExample: show /system1/bay<n> status, where n is the bay number"
+      },
+      "0xb57bc": {
+        "name": "a_Displays_information_about_the_drive_bay_uid_led_o",
+        "addr": 743356,
+        "size": 96,
+        "type": "str",
+        "str_content": "\r\nDisplays information about the drive bay uid led (on/off).\r\nExample: show /system1/drives/UID"
+      },
+      "0xb581c": {
+        "name": "a_Displays_information_about_the_drive_backplane_fir",
+        "addr": 743452,
+        "size": 115,
+        "type": "str",
+        "str_content": "\r\nDisplays information about the drive backplane firmware version.\r\nExample: show /system1/drives/firmware_version"
+      },
+      "0xb5890": {
+        "name": "a_Displays_information_about_the_system_s_network_in",
+        "addr": 743568,
+        "size": 142,
+        "type": "str",
+        "str_content": "\r\nDisplays information about the system's network information.\r\nExamples: show /system1/network1 - displays all available network information"
+      },
+      "0xb5920": {
+        "name": "a_Displays_information_about_the_system_s_Integrated",
+        "addr": 743712,
+        "size": 176,
+        "type": "str",
+        "str_content": "\r\nDisplays information about the system's Integrated network interface controllers.\r\nExamples: show /system1/network1/Integrated_NICs - displays all Integrated NIC information"
+      },
+      "0xb59d0": {
+        "name": "a_Display_s_the_MAC_address_of_the_systems_PRODABR_n",
+        "addr": 743888,
+        "size": 82,
+        "type": "str",
+        "str_content": "\r\nDisplay's the MAC address of the systems #PRODABR network interface controller."
+      },
+      "0xb5a24": {
+        "name": "a_Display_s_the_MAC_address_of_the_systems_Integrate",
+        "addr": 743972,
+        "size": 85,
+        "type": "str",
+        "str_content": "\r\nDisplay's the MAC address of the systems Integrated network interface controllers."
+      },
+      "0xb5a7c": {
+        "name": "a_Display_s_the_MAC_address_of_the_systems_iSCSI_net",
+        "addr": 744060,
+        "size": 80,
+        "type": "str",
+        "str_content": "\r\nDisplay's the MAC address of the systems iSCSI network interface controllers."
+      },
+      "0xb5acc": {
+        "name": "a_Enables_or_disables_PRODABR_Trusted_Certificate_ch",
+        "addr": 744140,
+        "size": 228,
+        "type": "str",
+        "str_content": "\r\nEnables or disables #PRODABR Trusted Certificate check for Integrated Remote Console.\r\nExamples: set oemhp_irc_trust_enable=yes - enables certificate check\r\n          set oemhp_irc_trust_enable=no - disables certificate check"
+      },
+      "0xb5bb0": {
+        "name": "a_load_Used_to_move_a_binary_image_from_an_URL_to_th",
+        "addr": 744368,
+        "size": 1284,
+        "type": "str",
+        "str_content": "load    : Used to move a binary image from an URL to the MAP or System.\r\n Usage: protocol://username:password@hostname:port/filename\r\n  The protocol field is mandatory and must be either HTTP or HTTPS.\r\n  The username:password field is optional.\r\n  The hostname field is mandatory.\r\n  The port field is optional.\r\n  The filename field is mandatory.\r\n\r\n The CLP only performs a cursory syntax verification of the <URL>\r\n value. You must visually ensure the URL is valid. Firmware components\r\n loaded will be flashed onto the system, replacing the existing versions.\r\n If the firmware flash was successful, then the status_tag of COMMAND COMPLETED\r\n will be shown. The management processor is reset if it was updated.\r\n\r\nExample : load /map1/firmware1/ -source http://192.168.1.1/images/fw/#ILO4_100.bin\r\n\r\nIf a Trusted Module is installed and enabled the load\r\ncommand must include the '-TPM_force' option after the URL. Otherwise the\r\ncommand will fail.  NOTICE: If a TM is enabled then upgrading without\r\nperforming the proper OS encryption procedure will result in loss of access\r\nto your data.  If you do not have your recovery key or have not suspended\r\nencryption software do not flash #ILO.\r\n\r\nExample : load /map1/firmware1/ -source http://192.168.1.1/fw/ilo4.bin -TPM_force\r\n"
+      },
+      "0xb60b4": {
+        "name": "a_load_Used_to_move_a_binary_image_from_an_URL_to_th",
+        "addr": 745652,
+        "size": 804,
+        "type": "str",
+        "str_content": "load    : Used to move a binary image from an URL to the MAP or System.\r\n Usage: protocol://username:password@hostname:port/filename\r\n  The protocol field is mandatory and must be either HTTP or HTTPS.\r\n  The username:password field is optional.\r\n  The hostname field is mandatory.\r\n  The port field is optional.\r\n  The filename field is mandatory.\r\n\r\n The CLP only performs a cursory syntax verification of the <URL>\r\n value. You must visually ensure the URL is valid. Firmware components\r\n loaded will be flashed onto the system, replacing the existing versions.\r\n If the firmware flash was successful, then the status_tag of COMMAND COMPLETED\r\n will be shown. The management processor is reset if it was updated.\r\n\r\nExample : load /map1/firmware1/ -source http://192.168.1.1/images/fw/#ILO4_100.bin\r\n"
+      },
+      "0xb63d8": {
+        "name": "a_load_Used_to_move_a_binary_image_from_an_URL_to_th",
+        "addr": 746456,
+        "size": 147,
+        "type": "str",
+        "str_content": "load    : Used to move a binary image from an URL to the MAP.\r\n Example: load /map1/firmware1 -source http://192.168.1.1/images/fw/#ILO4_100.bin\r\n"
+      },
+      "0xb646c": {
+        "name": "a_oemhp_clearRESTAPIstate_This_feature_clears_any_da",
+        "addr": 746604,
+        "size": 149,
+        "type": "str",
+        "str_content": "oemhp_clearRESTAPIstate    : This feature clears any data cache stored by the #VENDABR #ILO RESTful interface.\r\nExample : oemhp_clearRESTAPIstate \r\n"
+      },
+      "0xb6508": {
+        "name": "g_CLICommands",
+        "addr": 746760
+      },
+      "0xb7468": {
+        "name": "g_szStatus",
+        "addr": 750696
+      },
+      "0xb7478": {
+        "name": "g_szCommandErrorMsg",
+        "addr": 750712
+      },
+      "0xb74f0": {
+        "name": "g_szMessageTexts",
+        "addr": 750832
+      },
+      "0xb8184": {
+        "name": "g_num_of_root_targets",
+        "addr": 754052
+      },
+      "0xb82e8": {
+        "name": "g_root_target_struct",
+        "addr": 754408
+      },
+      "0xb8338": {
+        "name": "g_system1_vtable",
+        "addr": 754488
+      },
+      "0xb839c": {
+        "name": "g_RootTarget_vtable",
+        "addr": 754588
+      },
+      "0xb8bd0": {
+        "name": "g_system1_props",
+        "addr": 756688
+      },
+      "0xb8cb0": {
+        "name": "g_system1_targets",
+        "addr": 756912
+      },
+      "0xbb068": {
+        "name": "gPropAccounts",
+        "addr": 766056
+      },
+      "0xbc838": {
+        "name": "a_NONE",
+        "addr": 772152,
+        "size": 5,
+        "type": "str",
+        "str_content": "NONE"
+      },
+      "0xbcf90": {
+        "name": "a_NONE",
+        "addr": 774032,
+        "size": 5,
+        "type": "str",
+        "str_content": "NONE"
+      },
+      "0xbd6d8": {
+        "name": "g_videomem_current_1KBblock_of_transientbuffer",
+        "addr": 775896
+      },
+      "0xbece8": {
+        "name": "a_Backplane_Name",
+        "addr": 781544,
+        "size": 15,
+        "type": "str",
+        "str_content": "Backplane Name"
+      },
+      "0xbecf8": {
+        "name": "a_1_04",
+        "addr": 781560,
+        "size": 5,
+        "type": "str",
+        "str_content": "1.04"
+      },
+      "0xbed38": {
+        "name": "a_ConAppCLI",
+        "addr": 781624,
+        "size": 10,
+        "type": "str",
+        "str_content": "ConAppCLI"
+      },
+      "0xbee9c": {
+        "name": "a_sunrpc_111_udp_rpcbind_sunrpc_111_tcp_rpcbind_doma",
+        "addr": 781980,
+        "size": 201,
+        "type": "str",
+        "str_content": "sunrpc\t\t111/udp\t\trpcbind\nsunrpc\t\t111/tcp\t\trpcbind\ndomain\t\t53/udp\ndomain\t\t53/tcp\ntftp\t\t69/udp\ntftp\t\t69/tcp\nwww\t\t80/udp\nwww\t\t80/tcp\nnfsd\t\t2049/udp\tnfs\nnfsd\t\t2049/tcp\tnfs\ngii\t\t616/tcp\ngated_mio\t9999/tcp\n"
+      },
+      "0xbef68": {
+        "name": "a_hosts_dns_files",
+        "addr": 782184,
+        "size": 18,
+        "type": "str",
+        "str_content": "hosts: dns files\n"
+      },
+      "0xbef7c": {
+        "name": "a_ip_0_IP_icmp_1_ICMP_igmp_2_IGMP_ipencap_4_IP_ENCAP",
+        "addr": 782204,
+        "size": 245,
+        "type": "str",
+        "str_content": "ip\t\t0\tIP\nicmp\t\t1\tICMP\nigmp\t\t2\tIGMP\nipencap\t4\tIP-ENCAP\ntcp\t\t6\tTCP\nudp\t\t17\tUDP\nipv6\t\t41\tIPv6\nipv6-route\t43\tIPv6-Route\nipv6-frag\t44\tIPv6-Frag\ngre\t\t47\tGRE\nesp\t\t50\tESP\nah\t\t51\tAH\nipv6-icmp\t58\tIPv6-ICMP\nipv6-nonxt\t59\tIPv6-NoNxt\nipv6-opts\t60\tIPv6-Opts\n"
+      },
+      "0xbf074": {
+        "name": "a_127_0_0_1_localhost",
+        "addr": 782452,
+        "size": 21,
+        "type": "str",
+        "str_content": "127.0.0.1 localhost\n"
+      },
+      "0xbf6a8": {
+        "name": "a_0123456789",
+        "addr": 784040,
+        "size": 11,
+        "type": "str",
+        "str_content": "0123456789"
+      },
+      "0xbf890": {
+        "name": "a_j_vol0",
+        "addr": 784528,
+        "size": 8,
+        "type": "str",
+        "str_content": "j:/vol0"
+      },
+      "0xbfb84": {
+        "name": "serialio_act_clock",
+        "addr": 785284
+      },
+      "0xbfb88": {
+        "name": "serialio_act_siod",
+        "addr": 785288
+      },
+      "0xbfb8c": {
+        "name": "serialio_clock",
+        "addr": 785292
+      },
+      "0xbfc08": {
+        "name": "g_CLIs",
+        "addr": 785416
+      },
+      "0xcc6c0": {
+        "name": "g_cli_bb_stat_table",
+        "addr": 837312
+      },
+      "0xcc9fc": {
+        "name": "g_szCurrentUserName",
+        "addr": 838140
+      },
+      "0xcd044": {
+        "name": "g_szLicenseKey",
+        "addr": 839748
+      },
+      "0xcd194": {
+        "name": "g_dwLicense_Bits__veryinteresting_if_corrupted",
+        "addr": 840084
+      },
+      "0xd49e4": {
+        "name": "g_videomem_start_physaddr",
+        "addr": 870884
+      },
+      "0xd49f0": {
+        "name": "g_videomem_has_memoryregion",
+        "addr": 870896
+      },
+      "0xd4d28": {
+        "name": "g_videomem_MemRegion",
+        "addr": 871720
+      },
+      "0xd4d2c": {
+        "name": "g_videomem_transient_buffer",
+        "addr": 871724
+      },
+      "0xd512c": {
+        "name": "g_event_set",
+        "addr": 872748
+      },
+      "0xdcbac": {
+        "name": "g_semaphore_unknown",
+        "addr": 904108
+      },
+      "0xdcfb0": {
+        "name": "USABLE_MEM",
+        "addr": 905136
+      }
+    }
+  }
+}

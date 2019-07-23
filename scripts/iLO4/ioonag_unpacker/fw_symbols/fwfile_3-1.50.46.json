@@ -1,0 +1,7092 @@
+{
+  "fwfile": {
+    "ilo_version": 3,
+    "signkey_bitsize": 4096,
+    "signkey_n": "0xd34b4cc0d6d3a0e01fc1d06909c5ba303ffd320492ac3c2418843c03d8e4402c387353405bf51d14d6ee2df8056eac323950f59aee70dfa80b140c37dd2ed4f844047e074f39b042a48289ca27460a5c6fab11b3eac2e5f3f2e3cda7cad4393026381a888a352b65ac6552a074f815679683b7ed8a35164944b2a857e0682d0b99b0449bc9db803ed2e7b48a20706cb019b3358b40d6ec6f01e1ed17b053a0eaab86dead0ae491e7c8e763f2089d1fab401a19b652b93ff603f2f8b651571d29ea061632f1700ae76d7a87f868c08704e69e3d65a6e035bb2c27a016d8c9fc3fcf57628c411a534c0a5dbe0534719718367a8ea87d63b90dbe18aa7f82186eb7ba7f5c0cd9e87b1798e1478431192aca9e21a786b81cbbe0ce8b934dcf74814c3043909a3fc63780b456d9216bbfc78bdd6129048f9caaad1bd9d59e30524819b97e8ff1d482e18ef488ea26056fbfe251affde9e9c17d183835b52f0a7c61f191947905ddac61e5059735f8ec833444a269dd03efeff88ba7fbb5c90ea480b9401f2d261f62f89b999a57f8660c005064d5430b154753404c04c5ee73fc0cc987411d09daa9eff746ac5b6ca6a8bb032ebeebc618cd1417943cd52fcc1649cdc002b26e9123ec3bf42abc64149120437ed8c51404f92553bdc4f3363113114dceb7dbabfe4d013be144bd82db756969f476690b0036734e6236f50bb186d28b",
+    "signkey_e": 65537,
+    "bigelf_version": "1.50.46",
+    "bigelf_version_string": "iLO3 v 1.50.46 12-Sep-2012",
+    "bigelf_date": "2012-09-12",
+    "bigelf_size": 12959360,
+    "bigelf_sha256": "c60b4c30896d068f8c2a3df3a6588741e51e8ef46855c0bc93c7f0f03f8d5925",
+    "kernel_version": "0.8.11",
+    "kernel_version_string": "iLO3 v 0.8.11 26-Jul-2012",
+    "kernel_date": "2012-07-26",
+    "kernel_size": 766716,
+    "kernel_sha256": "1141b5a30473a55c0e6736cb8cbbc50f6e652e0da25a6b53f8eccbf62497a46f",
+    "bootcode_version": "0.1.56+",
+    "bootcode_version_string": "v 0.1.56+ 09-Mar-2011",
+    "bootcode_date": "2011-02-09",
+    "bootcode_size": 65536,
+    "bootcode_sha256": "d40192cc55ad6a64675b11e04a0261d5152e333bce543f7bc73c948625ac8448",
+    "sections": [
+      {
+        "name": ".dvi.elf.text",
+        "size": 186120,
+        "sha256": "5fb6571d8ded9babe7612605f16f52fcf44687c9ae913077ae3e6c87e9347e98"
+      },
+      {
+        "name": ".dvi.elf.data",
+        "size": 1172,
+        "sha256": "7c62e4d9d8014e45087c7542345a609b8796c4acebb090fc69fbd25cc8c79474"
+      },
+      {
+        "name": ".libINTEGRITY.so.text",
+        "size": 18412,
+        "sha256": "975453312776da4bad7ff3e22be212e9c13c68eea765037231e3cda5e9c08963"
+      },
+      {
+        "name": ".libINTEGRITY.so.data",
+        "size": 20,
+        "sha256": "87fab6a9428f355488dd14bb3698fff7a75b368888a8760e93bce2758015bd2c"
+      },
+      {
+        "name": ".libc.so.text",
+        "size": 211844,
+        "sha256": "1810d1115b495c399115964bb2d29c387f93d597e6a35c93f0a2b5d4e5d6b77b"
+      },
+      {
+        "name": ".libc.so.data",
+        "size": 2044,
+        "sha256": "7008333b731f56669f8cfe7633217a871adc866b90c226a897fa7164ab3b0b51"
+      },
+      {
+        "name": ".libevlog.so.text",
+        "size": 236696,
+        "sha256": "f765785cc96f9f0a03a06988cc736c8397898cddf66e8fc23412b1c157b5cb8d"
+      },
+      {
+        "name": ".libevlog.so.data",
+        "size": 6648,
+        "sha256": "90b6211fbd80d659611442c02cb782c792e8f949f0c35154c70483424251197c"
+      },
+      {
+        "name": ".stackvas.elf.text",
+        "size": 124840,
+        "sha256": "d16cac9860f6afcf150088da3f58afaaa186776bba039921c119ac0acce3e965"
+      },
+      {
+        "name": ".stackvas.elf.data",
+        "size": 964,
+        "sha256": "89da013d968cb3ab181bcd75eb0a8dd984b3bdb161d0a343973ecf1e5d527598"
+      },
+      {
+        "name": ".libINTEGRITY.so.data",
+        "size": 20,
+        "sha256": "87fab6a9428f355488dd14bb3698fff7a75b368888a8760e93bce2758015bd2c"
+      },
+      {
+        "name": ".libc.so.data",
+        "size": 2044,
+        "sha256": "7008333b731f56669f8cfe7633217a871adc866b90c226a897fa7164ab3b0b51"
+      },
+      {
+        "name": ".i2c.elf.text",
+        "size": 102392,
+        "sha256": "b811705da3d170b06d256de2dc40a2443ff20ec14e3393fa5f0ad825299ed9ae"
+      },
+      {
+        "name": ".i2c.elf.data",
+        "size": 2204,
+        "sha256": "5912181826f41e3f71c1a144fca3903aa7cd8bbba9baef30c296c6323c8c1a3e"
+      },
+      {
+        "name": ".libINTEGRITY.so.data",
+        "size": 20,
+        "sha256": "87fab6a9428f355488dd14bb3698fff7a75b368888a8760e93bce2758015bd2c"
+      },
+      {
+        "name": ".libc.so.data",
+        "size": 2044,
+        "sha256": "7008333b731f56669f8cfe7633217a871adc866b90c226a897fa7164ab3b0b51"
+      },
+      {
+        "name": ".spi.elf.text",
+        "size": 25160,
+        "sha256": "e62c4105469fee4eba897515901446c45049f23e3e5d4d6c2e914f95706f438d"
+      },
+      {
+        "name": ".spi.elf.data",
+        "size": 764,
+        "sha256": "53f0afa6300387ca3b091b03fba0e26a202601cf3724f70d54911bc17e00ed99"
+      },
+      {
+        "name": ".libINTEGRITY.so.data",
+        "size": 20,
+        "sha256": "87fab6a9428f355488dd14bb3698fff7a75b368888a8760e93bce2758015bd2c"
+      },
+      {
+        "name": ".libc.so.data",
+        "size": 2044,
+        "sha256": "7008333b731f56669f8cfe7633217a871adc866b90c226a897fa7164ab3b0b51"
+      },
+      {
+        "name": ".health.elf.text",
+        "size": 467080,
+        "sha256": "ed40a286ab49e0cbcb72ed1c85025044c7cb5850e5b32911b3c7a1c22798cb43"
+      },
+      {
+        "name": ".health.elf.data",
+        "size": 4244,
+        "sha256": "a511c345cead19764a3020e327436da1cb70c099accfa220cb19d18c0b8f5511"
+      },
+      {
+        "name": ".libINTEGRITY.so.data",
+        "size": 20,
+        "sha256": "87fab6a9428f355488dd14bb3698fff7a75b368888a8760e93bce2758015bd2c"
+      },
+      {
+        "name": ".libc.so.data",
+        "size": 2044,
+        "sha256": "7008333b731f56669f8cfe7633217a871adc866b90c226a897fa7164ab3b0b51"
+      },
+      {
+        "name": ".libevlog.so.data",
+        "size": 6648,
+        "sha256": "90b6211fbd80d659611442c02cb782c792e8f949f0c35154c70483424251197c"
+      },
+      {
+        "name": ".chif.elf.text",
+        "size": 382328,
+        "sha256": "e83b91da0edcf0d0c755c1f76844ca6eb06da9d841ad5cd8db8998a4d8d507ad"
+      },
+      {
+        "name": ".chif.elf.data",
+        "size": 10164,
+        "sha256": "6c5a98f5db689a8b8fad9fb64e27564dd5f31e44eac9fdd970f8a527fa966681"
+      },
+      {
+        "name": ".libINTEGRITY.so.data",
+        "size": 20,
+        "sha256": "87fab6a9428f355488dd14bb3698fff7a75b368888a8760e93bce2758015bd2c"
+      },
+      {
+        "name": ".libc.so.data",
+        "size": 2044,
+        "sha256": "7008333b731f56669f8cfe7633217a871adc866b90c226a897fa7164ab3b0b51"
+      },
+      {
+        "name": ".libevlog.so.data",
+        "size": 6648,
+        "sha256": "90b6211fbd80d659611442c02cb782c792e8f949f0c35154c70483424251197c"
+      },
+      {
+        "name": ".pjfs.elf.text",
+        "size": 111624,
+        "sha256": "6618f67b75365f54db053083c33bdb2c70ac29e12202551750f93420e70ad77e"
+      },
+      {
+        "name": ".pjfs.elf.data",
+        "size": 892,
+        "sha256": "dc9dd1bcdf1896c86626ba787bbbfe1ed9fe6d0f9a4da67ed11716cea86f0e0b"
+      },
+      {
+        "name": ".libINTEGRITY.so.data",
+        "size": 20,
+        "sha256": "87fab6a9428f355488dd14bb3698fff7a75b368888a8760e93bce2758015bd2c"
+      },
+      {
+        "name": ".libc.so.data",
+        "size": 2044,
+        "sha256": "7008333b731f56669f8cfe7633217a871adc866b90c226a897fa7164ab3b0b51"
+      },
+      {
+        "name": ".gpio.elf.text",
+        "size": 31256,
+        "sha256": "e89df9467804e5e71a60275623891fd907da192d59f54c324b494be137be0de8"
+      },
+      {
+        "name": ".gpio.elf.data",
+        "size": 732,
+        "sha256": "e07f991c065d44aa23db38aab3fcc478ce1909b5ef4cf8adfabbd732585cc316"
+      },
+      {
+        "name": ".libINTEGRITY.so.data",
+        "size": 20,
+        "sha256": "87fab6a9428f355488dd14bb3698fff7a75b368888a8760e93bce2758015bd2c"
+      },
+      {
+        "name": ".libc.so.data",
+        "size": 2044,
+        "sha256": "7008333b731f56669f8cfe7633217a871adc866b90c226a897fa7164ab3b0b51"
+      },
+      {
+        "name": ".usb.elf.text",
+        "size": 241432,
+        "sha256": "143c63c9e74176793542641ba0f2b19cd7879045f3079f3a6a775168b06be8d7"
+      },
+      {
+        "name": ".usb.elf.data",
+        "size": 5244,
+        "sha256": "0aff1dbc8b1335a780d47d10f999adf809a398036f712abaa28ddb9d4c0bec89"
+      },
+      {
+        "name": ".libINTEGRITY.so.data",
+        "size": 20,
+        "sha256": "87fab6a9428f355488dd14bb3698fff7a75b368888a8760e93bce2758015bd2c"
+      },
+      {
+        "name": ".libc.so.data",
+        "size": 2044,
+        "sha256": "7008333b731f56669f8cfe7633217a871adc866b90c226a897fa7164ab3b0b51"
+      },
+      {
+        "name": ".libevlog.so.data",
+        "size": 6648,
+        "sha256": "90b6211fbd80d659611442c02cb782c792e8f949f0c35154c70483424251197c"
+      },
+      {
+        "name": ".libsslc.so.text",
+        "size": 823108,
+        "sha256": "f3c32ed1dfbff5c43061877cf6d4060945859a5b291346b8fcb7a55b55a76b85"
+      },
+      {
+        "name": ".libsslc.so.data",
+        "size": 39292,
+        "sha256": "1816a9ab7eb9f4acace5824dd6ff3de8554addae4cbbb4c8eb9b1a1f07e70336"
+      },
+      {
+        "name": ".vsp.elf.text",
+        "size": 106232,
+        "sha256": "01f02a09a2e827d9284a9f74eb0e022527ba1ee3d2c7e69769de25ebd48de3a6"
+      },
+      {
+        "name": ".vsp.elf.data",
+        "size": 1612,
+        "sha256": "4c522ea67169b94023469ffc569fb7a579258bf8317c7825ca77d4ed0ff84f61"
+      },
+      {
+        "name": ".libINTEGRITY.so.data",
+        "size": 20,
+        "sha256": "87fab6a9428f355488dd14bb3698fff7a75b368888a8760e93bce2758015bd2c"
+      },
+      {
+        "name": ".libc.so.data",
+        "size": 2044,
+        "sha256": "7008333b731f56669f8cfe7633217a871adc866b90c226a897fa7164ab3b0b51"
+      },
+      {
+        "name": ".svcsHost.elf.text",
+        "size": 111512,
+        "sha256": "7c0ba44d46a3ca3f7982a648a4938aaeb2dc387fc8818ac4c1aa99fbf0cf2326"
+      },
+      {
+        "name": ".svcsHost.elf.data",
+        "size": 988,
+        "sha256": "e0c59ab053d839eb2ef98934e81e8d1f58814691af35aaa1b757e9ed7b9505ad"
+      },
+      {
+        "name": ".libINTEGRITY.so.data",
+        "size": 20,
+        "sha256": "87fab6a9428f355488dd14bb3698fff7a75b368888a8760e93bce2758015bd2c"
+      },
+      {
+        "name": ".libc.so.data",
+        "size": 2044,
+        "sha256": "7008333b731f56669f8cfe7633217a871adc866b90c226a897fa7164ab3b0b51"
+      },
+      {
+        "name": ".libevlog.so.data",
+        "size": 6648,
+        "sha256": "90b6211fbd80d659611442c02cb782c792e8f949f0c35154c70483424251197c"
+      },
+      {
+        "name": ".rbsu.elf.text",
+        "size": 16168,
+        "sha256": "05422d0f48cb97161d2ef36f6310eef6d0b57f0355625f4a46e454e2fa026dcf"
+      },
+      {
+        "name": ".rbsu.elf.data",
+        "size": 66252,
+        "sha256": "ac776b6ad4a0d0fee7df857a51b0ddc2d1aee98ed86b3a6b07cfd8efe141edeb"
+      },
+      {
+        "name": ".libINTEGRITY.so.data",
+        "size": 20,
+        "sha256": "87fab6a9428f355488dd14bb3698fff7a75b368888a8760e93bce2758015bd2c"
+      },
+      {
+        "name": ".libc.so.data",
+        "size": 2044,
+        "sha256": "7008333b731f56669f8cfe7633217a871adc866b90c226a897fa7164ab3b0b51"
+      },
+      {
+        "name": ".secmgr.elf.text",
+        "size": 1248152,
+        "sha256": "18dabd51a627f77199b5e90c097935bc390115fe7c5f78ae56a94259a800a3f7"
+      },
+      {
+        "name": ".secmgr.elf.data",
+        "size": 51796,
+        "sha256": "0e6cf964e3dfe9c12fb55b69eb727491fb5c7d2adcab7056a2b20eaa42597ce6"
+      },
+      {
+        "name": ".libINTEGRITY.so.data",
+        "size": 20,
+        "sha256": "87fab6a9428f355488dd14bb3698fff7a75b368888a8760e93bce2758015bd2c"
+      },
+      {
+        "name": ".libc.so.data",
+        "size": 2044,
+        "sha256": "7008333b731f56669f8cfe7633217a871adc866b90c226a897fa7164ab3b0b51"
+      },
+      {
+        "name": ".libevlog.so.data",
+        "size": 6648,
+        "sha256": "90b6211fbd80d659611442c02cb782c792e8f949f0c35154c70483424251197c"
+      },
+      {
+        "name": ".libsslc.so.data",
+        "size": 39292,
+        "sha256": "1816a9ab7eb9f4acace5824dd6ff3de8554addae4cbbb4c8eb9b1a1f07e70336"
+      },
+      {
+        "name": ".pwrmgr.elf.text",
+        "size": 305448,
+        "sha256": "a37679f3bcc6d2b78bccccec7c7ec2529bbd55b14c222e8ee2f9c597b25dea0e"
+      },
+      {
+        "name": ".pwrmgr.elf.data",
+        "size": 3428,
+        "sha256": "d0a0762bd9d8a8188d0be6ddb3b71900a5c188e2d159e7622cf238cc10153dbe"
+      },
+      {
+        "name": ".libINTEGRITY.so.data",
+        "size": 20,
+        "sha256": "87fab6a9428f355488dd14bb3698fff7a75b368888a8760e93bce2758015bd2c"
+      },
+      {
+        "name": ".libc.so.data",
+        "size": 2044,
+        "sha256": "7008333b731f56669f8cfe7633217a871adc866b90c226a897fa7164ab3b0b51"
+      },
+      {
+        "name": ".libevlog.so.data",
+        "size": 6648,
+        "sha256": "90b6211fbd80d659611442c02cb782c792e8f949f0c35154c70483424251197c"
+      },
+      {
+        "name": ".webserv.elf.text",
+        "size": 1971704,
+        "sha256": "28aa6d88c177ff4c28159f0e01e8107d67b4c9bfcd7181fa2949892b7ffdba08"
+      },
+      {
+        "name": ".webserv.elf.data",
+        "size": 2034116,
+        "sha256": "fa83f5ecc06ed58d7848153bc1182dd170126842218bed635189f348a5ae8ea0"
+      },
+      {
+        "name": ".libINTEGRITY.so.data",
+        "size": 20,
+        "sha256": "87fab6a9428f355488dd14bb3698fff7a75b368888a8760e93bce2758015bd2c"
+      },
+      {
+        "name": ".libc.so.data",
+        "size": 2044,
+        "sha256": "7008333b731f56669f8cfe7633217a871adc866b90c226a897fa7164ab3b0b51"
+      },
+      {
+        "name": ".VComCShared_RM.so.text",
+        "size": 27004,
+        "sha256": "964477304f5a1901bb915dcaed56b7ef177e2bcdebce936a751b28e87e8a97c0"
+      },
+      {
+        "name": ".VComCShared_RM.so.data",
+        "size": 80,
+        "sha256": "a99bcb17c8164d0b9bfb8cb773165dfae21c48aee000ab1e93509a2a7d082424"
+      },
+      {
+        "name": ".libevlog.so.data",
+        "size": 6648,
+        "sha256": "90b6211fbd80d659611442c02cb782c792e8f949f0c35154c70483424251197c"
+      },
+      {
+        "name": ".libsslc.so.data",
+        "size": 39292,
+        "sha256": "1816a9ab7eb9f4acace5824dd6ff3de8554addae4cbbb4c8eb9b1a1f07e70336"
+      },
+      {
+        "name": ".ribcl.elf.text",
+        "size": 506600,
+        "sha256": "05f5d55a29fafd3bb95ef5c2db738a1818244c3b6a93564fff49c852d0cd5c75"
+      },
+      {
+        "name": ".ribcl.elf.data",
+        "size": 96236,
+        "sha256": "a49684a8e9ea4dfaa963d75683e2337d490d2f8b3e83b498d0482466fabb6e97"
+      },
+      {
+        "name": ".libINTEGRITY.so.data",
+        "size": 20,
+        "sha256": "87fab6a9428f355488dd14bb3698fff7a75b368888a8760e93bce2758015bd2c"
+      },
+      {
+        "name": ".libevlog.so.data",
+        "size": 6648,
+        "sha256": "90b6211fbd80d659611442c02cb782c792e8f949f0c35154c70483424251197c"
+      },
+      {
+        "name": ".libc.so.data",
+        "size": 2044,
+        "sha256": "7008333b731f56669f8cfe7633217a871adc866b90c226a897fa7164ab3b0b51"
+      },
+      {
+        "name": ".romchf.elf.text",
+        "size": 96936,
+        "sha256": "2771a636313fc1cbe3b8e79faeca75e0558be4e78fdb19e219923f30ab602de7"
+      },
+      {
+        "name": ".romchf.elf.data",
+        "size": 444,
+        "sha256": "f3611c4879c9b0835941d42af7e8f77979e9c9c4a777c3e55ae64f0e41d74b0f"
+      },
+      {
+        "name": ".libINTEGRITY.so.data",
+        "size": 20,
+        "sha256": "87fab6a9428f355488dd14bb3698fff7a75b368888a8760e93bce2758015bd2c"
+      },
+      {
+        "name": ".libc.so.data",
+        "size": 2044,
+        "sha256": "7008333b731f56669f8cfe7633217a871adc866b90c226a897fa7164ab3b0b51"
+      },
+      {
+        "name": ".fum.elf.text",
+        "size": 537992,
+        "sha256": "08e424a4b4165b344002b71a464fa8219ac3fc01bd3d9a650832d287f9d27784"
+      },
+      {
+        "name": ".fum.elf.data",
+        "size": 36644,
+        "sha256": "3d03c36f4465897e095e177dfc40ebbbe9fe5d4025f248fc9fdfb1515a35566d"
+      },
+      {
+        "name": ".libINTEGRITY.so.data",
+        "size": 20,
+        "sha256": "87fab6a9428f355488dd14bb3698fff7a75b368888a8760e93bce2758015bd2c"
+      },
+      {
+        "name": ".libc.so.data",
+        "size": 2044,
+        "sha256": "7008333b731f56669f8cfe7633217a871adc866b90c226a897fa7164ab3b0b51"
+      },
+      {
+        "name": ".libevlog.so.data",
+        "size": 6648,
+        "sha256": "90b6211fbd80d659611442c02cb782c792e8f949f0c35154c70483424251197c"
+      },
+      {
+        "name": ".bmc.elf.text",
+        "size": 439912,
+        "sha256": "cc03325ca3edbc3d439e50ec466ef278d54e91c92432d54e6d93e8c02e882403"
+      },
+      {
+        "name": ".bmc.elf.data",
+        "size": 6988,
+        "sha256": "6a30b2d078c6d64358be691e1febf8775fa4aa13255fb238090dd1eacfe8d848"
+      },
+      {
+        "name": ".libINTEGRITY.so.data",
+        "size": 20,
+        "sha256": "87fab6a9428f355488dd14bb3698fff7a75b368888a8760e93bce2758015bd2c"
+      },
+      {
+        "name": ".libc.so.data",
+        "size": 2044,
+        "sha256": "7008333b731f56669f8cfe7633217a871adc866b90c226a897fa7164ab3b0b51"
+      },
+      {
+        "name": ".libevlog.so.data",
+        "size": 6648,
+        "sha256": "90b6211fbd80d659611442c02cb782c792e8f949f0c35154c70483424251197c"
+      },
+      {
+        "name": ".svcsILO.elf.text",
+        "size": 241448,
+        "sha256": "d11964264240ab659f2f473bce9f5bfcbd885fc51c9e2301436f56430b7a7487"
+      },
+      {
+        "name": ".svcsILO.elf.data",
+        "size": 4916,
+        "sha256": "a5f690a8d5d4cf09e5c2ee3f1260734c6c5fb1ac275eabfcd0ee28535a4dc84a"
+      },
+      {
+        "name": ".libINTEGRITY.so.data",
+        "size": 20,
+        "sha256": "87fab6a9428f355488dd14bb3698fff7a75b368888a8760e93bce2758015bd2c"
+      },
+      {
+        "name": ".libc.so.data",
+        "size": 2044,
+        "sha256": "7008333b731f56669f8cfe7633217a871adc866b90c226a897fa7164ab3b0b51"
+      },
+      {
+        "name": ".libevlog.so.data",
+        "size": 6648,
+        "sha256": "90b6211fbd80d659611442c02cb782c792e8f949f0c35154c70483424251197c"
+      },
+      {
+        "name": ".libsslc.so.data",
+        "size": 39292,
+        "sha256": "1816a9ab7eb9f4acace5824dd6ff3de8554addae4cbbb4c8eb9b1a1f07e70336"
+      },
+      {
+        "name": ".network.elf.text",
+        "size": 118648,
+        "sha256": "7fce1623413ed116f44d4559f3e10ecdf26de30cbf0d61e9fd47adb7daaa5bab"
+      },
+      {
+        "name": ".network.elf.data",
+        "size": 812,
+        "sha256": "ce80f83cef7b7d1e044cd1e45637eb3f555b6a23b5c028e435293a005d2e803f"
+      },
+      {
+        "name": ".libINTEGRITY.so.data",
+        "size": 20,
+        "sha256": "87fab6a9428f355488dd14bb3698fff7a75b368888a8760e93bce2758015bd2c"
+      },
+      {
+        "name": ".libc.so.data",
+        "size": 2044,
+        "sha256": "7008333b731f56669f8cfe7633217a871adc866b90c226a897fa7164ab3b0b51"
+      },
+      {
+        "name": ".libevlog.so.data",
+        "size": 6648,
+        "sha256": "90b6211fbd80d659611442c02cb782c792e8f949f0c35154c70483424251197c"
+      },
+      {
+        "name": ".orion.elf.text",
+        "size": 104312,
+        "sha256": "7ed63544ac6dc252706348ab2663fe725e9931089c867adb24e283e2af6d1e29"
+      },
+      {
+        "name": ".orion.elf.data",
+        "size": 2116,
+        "sha256": "fe75a7db53b66ac09a241dc1e3ec56da128168e644f2b05f32f725be6beacc4a"
+      },
+      {
+        "name": ".libINTEGRITY.so.data",
+        "size": 20,
+        "sha256": "87fab6a9428f355488dd14bb3698fff7a75b368888a8760e93bce2758015bd2c"
+      },
+      {
+        "name": ".libc.so.data",
+        "size": 2044,
+        "sha256": "7008333b731f56669f8cfe7633217a871adc866b90c226a897fa7164ab3b0b51"
+      },
+      {
+        "name": ".libevlog.so.data",
+        "size": 6648,
+        "sha256": "90b6211fbd80d659611442c02cb782c792e8f949f0c35154c70483424251197c"
+      },
+      {
+        "name": ".ConAppCLI.elf.text",
+        "size": 504504,
+        "sha256": "b4a3e08024d4c8d25e82adcbe587ed1e58a0538e3de5a015df5d2ee2636c477b"
+      },
+      {
+        "name": ".ConAppCLI.elf.data",
+        "size": 70748,
+        "sha256": "a07b1b1aaf45321596dcc50c64c3e3a9e17cc37a69dbe031aac387156e7bf879"
+      },
+      {
+        "name": ".libINTEGRITY.so.data",
+        "size": 20,
+        "sha256": "87fab6a9428f355488dd14bb3698fff7a75b368888a8760e93bce2758015bd2c"
+      },
+      {
+        "name": ".libc.so.data",
+        "size": 2044,
+        "sha256": "7008333b731f56669f8cfe7633217a871adc866b90c226a897fa7164ab3b0b51"
+      },
+      {
+        "name": ".libevlog.so.data",
+        "size": 6648,
+        "sha256": "90b6211fbd80d659611442c02cb782c792e8f949f0c35154c70483424251197c"
+      },
+      {
+        "name": ".snmp.elf.text",
+        "size": 158920,
+        "sha256": "eb6d7e12090586e5799772303be507f69f3fa932b6ba0c42debcdfe4da74ec58"
+      },
+      {
+        "name": ".snmp.elf.data",
+        "size": 1716,
+        "sha256": "bf055f7b629a56045b88571db7e8c7681e0565c3f87680cac20e6c06c81259a6"
+      },
+      {
+        "name": ".libINTEGRITY.so.data",
+        "size": 20,
+        "sha256": "87fab6a9428f355488dd14bb3698fff7a75b368888a8760e93bce2758015bd2c"
+      },
+      {
+        "name": ".libc.so.data",
+        "size": 2044,
+        "sha256": "7008333b731f56669f8cfe7633217a871adc866b90c226a897fa7164ab3b0b51"
+      },
+      {
+        "name": ".libevlog.so.data",
+        "size": 6648,
+        "sha256": "90b6211fbd80d659611442c02cb782c792e8f949f0c35154c70483424251197c"
+      },
+      {
+        "name": ".rckmgmt.elf.text",
+        "size": 176632,
+        "sha256": "5ab3d71a058c1b8b34ceee02a3b278379597e19e20d8ed61cb56e067f20c813f"
+      },
+      {
+        "name": ".rckmgmt.elf.data",
+        "size": 2644,
+        "sha256": "9ec6a977fb9a24ee852beb414aad519a958e3f26f63a45e1618a4c76b5650512"
+      },
+      {
+        "name": ".libINTEGRITY.so.data",
+        "size": 20,
+        "sha256": "87fab6a9428f355488dd14bb3698fff7a75b368888a8760e93bce2758015bd2c"
+      },
+      {
+        "name": ".libc.so.data",
+        "size": 2044,
+        "sha256": "7008333b731f56669f8cfe7633217a871adc866b90c226a897fa7164ab3b0b51"
+      },
+      {
+        "name": ".libsslc.so.data",
+        "size": 39292,
+        "sha256": "1816a9ab7eb9f4acace5824dd6ff3de8554addae4cbbb4c8eb9b1a1f07e70336"
+      },
+      {
+        "name": ".libevlog.so.data",
+        "size": 6648,
+        "sha256": "90b6211fbd80d659611442c02cb782c792e8f949f0c35154c70483424251197c"
+      },
+      {
+        "name": ".sntp.elf.text",
+        "size": 164056,
+        "sha256": "8c3cce3c6145d33bdaba8d08f05be593dc8215bc7e37c89e9f851a661f59154e"
+      },
+      {
+        "name": ".sntp.elf.data",
+        "size": 9396,
+        "sha256": "df6b8441556ef341a4c7b93f2775b4d5aabbde89060886a7b8a1e913ab052e9e"
+      },
+      {
+        "name": ".libINTEGRITY.so.data",
+        "size": 20,
+        "sha256": "87fab6a9428f355488dd14bb3698fff7a75b368888a8760e93bce2758015bd2c"
+      },
+      {
+        "name": ".libc.so.data",
+        "size": 2044,
+        "sha256": "7008333b731f56669f8cfe7633217a871adc866b90c226a897fa7164ab3b0b51"
+      },
+      {
+        "name": ".libevlog.so.data",
+        "size": 6648,
+        "sha256": "90b6211fbd80d659611442c02cb782c792e8f949f0c35154c70483424251197c"
+      },
+      {
+        "name": ".wol.elf.text",
+        "size": 40584,
+        "sha256": "d246136ff5bbe32aa64fdc607f4c6bfe236ae4ae13bd3f09e81f9d6c9a6c9677"
+      },
+      {
+        "name": ".wol.elf.data",
+        "size": 748,
+        "sha256": "5076203104c37a096edeb451a332b96dfadabf609a6090ef6106d00f85bdccc7"
+      },
+      {
+        "name": ".libINTEGRITY.so.data",
+        "size": 20,
+        "sha256": "87fab6a9428f355488dd14bb3698fff7a75b368888a8760e93bce2758015bd2c"
+      },
+      {
+        "name": ".libc.so.data",
+        "size": 2044,
+        "sha256": "7008333b731f56669f8cfe7633217a871adc866b90c226a897fa7164ab3b0b51"
+      },
+      {
+        "name": ".libevlog.so.data",
+        "size": 6648,
+        "sha256": "90b6211fbd80d659611442c02cb782c792e8f949f0c35154c70483424251197c"
+      },
+      {
+        "name": ".boottable",
+        "size": 289016,
+        "sha256": "6e69af817e407fab5ce8f0e35350a273b63f10dae3c8da3ae0bc86f300792b7e"
+      },
+      {
+        "name": ".secinfo",
+        "size": 10496,
+        "sha256": "ab6d3700a8f3376df339601fff8a1e2c77dcf43200a25c585a369036b1bf5a02"
+      }
+    ],
+    "processes": [
+      {
+        "name": "dvi",
+        "sections": [
+          {
+            "addr": 4096,
+            "size": 61440
+          },
+          {
+            "name": ".dvi.elf.text",
+            "addr": 65536,
+            "size": 188416,
+            "sha256": "4a9851b545c93195174926d54e4ccc3381b4dfe45042e92fd65f6d908380b492",
+            "sha256.text": "4a9851b545c93195174926d54e4ccc3381b4dfe45042e92fd65f6d908380b492"
+          },
+          {
+            "addr": 253952,
+            "size": 8192
+          },
+          {
+            "name": ".dvi.elf.data",
+            "addr": 262144,
+            "size": 36864,
+            "sha256": "b3d70726b592f75895461505b3e1bd8f6d7cc2f4e9d4a473af1362ad03f3e91a",
+            "sha256.text": "4a9851b545c93195174926d54e4ccc3381b4dfe45042e92fd65f6d908380b492"
+          },
+          {
+            "name": ".dvi.Initial.stack",
+            "addr": 303104,
+            "size": 8192
+          },
+          {
+            "name": ".dvi.heap",
+            "addr": 311296,
+            "size": 65536
+          },
+          {
+            "addr": 376832,
+            "size": 65536
+          },
+          {
+            "addr": 442368,
+            "size": 65536
+          },
+          {
+            "addr": 507904,
+            "size": 262144
+          },
+          {
+            "addr": 770048,
+            "size": 16384
+          },
+          {
+            "addr": 786432,
+            "size": 5505024
+          },
+          {
+            "addr": 6291456,
+            "size": 16777216
+          },
+          {
+            "addr": 23068672,
+            "size": 1572864
+          },
+          {
+            "name": ".libINTEGRITY.so.text",
+            "addr": 24641536,
+            "size": 20480,
+            "sha256": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24662016,
+            "size": 12288
+          },
+          {
+            "name": ".libINTEGRITY.so.data",
+            "addr": 24674304,
+            "size": 4096,
+            "sha256": "bf28c816aa2004c10798003af660c5758ac497f963c75875e286a3cd657950bc",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24678400,
+            "size": 94208
+          },
+          {
+            "name": ".libc.so.text",
+            "addr": 24772608,
+            "size": 212992,
+            "sha256": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "name": ".libc.so.data",
+            "addr": 24985600,
+            "size": 4096,
+            "sha256": "e475a7350aed853d69b66e6a3d2f0c93560ef3aa7d5d8832181fa6e2378190bc",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 24989696,
+            "size": 12288
+          },
+          {
+            "name": ".libc.so.bss",
+            "addr": 25001984,
+            "size": 8192,
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 25010176,
+            "size": 4349952
+          },
+          {
+            "name": ".libevlog.so.text",
+            "addr": 29360128,
+            "size": 237568,
+            "sha256": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18",
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29597696,
+            "size": 8192
+          },
+          {
+            "name": ".libevlog.so.data",
+            "addr": 29605888,
+            "size": 8192,
+            "sha256": "feffa6ae8a446be03e204a1be5ad00a0da374c19508441e1f5a5949823402708",
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29614080,
+            "size": 8192
+          },
+          {
+            "name": ".libevlog.so.data",
+            "addr": 29622272,
+            "size": 32768,
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29655040,
+            "size": 2850816
+          },
+          {
+            "addr": 32505856,
+            "size": 4096
+          },
+          {
+            "addr": 32509952,
+            "size": 4096
+          },
+          {
+            "addr": 32514048,
+            "size": 4096
+          },
+          {
+            "addr": 32518144,
+            "size": 4096
+          },
+          {
+            "addr": 32522240,
+            "size": 4096
+          },
+          {
+            "addr": 32526336,
+            "size": 4096
+          },
+          {
+            "addr": 32530432,
+            "size": 4096
+          },
+          {
+            "addr": 32534528,
+            "size": 4096
+          },
+          {
+            "addr": 32538624,
+            "size": 4096
+          },
+          {
+            "addr": 32542720,
+            "size": 4096
+          },
+          {
+            "addr": 32546816,
+            "size": 4096
+          },
+          {
+            "addr": 32550912,
+            "size": 4096
+          },
+          {
+            "addr": 32555008,
+            "size": 4096
+          },
+          {
+            "addr": 32559104,
+            "size": 4096
+          },
+          {
+            "addr": 32563200,
+            "size": 4096
+          },
+          {
+            "addr": 32567296,
+            "size": 4096
+          },
+          {
+            "addr": 32571392,
+            "size": 4096
+          },
+          {
+            "addr": 32575488,
+            "size": 4096
+          },
+          {
+            "addr": 32579584,
+            "size": 4096
+          },
+          {
+            "addr": 32583680,
+            "size": 4096
+          },
+          {
+            "addr": 32587776,
+            "size": 4096
+          },
+          {
+            "addr": 32591872,
+            "size": 4096
+          },
+          {
+            "addr": 32595968,
+            "size": 4096
+          },
+          {
+            "addr": 32600064,
+            "size": 16384
+          },
+          {
+            "addr": 32616448,
+            "size": 937984
+          }
+        ]
+      },
+      {
+        "name": "tcpip_stack",
+        "sections": [
+          {
+            "addr": 4096,
+            "size": 61440
+          },
+          {
+            "name": ".stackvas.elf.text",
+            "addr": 65536,
+            "size": 126976,
+            "sha256": "e3de748dac3292de6ca2d8458e7b5dfdba52faa2a0b193c3d34040cb81c762a9",
+            "sha256.text": "e3de748dac3292de6ca2d8458e7b5dfdba52faa2a0b193c3d34040cb81c762a9"
+          },
+          {
+            "addr": 192512,
+            "size": 4096
+          },
+          {
+            "name": ".stackvas.elf.data",
+            "addr": 196608,
+            "size": 16384,
+            "sha256": "2adc84404d4678ad7444f65108ad93e08d1e2fa08db34dd61fe5683ece25fc8f",
+            "sha256.text": "e3de748dac3292de6ca2d8458e7b5dfdba52faa2a0b193c3d34040cb81c762a9"
+          },
+          {
+            "name": ".tcpip_stack.Initial.stack",
+            "addr": 217088,
+            "size": 16384
+          },
+          {
+            "name": ".tcpip_stack.heap",
+            "addr": 233472,
+            "size": 65536
+          },
+          {
+            "addr": 299008,
+            "size": 65536
+          },
+          {
+            "addr": 364544,
+            "size": 16384
+          },
+          {
+            "addr": 380928,
+            "size": 5910528
+          },
+          {
+            "addr": 6291456,
+            "size": 16777216
+          },
+          {
+            "addr": 23068672,
+            "size": 1572864
+          },
+          {
+            "name": ".libINTEGRITY.so.text",
+            "addr": 24641536,
+            "size": 20480,
+            "sha256": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24662016,
+            "size": 12288
+          },
+          {
+            "name": ".libINTEGRITY.so.data",
+            "addr": 24674304,
+            "size": 4096,
+            "sha256": "bf28c816aa2004c10798003af660c5758ac497f963c75875e286a3cd657950bc",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24678400,
+            "size": 94208
+          },
+          {
+            "name": ".libc.so.text",
+            "addr": 24772608,
+            "size": 212992,
+            "sha256": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "name": ".libc.so.data",
+            "addr": 24985600,
+            "size": 4096,
+            "sha256": "e475a7350aed853d69b66e6a3d2f0c93560ef3aa7d5d8832181fa6e2378190bc",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 24989696,
+            "size": 12288
+          },
+          {
+            "name": ".libc.so.bss",
+            "addr": 25001984,
+            "size": 8192,
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 25010176,
+            "size": 7495680
+          },
+          {
+            "addr": 32505856,
+            "size": 4096
+          },
+          {
+            "addr": 32509952,
+            "size": 4096
+          },
+          {
+            "addr": 32514048,
+            "size": 4096
+          },
+          {
+            "addr": 32518144,
+            "size": 4096
+          },
+          {
+            "addr": 32522240,
+            "size": 4096
+          },
+          {
+            "addr": 32526336,
+            "size": 4096
+          },
+          {
+            "addr": 32530432,
+            "size": 4096
+          },
+          {
+            "addr": 32534528,
+            "size": 4096
+          },
+          {
+            "addr": 32538624,
+            "size": 4096
+          },
+          {
+            "addr": 32542720,
+            "size": 4096
+          },
+          {
+            "addr": 32546816,
+            "size": 4096
+          },
+          {
+            "addr": 32550912,
+            "size": 4096
+          },
+          {
+            "addr": 32555008,
+            "size": 4096
+          },
+          {
+            "addr": 32559104,
+            "size": 4096
+          },
+          {
+            "addr": 32563200,
+            "size": 4096
+          },
+          {
+            "addr": 32567296,
+            "size": 4096
+          },
+          {
+            "addr": 32571392,
+            "size": 4096
+          },
+          {
+            "addr": 32575488,
+            "size": 4096
+          },
+          {
+            "addr": 32579584,
+            "size": 4096
+          },
+          {
+            "addr": 32583680,
+            "size": 4096
+          },
+          {
+            "addr": 32587776,
+            "size": 4096
+          },
+          {
+            "addr": 32591872,
+            "size": 4096
+          },
+          {
+            "addr": 32595968,
+            "size": 4096
+          },
+          {
+            "addr": 32600064,
+            "size": 16384
+          },
+          {
+            "addr": 32616448,
+            "size": 937984
+          }
+        ]
+      },
+      {
+        "name": "i2c",
+        "sections": [
+          {
+            "addr": 4096,
+            "size": 61440
+          },
+          {
+            "name": ".i2c.elf.text",
+            "addr": 65536,
+            "size": 102400,
+            "sha256": "a72f99de3d2303b90521ad01efd97c51f2ebe2596b14199f7ec84d0f4ee77cb5",
+            "sha256.text": "a72f99de3d2303b90521ad01efd97c51f2ebe2596b14199f7ec84d0f4ee77cb5"
+          },
+          {
+            "name": ".i2c.Initial.stack",
+            "addr": 172032,
+            "size": 8192
+          },
+          {
+            "name": ".i2c.elf.data",
+            "addr": 180224,
+            "size": 69632,
+            "sha256": "fe5aca8356949fcc809e0bfeeecd9608da28e9fdd35bb0a5860e2307f746c97c",
+            "sha256.text": "a72f99de3d2303b90521ad01efd97c51f2ebe2596b14199f7ec84d0f4ee77cb5"
+          },
+          {
+            "name": ".i2c.heap",
+            "addr": 249856,
+            "size": 65536
+          },
+          {
+            "addr": 315392,
+            "size": 65536
+          },
+          {
+            "addr": 380928,
+            "size": 16384
+          },
+          {
+            "addr": 397312,
+            "size": 5894144
+          },
+          {
+            "addr": 6291456,
+            "size": 16777216
+          },
+          {
+            "addr": 23068672,
+            "size": 1572864
+          },
+          {
+            "name": ".libINTEGRITY.so.text",
+            "addr": 24641536,
+            "size": 20480,
+            "sha256": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24662016,
+            "size": 12288
+          },
+          {
+            "name": ".libINTEGRITY.so.data",
+            "addr": 24674304,
+            "size": 4096,
+            "sha256": "bf28c816aa2004c10798003af660c5758ac497f963c75875e286a3cd657950bc",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24678400,
+            "size": 94208
+          },
+          {
+            "name": ".libc.so.text",
+            "addr": 24772608,
+            "size": 212992,
+            "sha256": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "name": ".libc.so.data",
+            "addr": 24985600,
+            "size": 4096,
+            "sha256": "e475a7350aed853d69b66e6a3d2f0c93560ef3aa7d5d8832181fa6e2378190bc",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 24989696,
+            "size": 12288
+          },
+          {
+            "name": ".libc.so.bss",
+            "addr": 25001984,
+            "size": 8192,
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 25010176,
+            "size": 7495680
+          },
+          {
+            "addr": 32505856,
+            "size": 4096
+          },
+          {
+            "addr": 32509952,
+            "size": 4096
+          },
+          {
+            "addr": 32514048,
+            "size": 4096
+          },
+          {
+            "addr": 32518144,
+            "size": 4096
+          },
+          {
+            "addr": 32522240,
+            "size": 4096
+          },
+          {
+            "addr": 32526336,
+            "size": 4096
+          },
+          {
+            "addr": 32530432,
+            "size": 4096
+          },
+          {
+            "addr": 32534528,
+            "size": 4096
+          },
+          {
+            "addr": 32538624,
+            "size": 4096
+          },
+          {
+            "addr": 32542720,
+            "size": 4096
+          },
+          {
+            "addr": 32546816,
+            "size": 4096
+          },
+          {
+            "addr": 32550912,
+            "size": 4096
+          },
+          {
+            "addr": 32555008,
+            "size": 4096
+          },
+          {
+            "addr": 32559104,
+            "size": 4096
+          },
+          {
+            "addr": 32563200,
+            "size": 4096
+          },
+          {
+            "addr": 32567296,
+            "size": 4096
+          },
+          {
+            "addr": 32571392,
+            "size": 4096
+          },
+          {
+            "addr": 32575488,
+            "size": 4096
+          },
+          {
+            "addr": 32579584,
+            "size": 4096
+          },
+          {
+            "addr": 32583680,
+            "size": 4096
+          },
+          {
+            "addr": 32587776,
+            "size": 4096
+          },
+          {
+            "addr": 32591872,
+            "size": 4096
+          },
+          {
+            "addr": 32595968,
+            "size": 4096
+          },
+          {
+            "addr": 32600064,
+            "size": 16384
+          },
+          {
+            "addr": 32616448,
+            "size": 937984
+          }
+        ]
+      },
+      {
+        "name": "spi",
+        "sections": [
+          {
+            "addr": 4096,
+            "size": 61440
+          },
+          {
+            "name": ".spi.elf.text",
+            "addr": 65536,
+            "size": 28672,
+            "sha256": "c43e4bf26ec50dc7da27d90e8c124fd0a6f1c867c050ab17cb8f315cdb25145f",
+            "sha256.text": "c43e4bf26ec50dc7da27d90e8c124fd0a6f1c867c050ab17cb8f315cdb25145f"
+          },
+          {
+            "addr": 94208,
+            "size": 4096
+          },
+          {
+            "name": ".spi.elf.data",
+            "addr": 98304,
+            "size": 4096,
+            "sha256": "da9a88a215d55ae2dcae7fdbb2ca11be4cbb46bd939f878326fac8d4f78c3438",
+            "sha256.text": "c43e4bf26ec50dc7da27d90e8c124fd0a6f1c867c050ab17cb8f315cdb25145f"
+          },
+          {
+            "name": ".spi.Initial.stack",
+            "addr": 106496,
+            "size": 4096
+          },
+          {
+            "name": ".spi.heap",
+            "addr": 110592,
+            "size": 65536
+          },
+          {
+            "addr": 176128,
+            "size": 65536
+          },
+          {
+            "addr": 241664,
+            "size": 16384
+          },
+          {
+            "addr": 258048,
+            "size": 6033408
+          },
+          {
+            "addr": 6291456,
+            "size": 16777216
+          },
+          {
+            "addr": 23068672,
+            "size": 1572864
+          },
+          {
+            "name": ".libINTEGRITY.so.text",
+            "addr": 24641536,
+            "size": 20480,
+            "sha256": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24662016,
+            "size": 12288
+          },
+          {
+            "name": ".libINTEGRITY.so.data",
+            "addr": 24674304,
+            "size": 4096,
+            "sha256": "bf28c816aa2004c10798003af660c5758ac497f963c75875e286a3cd657950bc",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24678400,
+            "size": 94208
+          },
+          {
+            "name": ".libc.so.text",
+            "addr": 24772608,
+            "size": 212992,
+            "sha256": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "name": ".libc.so.data",
+            "addr": 24985600,
+            "size": 4096,
+            "sha256": "e475a7350aed853d69b66e6a3d2f0c93560ef3aa7d5d8832181fa6e2378190bc",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 24989696,
+            "size": 12288
+          },
+          {
+            "name": ".libc.so.bss",
+            "addr": 25001984,
+            "size": 8192,
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 25010176,
+            "size": 7495680
+          },
+          {
+            "addr": 32505856,
+            "size": 4096
+          },
+          {
+            "addr": 32509952,
+            "size": 4096
+          },
+          {
+            "addr": 32514048,
+            "size": 4096
+          },
+          {
+            "addr": 32518144,
+            "size": 4096
+          },
+          {
+            "addr": 32522240,
+            "size": 4096
+          },
+          {
+            "addr": 32526336,
+            "size": 4096
+          },
+          {
+            "addr": 32530432,
+            "size": 4096
+          },
+          {
+            "addr": 32534528,
+            "size": 4096
+          },
+          {
+            "addr": 32538624,
+            "size": 4096
+          },
+          {
+            "addr": 32542720,
+            "size": 4096
+          },
+          {
+            "addr": 32546816,
+            "size": 4096
+          },
+          {
+            "addr": 32550912,
+            "size": 4096
+          },
+          {
+            "addr": 32555008,
+            "size": 4096
+          },
+          {
+            "addr": 32559104,
+            "size": 4096
+          },
+          {
+            "addr": 32563200,
+            "size": 4096
+          },
+          {
+            "addr": 32567296,
+            "size": 4096
+          },
+          {
+            "addr": 32571392,
+            "size": 4096
+          },
+          {
+            "addr": 32575488,
+            "size": 4096
+          },
+          {
+            "addr": 32579584,
+            "size": 4096
+          },
+          {
+            "addr": 32583680,
+            "size": 4096
+          },
+          {
+            "addr": 32587776,
+            "size": 4096
+          },
+          {
+            "addr": 32591872,
+            "size": 4096
+          },
+          {
+            "addr": 32595968,
+            "size": 4096
+          },
+          {
+            "addr": 32600064,
+            "size": 16384
+          },
+          {
+            "addr": 32616448,
+            "size": 937984
+          }
+        ]
+      },
+      {
+        "name": "health",
+        "sections": [
+          {
+            "addr": 4096,
+            "size": 61440
+          },
+          {
+            "name": ".health.elf.text",
+            "addr": 65536,
+            "size": 471040,
+            "sha256": "24ed71f62bb3ac65925093f23a3b2f592479d18d72a181d167f90babce7d7301",
+            "sha256.text": "24ed71f62bb3ac65925093f23a3b2f592479d18d72a181d167f90babce7d7301"
+          },
+          {
+            "addr": 536576,
+            "size": 4096
+          },
+          {
+            "name": ".health.elf.data",
+            "addr": 540672,
+            "size": 348160,
+            "sha256": "fecad1ded659105cfb10453498595c4801fcd4dadb965ea1abfc3f154a30cdb5",
+            "sha256.text": "24ed71f62bb3ac65925093f23a3b2f592479d18d72a181d167f90babce7d7301"
+          },
+          {
+            "name": ".health.Initial.stack",
+            "addr": 892928,
+            "size": 8192
+          },
+          {
+            "name": ".health.heap",
+            "addr": 901120,
+            "size": 131072
+          },
+          {
+            "addr": 1032192,
+            "size": 65536
+          },
+          {
+            "addr": 1097728,
+            "size": 16384
+          },
+          {
+            "addr": 1114112,
+            "size": 5177344
+          },
+          {
+            "addr": 6291456,
+            "size": 16777216
+          },
+          {
+            "addr": 23068672,
+            "size": 1572864
+          },
+          {
+            "name": ".libINTEGRITY.so.text",
+            "addr": 24641536,
+            "size": 20480,
+            "sha256": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24662016,
+            "size": 12288
+          },
+          {
+            "name": ".libINTEGRITY.so.data",
+            "addr": 24674304,
+            "size": 4096,
+            "sha256": "bf28c816aa2004c10798003af660c5758ac497f963c75875e286a3cd657950bc",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24678400,
+            "size": 94208
+          },
+          {
+            "name": ".libc.so.text",
+            "addr": 24772608,
+            "size": 212992,
+            "sha256": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "name": ".libc.so.data",
+            "addr": 24985600,
+            "size": 4096,
+            "sha256": "e475a7350aed853d69b66e6a3d2f0c93560ef3aa7d5d8832181fa6e2378190bc",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 24989696,
+            "size": 12288
+          },
+          {
+            "name": ".libc.so.bss",
+            "addr": 25001984,
+            "size": 8192,
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 25010176,
+            "size": 4349952
+          },
+          {
+            "name": ".libevlog.so.text",
+            "addr": 29360128,
+            "size": 237568,
+            "sha256": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18",
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29597696,
+            "size": 8192
+          },
+          {
+            "name": ".libevlog.so.data",
+            "addr": 29605888,
+            "size": 8192,
+            "sha256": "feffa6ae8a446be03e204a1be5ad00a0da374c19508441e1f5a5949823402708",
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29614080,
+            "size": 8192
+          },
+          {
+            "name": ".libevlog.so.data",
+            "addr": 29622272,
+            "size": 32768,
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29655040,
+            "size": 2850816
+          },
+          {
+            "addr": 32505856,
+            "size": 4096
+          },
+          {
+            "addr": 32509952,
+            "size": 4096
+          },
+          {
+            "addr": 32514048,
+            "size": 4096
+          },
+          {
+            "addr": 32518144,
+            "size": 4096
+          },
+          {
+            "addr": 32522240,
+            "size": 4096
+          },
+          {
+            "addr": 32526336,
+            "size": 4096
+          },
+          {
+            "addr": 32530432,
+            "size": 4096
+          },
+          {
+            "addr": 32534528,
+            "size": 4096
+          },
+          {
+            "addr": 32538624,
+            "size": 4096
+          },
+          {
+            "addr": 32542720,
+            "size": 4096
+          },
+          {
+            "addr": 32546816,
+            "size": 4096
+          },
+          {
+            "addr": 32550912,
+            "size": 4096
+          },
+          {
+            "addr": 32555008,
+            "size": 4096
+          },
+          {
+            "addr": 32559104,
+            "size": 4096
+          },
+          {
+            "addr": 32563200,
+            "size": 4096
+          },
+          {
+            "addr": 32567296,
+            "size": 4096
+          },
+          {
+            "addr": 32571392,
+            "size": 4096
+          },
+          {
+            "addr": 32575488,
+            "size": 4096
+          },
+          {
+            "addr": 32579584,
+            "size": 4096
+          },
+          {
+            "addr": 32583680,
+            "size": 4096
+          },
+          {
+            "addr": 32587776,
+            "size": 4096
+          },
+          {
+            "addr": 32591872,
+            "size": 4096
+          },
+          {
+            "addr": 32595968,
+            "size": 4096
+          },
+          {
+            "addr": 32600064,
+            "size": 16384
+          },
+          {
+            "addr": 32616448,
+            "size": 937984
+          }
+        ]
+      },
+      {
+        "name": "chif",
+        "sections": [
+          {
+            "addr": 4096,
+            "size": 61440
+          },
+          {
+            "name": ".chif.elf.text",
+            "addr": 65536,
+            "size": 385024,
+            "sha256": "17d7955f61cd2d8fd5e13af7c174581846b1fd23090ca2025d739ed198550a98",
+            "sha256.text": "17d7955f61cd2d8fd5e13af7c174581846b1fd23090ca2025d739ed198550a98"
+          },
+          {
+            "name": ".chif.Initial.stack",
+            "addr": 454656,
+            "size": 4096
+          },
+          {
+            "name": ".chif.elf.data",
+            "addr": 458752,
+            "size": 69632,
+            "sha256": "d57b6e9f7432e20ca0c4ce5670ba1f23e13d6c378375efa39623c0c1f9afa46c",
+            "sha256.text": "17d7955f61cd2d8fd5e13af7c174581846b1fd23090ca2025d739ed198550a98"
+          },
+          {
+            "name": ".chif.heap",
+            "addr": 528384,
+            "size": 155648
+          },
+          {
+            "addr": 684032,
+            "size": 65536
+          },
+          {
+            "addr": 749568,
+            "size": 32768
+          },
+          {
+            "addr": 782336,
+            "size": 131072
+          },
+          {
+            "addr": 913408,
+            "size": 16384
+          },
+          {
+            "addr": 929792,
+            "size": 5361664
+          },
+          {
+            "addr": 6291456,
+            "size": 16777216
+          },
+          {
+            "addr": 23068672,
+            "size": 1572864
+          },
+          {
+            "name": ".libINTEGRITY.so.text",
+            "addr": 24641536,
+            "size": 20480,
+            "sha256": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24662016,
+            "size": 12288
+          },
+          {
+            "name": ".libINTEGRITY.so.data",
+            "addr": 24674304,
+            "size": 4096,
+            "sha256": "bf28c816aa2004c10798003af660c5758ac497f963c75875e286a3cd657950bc",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24678400,
+            "size": 94208
+          },
+          {
+            "name": ".libc.so.text",
+            "addr": 24772608,
+            "size": 212992,
+            "sha256": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "name": ".libc.so.data",
+            "addr": 24985600,
+            "size": 4096,
+            "sha256": "e475a7350aed853d69b66e6a3d2f0c93560ef3aa7d5d8832181fa6e2378190bc",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 24989696,
+            "size": 12288
+          },
+          {
+            "name": ".libc.so.bss",
+            "addr": 25001984,
+            "size": 8192,
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 25010176,
+            "size": 4349952
+          },
+          {
+            "name": ".libevlog.so.text",
+            "addr": 29360128,
+            "size": 237568,
+            "sha256": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18",
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29597696,
+            "size": 8192
+          },
+          {
+            "name": ".libevlog.so.data",
+            "addr": 29605888,
+            "size": 8192,
+            "sha256": "feffa6ae8a446be03e204a1be5ad00a0da374c19508441e1f5a5949823402708",
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29614080,
+            "size": 8192
+          },
+          {
+            "name": ".libevlog.so.data",
+            "addr": 29622272,
+            "size": 32768,
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29655040,
+            "size": 2850816
+          },
+          {
+            "addr": 32505856,
+            "size": 4096
+          },
+          {
+            "addr": 32509952,
+            "size": 4096
+          },
+          {
+            "addr": 32514048,
+            "size": 4096
+          },
+          {
+            "addr": 32518144,
+            "size": 4096
+          },
+          {
+            "addr": 32522240,
+            "size": 4096
+          },
+          {
+            "addr": 32526336,
+            "size": 4096
+          },
+          {
+            "addr": 32530432,
+            "size": 4096
+          },
+          {
+            "addr": 32534528,
+            "size": 4096
+          },
+          {
+            "addr": 32538624,
+            "size": 4096
+          },
+          {
+            "addr": 32542720,
+            "size": 4096
+          },
+          {
+            "addr": 32546816,
+            "size": 4096
+          },
+          {
+            "addr": 32550912,
+            "size": 4096
+          },
+          {
+            "addr": 32555008,
+            "size": 4096
+          },
+          {
+            "addr": 32559104,
+            "size": 4096
+          },
+          {
+            "addr": 32563200,
+            "size": 4096
+          },
+          {
+            "addr": 32567296,
+            "size": 4096
+          },
+          {
+            "addr": 32571392,
+            "size": 4096
+          },
+          {
+            "addr": 32575488,
+            "size": 4096
+          },
+          {
+            "addr": 32579584,
+            "size": 4096
+          },
+          {
+            "addr": 32583680,
+            "size": 4096
+          },
+          {
+            "addr": 32587776,
+            "size": 4096
+          },
+          {
+            "addr": 32591872,
+            "size": 4096
+          },
+          {
+            "addr": 32595968,
+            "size": 4096
+          },
+          {
+            "addr": 32600064,
+            "size": 16384
+          },
+          {
+            "addr": 32616448,
+            "size": 937984
+          }
+        ]
+      },
+      {
+        "name": "pjfs",
+        "sections": [
+          {
+            "addr": 4096,
+            "size": 61440
+          },
+          {
+            "name": ".pjfs.elf.text",
+            "addr": 65536,
+            "size": 114688,
+            "sha256": "7323a6eedc2a5a72f41bee22d84135caa18ea863880092c91b66a27e3a181051",
+            "sha256.text": "7323a6eedc2a5a72f41bee22d84135caa18ea863880092c91b66a27e3a181051"
+          },
+          {
+            "name": ".pjfs.elf.data",
+            "addr": 180224,
+            "size": 36864,
+            "sha256": "5a00e85162a298410b352914abc775223d218748ff04881154333cfc8da281b8",
+            "sha256.text": "7323a6eedc2a5a72f41bee22d84135caa18ea863880092c91b66a27e3a181051"
+          },
+          {
+            "name": ".pjfs.Initial.stack",
+            "addr": 221184,
+            "size": 8192
+          },
+          {
+            "name": ".pjfs.heap",
+            "addr": 229376,
+            "size": 65536
+          },
+          {
+            "addr": 294912,
+            "size": 65536
+          },
+          {
+            "addr": 360448,
+            "size": 221184
+          },
+          {
+            "addr": 581632,
+            "size": 16384
+          },
+          {
+            "addr": 598016,
+            "size": 5693440
+          },
+          {
+            "addr": 6291456,
+            "size": 16777216
+          },
+          {
+            "addr": 23068672,
+            "size": 1572864
+          },
+          {
+            "name": ".libINTEGRITY.so.text",
+            "addr": 24641536,
+            "size": 20480,
+            "sha256": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24662016,
+            "size": 12288
+          },
+          {
+            "name": ".libINTEGRITY.so.data",
+            "addr": 24674304,
+            "size": 4096,
+            "sha256": "bf28c816aa2004c10798003af660c5758ac497f963c75875e286a3cd657950bc",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24678400,
+            "size": 94208
+          },
+          {
+            "name": ".libc.so.text",
+            "addr": 24772608,
+            "size": 212992,
+            "sha256": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "name": ".libc.so.data",
+            "addr": 24985600,
+            "size": 4096,
+            "sha256": "e475a7350aed853d69b66e6a3d2f0c93560ef3aa7d5d8832181fa6e2378190bc",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 24989696,
+            "size": 12288
+          },
+          {
+            "name": ".libc.so.bss",
+            "addr": 25001984,
+            "size": 8192,
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 25010176,
+            "size": 7495680
+          },
+          {
+            "addr": 32505856,
+            "size": 4096
+          },
+          {
+            "addr": 32509952,
+            "size": 4096
+          },
+          {
+            "addr": 32514048,
+            "size": 4096
+          },
+          {
+            "addr": 32518144,
+            "size": 4096
+          },
+          {
+            "addr": 32522240,
+            "size": 4096
+          },
+          {
+            "addr": 32526336,
+            "size": 4096
+          },
+          {
+            "addr": 32530432,
+            "size": 4096
+          },
+          {
+            "addr": 32534528,
+            "size": 4096
+          },
+          {
+            "addr": 32538624,
+            "size": 4096
+          },
+          {
+            "addr": 32542720,
+            "size": 4096
+          },
+          {
+            "addr": 32546816,
+            "size": 4096
+          },
+          {
+            "addr": 32550912,
+            "size": 4096
+          },
+          {
+            "addr": 32555008,
+            "size": 4096
+          },
+          {
+            "addr": 32559104,
+            "size": 4096
+          },
+          {
+            "addr": 32563200,
+            "size": 4096
+          },
+          {
+            "addr": 32567296,
+            "size": 4096
+          },
+          {
+            "addr": 32571392,
+            "size": 4096
+          },
+          {
+            "addr": 32575488,
+            "size": 4096
+          },
+          {
+            "addr": 32579584,
+            "size": 4096
+          },
+          {
+            "addr": 32583680,
+            "size": 4096
+          },
+          {
+            "addr": 32587776,
+            "size": 4096
+          },
+          {
+            "addr": 32591872,
+            "size": 4096
+          },
+          {
+            "addr": 32595968,
+            "size": 4096
+          },
+          {
+            "addr": 32600064,
+            "size": 16384
+          },
+          {
+            "addr": 32616448,
+            "size": 937984
+          }
+        ]
+      },
+      {
+        "name": "gpio",
+        "sections": [
+          {
+            "addr": 4096,
+            "size": 61440
+          },
+          {
+            "name": ".gpio.elf.text",
+            "addr": 65536,
+            "size": 32768,
+            "sha256": "251da606c351ff0263f1d78f43cc7c0006a510f54619282bace74df511dcfb45",
+            "sha256.text": "251da606c351ff0263f1d78f43cc7c0006a510f54619282bace74df511dcfb45"
+          },
+          {
+            "name": ".gpio.elf.data",
+            "addr": 98304,
+            "size": 4096,
+            "sha256": "08ac97b0524c542f53ceee3905e6fed5ea2994bf2f44c4b9ef62cb6f229b22b6",
+            "sha256.text": "251da606c351ff0263f1d78f43cc7c0006a510f54619282bace74df511dcfb45"
+          },
+          {
+            "name": ".gpio.Initial.stack",
+            "addr": 106496,
+            "size": 4096
+          },
+          {
+            "name": ".gpio.heap",
+            "addr": 110592,
+            "size": 65536
+          },
+          {
+            "addr": 176128,
+            "size": 65536
+          },
+          {
+            "addr": 241664,
+            "size": 16384
+          },
+          {
+            "addr": 258048,
+            "size": 6033408
+          },
+          {
+            "addr": 6291456,
+            "size": 16777216
+          },
+          {
+            "addr": 23068672,
+            "size": 1572864
+          },
+          {
+            "name": ".libINTEGRITY.so.text",
+            "addr": 24641536,
+            "size": 20480,
+            "sha256": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24662016,
+            "size": 12288
+          },
+          {
+            "name": ".libINTEGRITY.so.data",
+            "addr": 24674304,
+            "size": 4096,
+            "sha256": "bf28c816aa2004c10798003af660c5758ac497f963c75875e286a3cd657950bc",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24678400,
+            "size": 94208
+          },
+          {
+            "name": ".libc.so.text",
+            "addr": 24772608,
+            "size": 212992,
+            "sha256": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "name": ".libc.so.data",
+            "addr": 24985600,
+            "size": 4096,
+            "sha256": "e475a7350aed853d69b66e6a3d2f0c93560ef3aa7d5d8832181fa6e2378190bc",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 24989696,
+            "size": 12288
+          },
+          {
+            "name": ".libc.so.bss",
+            "addr": 25001984,
+            "size": 8192,
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 25010176,
+            "size": 7495680
+          },
+          {
+            "addr": 32505856,
+            "size": 4096
+          },
+          {
+            "addr": 32509952,
+            "size": 4096
+          },
+          {
+            "addr": 32514048,
+            "size": 4096
+          },
+          {
+            "addr": 32518144,
+            "size": 4096
+          },
+          {
+            "addr": 32522240,
+            "size": 4096
+          },
+          {
+            "addr": 32526336,
+            "size": 4096
+          },
+          {
+            "addr": 32530432,
+            "size": 4096
+          },
+          {
+            "addr": 32534528,
+            "size": 4096
+          },
+          {
+            "addr": 32538624,
+            "size": 4096
+          },
+          {
+            "addr": 32542720,
+            "size": 4096
+          },
+          {
+            "addr": 32546816,
+            "size": 4096
+          },
+          {
+            "addr": 32550912,
+            "size": 4096
+          },
+          {
+            "addr": 32555008,
+            "size": 4096
+          },
+          {
+            "addr": 32559104,
+            "size": 4096
+          },
+          {
+            "addr": 32563200,
+            "size": 4096
+          },
+          {
+            "addr": 32567296,
+            "size": 4096
+          },
+          {
+            "addr": 32571392,
+            "size": 4096
+          },
+          {
+            "addr": 32575488,
+            "size": 4096
+          },
+          {
+            "addr": 32579584,
+            "size": 4096
+          },
+          {
+            "addr": 32583680,
+            "size": 4096
+          },
+          {
+            "addr": 32587776,
+            "size": 4096
+          },
+          {
+            "addr": 32591872,
+            "size": 4096
+          },
+          {
+            "addr": 32595968,
+            "size": 4096
+          },
+          {
+            "addr": 32600064,
+            "size": 16384
+          },
+          {
+            "addr": 32616448,
+            "size": 937984
+          }
+        ]
+      },
+      {
+        "name": "usb.elf",
+        "sections": [
+          {
+            "addr": 4096,
+            "size": 61440
+          },
+          {
+            "name": ".usb.elf.text",
+            "addr": 65536,
+            "size": 241664,
+            "sha256": "bbf628b531d6e969bd446b16b91f6fc55dc075ec982e610a6bb4f050e1304994",
+            "sha256.text": "bbf628b531d6e969bd446b16b91f6fc55dc075ec982e610a6bb4f050e1304994"
+          },
+          {
+            "addr": 307200,
+            "size": 4096
+          },
+          {
+            "name": ".usb.elf.data",
+            "addr": 311296,
+            "size": 1183744,
+            "sha256": "b97b207a8ffdb09032cc606261ce9845c1f607c8cc55f5bf8b672552f16bef4a",
+            "sha256.text": "bbf628b531d6e969bd446b16b91f6fc55dc075ec982e610a6bb4f050e1304994"
+          },
+          {
+            "name": ".usb.elf.Initial.stack",
+            "addr": 1499136,
+            "size": 4096
+          },
+          {
+            "name": ".usb.elf.heap",
+            "addr": 1503232,
+            "size": 524288
+          },
+          {
+            "addr": 2027520,
+            "size": 65536
+          },
+          {
+            "addr": 2093056,
+            "size": 16384
+          },
+          {
+            "addr": 2109440,
+            "size": 4182016
+          },
+          {
+            "addr": 6291456,
+            "size": 16777216
+          },
+          {
+            "addr": 23068672,
+            "size": 1572864
+          },
+          {
+            "name": ".libINTEGRITY.so.text",
+            "addr": 24641536,
+            "size": 20480,
+            "sha256": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24662016,
+            "size": 12288
+          },
+          {
+            "name": ".libINTEGRITY.so.data",
+            "addr": 24674304,
+            "size": 4096,
+            "sha256": "bf28c816aa2004c10798003af660c5758ac497f963c75875e286a3cd657950bc",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24678400,
+            "size": 94208
+          },
+          {
+            "name": ".libc.so.text",
+            "addr": 24772608,
+            "size": 212992,
+            "sha256": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "name": ".libc.so.data",
+            "addr": 24985600,
+            "size": 4096,
+            "sha256": "e475a7350aed853d69b66e6a3d2f0c93560ef3aa7d5d8832181fa6e2378190bc",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 24989696,
+            "size": 12288
+          },
+          {
+            "name": ".libc.so.bss",
+            "addr": 25001984,
+            "size": 8192,
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 25010176,
+            "size": 811008
+          },
+          {
+            "name": ".libsslc.so.text",
+            "addr": 25821184,
+            "size": 823296,
+            "sha256": "fecc70fe248d3383a34889d4c385787d075aaeefce0d5a77ed19d29ebb1cfd13",
+            "sha256.text": "fecc70fe248d3383a34889d4c385787d075aaeefce0d5a77ed19d29ebb1cfd13"
+          },
+          {
+            "addr": 26644480,
+            "size": 12288
+          },
+          {
+            "name": ".libsslc.so.data",
+            "addr": 26656768,
+            "size": 40960,
+            "sha256": "ec31fad343617b0d4bbe92a8553fd42f3271deba62486c23fa67058aba5a25d1",
+            "sha256.text": "fecc70fe248d3383a34889d4c385787d075aaeefce0d5a77ed19d29ebb1cfd13"
+          },
+          {
+            "addr": 26697728,
+            "size": 8192
+          },
+          {
+            "name": ".libsslc.so.data",
+            "addr": 26705920,
+            "size": 20480,
+            "sha256.text": "fecc70fe248d3383a34889d4c385787d075aaeefce0d5a77ed19d29ebb1cfd13"
+          },
+          {
+            "addr": 26726400,
+            "size": 2633728
+          },
+          {
+            "name": ".libevlog.so.text",
+            "addr": 29360128,
+            "size": 237568,
+            "sha256": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18",
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29597696,
+            "size": 8192
+          },
+          {
+            "name": ".libevlog.so.data",
+            "addr": 29605888,
+            "size": 8192,
+            "sha256": "feffa6ae8a446be03e204a1be5ad00a0da374c19508441e1f5a5949823402708",
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29614080,
+            "size": 8192
+          },
+          {
+            "name": ".libevlog.so.data",
+            "addr": 29622272,
+            "size": 32768,
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29655040,
+            "size": 2850816
+          },
+          {
+            "addr": 32505856,
+            "size": 4096
+          },
+          {
+            "addr": 32509952,
+            "size": 4096
+          },
+          {
+            "addr": 32514048,
+            "size": 4096
+          },
+          {
+            "addr": 32518144,
+            "size": 4096
+          },
+          {
+            "addr": 32522240,
+            "size": 4096
+          },
+          {
+            "addr": 32526336,
+            "size": 4096
+          },
+          {
+            "addr": 32530432,
+            "size": 4096
+          },
+          {
+            "addr": 32534528,
+            "size": 4096
+          },
+          {
+            "addr": 32538624,
+            "size": 4096
+          },
+          {
+            "addr": 32542720,
+            "size": 4096
+          },
+          {
+            "addr": 32546816,
+            "size": 4096
+          },
+          {
+            "addr": 32550912,
+            "size": 4096
+          },
+          {
+            "addr": 32555008,
+            "size": 4096
+          },
+          {
+            "addr": 32559104,
+            "size": 4096
+          },
+          {
+            "addr": 32563200,
+            "size": 4096
+          },
+          {
+            "addr": 32567296,
+            "size": 4096
+          },
+          {
+            "addr": 32571392,
+            "size": 4096
+          },
+          {
+            "addr": 32575488,
+            "size": 4096
+          },
+          {
+            "addr": 32579584,
+            "size": 4096
+          },
+          {
+            "addr": 32583680,
+            "size": 4096
+          },
+          {
+            "addr": 32587776,
+            "size": 4096
+          },
+          {
+            "addr": 32591872,
+            "size": 4096
+          },
+          {
+            "addr": 32595968,
+            "size": 4096
+          },
+          {
+            "addr": 32600064,
+            "size": 16384
+          },
+          {
+            "addr": 32616448,
+            "size": 937984
+          }
+        ]
+      },
+      {
+        "name": "vsp.elf",
+        "sections": [
+          {
+            "addr": 4096,
+            "size": 61440
+          },
+          {
+            "name": ".vsp.elf.text",
+            "addr": 65536,
+            "size": 106496,
+            "sha256": "e918f4209a3057571dbfe826e0c4da89d2416c4174bca59c527872416a5802a8",
+            "sha256.text": "e918f4209a3057571dbfe826e0c4da89d2416c4174bca59c527872416a5802a8"
+          },
+          {
+            "name": ".vsp.elf.Initial.stack",
+            "addr": 176128,
+            "size": 4096
+          },
+          {
+            "name": ".vsp.elf.data",
+            "addr": 180224,
+            "size": 12288,
+            "sha256": "0f07bf1644ad3699ecc4d930d39160b0e27024b325787f5a826a278ae6e13a8f",
+            "sha256.text": "e918f4209a3057571dbfe826e0c4da89d2416c4174bca59c527872416a5802a8"
+          },
+          {
+            "name": ".vsp.elf.heap",
+            "addr": 192512,
+            "size": 65536
+          },
+          {
+            "addr": 258048,
+            "size": 65536
+          },
+          {
+            "addr": 323584,
+            "size": 16384
+          },
+          {
+            "addr": 339968,
+            "size": 5951488
+          },
+          {
+            "addr": 6291456,
+            "size": 16777216
+          },
+          {
+            "addr": 23068672,
+            "size": 1572864
+          },
+          {
+            "name": ".libINTEGRITY.so.text",
+            "addr": 24641536,
+            "size": 20480,
+            "sha256": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24662016,
+            "size": 12288
+          },
+          {
+            "name": ".libINTEGRITY.so.data",
+            "addr": 24674304,
+            "size": 4096,
+            "sha256": "bf28c816aa2004c10798003af660c5758ac497f963c75875e286a3cd657950bc",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24678400,
+            "size": 94208
+          },
+          {
+            "name": ".libc.so.text",
+            "addr": 24772608,
+            "size": 212992,
+            "sha256": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "name": ".libc.so.data",
+            "addr": 24985600,
+            "size": 4096,
+            "sha256": "e475a7350aed853d69b66e6a3d2f0c93560ef3aa7d5d8832181fa6e2378190bc",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 24989696,
+            "size": 12288
+          },
+          {
+            "name": ".libc.so.bss",
+            "addr": 25001984,
+            "size": 8192,
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 25010176,
+            "size": 7495680
+          },
+          {
+            "addr": 32505856,
+            "size": 4096
+          },
+          {
+            "addr": 32509952,
+            "size": 4096
+          },
+          {
+            "addr": 32514048,
+            "size": 4096
+          },
+          {
+            "addr": 32518144,
+            "size": 4096
+          },
+          {
+            "addr": 32522240,
+            "size": 4096
+          },
+          {
+            "addr": 32526336,
+            "size": 4096
+          },
+          {
+            "addr": 32530432,
+            "size": 4096
+          },
+          {
+            "addr": 32534528,
+            "size": 4096
+          },
+          {
+            "addr": 32538624,
+            "size": 4096
+          },
+          {
+            "addr": 32542720,
+            "size": 4096
+          },
+          {
+            "addr": 32546816,
+            "size": 4096
+          },
+          {
+            "addr": 32550912,
+            "size": 4096
+          },
+          {
+            "addr": 32555008,
+            "size": 4096
+          },
+          {
+            "addr": 32559104,
+            "size": 4096
+          },
+          {
+            "addr": 32563200,
+            "size": 4096
+          },
+          {
+            "addr": 32567296,
+            "size": 4096
+          },
+          {
+            "addr": 32571392,
+            "size": 4096
+          },
+          {
+            "addr": 32575488,
+            "size": 4096
+          },
+          {
+            "addr": 32579584,
+            "size": 4096
+          },
+          {
+            "addr": 32583680,
+            "size": 4096
+          },
+          {
+            "addr": 32587776,
+            "size": 4096
+          },
+          {
+            "addr": 32591872,
+            "size": 4096
+          },
+          {
+            "addr": 32595968,
+            "size": 4096
+          },
+          {
+            "addr": 32600064,
+            "size": 16384
+          },
+          {
+            "addr": 32616448,
+            "size": 937984
+          }
+        ]
+      },
+      {
+        "name": "svcsHost",
+        "sections": [
+          {
+            "addr": 4096,
+            "size": 61440
+          },
+          {
+            "name": ".svcsHost.elf.text",
+            "addr": 65536,
+            "size": 114688,
+            "sha256": "2e143b33e3563243e8af499066814ed318f5ffa0ddf9a1467204583307beb5ec",
+            "sha256.text": "2e143b33e3563243e8af499066814ed318f5ffa0ddf9a1467204583307beb5ec"
+          },
+          {
+            "name": ".svcsHost.elf.data",
+            "addr": 180224,
+            "size": 12288,
+            "sha256": "dc9adb3949c1f11f2860a7ccb67ad5209b13f9f78042fa21525007004d0b3e34",
+            "sha256.text": "2e143b33e3563243e8af499066814ed318f5ffa0ddf9a1467204583307beb5ec"
+          },
+          {
+            "name": ".svcsHost.Initial.stack",
+            "addr": 196608,
+            "size": 4096
+          },
+          {
+            "name": ".svcsHost.heap",
+            "addr": 200704,
+            "size": 65536
+          },
+          {
+            "addr": 266240,
+            "size": 65536
+          },
+          {
+            "addr": 331776,
+            "size": 32768
+          },
+          {
+            "addr": 364544,
+            "size": 16384
+          },
+          {
+            "addr": 380928,
+            "size": 5910528
+          },
+          {
+            "addr": 6291456,
+            "size": 16777216
+          },
+          {
+            "addr": 23068672,
+            "size": 1572864
+          },
+          {
+            "name": ".libINTEGRITY.so.text",
+            "addr": 24641536,
+            "size": 20480,
+            "sha256": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24662016,
+            "size": 12288
+          },
+          {
+            "name": ".libINTEGRITY.so.data",
+            "addr": 24674304,
+            "size": 4096,
+            "sha256": "bf28c816aa2004c10798003af660c5758ac497f963c75875e286a3cd657950bc",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24678400,
+            "size": 94208
+          },
+          {
+            "name": ".libc.so.text",
+            "addr": 24772608,
+            "size": 212992,
+            "sha256": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "name": ".libc.so.data",
+            "addr": 24985600,
+            "size": 4096,
+            "sha256": "e475a7350aed853d69b66e6a3d2f0c93560ef3aa7d5d8832181fa6e2378190bc",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 24989696,
+            "size": 12288
+          },
+          {
+            "name": ".libc.so.bss",
+            "addr": 25001984,
+            "size": 8192,
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 25010176,
+            "size": 4349952
+          },
+          {
+            "name": ".libevlog.so.text",
+            "addr": 29360128,
+            "size": 237568,
+            "sha256": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18",
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29597696,
+            "size": 8192
+          },
+          {
+            "name": ".libevlog.so.data",
+            "addr": 29605888,
+            "size": 8192,
+            "sha256": "feffa6ae8a446be03e204a1be5ad00a0da374c19508441e1f5a5949823402708",
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29614080,
+            "size": 8192
+          },
+          {
+            "name": ".libevlog.so.data",
+            "addr": 29622272,
+            "size": 32768,
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29655040,
+            "size": 2850816
+          },
+          {
+            "addr": 32505856,
+            "size": 4096
+          },
+          {
+            "addr": 32509952,
+            "size": 4096
+          },
+          {
+            "addr": 32514048,
+            "size": 4096
+          },
+          {
+            "addr": 32518144,
+            "size": 4096
+          },
+          {
+            "addr": 32522240,
+            "size": 4096
+          },
+          {
+            "addr": 32526336,
+            "size": 4096
+          },
+          {
+            "addr": 32530432,
+            "size": 4096
+          },
+          {
+            "addr": 32534528,
+            "size": 4096
+          },
+          {
+            "addr": 32538624,
+            "size": 4096
+          },
+          {
+            "addr": 32542720,
+            "size": 4096
+          },
+          {
+            "addr": 32546816,
+            "size": 4096
+          },
+          {
+            "addr": 32550912,
+            "size": 4096
+          },
+          {
+            "addr": 32555008,
+            "size": 4096
+          },
+          {
+            "addr": 32559104,
+            "size": 4096
+          },
+          {
+            "addr": 32563200,
+            "size": 4096
+          },
+          {
+            "addr": 32567296,
+            "size": 4096
+          },
+          {
+            "addr": 32571392,
+            "size": 4096
+          },
+          {
+            "addr": 32575488,
+            "size": 4096
+          },
+          {
+            "addr": 32579584,
+            "size": 4096
+          },
+          {
+            "addr": 32583680,
+            "size": 4096
+          },
+          {
+            "addr": 32587776,
+            "size": 4096
+          },
+          {
+            "addr": 32591872,
+            "size": 4096
+          },
+          {
+            "addr": 32595968,
+            "size": 4096
+          },
+          {
+            "addr": 32600064,
+            "size": 16384
+          },
+          {
+            "addr": 32616448,
+            "size": 937984
+          }
+        ]
+      },
+      {
+        "name": "rbsu",
+        "sections": [
+          {
+            "addr": 4096,
+            "size": 61440
+          },
+          {
+            "name": ".rbsu.elf.text",
+            "addr": 65536,
+            "size": 16384,
+            "sha256": "023517350d882f7c755532178a07ac95558930c7a35db62fa4a4fd9b691dd8c8",
+            "sha256.text": "023517350d882f7c755532178a07ac95558930c7a35db62fa4a4fd9b691dd8c8"
+          },
+          {
+            "name": ".rbsu.elf.data",
+            "addr": 81920,
+            "size": 69632,
+            "sha256": "dbb4fed09785dcfa68d5cfd1c944b2d16c634f93c6559fa060ae97db0ac3ac66",
+            "sha256.text": "023517350d882f7c755532178a07ac95558930c7a35db62fa4a4fd9b691dd8c8"
+          },
+          {
+            "name": ".rbsu.Initial.stack",
+            "addr": 155648,
+            "size": 4096
+          },
+          {
+            "name": ".rbsu.heap",
+            "addr": 159744,
+            "size": 65536
+          },
+          {
+            "addr": 225280,
+            "size": 65536
+          },
+          {
+            "addr": 290816,
+            "size": 65536
+          },
+          {
+            "addr": 356352,
+            "size": 16384
+          },
+          {
+            "addr": 372736,
+            "size": 5918720
+          },
+          {
+            "addr": 6291456,
+            "size": 16777216
+          },
+          {
+            "addr": 23068672,
+            "size": 1572864
+          },
+          {
+            "name": ".libINTEGRITY.so.text",
+            "addr": 24641536,
+            "size": 20480,
+            "sha256": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24662016,
+            "size": 12288
+          },
+          {
+            "name": ".libINTEGRITY.so.data",
+            "addr": 24674304,
+            "size": 4096,
+            "sha256": "bf28c816aa2004c10798003af660c5758ac497f963c75875e286a3cd657950bc",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24678400,
+            "size": 94208
+          },
+          {
+            "name": ".libc.so.text",
+            "addr": 24772608,
+            "size": 212992,
+            "sha256": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "name": ".libc.so.data",
+            "addr": 24985600,
+            "size": 4096,
+            "sha256": "e475a7350aed853d69b66e6a3d2f0c93560ef3aa7d5d8832181fa6e2378190bc",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 24989696,
+            "size": 12288
+          },
+          {
+            "name": ".libc.so.bss",
+            "addr": 25001984,
+            "size": 8192,
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 25010176,
+            "size": 7495680
+          },
+          {
+            "addr": 32505856,
+            "size": 4096
+          },
+          {
+            "addr": 32509952,
+            "size": 4096
+          },
+          {
+            "addr": 32514048,
+            "size": 4096
+          },
+          {
+            "addr": 32518144,
+            "size": 4096
+          },
+          {
+            "addr": 32522240,
+            "size": 4096
+          },
+          {
+            "addr": 32526336,
+            "size": 4096
+          },
+          {
+            "addr": 32530432,
+            "size": 4096
+          },
+          {
+            "addr": 32534528,
+            "size": 4096
+          },
+          {
+            "addr": 32538624,
+            "size": 4096
+          },
+          {
+            "addr": 32542720,
+            "size": 4096
+          },
+          {
+            "addr": 32546816,
+            "size": 4096
+          },
+          {
+            "addr": 32550912,
+            "size": 4096
+          },
+          {
+            "addr": 32555008,
+            "size": 4096
+          },
+          {
+            "addr": 32559104,
+            "size": 4096
+          },
+          {
+            "addr": 32563200,
+            "size": 4096
+          },
+          {
+            "addr": 32567296,
+            "size": 4096
+          },
+          {
+            "addr": 32571392,
+            "size": 4096
+          },
+          {
+            "addr": 32575488,
+            "size": 4096
+          },
+          {
+            "addr": 32579584,
+            "size": 4096
+          },
+          {
+            "addr": 32583680,
+            "size": 4096
+          },
+          {
+            "addr": 32587776,
+            "size": 4096
+          },
+          {
+            "addr": 32591872,
+            "size": 4096
+          },
+          {
+            "addr": 32595968,
+            "size": 4096
+          },
+          {
+            "addr": 32600064,
+            "size": 16384
+          },
+          {
+            "addr": 32616448,
+            "size": 937984
+          }
+        ]
+      },
+      {
+        "name": "secmgr",
+        "sections": [
+          {
+            "addr": 4096,
+            "size": 61440
+          },
+          {
+            "name": ".secmgr.elf.text",
+            "addr": 65536,
+            "size": 1249280,
+            "sha256": "2bbf49962f2fb9ed69ca9ac388f9d647a68de032f016365436c93ad3e3312e7b",
+            "sha256.text": "2bbf49962f2fb9ed69ca9ac388f9d647a68de032f016365436c93ad3e3312e7b"
+          },
+          {
+            "name": ".secmgr.Initial.stack",
+            "addr": 1318912,
+            "size": 4096
+          },
+          {
+            "addr": 1323008,
+            "size": 4096
+          },
+          {
+            "name": ".secmgr.elf.data",
+            "addr": 1327104,
+            "size": 139264,
+            "sha256": "a2f19bfa7ab5786d4459d24eb28c87581ccb10ef1c09e6f59f1a0dd17dfeb626",
+            "sha256.text": "2bbf49962f2fb9ed69ca9ac388f9d647a68de032f016365436c93ad3e3312e7b"
+          },
+          {
+            "name": ".secmgr.heap",
+            "addr": 1466368,
+            "size": 475136
+          },
+          {
+            "addr": 1941504,
+            "size": 65536
+          },
+          {
+            "addr": 2007040,
+            "size": 16384
+          },
+          {
+            "addr": 2023424,
+            "size": 4268032
+          },
+          {
+            "addr": 6291456,
+            "size": 16777216
+          },
+          {
+            "addr": 23068672,
+            "size": 1572864
+          },
+          {
+            "name": ".libINTEGRITY.so.text",
+            "addr": 24641536,
+            "size": 20480,
+            "sha256": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24662016,
+            "size": 12288
+          },
+          {
+            "name": ".libINTEGRITY.so.data",
+            "addr": 24674304,
+            "size": 4096,
+            "sha256": "bf28c816aa2004c10798003af660c5758ac497f963c75875e286a3cd657950bc",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24678400,
+            "size": 94208
+          },
+          {
+            "name": ".libc.so.text",
+            "addr": 24772608,
+            "size": 212992,
+            "sha256": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "name": ".libc.so.data",
+            "addr": 24985600,
+            "size": 4096,
+            "sha256": "e475a7350aed853d69b66e6a3d2f0c93560ef3aa7d5d8832181fa6e2378190bc",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 24989696,
+            "size": 12288
+          },
+          {
+            "name": ".libc.so.bss",
+            "addr": 25001984,
+            "size": 8192,
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 25010176,
+            "size": 811008
+          },
+          {
+            "name": ".libsslc.so.text",
+            "addr": 25821184,
+            "size": 823296,
+            "sha256": "fecc70fe248d3383a34889d4c385787d075aaeefce0d5a77ed19d29ebb1cfd13",
+            "sha256.text": "fecc70fe248d3383a34889d4c385787d075aaeefce0d5a77ed19d29ebb1cfd13"
+          },
+          {
+            "addr": 26644480,
+            "size": 12288
+          },
+          {
+            "name": ".libsslc.so.data",
+            "addr": 26656768,
+            "size": 40960,
+            "sha256": "ec31fad343617b0d4bbe92a8553fd42f3271deba62486c23fa67058aba5a25d1",
+            "sha256.text": "fecc70fe248d3383a34889d4c385787d075aaeefce0d5a77ed19d29ebb1cfd13"
+          },
+          {
+            "addr": 26697728,
+            "size": 8192
+          },
+          {
+            "name": ".libsslc.so.data",
+            "addr": 26705920,
+            "size": 20480,
+            "sha256.text": "fecc70fe248d3383a34889d4c385787d075aaeefce0d5a77ed19d29ebb1cfd13"
+          },
+          {
+            "addr": 26726400,
+            "size": 2633728
+          },
+          {
+            "name": ".libevlog.so.text",
+            "addr": 29360128,
+            "size": 237568,
+            "sha256": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18",
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29597696,
+            "size": 8192
+          },
+          {
+            "name": ".libevlog.so.data",
+            "addr": 29605888,
+            "size": 8192,
+            "sha256": "feffa6ae8a446be03e204a1be5ad00a0da374c19508441e1f5a5949823402708",
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29614080,
+            "size": 8192
+          },
+          {
+            "name": ".libevlog.so.data",
+            "addr": 29622272,
+            "size": 32768,
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29655040,
+            "size": 2850816
+          },
+          {
+            "addr": 32505856,
+            "size": 4096
+          },
+          {
+            "addr": 32509952,
+            "size": 4096
+          },
+          {
+            "addr": 32514048,
+            "size": 4096
+          },
+          {
+            "addr": 32518144,
+            "size": 4096
+          },
+          {
+            "addr": 32522240,
+            "size": 4096
+          },
+          {
+            "addr": 32526336,
+            "size": 4096
+          },
+          {
+            "addr": 32530432,
+            "size": 4096
+          },
+          {
+            "addr": 32534528,
+            "size": 4096
+          },
+          {
+            "addr": 32538624,
+            "size": 4096
+          },
+          {
+            "addr": 32542720,
+            "size": 4096
+          },
+          {
+            "addr": 32546816,
+            "size": 4096
+          },
+          {
+            "addr": 32550912,
+            "size": 4096
+          },
+          {
+            "addr": 32555008,
+            "size": 4096
+          },
+          {
+            "addr": 32559104,
+            "size": 4096
+          },
+          {
+            "addr": 32563200,
+            "size": 4096
+          },
+          {
+            "addr": 32567296,
+            "size": 4096
+          },
+          {
+            "addr": 32571392,
+            "size": 4096
+          },
+          {
+            "addr": 32575488,
+            "size": 4096
+          },
+          {
+            "addr": 32579584,
+            "size": 4096
+          },
+          {
+            "addr": 32583680,
+            "size": 4096
+          },
+          {
+            "addr": 32587776,
+            "size": 4096
+          },
+          {
+            "addr": 32591872,
+            "size": 4096
+          },
+          {
+            "addr": 32595968,
+            "size": 4096
+          },
+          {
+            "addr": 32600064,
+            "size": 16384
+          },
+          {
+            "addr": 32616448,
+            "size": 937984
+          }
+        ]
+      },
+      {
+        "name": "pwrmgr",
+        "sections": [
+          {
+            "addr": 4096,
+            "size": 61440
+          },
+          {
+            "name": ".pwrmgr.elf.text",
+            "addr": 65536,
+            "size": 307200,
+            "sha256": "9e33bb737af5ccc38270238c6ae841c1c1919caace98cd25c521adc7bda57990",
+            "sha256.text": "9e33bb737af5ccc38270238c6ae841c1c1919caace98cd25c521adc7bda57990"
+          },
+          {
+            "addr": 372736,
+            "size": 4096
+          },
+          {
+            "name": ".pwrmgr.elf.data",
+            "addr": 376832,
+            "size": 28672,
+            "sha256": "dd7541a6c5faa87ede93ddccbd4a1f02356edaaea0daba50b7802d390c9123c7",
+            "sha256.text": "9e33bb737af5ccc38270238c6ae841c1c1919caace98cd25c521adc7bda57990"
+          },
+          {
+            "name": ".pwrmgr.Initial.stack",
+            "addr": 409600,
+            "size": 4096
+          },
+          {
+            "name": ".pwrmgr.heap",
+            "addr": 413696,
+            "size": 131072
+          },
+          {
+            "addr": 544768,
+            "size": 65536
+          },
+          {
+            "addr": 610304,
+            "size": 16384
+          },
+          {
+            "addr": 626688,
+            "size": 5664768
+          },
+          {
+            "addr": 6291456,
+            "size": 16777216
+          },
+          {
+            "addr": 23068672,
+            "size": 1572864
+          },
+          {
+            "name": ".libINTEGRITY.so.text",
+            "addr": 24641536,
+            "size": 20480,
+            "sha256": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24662016,
+            "size": 12288
+          },
+          {
+            "name": ".libINTEGRITY.so.data",
+            "addr": 24674304,
+            "size": 4096,
+            "sha256": "bf28c816aa2004c10798003af660c5758ac497f963c75875e286a3cd657950bc",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24678400,
+            "size": 94208
+          },
+          {
+            "name": ".libc.so.text",
+            "addr": 24772608,
+            "size": 212992,
+            "sha256": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "name": ".libc.so.data",
+            "addr": 24985600,
+            "size": 4096,
+            "sha256": "e475a7350aed853d69b66e6a3d2f0c93560ef3aa7d5d8832181fa6e2378190bc",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 24989696,
+            "size": 12288
+          },
+          {
+            "name": ".libc.so.bss",
+            "addr": 25001984,
+            "size": 8192,
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 25010176,
+            "size": 4349952
+          },
+          {
+            "name": ".libevlog.so.text",
+            "addr": 29360128,
+            "size": 237568,
+            "sha256": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18",
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29597696,
+            "size": 8192
+          },
+          {
+            "name": ".libevlog.so.data",
+            "addr": 29605888,
+            "size": 8192,
+            "sha256": "feffa6ae8a446be03e204a1be5ad00a0da374c19508441e1f5a5949823402708",
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29614080,
+            "size": 8192
+          },
+          {
+            "name": ".libevlog.so.data",
+            "addr": 29622272,
+            "size": 32768,
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29655040,
+            "size": 2850816
+          },
+          {
+            "addr": 32505856,
+            "size": 4096
+          },
+          {
+            "addr": 32509952,
+            "size": 4096
+          },
+          {
+            "addr": 32514048,
+            "size": 4096
+          },
+          {
+            "addr": 32518144,
+            "size": 4096
+          },
+          {
+            "addr": 32522240,
+            "size": 4096
+          },
+          {
+            "addr": 32526336,
+            "size": 4096
+          },
+          {
+            "addr": 32530432,
+            "size": 4096
+          },
+          {
+            "addr": 32534528,
+            "size": 4096
+          },
+          {
+            "addr": 32538624,
+            "size": 4096
+          },
+          {
+            "addr": 32542720,
+            "size": 4096
+          },
+          {
+            "addr": 32546816,
+            "size": 4096
+          },
+          {
+            "addr": 32550912,
+            "size": 4096
+          },
+          {
+            "addr": 32555008,
+            "size": 4096
+          },
+          {
+            "addr": 32559104,
+            "size": 4096
+          },
+          {
+            "addr": 32563200,
+            "size": 4096
+          },
+          {
+            "addr": 32567296,
+            "size": 4096
+          },
+          {
+            "addr": 32571392,
+            "size": 4096
+          },
+          {
+            "addr": 32575488,
+            "size": 4096
+          },
+          {
+            "addr": 32579584,
+            "size": 4096
+          },
+          {
+            "addr": 32583680,
+            "size": 4096
+          },
+          {
+            "addr": 32587776,
+            "size": 4096
+          },
+          {
+            "addr": 32591872,
+            "size": 4096
+          },
+          {
+            "addr": 32595968,
+            "size": 4096
+          },
+          {
+            "addr": 32600064,
+            "size": 16384
+          },
+          {
+            "addr": 32616448,
+            "size": 937984
+          }
+        ]
+      },
+      {
+        "name": "webserv",
+        "sections": [
+          {
+            "addr": 4096,
+            "size": 61440
+          },
+          {
+            "name": ".webserv.elf.text",
+            "addr": 65536,
+            "size": 1974272,
+            "sha256": "783b387bfa7e8c71114a7664c81abb46602cc0fd77680f3b587e7ee526890e43",
+            "sha256.text": "783b387bfa7e8c71114a7664c81abb46602cc0fd77680f3b587e7ee526890e43"
+          },
+          {
+            "addr": 2039808,
+            "size": 8192
+          },
+          {
+            "name": ".webserv.elf.data",
+            "addr": 2048000,
+            "size": 3211264,
+            "sha256": "f268d69ffeaf2d00d23eded59ebc9be864962fd5bf21ebbc6bbbb22360556aa7",
+            "sha256.text": "783b387bfa7e8c71114a7664c81abb46602cc0fd77680f3b587e7ee526890e43"
+          },
+          {
+            "name": ".webserv.Initial.stack",
+            "addr": 5263360,
+            "size": 24576
+          },
+          {
+            "name": ".webserv.heap",
+            "addr": 5287936,
+            "size": 479232
+          },
+          {
+            "addr": 5767168,
+            "size": 65536
+          },
+          {
+            "addr": 5832704,
+            "size": 16384
+          },
+          {
+            "addr": 5849088,
+            "size": 442368
+          },
+          {
+            "addr": 6291456,
+            "size": 16777216
+          },
+          {
+            "addr": 23068672,
+            "size": 1572864
+          },
+          {
+            "name": ".libINTEGRITY.so.text",
+            "addr": 24641536,
+            "size": 20480,
+            "sha256": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24662016,
+            "size": 12288
+          },
+          {
+            "name": ".libINTEGRITY.so.data",
+            "addr": 24674304,
+            "size": 4096,
+            "sha256": "bf28c816aa2004c10798003af660c5758ac497f963c75875e286a3cd657950bc",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24678400,
+            "size": 94208
+          },
+          {
+            "name": ".libc.so.text",
+            "addr": 24772608,
+            "size": 212992,
+            "sha256": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "name": ".libc.so.data",
+            "addr": 24985600,
+            "size": 4096,
+            "sha256": "e475a7350aed853d69b66e6a3d2f0c93560ef3aa7d5d8832181fa6e2378190bc",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 24989696,
+            "size": 12288
+          },
+          {
+            "name": ".libc.so.bss",
+            "addr": 25001984,
+            "size": 8192,
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 25010176,
+            "size": 679936
+          },
+          {
+            "name": ".VComCShared_RM.so.text",
+            "addr": 25690112,
+            "size": 28672,
+            "sha256": "50ef37b431cfb59a048bf11c1d6508a9d1d03734c629f19b0a1df7fb110bb382",
+            "sha256.text": "50ef37b431cfb59a048bf11c1d6508a9d1d03734c629f19b0a1df7fb110bb382"
+          },
+          {
+            "addr": 25718784,
+            "size": 4096
+          },
+          {
+            "name": ".VComCShared_RM.so.data",
+            "addr": 25722880,
+            "size": 4096,
+            "sha256": "861285e0c37e8b1bd534cc42206402df4db7984b842650ca32cb5e22e8d40f6a",
+            "sha256.text": "50ef37b431cfb59a048bf11c1d6508a9d1d03734c629f19b0a1df7fb110bb382"
+          },
+          {
+            "addr": 25726976,
+            "size": 12288
+          },
+          {
+            "name": ".VComCShared_RM.so.bss",
+            "addr": 25739264,
+            "size": 4096,
+            "sha256.text": "50ef37b431cfb59a048bf11c1d6508a9d1d03734c629f19b0a1df7fb110bb382"
+          },
+          {
+            "addr": 25743360,
+            "size": 77824
+          },
+          {
+            "name": ".libsslc.so.text",
+            "addr": 25821184,
+            "size": 823296,
+            "sha256": "fecc70fe248d3383a34889d4c385787d075aaeefce0d5a77ed19d29ebb1cfd13",
+            "sha256.text": "fecc70fe248d3383a34889d4c385787d075aaeefce0d5a77ed19d29ebb1cfd13"
+          },
+          {
+            "addr": 26644480,
+            "size": 12288
+          },
+          {
+            "name": ".libsslc.so.data",
+            "addr": 26656768,
+            "size": 40960,
+            "sha256": "ec31fad343617b0d4bbe92a8553fd42f3271deba62486c23fa67058aba5a25d1",
+            "sha256.text": "fecc70fe248d3383a34889d4c385787d075aaeefce0d5a77ed19d29ebb1cfd13"
+          },
+          {
+            "addr": 26697728,
+            "size": 8192
+          },
+          {
+            "name": ".libsslc.so.data",
+            "addr": 26705920,
+            "size": 20480,
+            "sha256.text": "fecc70fe248d3383a34889d4c385787d075aaeefce0d5a77ed19d29ebb1cfd13"
+          },
+          {
+            "addr": 26726400,
+            "size": 2633728
+          },
+          {
+            "name": ".libevlog.so.text",
+            "addr": 29360128,
+            "size": 237568,
+            "sha256": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18",
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29597696,
+            "size": 8192
+          },
+          {
+            "name": ".libevlog.so.data",
+            "addr": 29605888,
+            "size": 8192,
+            "sha256": "feffa6ae8a446be03e204a1be5ad00a0da374c19508441e1f5a5949823402708",
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29614080,
+            "size": 8192
+          },
+          {
+            "name": ".libevlog.so.data",
+            "addr": 29622272,
+            "size": 32768,
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29655040,
+            "size": 2850816
+          },
+          {
+            "addr": 32505856,
+            "size": 4096
+          },
+          {
+            "addr": 32509952,
+            "size": 4096
+          },
+          {
+            "addr": 32514048,
+            "size": 4096
+          },
+          {
+            "addr": 32518144,
+            "size": 4096
+          },
+          {
+            "addr": 32522240,
+            "size": 4096
+          },
+          {
+            "addr": 32526336,
+            "size": 4096
+          },
+          {
+            "addr": 32530432,
+            "size": 4096
+          },
+          {
+            "addr": 32534528,
+            "size": 4096
+          },
+          {
+            "addr": 32538624,
+            "size": 4096
+          },
+          {
+            "addr": 32542720,
+            "size": 4096
+          },
+          {
+            "addr": 32546816,
+            "size": 4096
+          },
+          {
+            "addr": 32550912,
+            "size": 4096
+          },
+          {
+            "addr": 32555008,
+            "size": 4096
+          },
+          {
+            "addr": 32559104,
+            "size": 4096
+          },
+          {
+            "addr": 32563200,
+            "size": 4096
+          },
+          {
+            "addr": 32567296,
+            "size": 4096
+          },
+          {
+            "addr": 32571392,
+            "size": 4096
+          },
+          {
+            "addr": 32575488,
+            "size": 4096
+          },
+          {
+            "addr": 32579584,
+            "size": 4096
+          },
+          {
+            "addr": 32583680,
+            "size": 4096
+          },
+          {
+            "addr": 32587776,
+            "size": 4096
+          },
+          {
+            "addr": 32591872,
+            "size": 4096
+          },
+          {
+            "addr": 32595968,
+            "size": 4096
+          },
+          {
+            "addr": 32600064,
+            "size": 16384
+          },
+          {
+            "addr": 32616448,
+            "size": 937984
+          }
+        ]
+      },
+      {
+        "name": "ribcl",
+        "sections": [
+          {
+            "addr": 4096,
+            "size": 61440
+          },
+          {
+            "name": ".ribcl.elf.text",
+            "addr": 65536,
+            "size": 507904,
+            "sha256": "87cfc40dbf70525aceb00621fdbc2d200a5f30e36ed55341a2caa070f520ebf7",
+            "sha256.text": "87cfc40dbf70525aceb00621fdbc2d200a5f30e36ed55341a2caa070f520ebf7"
+          },
+          {
+            "name": ".ribcl.elf.data",
+            "addr": 573440,
+            "size": 479232,
+            "sha256": "cd38b4bf8134349daa8a30f82b27016ca097afd2d046a921eec434c7db8aa4c6",
+            "sha256.text": "87cfc40dbf70525aceb00621fdbc2d200a5f30e36ed55341a2caa070f520ebf7"
+          },
+          {
+            "name": ".ribcl.Initial.stack",
+            "addr": 1056768,
+            "size": 4096
+          },
+          {
+            "name": ".ribcl.heap",
+            "addr": 1060864,
+            "size": 163840
+          },
+          {
+            "addr": 1224704,
+            "size": 65536
+          },
+          {
+            "addr": 1290240,
+            "size": 16384
+          },
+          {
+            "addr": 1306624,
+            "size": 4984832
+          },
+          {
+            "addr": 6291456,
+            "size": 16777216
+          },
+          {
+            "addr": 23068672,
+            "size": 1572864
+          },
+          {
+            "name": ".libINTEGRITY.so.text",
+            "addr": 24641536,
+            "size": 20480,
+            "sha256": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24662016,
+            "size": 12288
+          },
+          {
+            "name": ".libINTEGRITY.so.data",
+            "addr": 24674304,
+            "size": 4096,
+            "sha256": "bf28c816aa2004c10798003af660c5758ac497f963c75875e286a3cd657950bc",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24678400,
+            "size": 94208
+          },
+          {
+            "name": ".libc.so.text",
+            "addr": 24772608,
+            "size": 212992,
+            "sha256": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "name": ".libc.so.data",
+            "addr": 24985600,
+            "size": 4096,
+            "sha256": "e475a7350aed853d69b66e6a3d2f0c93560ef3aa7d5d8832181fa6e2378190bc",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 24989696,
+            "size": 12288
+          },
+          {
+            "name": ".libc.so.bss",
+            "addr": 25001984,
+            "size": 8192,
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 25010176,
+            "size": 4349952
+          },
+          {
+            "name": ".libevlog.so.text",
+            "addr": 29360128,
+            "size": 237568,
+            "sha256": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18",
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29597696,
+            "size": 8192
+          },
+          {
+            "name": ".libevlog.so.data",
+            "addr": 29605888,
+            "size": 8192,
+            "sha256": "feffa6ae8a446be03e204a1be5ad00a0da374c19508441e1f5a5949823402708",
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29614080,
+            "size": 8192
+          },
+          {
+            "name": ".libevlog.so.data",
+            "addr": 29622272,
+            "size": 32768,
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29655040,
+            "size": 2850816
+          },
+          {
+            "addr": 32505856,
+            "size": 4096
+          },
+          {
+            "addr": 32509952,
+            "size": 4096
+          },
+          {
+            "addr": 32514048,
+            "size": 4096
+          },
+          {
+            "addr": 32518144,
+            "size": 4096
+          },
+          {
+            "addr": 32522240,
+            "size": 4096
+          },
+          {
+            "addr": 32526336,
+            "size": 4096
+          },
+          {
+            "addr": 32530432,
+            "size": 4096
+          },
+          {
+            "addr": 32534528,
+            "size": 4096
+          },
+          {
+            "addr": 32538624,
+            "size": 4096
+          },
+          {
+            "addr": 32542720,
+            "size": 4096
+          },
+          {
+            "addr": 32546816,
+            "size": 4096
+          },
+          {
+            "addr": 32550912,
+            "size": 4096
+          },
+          {
+            "addr": 32555008,
+            "size": 4096
+          },
+          {
+            "addr": 32559104,
+            "size": 4096
+          },
+          {
+            "addr": 32563200,
+            "size": 4096
+          },
+          {
+            "addr": 32567296,
+            "size": 4096
+          },
+          {
+            "addr": 32571392,
+            "size": 4096
+          },
+          {
+            "addr": 32575488,
+            "size": 4096
+          },
+          {
+            "addr": 32579584,
+            "size": 4096
+          },
+          {
+            "addr": 32583680,
+            "size": 4096
+          },
+          {
+            "addr": 32587776,
+            "size": 4096
+          },
+          {
+            "addr": 32591872,
+            "size": 4096
+          },
+          {
+            "addr": 32595968,
+            "size": 4096
+          },
+          {
+            "addr": 32600064,
+            "size": 16384
+          },
+          {
+            "addr": 32616448,
+            "size": 937984
+          }
+        ]
+      },
+      {
+        "name": "romchf",
+        "sections": [
+          {
+            "addr": 4096,
+            "size": 61440
+          },
+          {
+            "name": ".romchf.elf.text",
+            "addr": 65536,
+            "size": 98304,
+            "sha256": "966c9782c513e81d6499d82041e2bafddf833504cc8fc2160a52b3b216388741",
+            "sha256.text": "966c9782c513e81d6499d82041e2bafddf833504cc8fc2160a52b3b216388741"
+          },
+          {
+            "name": ".romchf.elf.data",
+            "addr": 163840,
+            "size": 69632,
+            "sha256": "af8883eeaf212192ee08608c018d3c3521dff9d959bba86f1f5af8a99c851cb9",
+            "sha256.text": "966c9782c513e81d6499d82041e2bafddf833504cc8fc2160a52b3b216388741"
+          },
+          {
+            "name": ".romchf.Initial.stack",
+            "addr": 237568,
+            "size": 8192
+          },
+          {
+            "name": ".romchf.heap",
+            "addr": 245760,
+            "size": 131072
+          },
+          {
+            "addr": 376832,
+            "size": 65536
+          },
+          {
+            "addr": 442368,
+            "size": 16384
+          },
+          {
+            "addr": 458752,
+            "size": 5832704
+          },
+          {
+            "addr": 6291456,
+            "size": 16777216
+          },
+          {
+            "addr": 23068672,
+            "size": 1572864
+          },
+          {
+            "name": ".libINTEGRITY.so.text",
+            "addr": 24641536,
+            "size": 20480,
+            "sha256": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24662016,
+            "size": 12288
+          },
+          {
+            "name": ".libINTEGRITY.so.data",
+            "addr": 24674304,
+            "size": 4096,
+            "sha256": "bf28c816aa2004c10798003af660c5758ac497f963c75875e286a3cd657950bc",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24678400,
+            "size": 94208
+          },
+          {
+            "name": ".libc.so.text",
+            "addr": 24772608,
+            "size": 212992,
+            "sha256": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "name": ".libc.so.data",
+            "addr": 24985600,
+            "size": 4096,
+            "sha256": "e475a7350aed853d69b66e6a3d2f0c93560ef3aa7d5d8832181fa6e2378190bc",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 24989696,
+            "size": 12288
+          },
+          {
+            "name": ".libc.so.bss",
+            "addr": 25001984,
+            "size": 8192,
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 25010176,
+            "size": 7495680
+          },
+          {
+            "addr": 32505856,
+            "size": 4096
+          },
+          {
+            "addr": 32509952,
+            "size": 4096
+          },
+          {
+            "addr": 32514048,
+            "size": 4096
+          },
+          {
+            "addr": 32518144,
+            "size": 4096
+          },
+          {
+            "addr": 32522240,
+            "size": 4096
+          },
+          {
+            "addr": 32526336,
+            "size": 4096
+          },
+          {
+            "addr": 32530432,
+            "size": 4096
+          },
+          {
+            "addr": 32534528,
+            "size": 4096
+          },
+          {
+            "addr": 32538624,
+            "size": 4096
+          },
+          {
+            "addr": 32542720,
+            "size": 4096
+          },
+          {
+            "addr": 32546816,
+            "size": 4096
+          },
+          {
+            "addr": 32550912,
+            "size": 4096
+          },
+          {
+            "addr": 32555008,
+            "size": 4096
+          },
+          {
+            "addr": 32559104,
+            "size": 4096
+          },
+          {
+            "addr": 32563200,
+            "size": 4096
+          },
+          {
+            "addr": 32567296,
+            "size": 4096
+          },
+          {
+            "addr": 32571392,
+            "size": 4096
+          },
+          {
+            "addr": 32575488,
+            "size": 4096
+          },
+          {
+            "addr": 32579584,
+            "size": 4096
+          },
+          {
+            "addr": 32583680,
+            "size": 4096
+          },
+          {
+            "addr": 32587776,
+            "size": 4096
+          },
+          {
+            "addr": 32591872,
+            "size": 4096
+          },
+          {
+            "addr": 32595968,
+            "size": 4096
+          },
+          {
+            "addr": 32600064,
+            "size": 16384
+          },
+          {
+            "addr": 32616448,
+            "size": 937984
+          }
+        ]
+      },
+      {
+        "name": "fum",
+        "sections": [
+          {
+            "addr": 4096,
+            "size": 61440
+          },
+          {
+            "name": ".fum.elf.text",
+            "addr": 65536,
+            "size": 540672,
+            "sha256": "6b0bb4fb5b28d5f25f0b21a2f6270011f1a95864dd3cd75b5035f107a3dcb788",
+            "sha256.text": "6b0bb4fb5b28d5f25f0b21a2f6270011f1a95864dd3cd75b5035f107a3dcb788"
+          },
+          {
+            "name": ".fum.elf.data",
+            "addr": 606208,
+            "size": 401408,
+            "sha256": "ee7b7ad52fdc6d934520982f94aead8ce8c8f39e98ad826df204746025694553",
+            "sha256.text": "6b0bb4fb5b28d5f25f0b21a2f6270011f1a95864dd3cd75b5035f107a3dcb788"
+          },
+          {
+            "name": ".fum.Initial.stack",
+            "addr": 1011712,
+            "size": 4096
+          },
+          {
+            "name": ".fum.heap",
+            "addr": 1015808,
+            "size": 65536
+          },
+          {
+            "addr": 1081344,
+            "size": 65536
+          },
+          {
+            "addr": 1146880,
+            "size": 16384
+          },
+          {
+            "addr": 1163264,
+            "size": 5128192
+          },
+          {
+            "addr": 6291456,
+            "size": 16777216
+          },
+          {
+            "addr": 23068672,
+            "size": 1572864
+          },
+          {
+            "name": ".libINTEGRITY.so.text",
+            "addr": 24641536,
+            "size": 20480,
+            "sha256": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24662016,
+            "size": 12288
+          },
+          {
+            "name": ".libINTEGRITY.so.data",
+            "addr": 24674304,
+            "size": 4096,
+            "sha256": "bf28c816aa2004c10798003af660c5758ac497f963c75875e286a3cd657950bc",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24678400,
+            "size": 94208
+          },
+          {
+            "name": ".libc.so.text",
+            "addr": 24772608,
+            "size": 212992,
+            "sha256": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "name": ".libc.so.data",
+            "addr": 24985600,
+            "size": 4096,
+            "sha256": "e475a7350aed853d69b66e6a3d2f0c93560ef3aa7d5d8832181fa6e2378190bc",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 24989696,
+            "size": 12288
+          },
+          {
+            "name": ".libc.so.bss",
+            "addr": 25001984,
+            "size": 8192,
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 25010176,
+            "size": 4349952
+          },
+          {
+            "name": ".libevlog.so.text",
+            "addr": 29360128,
+            "size": 237568,
+            "sha256": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18",
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29597696,
+            "size": 8192
+          },
+          {
+            "name": ".libevlog.so.data",
+            "addr": 29605888,
+            "size": 8192,
+            "sha256": "feffa6ae8a446be03e204a1be5ad00a0da374c19508441e1f5a5949823402708",
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29614080,
+            "size": 8192
+          },
+          {
+            "name": ".libevlog.so.data",
+            "addr": 29622272,
+            "size": 32768,
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29655040,
+            "size": 2850816
+          },
+          {
+            "addr": 32505856,
+            "size": 4096
+          },
+          {
+            "addr": 32509952,
+            "size": 4096
+          },
+          {
+            "addr": 32514048,
+            "size": 4096
+          },
+          {
+            "addr": 32518144,
+            "size": 4096
+          },
+          {
+            "addr": 32522240,
+            "size": 4096
+          },
+          {
+            "addr": 32526336,
+            "size": 4096
+          },
+          {
+            "addr": 32530432,
+            "size": 4096
+          },
+          {
+            "addr": 32534528,
+            "size": 4096
+          },
+          {
+            "addr": 32538624,
+            "size": 4096
+          },
+          {
+            "addr": 32542720,
+            "size": 4096
+          },
+          {
+            "addr": 32546816,
+            "size": 4096
+          },
+          {
+            "addr": 32550912,
+            "size": 4096
+          },
+          {
+            "addr": 32555008,
+            "size": 4096
+          },
+          {
+            "addr": 32559104,
+            "size": 4096
+          },
+          {
+            "addr": 32563200,
+            "size": 4096
+          },
+          {
+            "addr": 32567296,
+            "size": 4096
+          },
+          {
+            "addr": 32571392,
+            "size": 4096
+          },
+          {
+            "addr": 32575488,
+            "size": 4096
+          },
+          {
+            "addr": 32579584,
+            "size": 4096
+          },
+          {
+            "addr": 32583680,
+            "size": 4096
+          },
+          {
+            "addr": 32587776,
+            "size": 4096
+          },
+          {
+            "addr": 32591872,
+            "size": 4096
+          },
+          {
+            "addr": 32595968,
+            "size": 4096
+          },
+          {
+            "addr": 32600064,
+            "size": 16384
+          },
+          {
+            "addr": 32616448,
+            "size": 937984
+          }
+        ]
+      },
+      {
+        "name": "bmc",
+        "sections": [
+          {
+            "addr": 4096,
+            "size": 61440
+          },
+          {
+            "name": ".bmc.elf.text",
+            "addr": 65536,
+            "size": 442368,
+            "sha256": "b6fa3a45ee64cca923b59814ca05ae854e7c8e8d46eeb3b5648605efec3f979f",
+            "sha256.text": "b6fa3a45ee64cca923b59814ca05ae854e7c8e8d46eeb3b5648605efec3f979f"
+          },
+          {
+            "name": ".bmc.elf.data",
+            "addr": 507904,
+            "size": 135168,
+            "sha256": "bea9398c322e2244850e1a19bab7485d528f9d62810f9dfca3323aecd1a898e0",
+            "sha256.text": "b6fa3a45ee64cca923b59814ca05ae854e7c8e8d46eeb3b5648605efec3f979f"
+          },
+          {
+            "name": ".bmc.Initial.stack",
+            "addr": 647168,
+            "size": 8192
+          },
+          {
+            "name": ".bmc.heap",
+            "addr": 655360,
+            "size": 163840
+          },
+          {
+            "addr": 819200,
+            "size": 65536
+          },
+          {
+            "addr": 884736,
+            "size": 16384
+          },
+          {
+            "addr": 901120,
+            "size": 5390336
+          },
+          {
+            "addr": 6291456,
+            "size": 16777216
+          },
+          {
+            "addr": 23068672,
+            "size": 1572864
+          },
+          {
+            "name": ".libINTEGRITY.so.text",
+            "addr": 24641536,
+            "size": 20480,
+            "sha256": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24662016,
+            "size": 12288
+          },
+          {
+            "name": ".libINTEGRITY.so.data",
+            "addr": 24674304,
+            "size": 4096,
+            "sha256": "bf28c816aa2004c10798003af660c5758ac497f963c75875e286a3cd657950bc",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24678400,
+            "size": 94208
+          },
+          {
+            "name": ".libc.so.text",
+            "addr": 24772608,
+            "size": 212992,
+            "sha256": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "name": ".libc.so.data",
+            "addr": 24985600,
+            "size": 4096,
+            "sha256": "e475a7350aed853d69b66e6a3d2f0c93560ef3aa7d5d8832181fa6e2378190bc",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 24989696,
+            "size": 12288
+          },
+          {
+            "name": ".libc.so.bss",
+            "addr": 25001984,
+            "size": 8192,
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 25010176,
+            "size": 4349952
+          },
+          {
+            "name": ".libevlog.so.text",
+            "addr": 29360128,
+            "size": 237568,
+            "sha256": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18",
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29597696,
+            "size": 8192
+          },
+          {
+            "name": ".libevlog.so.data",
+            "addr": 29605888,
+            "size": 8192,
+            "sha256": "feffa6ae8a446be03e204a1be5ad00a0da374c19508441e1f5a5949823402708",
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29614080,
+            "size": 8192
+          },
+          {
+            "name": ".libevlog.so.data",
+            "addr": 29622272,
+            "size": 32768,
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29655040,
+            "size": 2850816
+          },
+          {
+            "addr": 32505856,
+            "size": 4096
+          },
+          {
+            "addr": 32509952,
+            "size": 4096
+          },
+          {
+            "addr": 32514048,
+            "size": 4096
+          },
+          {
+            "addr": 32518144,
+            "size": 4096
+          },
+          {
+            "addr": 32522240,
+            "size": 4096
+          },
+          {
+            "addr": 32526336,
+            "size": 4096
+          },
+          {
+            "addr": 32530432,
+            "size": 4096
+          },
+          {
+            "addr": 32534528,
+            "size": 4096
+          },
+          {
+            "addr": 32538624,
+            "size": 4096
+          },
+          {
+            "addr": 32542720,
+            "size": 4096
+          },
+          {
+            "addr": 32546816,
+            "size": 4096
+          },
+          {
+            "addr": 32550912,
+            "size": 4096
+          },
+          {
+            "addr": 32555008,
+            "size": 4096
+          },
+          {
+            "addr": 32559104,
+            "size": 4096
+          },
+          {
+            "addr": 32563200,
+            "size": 4096
+          },
+          {
+            "addr": 32567296,
+            "size": 4096
+          },
+          {
+            "addr": 32571392,
+            "size": 4096
+          },
+          {
+            "addr": 32575488,
+            "size": 4096
+          },
+          {
+            "addr": 32579584,
+            "size": 4096
+          },
+          {
+            "addr": 32583680,
+            "size": 4096
+          },
+          {
+            "addr": 32587776,
+            "size": 4096
+          },
+          {
+            "addr": 32591872,
+            "size": 4096
+          },
+          {
+            "addr": 32595968,
+            "size": 4096
+          },
+          {
+            "addr": 32600064,
+            "size": 16384
+          },
+          {
+            "addr": 32616448,
+            "size": 937984
+          }
+        ]
+      },
+      {
+        "name": "svcsILO",
+        "sections": [
+          {
+            "addr": 4096,
+            "size": 61440
+          },
+          {
+            "name": ".svcsILO.elf.text",
+            "addr": 65536,
+            "size": 241664,
+            "sha256": "b0c4b7fa0f67ec85edc28156a6d872783363d4cc868aee31aa0158da51c7f1af",
+            "sha256.text": "b0c4b7fa0f67ec85edc28156a6d872783363d4cc868aee31aa0158da51c7f1af"
+          },
+          {
+            "addr": 307200,
+            "size": 4096
+          },
+          {
+            "name": ".svcsILO.elf.data",
+            "addr": 311296,
+            "size": 49152,
+            "sha256": "30f73f2a6e420c984b45e1e362da1d3b5d4ebe8e20a7252715ca59335867de6e",
+            "sha256.text": "b0c4b7fa0f67ec85edc28156a6d872783363d4cc868aee31aa0158da51c7f1af"
+          },
+          {
+            "name": ".svcsILO.Initial.stack",
+            "addr": 364544,
+            "size": 8192
+          },
+          {
+            "name": ".svcsILO.heap",
+            "addr": 372736,
+            "size": 65536
+          },
+          {
+            "addr": 438272,
+            "size": 65536
+          },
+          {
+            "addr": 503808,
+            "size": 32768
+          },
+          {
+            "addr": 536576,
+            "size": 221184
+          },
+          {
+            "addr": 757760,
+            "size": 16384
+          },
+          {
+            "addr": 774144,
+            "size": 5517312
+          },
+          {
+            "addr": 6291456,
+            "size": 16777216
+          },
+          {
+            "addr": 23068672,
+            "size": 1572864
+          },
+          {
+            "name": ".libINTEGRITY.so.text",
+            "addr": 24641536,
+            "size": 20480,
+            "sha256": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24662016,
+            "size": 12288
+          },
+          {
+            "name": ".libINTEGRITY.so.data",
+            "addr": 24674304,
+            "size": 4096,
+            "sha256": "bf28c816aa2004c10798003af660c5758ac497f963c75875e286a3cd657950bc",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24678400,
+            "size": 94208
+          },
+          {
+            "name": ".libc.so.text",
+            "addr": 24772608,
+            "size": 212992,
+            "sha256": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "name": ".libc.so.data",
+            "addr": 24985600,
+            "size": 4096,
+            "sha256": "e475a7350aed853d69b66e6a3d2f0c93560ef3aa7d5d8832181fa6e2378190bc",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 24989696,
+            "size": 12288
+          },
+          {
+            "name": ".libc.so.bss",
+            "addr": 25001984,
+            "size": 8192,
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 25010176,
+            "size": 811008
+          },
+          {
+            "name": ".libsslc.so.text",
+            "addr": 25821184,
+            "size": 823296,
+            "sha256": "fecc70fe248d3383a34889d4c385787d075aaeefce0d5a77ed19d29ebb1cfd13",
+            "sha256.text": "fecc70fe248d3383a34889d4c385787d075aaeefce0d5a77ed19d29ebb1cfd13"
+          },
+          {
+            "addr": 26644480,
+            "size": 12288
+          },
+          {
+            "name": ".libsslc.so.data",
+            "addr": 26656768,
+            "size": 40960,
+            "sha256": "ec31fad343617b0d4bbe92a8553fd42f3271deba62486c23fa67058aba5a25d1",
+            "sha256.text": "fecc70fe248d3383a34889d4c385787d075aaeefce0d5a77ed19d29ebb1cfd13"
+          },
+          {
+            "addr": 26697728,
+            "size": 8192
+          },
+          {
+            "name": ".libsslc.so.data",
+            "addr": 26705920,
+            "size": 20480,
+            "sha256.text": "fecc70fe248d3383a34889d4c385787d075aaeefce0d5a77ed19d29ebb1cfd13"
+          },
+          {
+            "addr": 26726400,
+            "size": 2633728
+          },
+          {
+            "name": ".libevlog.so.text",
+            "addr": 29360128,
+            "size": 237568,
+            "sha256": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18",
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29597696,
+            "size": 8192
+          },
+          {
+            "name": ".libevlog.so.data",
+            "addr": 29605888,
+            "size": 8192,
+            "sha256": "feffa6ae8a446be03e204a1be5ad00a0da374c19508441e1f5a5949823402708",
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29614080,
+            "size": 8192
+          },
+          {
+            "name": ".libevlog.so.data",
+            "addr": 29622272,
+            "size": 32768,
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29655040,
+            "size": 2850816
+          },
+          {
+            "addr": 32505856,
+            "size": 4096
+          },
+          {
+            "addr": 32509952,
+            "size": 4096
+          },
+          {
+            "addr": 32514048,
+            "size": 4096
+          },
+          {
+            "addr": 32518144,
+            "size": 4096
+          },
+          {
+            "addr": 32522240,
+            "size": 4096
+          },
+          {
+            "addr": 32526336,
+            "size": 4096
+          },
+          {
+            "addr": 32530432,
+            "size": 4096
+          },
+          {
+            "addr": 32534528,
+            "size": 4096
+          },
+          {
+            "addr": 32538624,
+            "size": 4096
+          },
+          {
+            "addr": 32542720,
+            "size": 4096
+          },
+          {
+            "addr": 32546816,
+            "size": 4096
+          },
+          {
+            "addr": 32550912,
+            "size": 4096
+          },
+          {
+            "addr": 32555008,
+            "size": 4096
+          },
+          {
+            "addr": 32559104,
+            "size": 4096
+          },
+          {
+            "addr": 32563200,
+            "size": 4096
+          },
+          {
+            "addr": 32567296,
+            "size": 4096
+          },
+          {
+            "addr": 32571392,
+            "size": 4096
+          },
+          {
+            "addr": 32575488,
+            "size": 4096
+          },
+          {
+            "addr": 32579584,
+            "size": 4096
+          },
+          {
+            "addr": 32583680,
+            "size": 4096
+          },
+          {
+            "addr": 32587776,
+            "size": 4096
+          },
+          {
+            "addr": 32591872,
+            "size": 4096
+          },
+          {
+            "addr": 32595968,
+            "size": 4096
+          },
+          {
+            "addr": 32600064,
+            "size": 16384
+          },
+          {
+            "addr": 32616448,
+            "size": 937984
+          }
+        ]
+      },
+      {
+        "name": "network",
+        "sections": [
+          {
+            "addr": 4096,
+            "size": 61440
+          },
+          {
+            "name": ".network.elf.text",
+            "addr": 65536,
+            "size": 118784,
+            "sha256": "63b1f7e8fff266ea804e7a2f2c73ecfd8e7cdf951a69bfbcfba3bd6bb28baf06",
+            "sha256.text": "63b1f7e8fff266ea804e7a2f2c73ecfd8e7cdf951a69bfbcfba3bd6bb28baf06"
+          },
+          {
+            "name": ".network.Initial.stack",
+            "addr": 188416,
+            "size": 4096
+          },
+          {
+            "addr": 192512,
+            "size": 4096
+          },
+          {
+            "name": ".network.elf.data",
+            "addr": 196608,
+            "size": 8192,
+            "sha256": "28f47a2f87f21252c6fc5cfd2a83302cfed88986a3ba69b9f71c98b9fd4ad5bd",
+            "sha256.text": "63b1f7e8fff266ea804e7a2f2c73ecfd8e7cdf951a69bfbcfba3bd6bb28baf06"
+          },
+          {
+            "name": ".network.heap",
+            "addr": 204800,
+            "size": 65536
+          },
+          {
+            "addr": 270336,
+            "size": 65536
+          },
+          {
+            "addr": 335872,
+            "size": 16384
+          },
+          {
+            "addr": 352256,
+            "size": 5939200
+          },
+          {
+            "addr": 6291456,
+            "size": 16777216
+          },
+          {
+            "addr": 23068672,
+            "size": 1572864
+          },
+          {
+            "name": ".libINTEGRITY.so.text",
+            "addr": 24641536,
+            "size": 20480,
+            "sha256": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24662016,
+            "size": 12288
+          },
+          {
+            "name": ".libINTEGRITY.so.data",
+            "addr": 24674304,
+            "size": 4096,
+            "sha256": "bf28c816aa2004c10798003af660c5758ac497f963c75875e286a3cd657950bc",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24678400,
+            "size": 94208
+          },
+          {
+            "name": ".libc.so.text",
+            "addr": 24772608,
+            "size": 212992,
+            "sha256": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "name": ".libc.so.data",
+            "addr": 24985600,
+            "size": 4096,
+            "sha256": "e475a7350aed853d69b66e6a3d2f0c93560ef3aa7d5d8832181fa6e2378190bc",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 24989696,
+            "size": 12288
+          },
+          {
+            "name": ".libc.so.bss",
+            "addr": 25001984,
+            "size": 8192,
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 25010176,
+            "size": 4349952
+          },
+          {
+            "name": ".libevlog.so.text",
+            "addr": 29360128,
+            "size": 237568,
+            "sha256": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18",
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29597696,
+            "size": 8192
+          },
+          {
+            "name": ".libevlog.so.data",
+            "addr": 29605888,
+            "size": 8192,
+            "sha256": "feffa6ae8a446be03e204a1be5ad00a0da374c19508441e1f5a5949823402708",
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29614080,
+            "size": 8192
+          },
+          {
+            "name": ".libevlog.so.data",
+            "addr": 29622272,
+            "size": 32768,
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29655040,
+            "size": 2850816
+          },
+          {
+            "addr": 32505856,
+            "size": 4096
+          },
+          {
+            "addr": 32509952,
+            "size": 4096
+          },
+          {
+            "addr": 32514048,
+            "size": 4096
+          },
+          {
+            "addr": 32518144,
+            "size": 4096
+          },
+          {
+            "addr": 32522240,
+            "size": 4096
+          },
+          {
+            "addr": 32526336,
+            "size": 4096
+          },
+          {
+            "addr": 32530432,
+            "size": 4096
+          },
+          {
+            "addr": 32534528,
+            "size": 4096
+          },
+          {
+            "addr": 32538624,
+            "size": 4096
+          },
+          {
+            "addr": 32542720,
+            "size": 4096
+          },
+          {
+            "addr": 32546816,
+            "size": 4096
+          },
+          {
+            "addr": 32550912,
+            "size": 4096
+          },
+          {
+            "addr": 32555008,
+            "size": 4096
+          },
+          {
+            "addr": 32559104,
+            "size": 4096
+          },
+          {
+            "addr": 32563200,
+            "size": 4096
+          },
+          {
+            "addr": 32567296,
+            "size": 4096
+          },
+          {
+            "addr": 32571392,
+            "size": 4096
+          },
+          {
+            "addr": 32575488,
+            "size": 4096
+          },
+          {
+            "addr": 32579584,
+            "size": 4096
+          },
+          {
+            "addr": 32583680,
+            "size": 4096
+          },
+          {
+            "addr": 32587776,
+            "size": 4096
+          },
+          {
+            "addr": 32591872,
+            "size": 4096
+          },
+          {
+            "addr": 32595968,
+            "size": 4096
+          },
+          {
+            "addr": 32600064,
+            "size": 16384
+          },
+          {
+            "addr": 32616448,
+            "size": 937984
+          }
+        ]
+      },
+      {
+        "name": "orion",
+        "sections": [
+          {
+            "addr": 4096,
+            "size": 61440
+          },
+          {
+            "name": ".orion.elf.text",
+            "addr": 65536,
+            "size": 106496,
+            "sha256": "fd9ba07cadd594041b60db7f2886a7818995d1ded2b3500dbaca52fde3f7bb13",
+            "sha256.text": "fd9ba07cadd594041b60db7f2886a7818995d1ded2b3500dbaca52fde3f7bb13"
+          },
+          {
+            "name": ".orion.Initial.stack",
+            "addr": 176128,
+            "size": 4096
+          },
+          {
+            "name": ".orion.elf.data",
+            "addr": 180224,
+            "size": 8192,
+            "sha256": "0e18ec7c09e8c7ecec622deb1dee5af42121fff9bbbe591e14d6c940d9a5616b",
+            "sha256.text": "fd9ba07cadd594041b60db7f2886a7818995d1ded2b3500dbaca52fde3f7bb13"
+          },
+          {
+            "name": ".orion.heap",
+            "addr": 188416,
+            "size": 65536
+          },
+          {
+            "addr": 253952,
+            "size": 65536
+          },
+          {
+            "addr": 319488,
+            "size": 16384
+          },
+          {
+            "addr": 335872,
+            "size": 5955584
+          },
+          {
+            "addr": 6291456,
+            "size": 16777216
+          },
+          {
+            "addr": 23068672,
+            "size": 1572864
+          },
+          {
+            "name": ".libINTEGRITY.so.text",
+            "addr": 24641536,
+            "size": 20480,
+            "sha256": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24662016,
+            "size": 12288
+          },
+          {
+            "name": ".libINTEGRITY.so.data",
+            "addr": 24674304,
+            "size": 4096,
+            "sha256": "bf28c816aa2004c10798003af660c5758ac497f963c75875e286a3cd657950bc",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24678400,
+            "size": 94208
+          },
+          {
+            "name": ".libc.so.text",
+            "addr": 24772608,
+            "size": 212992,
+            "sha256": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "name": ".libc.so.data",
+            "addr": 24985600,
+            "size": 4096,
+            "sha256": "e475a7350aed853d69b66e6a3d2f0c93560ef3aa7d5d8832181fa6e2378190bc",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 24989696,
+            "size": 12288
+          },
+          {
+            "name": ".libc.so.bss",
+            "addr": 25001984,
+            "size": 8192,
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 25010176,
+            "size": 4349952
+          },
+          {
+            "name": ".libevlog.so.text",
+            "addr": 29360128,
+            "size": 237568,
+            "sha256": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18",
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29597696,
+            "size": 8192
+          },
+          {
+            "name": ".libevlog.so.data",
+            "addr": 29605888,
+            "size": 8192,
+            "sha256": "feffa6ae8a446be03e204a1be5ad00a0da374c19508441e1f5a5949823402708",
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29614080,
+            "size": 8192
+          },
+          {
+            "name": ".libevlog.so.data",
+            "addr": 29622272,
+            "size": 32768,
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29655040,
+            "size": 2850816
+          },
+          {
+            "addr": 32505856,
+            "size": 4096
+          },
+          {
+            "addr": 32509952,
+            "size": 4096
+          },
+          {
+            "addr": 32514048,
+            "size": 4096
+          },
+          {
+            "addr": 32518144,
+            "size": 4096
+          },
+          {
+            "addr": 32522240,
+            "size": 4096
+          },
+          {
+            "addr": 32526336,
+            "size": 4096
+          },
+          {
+            "addr": 32530432,
+            "size": 4096
+          },
+          {
+            "addr": 32534528,
+            "size": 4096
+          },
+          {
+            "addr": 32538624,
+            "size": 4096
+          },
+          {
+            "addr": 32542720,
+            "size": 4096
+          },
+          {
+            "addr": 32546816,
+            "size": 4096
+          },
+          {
+            "addr": 32550912,
+            "size": 4096
+          },
+          {
+            "addr": 32555008,
+            "size": 4096
+          },
+          {
+            "addr": 32559104,
+            "size": 4096
+          },
+          {
+            "addr": 32563200,
+            "size": 4096
+          },
+          {
+            "addr": 32567296,
+            "size": 4096
+          },
+          {
+            "addr": 32571392,
+            "size": 4096
+          },
+          {
+            "addr": 32575488,
+            "size": 4096
+          },
+          {
+            "addr": 32579584,
+            "size": 4096
+          },
+          {
+            "addr": 32583680,
+            "size": 4096
+          },
+          {
+            "addr": 32587776,
+            "size": 4096
+          },
+          {
+            "addr": 32591872,
+            "size": 4096
+          },
+          {
+            "addr": 32595968,
+            "size": 4096
+          },
+          {
+            "addr": 32600064,
+            "size": 16384
+          },
+          {
+            "addr": 32616448,
+            "size": 937984
+          }
+        ]
+      },
+      {
+        "name": "ConAppCLI",
+        "sections": [
+          {
+            "addr": 4096,
+            "size": 61440
+          },
+          {
+            "name": ".ConAppCLI.elf.text",
+            "addr": 65536,
+            "size": 507904,
+            "sha256": "0ffd820e4577e3635fbd027739182f6eada6d8f8742776016b4c74725461b595",
+            "sha256.text": "0ffd820e4577e3635fbd027739182f6eada6d8f8742776016b4c74725461b595"
+          },
+          {
+            "name": ".ConAppCLI.elf.data",
+            "addr": 573440,
+            "size": 159744,
+            "sha256": "99ae4a77eb0b81e4e1b3dc738fc1390d5a26bd20acd756e0309ad48de385546a",
+            "sha256.text": "0ffd820e4577e3635fbd027739182f6eada6d8f8742776016b4c74725461b595"
+          },
+          {
+            "name": ".ConAppCLI.Initial.stack",
+            "addr": 737280,
+            "size": 4096
+          },
+          {
+            "name": ".ConAppCLI.heap",
+            "addr": 741376,
+            "size": 65536
+          },
+          {
+            "addr": 806912,
+            "size": 65536
+          },
+          {
+            "addr": 872448,
+            "size": 16384
+          },
+          {
+            "addr": 888832,
+            "size": 5402624
+          },
+          {
+            "addr": 6291456,
+            "size": 16777216
+          },
+          {
+            "addr": 23068672,
+            "size": 1572864
+          },
+          {
+            "name": ".libINTEGRITY.so.text",
+            "addr": 24641536,
+            "size": 20480,
+            "sha256": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24662016,
+            "size": 12288
+          },
+          {
+            "name": ".libINTEGRITY.so.data",
+            "addr": 24674304,
+            "size": 4096,
+            "sha256": "bf28c816aa2004c10798003af660c5758ac497f963c75875e286a3cd657950bc",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24678400,
+            "size": 94208
+          },
+          {
+            "name": ".libc.so.text",
+            "addr": 24772608,
+            "size": 212992,
+            "sha256": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "name": ".libc.so.data",
+            "addr": 24985600,
+            "size": 4096,
+            "sha256": "e475a7350aed853d69b66e6a3d2f0c93560ef3aa7d5d8832181fa6e2378190bc",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 24989696,
+            "size": 12288
+          },
+          {
+            "name": ".libc.so.bss",
+            "addr": 25001984,
+            "size": 8192,
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 25010176,
+            "size": 4349952
+          },
+          {
+            "name": ".libevlog.so.text",
+            "addr": 29360128,
+            "size": 237568,
+            "sha256": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18",
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29597696,
+            "size": 8192
+          },
+          {
+            "name": ".libevlog.so.data",
+            "addr": 29605888,
+            "size": 8192,
+            "sha256": "feffa6ae8a446be03e204a1be5ad00a0da374c19508441e1f5a5949823402708",
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29614080,
+            "size": 8192
+          },
+          {
+            "name": ".libevlog.so.data",
+            "addr": 29622272,
+            "size": 32768,
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29655040,
+            "size": 2850816
+          },
+          {
+            "addr": 32505856,
+            "size": 4096
+          },
+          {
+            "addr": 32509952,
+            "size": 4096
+          },
+          {
+            "addr": 32514048,
+            "size": 4096
+          },
+          {
+            "addr": 32518144,
+            "size": 4096
+          },
+          {
+            "addr": 32522240,
+            "size": 4096
+          },
+          {
+            "addr": 32526336,
+            "size": 4096
+          },
+          {
+            "addr": 32530432,
+            "size": 4096
+          },
+          {
+            "addr": 32534528,
+            "size": 4096
+          },
+          {
+            "addr": 32538624,
+            "size": 4096
+          },
+          {
+            "addr": 32542720,
+            "size": 4096
+          },
+          {
+            "addr": 32546816,
+            "size": 4096
+          },
+          {
+            "addr": 32550912,
+            "size": 4096
+          },
+          {
+            "addr": 32555008,
+            "size": 4096
+          },
+          {
+            "addr": 32559104,
+            "size": 4096
+          },
+          {
+            "addr": 32563200,
+            "size": 4096
+          },
+          {
+            "addr": 32567296,
+            "size": 4096
+          },
+          {
+            "addr": 32571392,
+            "size": 4096
+          },
+          {
+            "addr": 32575488,
+            "size": 4096
+          },
+          {
+            "addr": 32579584,
+            "size": 4096
+          },
+          {
+            "addr": 32583680,
+            "size": 4096
+          },
+          {
+            "addr": 32587776,
+            "size": 4096
+          },
+          {
+            "addr": 32591872,
+            "size": 4096
+          },
+          {
+            "addr": 32595968,
+            "size": 4096
+          },
+          {
+            "addr": 32600064,
+            "size": 16384
+          },
+          {
+            "addr": 32616448,
+            "size": 937984
+          }
+        ]
+      },
+      {
+        "name": "snmp",
+        "sections": [
+          {
+            "addr": 4096,
+            "size": 61440
+          },
+          {
+            "name": ".snmp.elf.text",
+            "addr": 65536,
+            "size": 159744,
+            "sha256": "b8f97c57d84b38ec1b1ae1f0d67a936b79bedd4e96d6e9adf4084c9e114f87bc",
+            "sha256.text": "b8f97c57d84b38ec1b1ae1f0d67a936b79bedd4e96d6e9adf4084c9e114f87bc"
+          },
+          {
+            "addr": 225280,
+            "size": 4096
+          },
+          {
+            "name": ".snmp.elf.data",
+            "addr": 229376,
+            "size": 24576,
+            "sha256": "48ef926acaf053d8df0b995360a0899e0a2307943834fdcf0f6adbc68f67ca5d",
+            "sha256.text": "b8f97c57d84b38ec1b1ae1f0d67a936b79bedd4e96d6e9adf4084c9e114f87bc"
+          },
+          {
+            "name": ".snmp.Initial.stack",
+            "addr": 258048,
+            "size": 16384
+          },
+          {
+            "name": ".snmp.heap",
+            "addr": 274432,
+            "size": 65536
+          },
+          {
+            "addr": 339968,
+            "size": 65536
+          },
+          {
+            "addr": 405504,
+            "size": 16384
+          },
+          {
+            "addr": 421888,
+            "size": 5869568
+          },
+          {
+            "addr": 6291456,
+            "size": 16777216
+          },
+          {
+            "addr": 23068672,
+            "size": 1572864
+          },
+          {
+            "name": ".libINTEGRITY.so.text",
+            "addr": 24641536,
+            "size": 20480,
+            "sha256": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24662016,
+            "size": 12288
+          },
+          {
+            "name": ".libINTEGRITY.so.data",
+            "addr": 24674304,
+            "size": 4096,
+            "sha256": "bf28c816aa2004c10798003af660c5758ac497f963c75875e286a3cd657950bc",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24678400,
+            "size": 94208
+          },
+          {
+            "name": ".libc.so.text",
+            "addr": 24772608,
+            "size": 212992,
+            "sha256": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "name": ".libc.so.data",
+            "addr": 24985600,
+            "size": 4096,
+            "sha256": "e475a7350aed853d69b66e6a3d2f0c93560ef3aa7d5d8832181fa6e2378190bc",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 24989696,
+            "size": 12288
+          },
+          {
+            "name": ".libc.so.bss",
+            "addr": 25001984,
+            "size": 8192,
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 25010176,
+            "size": 4349952
+          },
+          {
+            "name": ".libevlog.so.text",
+            "addr": 29360128,
+            "size": 237568,
+            "sha256": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18",
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29597696,
+            "size": 8192
+          },
+          {
+            "name": ".libevlog.so.data",
+            "addr": 29605888,
+            "size": 8192,
+            "sha256": "feffa6ae8a446be03e204a1be5ad00a0da374c19508441e1f5a5949823402708",
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29614080,
+            "size": 8192
+          },
+          {
+            "name": ".libevlog.so.data",
+            "addr": 29622272,
+            "size": 32768,
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29655040,
+            "size": 2850816
+          },
+          {
+            "addr": 32505856,
+            "size": 4096
+          },
+          {
+            "addr": 32509952,
+            "size": 4096
+          },
+          {
+            "addr": 32514048,
+            "size": 4096
+          },
+          {
+            "addr": 32518144,
+            "size": 4096
+          },
+          {
+            "addr": 32522240,
+            "size": 4096
+          },
+          {
+            "addr": 32526336,
+            "size": 4096
+          },
+          {
+            "addr": 32530432,
+            "size": 4096
+          },
+          {
+            "addr": 32534528,
+            "size": 4096
+          },
+          {
+            "addr": 32538624,
+            "size": 4096
+          },
+          {
+            "addr": 32542720,
+            "size": 4096
+          },
+          {
+            "addr": 32546816,
+            "size": 4096
+          },
+          {
+            "addr": 32550912,
+            "size": 4096
+          },
+          {
+            "addr": 32555008,
+            "size": 4096
+          },
+          {
+            "addr": 32559104,
+            "size": 4096
+          },
+          {
+            "addr": 32563200,
+            "size": 4096
+          },
+          {
+            "addr": 32567296,
+            "size": 4096
+          },
+          {
+            "addr": 32571392,
+            "size": 4096
+          },
+          {
+            "addr": 32575488,
+            "size": 4096
+          },
+          {
+            "addr": 32579584,
+            "size": 4096
+          },
+          {
+            "addr": 32583680,
+            "size": 4096
+          },
+          {
+            "addr": 32587776,
+            "size": 4096
+          },
+          {
+            "addr": 32591872,
+            "size": 4096
+          },
+          {
+            "addr": 32595968,
+            "size": 4096
+          },
+          {
+            "addr": 32600064,
+            "size": 16384
+          },
+          {
+            "addr": 32616448,
+            "size": 937984
+          }
+        ]
+      },
+      {
+        "name": "rckmgmt",
+        "sections": [
+          {
+            "addr": 4096,
+            "size": 61440
+          },
+          {
+            "name": ".rckmgmt.elf.text",
+            "addr": 65536,
+            "size": 180224,
+            "sha256": "e30c13d865f23ebdc62f6a0297dde4165b2ef7ec676a2f75f37239c002bb732f",
+            "sha256.text": "e30c13d865f23ebdc62f6a0297dde4165b2ef7ec676a2f75f37239c002bb732f"
+          },
+          {
+            "name": ".rckmgmt.elf.data",
+            "addr": 245760,
+            "size": 20480,
+            "sha256": "2d18e2c0fcd728dd30745bafcfd2bde36f94c08dca3f046279c8d4e250f352bb",
+            "sha256.text": "e30c13d865f23ebdc62f6a0297dde4165b2ef7ec676a2f75f37239c002bb732f"
+          },
+          {
+            "name": ".rckmgmt.Initial.stack",
+            "addr": 270336,
+            "size": 16384
+          },
+          {
+            "name": ".rckmgmt.heap",
+            "addr": 286720,
+            "size": 32768
+          },
+          {
+            "addr": 319488,
+            "size": 65536
+          },
+          {
+            "addr": 385024,
+            "size": 16384
+          },
+          {
+            "addr": 401408,
+            "size": 5890048
+          },
+          {
+            "addr": 6291456,
+            "size": 16777216
+          },
+          {
+            "addr": 23068672,
+            "size": 1572864
+          },
+          {
+            "name": ".libINTEGRITY.so.text",
+            "addr": 24641536,
+            "size": 20480,
+            "sha256": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24662016,
+            "size": 12288
+          },
+          {
+            "name": ".libINTEGRITY.so.data",
+            "addr": 24674304,
+            "size": 4096,
+            "sha256": "bf28c816aa2004c10798003af660c5758ac497f963c75875e286a3cd657950bc",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24678400,
+            "size": 94208
+          },
+          {
+            "name": ".libc.so.text",
+            "addr": 24772608,
+            "size": 212992,
+            "sha256": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "name": ".libc.so.data",
+            "addr": 24985600,
+            "size": 4096,
+            "sha256": "e475a7350aed853d69b66e6a3d2f0c93560ef3aa7d5d8832181fa6e2378190bc",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 24989696,
+            "size": 12288
+          },
+          {
+            "name": ".libc.so.bss",
+            "addr": 25001984,
+            "size": 8192,
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 25010176,
+            "size": 811008
+          },
+          {
+            "name": ".libsslc.so.text",
+            "addr": 25821184,
+            "size": 823296,
+            "sha256": "fecc70fe248d3383a34889d4c385787d075aaeefce0d5a77ed19d29ebb1cfd13",
+            "sha256.text": "fecc70fe248d3383a34889d4c385787d075aaeefce0d5a77ed19d29ebb1cfd13"
+          },
+          {
+            "addr": 26644480,
+            "size": 12288
+          },
+          {
+            "name": ".libsslc.so.data",
+            "addr": 26656768,
+            "size": 40960,
+            "sha256": "ec31fad343617b0d4bbe92a8553fd42f3271deba62486c23fa67058aba5a25d1",
+            "sha256.text": "fecc70fe248d3383a34889d4c385787d075aaeefce0d5a77ed19d29ebb1cfd13"
+          },
+          {
+            "addr": 26697728,
+            "size": 8192
+          },
+          {
+            "name": ".libsslc.so.data",
+            "addr": 26705920,
+            "size": 20480,
+            "sha256.text": "fecc70fe248d3383a34889d4c385787d075aaeefce0d5a77ed19d29ebb1cfd13"
+          },
+          {
+            "addr": 26726400,
+            "size": 2633728
+          },
+          {
+            "name": ".libevlog.so.text",
+            "addr": 29360128,
+            "size": 237568,
+            "sha256": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18",
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29597696,
+            "size": 8192
+          },
+          {
+            "name": ".libevlog.so.data",
+            "addr": 29605888,
+            "size": 8192,
+            "sha256": "feffa6ae8a446be03e204a1be5ad00a0da374c19508441e1f5a5949823402708",
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29614080,
+            "size": 8192
+          },
+          {
+            "name": ".libevlog.so.data",
+            "addr": 29622272,
+            "size": 32768,
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29655040,
+            "size": 2850816
+          },
+          {
+            "addr": 32505856,
+            "size": 4096
+          },
+          {
+            "addr": 32509952,
+            "size": 4096
+          },
+          {
+            "addr": 32514048,
+            "size": 4096
+          },
+          {
+            "addr": 32518144,
+            "size": 4096
+          },
+          {
+            "addr": 32522240,
+            "size": 4096
+          },
+          {
+            "addr": 32526336,
+            "size": 4096
+          },
+          {
+            "addr": 32530432,
+            "size": 4096
+          },
+          {
+            "addr": 32534528,
+            "size": 4096
+          },
+          {
+            "addr": 32538624,
+            "size": 4096
+          },
+          {
+            "addr": 32542720,
+            "size": 4096
+          },
+          {
+            "addr": 32546816,
+            "size": 4096
+          },
+          {
+            "addr": 32550912,
+            "size": 4096
+          },
+          {
+            "addr": 32555008,
+            "size": 4096
+          },
+          {
+            "addr": 32559104,
+            "size": 4096
+          },
+          {
+            "addr": 32563200,
+            "size": 4096
+          },
+          {
+            "addr": 32567296,
+            "size": 4096
+          },
+          {
+            "addr": 32571392,
+            "size": 4096
+          },
+          {
+            "addr": 32575488,
+            "size": 4096
+          },
+          {
+            "addr": 32579584,
+            "size": 4096
+          },
+          {
+            "addr": 32583680,
+            "size": 4096
+          },
+          {
+            "addr": 32587776,
+            "size": 4096
+          },
+          {
+            "addr": 32591872,
+            "size": 4096
+          },
+          {
+            "addr": 32595968,
+            "size": 4096
+          },
+          {
+            "addr": 32600064,
+            "size": 16384
+          },
+          {
+            "addr": 32616448,
+            "size": 937984
+          }
+        ]
+      },
+      {
+        "name": "sntp",
+        "sections": [
+          {
+            "addr": 4096,
+            "size": 61440
+          },
+          {
+            "name": ".sntp.elf.text",
+            "addr": 65536,
+            "size": 167936,
+            "sha256": "118599615df655188f898cd80b9f0958d0a3db4363e7fa214f968da427be307b",
+            "sha256.text": "118599615df655188f898cd80b9f0958d0a3db4363e7fa214f968da427be307b"
+          },
+          {
+            "name": ".sntp.Initial.stack",
+            "addr": 237568,
+            "size": 4096
+          },
+          {
+            "addr": 241664,
+            "size": 4096
+          },
+          {
+            "name": ".sntp.elf.data",
+            "addr": 245760,
+            "size": 32768,
+            "sha256": "36d94930f92faf277a178a1acd23cc23bc589b06694cf8da332915c2af1e10fb",
+            "sha256.text": "118599615df655188f898cd80b9f0958d0a3db4363e7fa214f968da427be307b"
+          },
+          {
+            "name": ".sntp.heap",
+            "addr": 278528,
+            "size": 65536
+          },
+          {
+            "addr": 344064,
+            "size": 65536
+          },
+          {
+            "addr": 409600,
+            "size": 16384
+          },
+          {
+            "addr": 425984,
+            "size": 5865472
+          },
+          {
+            "addr": 6291456,
+            "size": 16777216
+          },
+          {
+            "addr": 23068672,
+            "size": 1572864
+          },
+          {
+            "name": ".libINTEGRITY.so.text",
+            "addr": 24641536,
+            "size": 20480,
+            "sha256": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24662016,
+            "size": 12288
+          },
+          {
+            "name": ".libINTEGRITY.so.data",
+            "addr": 24674304,
+            "size": 4096,
+            "sha256": "bf28c816aa2004c10798003af660c5758ac497f963c75875e286a3cd657950bc",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24678400,
+            "size": 94208
+          },
+          {
+            "name": ".libc.so.text",
+            "addr": 24772608,
+            "size": 212992,
+            "sha256": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "name": ".libc.so.data",
+            "addr": 24985600,
+            "size": 4096,
+            "sha256": "e475a7350aed853d69b66e6a3d2f0c93560ef3aa7d5d8832181fa6e2378190bc",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 24989696,
+            "size": 12288
+          },
+          {
+            "name": ".libc.so.bss",
+            "addr": 25001984,
+            "size": 8192,
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 25010176,
+            "size": 4349952
+          },
+          {
+            "name": ".libevlog.so.text",
+            "addr": 29360128,
+            "size": 237568,
+            "sha256": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18",
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29597696,
+            "size": 8192
+          },
+          {
+            "name": ".libevlog.so.data",
+            "addr": 29605888,
+            "size": 8192,
+            "sha256": "feffa6ae8a446be03e204a1be5ad00a0da374c19508441e1f5a5949823402708",
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29614080,
+            "size": 8192
+          },
+          {
+            "name": ".libevlog.so.data",
+            "addr": 29622272,
+            "size": 32768,
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29655040,
+            "size": 2850816
+          },
+          {
+            "addr": 32505856,
+            "size": 4096
+          },
+          {
+            "addr": 32509952,
+            "size": 4096
+          },
+          {
+            "addr": 32514048,
+            "size": 4096
+          },
+          {
+            "addr": 32518144,
+            "size": 4096
+          },
+          {
+            "addr": 32522240,
+            "size": 4096
+          },
+          {
+            "addr": 32526336,
+            "size": 4096
+          },
+          {
+            "addr": 32530432,
+            "size": 4096
+          },
+          {
+            "addr": 32534528,
+            "size": 4096
+          },
+          {
+            "addr": 32538624,
+            "size": 4096
+          },
+          {
+            "addr": 32542720,
+            "size": 4096
+          },
+          {
+            "addr": 32546816,
+            "size": 4096
+          },
+          {
+            "addr": 32550912,
+            "size": 4096
+          },
+          {
+            "addr": 32555008,
+            "size": 4096
+          },
+          {
+            "addr": 32559104,
+            "size": 4096
+          },
+          {
+            "addr": 32563200,
+            "size": 4096
+          },
+          {
+            "addr": 32567296,
+            "size": 4096
+          },
+          {
+            "addr": 32571392,
+            "size": 4096
+          },
+          {
+            "addr": 32575488,
+            "size": 4096
+          },
+          {
+            "addr": 32579584,
+            "size": 4096
+          },
+          {
+            "addr": 32583680,
+            "size": 4096
+          },
+          {
+            "addr": 32587776,
+            "size": 4096
+          },
+          {
+            "addr": 32591872,
+            "size": 4096
+          },
+          {
+            "addr": 32595968,
+            "size": 4096
+          },
+          {
+            "addr": 32600064,
+            "size": 16384
+          },
+          {
+            "addr": 32616448,
+            "size": 937984
+          }
+        ]
+      },
+      {
+        "name": "wol",
+        "sections": [
+          {
+            "addr": 4096,
+            "size": 61440
+          },
+          {
+            "name": ".wol.elf.text",
+            "addr": 65536,
+            "size": 40960,
+            "sha256": "1f894dd16854098d0368365194596eef78de3e480bef79018aa909e5290207c8",
+            "sha256.text": "1f894dd16854098d0368365194596eef78de3e480bef79018aa909e5290207c8"
+          },
+          {
+            "name": ".wol.Initial.stack",
+            "addr": 110592,
+            "size": 4096
+          },
+          {
+            "name": ".wol.elf.data",
+            "addr": 114688,
+            "size": 4096,
+            "sha256": "e425b9dcb7fe0202bfb6f2ad9f426b40b99c8e177ed114069ae7151a14cfbb48",
+            "sha256.text": "1f894dd16854098d0368365194596eef78de3e480bef79018aa909e5290207c8"
+          },
+          {
+            "name": ".wol.heap",
+            "addr": 118784,
+            "size": 65536
+          },
+          {
+            "addr": 184320,
+            "size": 65536
+          },
+          {
+            "addr": 249856,
+            "size": 16384
+          },
+          {
+            "addr": 266240,
+            "size": 6025216
+          },
+          {
+            "addr": 6291456,
+            "size": 16777216
+          },
+          {
+            "addr": 23068672,
+            "size": 1572864
+          },
+          {
+            "name": ".libINTEGRITY.so.text",
+            "addr": 24641536,
+            "size": 20480,
+            "sha256": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24662016,
+            "size": 12288
+          },
+          {
+            "name": ".libINTEGRITY.so.data",
+            "addr": 24674304,
+            "size": 4096,
+            "sha256": "bf28c816aa2004c10798003af660c5758ac497f963c75875e286a3cd657950bc",
+            "sha256.text": "99f38f3be0fc6a98303601216f95b9528c909bc446cef05c3ca6d13c6cb425ff"
+          },
+          {
+            "addr": 24678400,
+            "size": 94208
+          },
+          {
+            "name": ".libc.so.text",
+            "addr": 24772608,
+            "size": 212992,
+            "sha256": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "name": ".libc.so.data",
+            "addr": 24985600,
+            "size": 4096,
+            "sha256": "e475a7350aed853d69b66e6a3d2f0c93560ef3aa7d5d8832181fa6e2378190bc",
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 24989696,
+            "size": 12288
+          },
+          {
+            "name": ".libc.so.bss",
+            "addr": 25001984,
+            "size": 8192,
+            "sha256.text": "2498e71649a4cbe5d0ecede2de62119f2ca86fd0cb85829fe91d5924cb3a1f73"
+          },
+          {
+            "addr": 25010176,
+            "size": 4349952
+          },
+          {
+            "name": ".libevlog.so.text",
+            "addr": 29360128,
+            "size": 237568,
+            "sha256": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18",
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29597696,
+            "size": 8192
+          },
+          {
+            "name": ".libevlog.so.data",
+            "addr": 29605888,
+            "size": 8192,
+            "sha256": "feffa6ae8a446be03e204a1be5ad00a0da374c19508441e1f5a5949823402708",
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29614080,
+            "size": 8192
+          },
+          {
+            "name": ".libevlog.so.data",
+            "addr": 29622272,
+            "size": 32768,
+            "sha256.text": "c42b9b81bd727c902e2ffddfa522b2b88cc44a4242d9d1f04d6358bb648f1b18"
+          },
+          {
+            "addr": 29655040,
+            "size": 2850816
+          },
+          {
+            "addr": 32505856,
+            "size": 4096
+          },
+          {
+            "addr": 32509952,
+            "size": 4096
+          },
+          {
+            "addr": 32514048,
+            "size": 4096
+          },
+          {
+            "addr": 32518144,
+            "size": 4096
+          },
+          {
+            "addr": 32522240,
+            "size": 4096
+          },
+          {
+            "addr": 32526336,
+            "size": 4096
+          },
+          {
+            "addr": 32530432,
+            "size": 4096
+          },
+          {
+            "addr": 32534528,
+            "size": 4096
+          },
+          {
+            "addr": 32538624,
+            "size": 4096
+          },
+          {
+            "addr": 32542720,
+            "size": 4096
+          },
+          {
+            "addr": 32546816,
+            "size": 4096
+          },
+          {
+            "addr": 32550912,
+            "size": 4096
+          },
+          {
+            "addr": 32555008,
+            "size": 4096
+          },
+          {
+            "addr": 32559104,
+            "size": 4096
+          },
+          {
+            "addr": 32563200,
+            "size": 4096
+          },
+          {
+            "addr": 32567296,
+            "size": 4096
+          },
+          {
+            "addr": 32571392,
+            "size": 4096
+          },
+          {
+            "addr": 32575488,
+            "size": 4096
+          },
+          {
+            "addr": 32579584,
+            "size": 4096
+          },
+          {
+            "addr": 32583680,
+            "size": 4096
+          },
+          {
+            "addr": 32587776,
+            "size": 4096
+          },
+          {
+            "addr": 32591872,
+            "size": 4096
+          },
+          {
+            "addr": 32595968,
+            "size": 4096
+          },
+          {
+            "addr": 32600064,
+            "size": 16384
+          },
+          {
+            "addr": 32616448,
+            "size": 937984
+          }
+        ]
+      }
+    ]
+  }
+}
